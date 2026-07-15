@@ -23,7 +23,7 @@ The pipeline:
    the fizz region, spectral flux, and MFCC texture statistics. These capture what an EQ
    cannot fix — clipping behavior, compression feel, harmonic density. A two-stage search
    (coarse over all captures, fine over the top 5) finds the best capture + drive setting.
-2. **Frequency match (Tone Match half).** The winning rig's output is compared to the
+2. **Frequency match (EQ Match half).** The winning rig's output is compared to the
    target's 1/6-octave smoothed long-term spectrum, and the gap is closed three ways —
    pick by ear:
    - **A: Match IR** (`_match_ir.wav`) — the exact spectral correction (±18 dB). Closest
