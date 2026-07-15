@@ -3,7 +3,7 @@
 Clone a guitar tone from a finished recording — no DI from the original player needed.
 
 Combines **NAM** (nonlinear amp character: gain structure, saturation, compression, sag)
-with an **EQ Match**-style matched impulse response (linear EQ/cab correction).
+with a **Tone Match**-style matched impulse response (linear EQ/cab correction).
 
 ## How it works
 
@@ -115,6 +115,21 @@ python match.py --target stem.wav --di my_di.wav --models ./t3k_cache
 python -m tests.test_synthetic
 ```
 
+## GUI workflow (tabs)
+
+- **Match** — set up target/DI/models and *queue* a run. You can queue several with
+  different settings; they execute one at a time in the background.
+- **Library** — scan a folder of `.nam` files (recursive, cached), filter by name, make,
+  tone type (`clean`/`crunch`/`hi_gain`/...) or gear type, and save the filtered set as a
+  named library selectable in the Match tab.
+- **Jobs** — live queue view (auto-refreshes every 2 s); cancel queued jobs.
+- **Results** — pick any completed job, A/B/C/D the renders, and export a ZIP of exactly
+  the rigs and file types you want.
+
+Last-used folders and settings are remembered between sessions (`~/.tonematch/`).
+The job queue, library curation, ZIP export and session persistence were suggested by a
+community contributor (PR #2) — thanks! — and re-implemented for the current codebase.
+
 ## Using the result
 
 In the NAM plugin: load the winning `.nam` file, set **Input** to the reported gain (dB),
@@ -144,6 +159,8 @@ load `match_ir.wav` in the **IR slot** (disable any other cab), adjust Output to
 
 ## Project layout
 
+The Python package keeps the internal name `tonematch` (renaming it would break
+imports and your venv); the product name is **NAM EQ Matcher**.
 
 ```
 tonematch/
@@ -153,6 +170,8 @@ tonematch/
   nam_backend.py  .nam loading (neural-amp-modeler) + MockAmp for tests
   search.py       two-stage capture ranking + input-gain search
   tone_stack.py   NAM plugin tone stack (B/M/T) emulation + knob fitting
+  jobs.py         background job queue for match runs
+  library.py      .nam scanning/filtering + named libraries
   stems.py        Demucs guitar-stem extraction (optional dependency)
   tone3000.py     TONE3000 API client (OAuth PKCE, search, selective download)
   pipeline.py     end-to-end orchestration + reports
