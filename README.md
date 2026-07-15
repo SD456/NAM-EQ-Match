@@ -127,8 +127,7 @@ python -m tests.test_synthetic
   the rigs and file types you want.
 
 Last-used folders and settings are remembered between sessions (`~/.tonematch/`).
-The job queue, library curation, ZIP export and session persistence were suggested by a
-community contributor (PR #2) — thanks! — and re-implemented for the current codebase.
+The job queue, library curation, ZIP export and session persistence were suggested by https://github.com/hugochiefblackops-collab — thanks! — and re-implemented for the current codebase.
 
 ## Using the result
 
