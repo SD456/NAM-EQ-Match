@@ -1,6 +1,6 @@
 # NAM EQ Matcher
 
-Clone a guitar tone from a finished recording.
+Clone a guitar tone from a finished recording — no DI from the original player needed.
 
 Combines **NAM** (nonlinear amp character: gain structure, saturation, compression, sag)
 with a **Tone Match**-style matched impulse response (linear EQ/cab correction).
@@ -23,7 +23,7 @@ The pipeline:
    the fizz region, spectral flux, and MFCC texture statistics. These capture what an EQ
    cannot fix — clipping behavior, compression feel, harmonic density. A two-stage search
    (coarse over all captures, fine over the top 5) finds the best capture + drive setting.
-2. **Frequency match (EQ Match half).** The winning rig's output is compared to the
+2. **Frequency match (Tone Match half).** The winning rig's output is compared to the
    target's 1/6-octave smoothed long-term spectrum, and the gap is closed three ways —
    pick by ear:
    - **A: Match IR** (`_match_ir.wav`) — the exact spectral correction (±18 dB). Closest
@@ -109,20 +109,6 @@ python match.py --target stem.wav --di my_di.wav --models ./t3k_cache
 ```bash
 python -m tests.test_synthetic
 ```
-
-## GUI workflow (tabs)
-
-- **Match** — set up target/DI/models and *queue* a run. You can queue several with
-  different settings; they execute one at a time in the background.
-- **Library** — scan a folder of `.nam` files (recursive, cached), filter by name, make,
-  tone type (`clean`/`crunch`/`hi_gain`/...) or gear type, and save the filtered set as a
-  named library selectable in the Match tab.
-- **Jobs** — live queue view (auto-refreshes every 2 s); cancel queued jobs.
-- **Results** — pick any completed job, A/B/C/D the renders, and export a ZIP of exactly
-  the rigs and file types you want.
-
-Last-used folders and settings are remembered between sessions (`~/.tonematch/`).
-The job queue, library curation, ZIP export and session persistence were suggested by https://github.com/hugochiefblackops-collab — thanks! — and re-implemented for the current codebase.
 
 ## Using the result
 

@@ -1,15 +1,6 @@
 """NAM EQ Matcher GUI (Gradio).
 
 Run:  python app.py   then open http://127.0.0.1:7860
-
-Tabs:
-  Match    - set up a tone match and queue it
-  Library  - scan/filter your .nam collection, save named libraries
-  Jobs     - watch queued/running matches (auto-refreshes)
-  Results  - audition finished jobs, export a ZIP of selected files
-
-Job queue, library curation, ZIP export and session persistence were suggested
-by a community contributor (PR #2) and re-implemented for this codebase.
 """
 
 from __future__ import annotations
@@ -95,32 +86,6 @@ def _save_session(**kwargs) -> None:
 _job_manager = JobManager()
 
 # ---------------------------------------------------------------------------
-# Session persistence
-# ---------------------------------------------------------------------------
-
-
-def _load_session() -> dict:
-    try:
-        with open(SESSION_PATH, "r", encoding="utf-8") as fp:
-            data = json.load(fp)
-        return {k: data[k] for k in SESSION_KEYS if k in data}
-    except (FileNotFoundError, json.JSONDecodeError):
-        return {}
-
-
-def _save_session(**values) -> None:
-    data = {k: v for k, v in values.items() if k in SESSION_KEYS}
-    os.makedirs(os.path.dirname(SESSION_PATH), exist_ok=True)
-    tmp = SESSION_PATH + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as fp:
-        json.dump(data, fp, indent=2)
-    os.replace(tmp, SESSION_PATH)
-
-
-_SESSION = _load_session()
-
-
-# ---------------------------------------------------------------------------
 # TONE3000 integration
 # ---------------------------------------------------------------------------
 
@@ -150,16 +115,27 @@ def t3k_search(query, amps_text, gear, sort):
     client = _get_t3k()
     amps = [a for a in (amps_text or "").split(",") if a.strip()]
     try:
-        tones = client.search_tones_refined(query or "", amps=amps, gear=gear, sort=sort, page_size=30)
+        tones = client.search_tones_refined(
+            query or "", amps=amps, gear=gear, sort=sort, page_size=30
+        )
     except T3KError as e:
         raise gr.Error(str(e))
     rows = [
-        [i + 1, t["id"], t["title"], ", ".join(m["name"] for m in t.get("makes", [])) or "-",
-         t.get("_matched_on", "-"), t["gear"], t["models_count"], t["downloads_count"]]
+        [
+            i + 1,
+            t["id"],
+            t["title"],
+            ", ".join(m["name"] for m in t.get("makes", [])) or "-",
+            t.get("_matched_on", "-"),
+            t["gear"],
+            t["models_count"],
+            t["downloads_count"],
+        ]
         for i, t in enumerate(tones)
     ]
     hint = f" (refined by: {', '.join(a.strip() for a in amps)})" if amps else ""
-    return rows, tones, f"{len(tones)} NAM tones found{hint}. Pick rows below to download."
+    status = f"{len(tones)} NAM tones found{hint}. Nothing downloaded yet — pick rows below."
+    return rows, tones, status
 
 
 def t3k_download(tones, rows_text):
@@ -280,6 +256,7 @@ def _build_results(job):
 
     return (
         summary,
+        rows,
         result.target_ref_path,
         result.renders[0]["render"],
         result.renders[0]["tone_stack"]["render"],
@@ -737,10 +714,16 @@ with gr.Blocks(title="NAM EQ Matcher") as demo:
 
     # --- TONE3000 ---
     t3k_connect_btn.click(t3k_connect, inputs=[t3k_key_in], outputs=[t3k_status])
-    t3k_search_btn.click(t3k_search, inputs=[t3k_query_in, t3k_amps_in, t3k_gear_in, t3k_sort_in],
-                         outputs=[t3k_results, t3k_tones_state, t3k_status])
-    t3k_dl_btn.click(t3k_download, inputs=[t3k_tones_state, t3k_rows_in],
-                     outputs=[t3k_status, models_dir_in])
+    t3k_search_btn.click(
+        t3k_search,
+        inputs=[t3k_query_in, t3k_amps_in, t3k_gear_in, t3k_sort_in],
+        outputs=[t3k_results, t3k_tones_state, t3k_status],
+    )
+    t3k_dl_btn.click(
+        t3k_download,
+        inputs=[t3k_tones_state, t3k_rows_in],
+        outputs=[t3k_status, models_dir_in],
+    )
 
     # --- Browse folders ---
     def _browse_and_save_models(val):
@@ -983,26 +966,6 @@ with gr.Blocks(title="NAM EQ Matcher") as demo:
         inputs=[dl_material_toggle],
         outputs=[],
     )
-
-    lib_scan_btn.click(lib_scan, inputs=[lib_folder_in],
-                       outputs=[lib_entries_state, lib_filtered_state, lib_table, lib_status])
-    lib_filter_btn.click(lib_filter, inputs=[lib_entries_state, lib_text_in, lib_tone_in, lib_gear_in],
-                         outputs=[lib_filtered_state, lib_table, lib_status])
-    lib_save_btn.click(lib_save, inputs=[lib_filtered_state, lib_name_in],
-                       outputs=[lib_status, library_in, lib_manage_dd])
-    lib_delete_btn.click(lib_delete, inputs=[lib_manage_dd],
-                         outputs=[lib_status, library_in, lib_manage_dd])
-
-    timer = gr.Timer(2)
-    timer.tick(refresh_jobs, outputs=[jobs_table, result_dd])
-    cancel_btn.click(cancel_job, inputs=[cancel_id_in], outputs=[cancel_status])
-
-    result_dd.change(
-        show_result, inputs=[result_dd],
-        outputs=[summary_out, target_audio_out, render_audio_out, eq_audio_out,
-                 hybrid_audio_out, plot_out, rig_select, zip_out],
-    )
-    zip_btn.click(export_zip, inputs=[result_dd, rig_select, material_select], outputs=[zip_out])
 
 if __name__ == "__main__":
     demo.launch()

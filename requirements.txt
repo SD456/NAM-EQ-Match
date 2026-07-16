@@ -4,7 +4,7 @@ soundfile
 matplotlib
 torch
 neural-amp-modeler>=0.13
-gradio>=4.44  # gr.Timer needed for the Jobs tab
+gradio>=4.0
 requests
 demucs  # optional: guitar stem extraction from full mixes
 pywebview>=4.0  # optional: standalone desktop window (launch_nam_matcher_app.pyw)
