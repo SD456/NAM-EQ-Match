@@ -1,157 +1,233 @@
-"""NAM capture library: scan folders, filter by metadata, save named sets.
+"""Library backend — scan .nam files, classify metadata, save/load named libraries.
 
-.nam files carry useful metadata (gear_make, gear_model, gear_type, tone_type).
-Scanning parses each file once and caches results by (path, mtime) so repeat
-scans are instant. Named libraries (name -> list of .nam paths) are stored in
-~/.tonematch/libraries.json and can be used as the model source for a match.
-
-Inspired by community PR #2 (library curation concept), re-implemented for the
-current codebase.
+Libraries are stored as directories under ``libraries/`` containing symlinks (or
+hardlinks / copies) to the original .nam files.  No JSON manifest needed — the
+directory itself IS the library.
 """
 
 from __future__ import annotations
 
 import json
 import os
+import shutil
+import time
 
-CONFIG_DIR = os.path.join(os.path.expanduser("~"), ".tonematch")
-LIBRARIES_PATH = os.path.join(CONFIG_DIR, "libraries.json")
-SCAN_CACHE_PATH = os.path.join(CONFIG_DIR, "scan_cache.json")
+LIBRARIES_DIR = os.path.abspath("libraries")
 
-TONE_TYPES = ("any", "clean", "overdrive", "crunch", "hi_gain", "fuzz")
-GEAR_TYPES = ("any", "amp", "pedal", "pedal_amp", "amp_cab", "amp_pedal_cab", "preamp", "studio")
+BRAND_PATTERNS: dict[str, list[str]] = {
+    "Mesa Boogie": ["mesa", "boogie", "rectifier", "mark ", "lonestar"],
+    "Marshall": ["marshall", "jcm", "jvm", "jmp", "plexi"],
+    "Fender": ["fender", "deluxe", "twin", "bassman", "princeton"],
+    "Vox": ["vox", "ac30", "ac15"],
+    "Orange": ["orange", "or15", "rockerverb"],
+    "Friedman": ["friedman", "be-100"],
+    "Diezel": ["diezel"],
+    "ENGL": ["engl", "fireball"],
+    "Bogner": ["bogner", "ecstasy"],
+    "Peavey": ["peavey", "peavy", "6505", "5150"],
+    "EVH": ["evh"],
+    "Soldano": ["soldano", "slo"],
+    "Hiwatt": ["hiwatt"],
+    "Darkglass": ["darkglass"],
+    "Ampeg": ["ampeg", "svt"],
+    "Matchless": ["matchless"],
+    "Dumble": ["dumble"],
+    "Fortin": ["fortin"],
+    "Blackstar": ["blackstar"],
+    "Laney": ["laney"],
+    "Victory": ["victory"],
+    "Revv": ["revv"],
+    "Morgan": ["morgan"],
+    "Synergy": ["synergy"],
+}
+
+TONE_KEYWORDS: dict[str, list[str]] = {
+    "Metal": ["metal", "metalcore", "djent", "death", "thrash", "chug", "doom", "sludge"],
+    "High-Gain": ["high-gain", "high gain", "drive", "boost", "hot", "saturated", "mean", "lead", "distortion"],
+    "Crunch": ["crunch", "edge", "breakup", "break up", "overdrive"],
+    "Clean": ["clean", "acoustic", "pristine", "clear", "ambient", "worship"],
+    "Fuzz": ["fuzz"],
+}
+
+BASS_KEYWORDS = {"ampeg", "darkglass", "hartke", "aguilar", "markbass", "gallien", "bass"}
+BAD_SENTINELS = {"t3k-unset", "t3k-null", ""}
 
 
-def _load_json(path, default):
+def _match_keywords(text: str, collection: dict[str, list[str]]) -> str | None:
+    t = text.lower()
+    for key, keywords in collection.items():
+        for kw in keywords:
+            if kw in t:
+                return key
+    return None
+
+
+def parse_nam(filepath: str) -> dict | None:
     try:
-        with open(path, "r", encoding="utf-8") as fp:
-            return json.load(fp)
-    except (FileNotFoundError, json.JSONDecodeError):
-        return default
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        meta = data.get("metadata", {})
+        name = meta.get("name", "").strip()
+        return {
+            "filepath": filepath,
+            "filename": os.path.basename(filepath),
+            "display_name": name if name and name.lower() not in BAD_SENTINELS else os.path.splitext(os.path.basename(filepath))[0],
+            "raw_gear_make": meta.get("gear_make", ""),
+            "raw_gear_model": meta.get("gear_model", ""),
+            "raw_gear_type": meta.get("gear_type", ""),
+            "raw_tone_type": meta.get("tone_type", ""),
+        }
+    except Exception:
+        return None
 
 
-def _save_json(path, data):
-    os.makedirs(os.path.dirname(path), exist_ok=True)
-    tmp = path + ".tmp"
-    with open(tmp, "w", encoding="utf-8") as fp:
-        json.dump(data, fp, indent=2)
-    os.replace(tmp, path)
+def resolve_brand(info: dict) -> str:
+    make = info["raw_gear_make"].strip().lower()
+    if make and make not in BAD_SENTINELS:
+        result = _match_keywords(make, BRAND_PATTERNS)
+        if result:
+            return result
+        return make.title() if make else "Unknown"
+    result = _match_keywords(info["filename"], BRAND_PATTERNS)
+    return result or "Unknown"
 
 
-# ----------------------------------------------------------------------------
-# Scanning
-# ----------------------------------------------------------------------------
+def resolve_instrument(info: dict) -> str:
+    tone = info["raw_tone_type"].lower()
+    if "bass" in tone:
+        return "Bass"
+    make = info["raw_gear_make"].strip().lower()
+    if make and any(kw in make for kw in BASS_KEYWORDS):
+        return "Bass"
+    if "bass" in info["filename"].lower():
+        return "Bass"
+    return "Guitar"
 
 
-def _read_nam_entry(path: str) -> dict:
-    with open(path, "r", encoding="utf-8") as fp:
-        config = json.load(fp)
-    arch = config.get("architecture", "?")
-    meta = config.get("metadata") or {}
-    if arch == "SlimmableContainer":
-        try:
-            from .nam_backend import unwrap_container
-
-            inner = unwrap_container(config)
-            arch = f"A2/{inner.get('architecture', '?')}"
-            meta = {**(inner.get("metadata") or {}), **{k: v for k, v in meta.items() if v}}
-        except Exception:  # noqa: BLE001
-            pass
-    return {
-        "path": os.path.abspath(path),
-        "name": meta.get("name") or os.path.splitext(os.path.basename(path))[0],
-        "make": meta.get("gear_make") or "",
-        "model": meta.get("gear_model") or "",
-        "gear_type": meta.get("gear_type") or "",
-        "tone_type": meta.get("tone_type") or "",
-        "architecture": arch,
-    }
+def normalize_tone(info: dict) -> str:
+    tone = info.get("raw_tone_type", "").strip().lower()
+    if not tone or tone in BAD_SENTINELS:
+        return "Unknown"
+    result = _match_keywords(tone, TONE_KEYWORDS)
+    return result or "Other"
 
 
-def scan_folder(folder: str, use_cache: bool = True) -> tuple[list[dict], list[str]]:
-    """Scan a folder (recursively) for .nam files. Returns (entries, errors)."""
-    folder = os.path.abspath(folder)
-    cache = _load_json(SCAN_CACHE_PATH, {}) if use_cache else {}
-    entries, errors = [], []
-    dirty = False
-    for root, _dirs, files in os.walk(folder):
-        for fn in sorted(files):
-            if not fn.lower().endswith(".nam"):
-                continue
-            path = os.path.join(root, fn)
-            try:
-                mtime = os.path.getmtime(path)
-                key = path
-                cached = cache.get(key)
-                if cached and cached.get("_mtime") == mtime:
-                    entries.append({k: v for k, v in cached.items() if k != "_mtime"})
-                    continue
-                entry = _read_nam_entry(path)
-                cache[key] = {**entry, "_mtime": mtime}
-                dirty = True
-                entries.append(entry)
-            except Exception as e:  # noqa: BLE001
-                errors.append(f"{fn}: {type(e).__name__}: {e}")
-    if dirty:
-        try:
-            _save_json(SCAN_CACHE_PATH, cache)
-        except OSError:
-            pass
-    return entries, errors
+def classify(info: dict) -> dict:
+    info["brand"] = resolve_brand(info)
+    info["tone_category"] = normalize_tone(info)
+    info["instrument"] = resolve_instrument(info)
+    info["type"] = info.get("raw_gear_type", "").strip() or "Unknown"
+    return info
 
 
-def filter_entries(
-    entries: list[dict],
-    text: str = "",
-    tone_type: str = "any",
-    gear_type: str = "any",
-) -> list[dict]:
-    """Case-insensitive substring filter over name/make/model + type filters."""
-    text = (text or "").strip().lower()
-    out = []
-    for e in entries:
-        if text:
-            hay = " ".join([e["name"], e["make"], e["model"], os.path.basename(e["path"])]).lower()
-            if not all(t in hay for t in text.split()):
-                continue
-        if tone_type != "any" and e["tone_type"] != tone_type:
+def scan_folder(path: str) -> list[dict]:
+    excluded = os.path.normpath(os.path.join(path, "0 Export Selected"))
+    items = []
+    for root, _dirs, files in os.walk(path):
+        if os.path.normpath(root).startswith(excluded):
             continue
-        if gear_type != "any" and e["gear_type"] != gear_type:
-            continue
-        out.append(e)
-    return out
+        for f in files:
+            if f.lower().endswith(".nam"):
+                fp = os.path.join(root, f)
+                info = parse_nam(fp)
+                if info is not None:
+                    items.append(classify(info))
+    items.sort(key=lambda x: x["display_name"].lower())
+    return items
 
 
-# ----------------------------------------------------------------------------
-# Named libraries
-# ----------------------------------------------------------------------------
+# ---------------------------------------------------------------------------
+# Library persistence — symlink-based
+# ---------------------------------------------------------------------------
+
+def _ensure_dir():
+    os.makedirs(LIBRARIES_DIR, exist_ok=True)
 
 
-def load_libraries() -> dict[str, list[str]]:
-    return _load_json(LIBRARIES_PATH, {})
+def _link_file(src: str, dst: str) -> None:
+    """Create a symlink, falling back to hardlink then copy."""
+    try:
+        os.symlink(src, dst)
+    except (OSError, NotImplementedError):
+        try:
+            os.link(src, dst)
+        except (OSError, NotImplementedError):
+            shutil.copy2(src, dst)
 
 
-def save_library(name: str, paths: list[str]) -> None:
-    name = name.strip()
-    if not name:
-        raise ValueError("Library name must not be empty.")
-    if not paths:
-        raise ValueError("Library must contain at least one .nam file.")
-    libs = load_libraries()
-    libs[name] = sorted(set(paths))
-    _save_json(LIBRARIES_PATH, libs)
+def save_library(name: str, file_paths: list[str]) -> str:
+    _ensure_dir()
+    sanitized = name.strip().replace("/", "_").replace("\\", "_").replace(".", "_")
+    if not sanitized:
+        raise ValueError("Library name cannot be empty.")
+    target = os.path.join(LIBRARIES_DIR, sanitized)
+    os.makedirs(target, exist_ok=True)
+    for fp in file_paths:
+        if os.path.isfile(fp):
+            basename = os.path.basename(fp)
+            dest = os.path.join(target, basename)
+            if not os.path.exists(dest):
+                _link_file(fp, dest)
+    return sanitized
 
 
-def delete_library(name: str) -> bool:
-    libs = load_libraries()
-    if name in libs:
-        del libs[name]
-        _save_json(LIBRARIES_PATH, libs)
-        return True
-    return False
+def load_library_path(name: str) -> str:
+    """Return the folder path for a saved library."""
+    return os.path.join(LIBRARIES_DIR, name)
 
 
-def library_paths(name: str) -> list[str]:
-    """Existing files in a named library (silently drops moved/deleted files)."""
-    paths = load_libraries().get(name, [])
-    return [p for p in paths if os.path.isfile(p)]
+def load_library_file_paths(name: str) -> list[str]:
+    """Return all .nam file paths found in the library directory."""
+    path = load_library_path(name)
+    if not os.path.isdir(path):
+        raise FileNotFoundError(f"Library '{name}' not found.")
+    result = []
+    for root, _dirs, files in os.walk(path):
+        for f in files:
+            if f.lower().endswith(".nam"):
+                result.append(os.path.join(root, f))
+    return sorted(result)
+
+
+def list_libraries() -> list[str]:
+    _ensure_dir()
+    return sorted(
+        e for e in os.listdir(LIBRARIES_DIR)
+        if os.path.isdir(os.path.join(LIBRARIES_DIR, e)) and not e.startswith(".")
+    )
+
+
+def delete_library(name: str) -> None:
+    path = os.path.join(LIBRARIES_DIR, name)
+    if os.path.isdir(path):
+        shutil.rmtree(path)
+
+
+def library_file_count(name: str) -> int:
+    path = os.path.join(LIBRARIES_DIR, name)
+    if not os.path.isdir(path):
+        return 0
+    count = 0
+    for root, _dirs, files in os.walk(path):
+        for f in files:
+            if f.lower().endswith(".nam"):
+                count += 1
+    return count
+
+
+# ---------------------------------------------------------------------------
+# Helpers for the Gradio Dataframe
+# ---------------------------------------------------------------------------
+
+def scan_for_dataframe(items: list[dict]) -> list[list]:
+    return [
+        [
+            i["display_name"],
+            i["brand"],
+            i["tone_category"],
+            i["instrument"],
+            i["type"],
+            i["filename"],
+        ]
+        for i in items
+    ]

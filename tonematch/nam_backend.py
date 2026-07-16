@@ -178,10 +178,10 @@ def load_captures(
         if os.path.isdir(paths_or_dir):
             # Recursive: pick up .nam files in subfolders too (community PR #3)
             paths = sorted(
-                os.path.join(root, p)
-                for root, _dirs, files in os.walk(paths_or_dir)
-                for p in files
-                if p.lower().endswith(".nam")
+                os.path.join(root, f)
+                for root, _, files in os.walk(paths_or_dir)
+                for f in files
+                if f.lower().endswith(".nam")
             )
         else:
             paths = [paths_or_dir]

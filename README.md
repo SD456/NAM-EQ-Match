@@ -1,19 +1,19 @@
-# NAM EQ Matcher 🎸
+# NAM EQ Matcher
 
 Clone a guitar tone from a finished recording.
 
 Combines **NAM** (nonlinear amp character: gain structure, saturation, compression, sag)
-with a **EQ Match**-style matched impulse response (linear EQ/cab correction).
+with a **Tone Match**-style matched impulse response (linear EQ/cab correction).
 
 ## How it works
 
 You provide three things:
 
 1. **Target** — a recording with the tone you want: an isolated guitar track, or a full mix
-   (built-in Demucs demixing extracts the guitar stem for you)
-2. **DI** — your own clean guitar take (any riff, ideally similar playing style/register)
-3. **NAM library** — a folder of `.nam` captures, or use the built-in **TONE3000 search**
-   to browse the catalog (metadata only) and download just a shortlist
+   (built-in Demucs demixing tries to extract the guitar stem for you)
+2. **DI** — your own clean guitar take (try to match the original recording both in content and length, or ideally similar playing style/register)
+3. **NAM library** — a folder of `.nam` captures, or a **curated library** saved from the Library tab,
+   or use the built-in **TONE3000 search** to browse the catalog (metadata only) and download just a shortlist
 
 The pipeline:
 
@@ -36,26 +36,12 @@ The pipeline:
      do the heavy lifting; the IR only polishes what's left.
 3. **Outputs.** Best model + input gain, the match IR, a rendered preview of *your* DI
    through the full matched chain, a comparison spectrum plot, and a JSON report.
+   All files use rig-educated names (e.g. `rank01_JCM800_IN+2.0_match_ir.wav`, etc.).
    Set *Top rigs to render* (GUI) or `--render-top N` (CLI) to get the top-N captures
-   instead of just the winner. Every rendered rig gets self-explaining, rig-prefixed
-   files (`rank01_JCM800_IN+2.0_...`): a copy of the `.nam`, a human-readable
-   `_settings.txt` with Options A/B/C, both IRs, and all three renders — so files stay
-   meaningful even when moved out of the results folder.
+   instead of just the winner — each rendered capture gets its own complete set of files
+   (NAM copy, settings txt, match IR, matched render, EQ-only render, gentle IR, and hybrid render), making A/B testing simple.
 
-## Quick start (no command line needed)
-
-Install Python 3.10+ from [python.org](https://www.python.org/downloads/) (on Windows,
-tick *Add Python to PATH*), then double-click the launcher for your system:
-
-- **Windows**: `Start-NAM-EQ-Matcher-Windows.bat`
-- **macOS**: `start-nam-eq-matcher-macos.command` (first time: right-click → Open;
-  if blocked, run `chmod +x start-nam-eq-matcher-macos.command` once in Terminal)
-- **Linux**: `bash start-nam-eq-matcher-linux.sh`
-
-The first run creates a private environment and installs everything (several minutes);
-after that it starts in seconds and opens the app in your browser automatically.
-
-## Manual install
+## Install
 
 ```bash
 python -m venv .venv
@@ -71,6 +57,15 @@ pip install -r requirements.txt
 python app.py
 # open http://127.0.0.1:7860
 ```
+
+**Standalone desktop window (recommended — no browser tab to accidentally close):**
+
+```bash
+pip install pywebview      # already in requirements.txt
+python launch_nam_matcher_app.pyw
+```
+
+Opens the same Gradio UI in its own OS window. Closing the window while a match run is in progress prompts for confirmation; closing it idle exits silently. (On Windows, uses Edge WebView2 — already present on Win10/11.)
 
 **CLI:**
 
@@ -134,6 +129,9 @@ The job queue, library curation, ZIP export and session persistence were suggest
 In the NAM plugin: load the winning `.nam` file, set **Input** to the reported gain (dB),
 load `match_ir.wav` in the **IR slot** (disable any other cab), adjust Output to taste.
 
+The settings text file (`_settings.txt`) per rig describes all three options — match IR,
+plugin EQ, or hybrid (EQ + gentle IR).
+
 ## Tips
 
 - The better your target isolation, the better the match. For full mixes use `--demix`
@@ -162,16 +160,16 @@ load `match_ir.wav` in the **IR slot** (disable any other cab), adjust Output to
 tonematch/
   audio.py        I/O, resampling, envelopes, segment selection
   features.py     tone fingerprint (dynamics, saturation, texture) + LTAS
+  tone_stack.py   NAM plugin tone stack (B/M/T) emulation + knob fitting
   match_eq.py     matched-IR design (1/6-oct smoothing, min-phase FIR)
   nam_backend.py  .nam loading (neural-amp-modeler) + MockAmp for tests
   search.py       two-stage capture ranking + input-gain search
-  tone_stack.py   NAM plugin tone stack (B/M/T) emulation + knob fitting
-  jobs.py         background job queue for match runs
-  library.py      .nam scanning/filtering + named libraries
+  library.py      Library management (scan, save, load, classify NAM captures)
   stems.py        Demucs guitar-stem extraction (optional dependency)
   tone3000.py     TONE3000 API client (OAuth PKCE, search, selective download)
   pipeline.py     end-to-end orchestration + reports
-app.py            Gradio GUI
+  job_manager.py  Background job queue for GUI
+app.py            Gradio GUI (Library, Workflow, Jobs, Results tabs)
 match.py          CLI
 tests/            synthetic end-to-end test
 ```

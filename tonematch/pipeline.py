@@ -298,17 +298,24 @@ def _write_settings_txt(path: str, entry: dict, fit) -> None:
 
 
 def _plot_match(path, target, sr, rendered, grid, corr_db, amped=None, eq_rendered=None, fit=None):
-    # Object-oriented matplotlib API: pyplot's global state is not thread-safe,
-    # and plots are rendered on the job-queue worker thread. (From community PR #3.)
-    from matplotlib.backends.backend_agg import FigureCanvasAgg
-    from matplotlib.figure import Figure
+    """Thread-safe spectrum plot.
 
+    Uses the matplotlib object-oriented API directly (Figure / FigureCanvasAgg)
+    instead of `pyplot`, which keeps a global current-figure stack that is not
+    safe under concurrent calls. Safe to call from multiple threads in parallel.
+    """
+    import matplotlib
+
+    matplotlib.use("Agg")
+    from matplotlib.figure import Figure
+    from matplotlib.backends.backend_agg import FigureCanvasAgg
     from .tone_stack import band_response_db, stack_response_db
 
     fp_t = extract_fingerprint(target, sr)
     fp_r = extract_fingerprint(rendered, sr)
 
     n_rows = 3 if fit is not None else 2
+
     fig = Figure(figsize=(9, 3.2 * n_rows))
     FigureCanvasAgg(fig)
     axes = fig.subplots(n_rows, 1, sharex=True)

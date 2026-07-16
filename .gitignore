@@ -1,9 +1,13 @@
+# Python bytecode
 __pycache__/
 *.pyc
+*.pyo
+
+# Test cache
 .pytest_cache/
-.venv/
-venv/
-t3k_cache/
-results/
+
+# Runtime data
+last_session.json
+
+# Logs
 *.log
-.DS_Store
