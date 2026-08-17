@@ -3,7 +3,7 @@
 Clone a guitar tone from a finished recording — no DI from the original player needed.
 
 Combines **NAM** (nonlinear amp character: gain structure, saturation, compression, sag)
-with a **Tone Match**-style matched impulse response (linear EQ/cab correction).
+with a **EQ Match**-style matched impulse response (linear EQ/cab correction).
 
 ## How it works
 
@@ -163,9 +163,6 @@ load `match_ir.wav` in the **IR slot** (disable any other cab), adjust Output to
   `python -m tonematch.doctor` — it should print `torch device: cuda`.
 
 ## Project layout
-
-The Python package keeps the internal name `tonematch` (renaming it would break
-imports and your venv); the product name is **NAM EQ Matcher**.
 
 ```
 tonematch/
