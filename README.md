@@ -1,9 +1,9 @@
 # NAM EQ Matcher 🎸
 
-Clone a guitar tone from a finished recording.
+Clone a guitar tone from a finished recording — no DI from the original player needed.
 
 Combines **NAM** (nonlinear amp character: gain structure, saturation, compression, sag)
-with a **EQ Match**-style matched impulse response (linear EQ/cab correction).
+with a **Tone Match**-style matched impulse response (linear EQ/cab correction).
 
 ## How it works
 
@@ -23,7 +23,7 @@ The pipeline:
    the fizz region, spectral flux, and MFCC texture statistics. These capture what an EQ
    cannot fix — clipping behavior, compression feel, harmonic density. A two-stage search
    (coarse over all captures, fine over the top 5) finds the best capture + drive setting.
-2. **Frequency match (EQ Match half).** The winning rig's output is compared to the
+2. **Frequency match (Tone Match half).** The winning rig's output is compared to the
    target's 1/6-octave smoothed long-term spectrum, and the gap is closed three ways —
    pick by ear:
    - **A: Match IR** (`_match_ir.wav`) — the exact spectral correction (±18 dB). Closest
@@ -112,7 +112,8 @@ python match.py --target stem.wav --di my_di.wav --models ./t3k_cache
 **Test (no torch needed):**
 
 ```bash
-python -m tests.test_synthetic
+python -m tests.test_synthetic        # end-to-end pipeline
+python -m tests.test_drive_matching   # driven targets must not match clean captures
 ```
 
 ## GUI workflow (tabs)
@@ -127,7 +128,8 @@ python -m tests.test_synthetic
   the rigs and file types you want.
 
 Last-used folders and settings are remembered between sessions (`~/.tonematch/`).
-The job queue, library curation, ZIP export and session persistence were suggested by https://github.com/hugochiefblackops-collab — thanks! — and re-implemented for the current codebase.
+The job queue, library curation, ZIP export and session persistence were suggested by a
+community contributor (PR #2) — thanks! — and re-implemented for the current codebase.
 
 ## Using the result
 
@@ -147,6 +149,10 @@ load `match_ir.wav` in the **IR slot** (disable any other cab), adjust Output to
   `--preview-s`). The IRs and EQ fits are statistical and converge within ~20–30 s, so
   this is a large speedup on long DIs at no accuracy cost; set 0 to render the full DI.
 - More diverse `.nam` libraries → better odds one capture nails the clipping character.
+- `report.json` includes a **`drive_character`** section: a 0–1 "how driven does this
+  sound" index for the target and for the chosen rig. If those differ a lot, your library
+  has no capture with the right gain structure — add captures of that amp type rather
+  than trusting the match.
 - Search is compute-heavy: ~10 reamps per capture. Use "Max captures" or a curated subfolder
   for quick passes.
 - **GPU acceleration**: NAM inference and Demucs both use CUDA automatically when your
@@ -157,6 +163,9 @@ load `match_ir.wav` in the **IR slot** (disable any other cab), adjust Output to
   `python -m tonematch.doctor` — it should print `torch device: cuda`.
 
 ## Project layout
+
+The Python package keeps the internal name `tonematch` (renaming it would break
+imports and your venv); the product name is **NAM EQ Matcher**.
 
 ```
 tonematch/

@@ -31,7 +31,7 @@ from dataclasses import dataclass, field
 import numpy as np
 
 from .audio import active_segment, db_to_lin, lin_to_db, load_audio, match_rms, rms, save_audio
-from .features import extract_fingerprint
+from .features import distortion_index, extract_fingerprint
 from .match_eq import apply_fir, design_match_ir
 from .search import CandidateResult, rank_captures
 from .tone_stack import apply_tone_stack, fit_tone_stack
@@ -165,6 +165,7 @@ def run_match(
             "input_gain_db": round(r.gain_db, 2),
             "output_gain_db": round(lin_to_db(out_gain), 2),
             "score": round(r.score, 4),
+            "drive_index": round(distortion_index(amped_fp), 3),
             "ir": os.path.abspath(ir_path_),
             "render": os.path.abspath(render_path_),
             "tone_stack": {
@@ -228,6 +229,13 @@ def run_match(
             }
             for r in ranked
         ],
+        "drive_character": {
+            "target": round(distortion_index(target_fp), 3),
+            "best_match": renders[0]["drive_index"],
+            "note": "0 = clean, 1 = heavily driven. These should be close; a large "
+                    "gap means no capture in your library matches the target's gain "
+                    "structure - add captures of the right amp type.",
+        },
         "renders": renders,
         "match_ir": os.path.abspath(ir_path),
         "how_to_use": (
