@@ -1,0 +1,10 @@
+{
+  "artifacts/stage2/real_fp64/results.json": "e94441d86097bf09189349f46959ab171f4879a1ede2950c925dcfbf07f9500e",
+  "artifacts/stage2/analysis.json": "721124339113d81b2bf2251dd8e748c8b1fe4b75198073abec5302d4f52c7d46",
+  "artifacts/stage3/real/results.json": "ccc80516ed31c5a19933f8a82970777085de232be0dbf32db1bb51d4bc505c1b",
+  "artifacts/stage3/analysis.json": "c1317ad25d84cef99f17d3637d6ad866f32c9163e5453768f32c92957644cade",
+  "scripts/stage3_benchmark.py": "0c0b97e2f539a649a0d91a06138781d973438a5ed92c1955a1519d057977016a",
+  "scripts/stage3_analyze.py": "d841c6fe8797f12b174dc29b3e6c8344792edc85071d6a4910ac3c8cbf201cc0",
+  "scripts/multidi_scoring.py": "2409176ff2129ec6dcc8ec9dbd4f7516ab79dc9cd464540af1a2cff0e6002a63",
+  "experiments/stage3.json": "ee7faa49c83b14dfff7b980ba8ae57e9845a2860ff8cf0bcbb7a543af0583277"
+}

@@ -1,0 +1,1361 @@
+{
+  "source_hashes": {
+    "experiments/stage4.json": "6b2f24548711632fcb91c4a7ab0726ab98cbbd819c55623ecb45ecda230cc95b",
+    "docs/stage4-protocol.md": "e09ccce35fa09788dff25f8f2333caca7e0b721c958ec32ae373dd9e5a707c84",
+    "scripts/stage4_gain_witness.py": "5fc497900d9f6ea10bdea282fed3f06af20ad7006208080d55475b533355e1de",
+    "scripts/stage4_helpers.py": "fbf78025a3500012f2729475aa8d404b30241238c2c17b04ba13329c8b6fbb68",
+    "assets/stage3/di/P0.wav": "8fbd2b985c6e0fcb7bf94ba8c01cf8661512f9ccb4ece0a2417ba0eb1b49ce61",
+    "assets/stage3/di/P1.wav": "e11b857a77e33eb7df16f64eb1f7ed861a4cd81bdb76eca677f9ff5918aca6b6"
+  },
+  "pairs": [
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 0,
+      "distinct_controls": [
+        [
+          0,
+          0
+        ],
+        [
+          6,
+          -6
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "effective_gain": 6,
+      "distinct_controls": [
+        [
+          0,
+          6
+        ],
+        [
+          6,
+          0
+        ]
+      ],
+      "max_abs_error": 0.0,
+      "bitwise_equal": true,
+      "passed": true
+    }
+  ],
+  "observations": [
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 0,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 6,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 3,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P0.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": -6,
+      "effective_gain": -6,
+      "compatible_device_gains": [
+        -12.0,
+        -11.0,
+        -10.0,
+        -9.0,
+        -8.0,
+        -7.0,
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 0,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 0,
+      "digital_level": 6,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 0
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": -6,
+      "effective_gain": 0,
+      "compatible_device_gains": [
+        -6.0,
+        -5.0,
+        -4.0,
+        -3.0,
+        -2.0,
+        -1.0,
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 0,
+      "effective_gain": 6,
+      "compatible_device_gains": [
+        0.0,
+        1.0,
+        2.0,
+        3.0,
+        4.0,
+        5.0,
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    },
+    {
+      "rig": 10,
+      "source": "assets/stage3/di/P1.wav",
+      "device_gain": 6,
+      "digital_level": 6,
+      "effective_gain": 12,
+      "compatible_device_gains": [
+        6.0,
+        7.0,
+        8.0,
+        9.0,
+        10.0,
+        11.0,
+        12.0
+      ],
+      "known_level_oracle_gain": 6
+    }
+  ],
+  "baseline_preserved": true,
+  "max_absolute_wave_error": 0.0,
+  "conclusion": "Wet-only source-level and device input gain are structurally nonidentifiable; physical picking-force separation has not been tested"
+}

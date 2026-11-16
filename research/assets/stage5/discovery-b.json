@@ -1,0 +1,16 @@
+{
+  "search_date": "2026-11-15",
+  "strict_match_found": false,
+  "criteria": ["real electric guitar pickup DI", "same notes or phrase with human performance strength labels", "fixed gain and guitar controls", "no per-sample normalization or compression", "explicit original data license"],
+  "candidates": [
+    {"name":"Guitar-TECHS","url":"https://guitar-techs.github.io/","di":"supported","strength_labels":"unknown","fixed_gain_and_unprocessed":"unknown","license":"CC BY 4.0: https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/103641/Roman%20Guitar-TECHS%3A%20An%20Electric%20Guitar%20Dataset%20Covering%20Techniques%2C%20Musical%20Excerpts%2C%20Chords%20and%20Scales%20Using%20a%20Diverse%20Array%20of%20Hardware%202025%20Accepted.pdf?isAllowed=y&sequence=2","verdict":"unverified"},
+    {"name":"EG-IPT","url":"https://zenodo.org/records/15205644","di":"supported","strength_labels":"unknown","fixed_gain_and_unprocessed":"unknown","license":"unknown","verdict":"unverified"},
+    {"name":"GADA","url":"https://gingerpianist.github.io/GADA_demo_page/","di":"supported","strength_labels":"unknown","fixed_gain_and_unprocessed":"unknown; guitar volume and tone max","license":"unknown","verdict":"unverified"},
+    {"name":"EGFxSet","url":"https://egfxset.github.io/","di":"supported","strength_labels":"unknown","fixed_gain_and_unprocessed":"rejected: clean audio normalized","license":"open access stated; precise license unknown","verdict":"rejected"},
+    {"name":"GuitarSet","url":"https://zenodo.org/records/3371780","di":"rejected: acoustic guitar pickup","strength_labels":"unknown","fixed_gain_and_unprocessed":"unknown","license":"unknown in accessed text","verdict":"rejected"},
+    {"name":"NSynth","url":"https://magenta.tensorflow.org/datasets/nsynth","di":"unknown","strength_labels":"rejected: sampler MIDI velocity, not verified human force","fixed_gain_and_unprocessed":"unknown","license":"CC BY 4.0","verdict":"rejected"},
+    {"name":"TinySOL","url":"https://zenodo.org/records/3659365","di":"rejected: no electric guitar among listed instruments","strength_labels":"dynamics labels present but wrong instruments","fixed_gain_and_unprocessed":"unknown","license":"CC BY 4.0","verdict":"rejected"},
+    {"name":"OrchideaSOL","url":"https://forum.ircam.fr/projects/detail/orchideasol/","di":"rejected: proximity microphone","strength_labels":"unknown","fixed_gain_and_unprocessed":"rejected as evidence: dynamic restoration described","license":"unknown","verdict":"rejected"},
+    {"name":"IDMT-SMT-Bass","url":"https://zenodo.org/records/7188892","di":"unknown; electric bass, not electric guitar","strength_labels":"unknown","fixed_gain_and_unprocessed":"unknown","license":"unknown","verdict":"rejected"}
+  ]
+}

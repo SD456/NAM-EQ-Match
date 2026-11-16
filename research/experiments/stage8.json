@@ -1,0 +1,11 @@
+{
+  "sample_rate": 48000,
+  "calibration_db": 8.7201550467902,
+  "gains_db": [0, 6],
+  "teacher_indices": [0, 6, 3, 10],
+  "methods": ["spectrum160", "euclidean", "diagonal", "ledoit_wolf", "oas"],
+  "post_eq": {"kind": "highshelf", "frequency_hz": 1200, "q": 0.7071067811865476, "gain_db": 3},
+  "bootstrap": {"repeats": 20, "seed": 82319, "methods": ["spectrum160", "ledoit_wolf"], "top_subspace_dimensions": 3},
+  "gate": {"relative_e1_regret_improvement": 0.20, "absolute_e1_regret_improvement": 0.02, "min_improved_folds": 4, "max_e0_regret_increase": 0.02, "max_fold_e1_p90_harm": 0.05, "max_covariance_condition": 100000000, "min_bootstrap_improved": 16},
+  "scope": "Internal development validation; leave instrument group, same content on other guitars allowed. Historical global input calibration used Sire01. No physical force labels, automatic EQ, synthetic data, Free Bird or production replacement."
+}

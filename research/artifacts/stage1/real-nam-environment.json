@@ -1,0 +1,40 @@
+{
+  "python": "3.12.7",
+  "torch": "2.10.0+cu128",
+  "cuda_runtime": "12.8",
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "capability": [
+    12,
+    0
+  ],
+  "compiled_architectures": [
+    "sm_70",
+    "sm_75",
+    "sm_80",
+    "sm_86",
+    "sm_90",
+    "sm_100",
+    "sm_120"
+  ],
+  "cuda_cudnn_allow_tf32": false,
+  "cuda_matmul_allow_tf32": false,
+  "neural_amp_modeler": "0.13.0",
+  "model": "Lum_Marshall_2204_1982_AMP_Channel3_A1.nam",
+  "model_sha256": "a9579e9a136b9dd0a360ecd64235bedaa58f4468e7c58dc8e734ca2b19fd042f",
+  "model_config_adapter": [
+    "legacy_wavenet_head_to_nam_0_13",
+    "legacy_wavenet_head_to_nam_0_13"
+  ],
+  "model_receptive_field": 4093,
+  "model_parameter_device": "cuda:0",
+  "sample_rate": 48000,
+  "input_samples": 48000,
+  "output_samples": 48000,
+  "cuda_peak": 0.1191292256116867,
+  "cpu_cuda_max_absolute_error": 2.0116567611694336e-06,
+  "forward_seconds_first_run": {
+    "cpu": 0.06270149999909336,
+    "cuda": 0.2170222000022477
+  },
+  "passed": true
+}

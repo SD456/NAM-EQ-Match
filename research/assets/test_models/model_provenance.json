@@ -1,0 +1,73 @@
+{
+  "amp_model": {
+    "file": "assets/test_models/Lum_Marshall_2204_1982_AMP_Channel3_A1.nam",
+    "original_filename": "AMP-2204-3.nam",
+    "creator": "Lum / Steffen Dangmann (GitHub guitarlum)",
+    "source_page": "https://github.com/guitarlum/VoLum/blob/a0b2f08b6be3fa2f7fdb58543f579d32e0ebe2f3/rigs/Marshall%202204%201982/AMP-2204-3.nam",
+    "download_url": "https://raw.githubusercontent.com/guitarlum/VoLum/a0b2f08b6be3fa2f7fdb58543f579d32e0ebe2f3/rigs/Marshall%202204%201982/AMP-2204-3.nam",
+    "git_commit": "a0b2f08b6be3fa2f7fdb58543f579d32e0ebe2f3",
+    "license": "MIT (repository license; no separate model license or restriction found)",
+    "license_url": "https://github.com/guitarlum/VoLum/blob/a0b2f08b6be3fa2f7fdb58543f579d32e0ebe2f3/LICENSE",
+    "license_file": "VoLum-LICENSE.txt",
+    "credit_evidence": "README.md Credits: Amp profiles by Lum; model metadata modeled_by=lum; files added by guitarlum",
+    "amp": "Marshall 2204 1982, capture file index 3 (not a physical channel claim)",
+    "type": "amp-only; no cab",
+    "type_evidence": "VoLum user guide identifies AMP as No Cab. Model has gear_type=amp; distinct G12/G65/V30 versions exist. Model filename is AMP-2204-3.nam.",
+    "guide_url": "https://github.com/guitarlum/VoLum/blob/main/docs/user-guide.en.md",
+    "format": "0.5.4",
+    "architecture": "WaveNet",
+    "sample_rate": 48000,
+    "metadata": {
+      "date": {
+        "year": 2026,
+        "month": 1,
+        "day": 19,
+        "hour": 1,
+        "minute": 2,
+        "second": 23
+      },
+      "loudness": -20.620040893554688,
+      "gain": 0.8158151085960603,
+      "name": "AMP-2204-3",
+      "modeled_by": "lum",
+      "gear_type": "amp",
+      "gear_make": "tz-make",
+      "gear_model": "tz-model",
+      "tone_type": "overdrive",
+      "input_level_dbu": null,
+      "output_level_dbu": null,
+      "training": {
+        "settings": {
+          "ignore_checks": false
+        },
+        "data": {
+          "latency": {
+            "manual": null,
+            "calibration": {
+              "algorithm_version": 1,
+              "delays": [
+                0
+              ],
+              "safety_factor": 1,
+              "recommended": -1,
+              "warnings": {
+                "matches_lookahead": false,
+                "disagreement_too_high": false
+              }
+            }
+          },
+          "checks": {
+            "version": 3,
+            "passed": true
+          }
+        },
+        "validation_esr": 0.005843426197022801
+      }
+    },
+    "calibration_caveat": "input_level_dbu and output_level_dbu are null; do not claim calibrated real-amp equivalence. Input gain is a listening choice.",
+    "sha256": "a9579e9a136b9dd0a360ecd64235bedaa58f4468e7c58dc8e734ca2b19fd042f",
+    "download_date": "2026-11-15",
+    "license_sha256": "c6cbc47bb4ccb43771b97c4c1dba1fd35d4f50cbde3ef92fd32d0b13a6b33534",
+    "local_verification": "verify_model.py checks hash and CPU/CUDA forward against this real exported capture"
+  }
+}

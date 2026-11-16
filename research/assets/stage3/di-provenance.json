@@ -1,0 +1,125 @@
+{
+  "sources": [
+    {
+      "id": "guitar-techs",
+      "title": "Guitar-TECHS: An Electric Guitar Dataset Covering Techniques, Musical Excerpts, Chords and Scales Using a Diverse Array of Hardware",
+      "creators": [
+        "Hegel Pedroza",
+        "Wallace Abreu",
+        "Ryan M. Corey",
+        "Iran R. Roman",
+        "Termeh Taheri"
+      ],
+      "source_url": "https://guitar-techs.github.io/",
+      "dataset_url": "https://zenodo.org/records/14963133",
+      "archive_url": "https://zenodo.org/records/14963133/files/P3_music.zip",
+      "archive_md5_verified": "071ba80aecf00f4a31fbd167b3f22198",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Pedroza et al., Guitar-TECHS, ICASSP 2025. Cropped and converted to mono float32; no gain or effects applied."
+    }
+  ],
+  "recordings": [
+    {
+      "id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage2/di/directinput_01.raw.wav",
+      "archive_member": "P3_music/audio/directinput/directinput_01.wav",
+      "sha256": "b985af2acea79809f572c869a007bd4b5257d4684b0636f26bd09f6482f9d0eb",
+      "sample_rate": 48000,
+      "channels": 2,
+      "frames": 3480000,
+      "format": "WAV",
+      "subtype": "PCM_24",
+      "license": "CC BY 4.0",
+      "source_url": "https://zenodo.org/records/14963133",
+      "notes": "Player 03, Sire T7, bridge-neck pickup; guitar output split to audio interface as direct input. Identical stereo channels verified sample-by-sample. Hardware recording gain not specified by source."
+    }
+  ],
+  "segments": [
+    {
+      "id": "P0",
+      "role": "probe",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage3/di/P0.wav",
+      "sha256": "8fbd2b985c6e0fcb7bf94ba8c01cf8661512f9ccb4ece0a2417ba0eb1b49ce61",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 1152000,
+      "end_frame": 1536000,
+      "rms": 0.04355417937040329,
+      "peak": 0.21914517879486084
+    },
+    {
+      "id": "P1",
+      "role": "probe",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage3/di/P1.wav",
+      "sha256": "e11b857a77e33eb7df16f64eb1f7ed861a4cd81bdb76eca677f9ff5918aca6b6",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 1536000,
+      "end_frame": 1920000,
+      "rms": 0.033631473779678345,
+      "peak": 0.19506359100341797
+    },
+    {
+      "id": "P2",
+      "role": "probe",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage3/di/P2.wav",
+      "sha256": "7b11fb473aa718a93f641d9cda3f5fcf2b0ac3a35138715fa8a0722d8e2ce9c9",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 1920000,
+      "end_frame": 2304000,
+      "rms": 0.04287666827440262,
+      "peak": 0.18348348140716553
+    },
+    {
+      "id": "R0",
+      "role": "reference",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage3/di/R0.wav",
+      "sha256": "94b19b05b9c7c62b9959739dc317d4563345000113230958997cbc17a1319785",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 2304000,
+      "end_frame": 2688000,
+      "rms": 0.04414890706539154,
+      "peak": 0.21099889278411865
+    },
+    {
+      "id": "R1",
+      "role": "reference",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage3/di/R1.wav",
+      "sha256": "0dc18820f6928e067a36a8487bdeb78d1e0b3973e26dc79e69783218047db3ac",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 2688000,
+      "end_frame": 3072000,
+      "rms": 0.04191290959715843,
+      "peak": 0.24591708183288574
+    },
+    {
+      "id": "H0",
+      "role": "holdout",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage3/di/H0.wav",
+      "sha256": "4890b8e07fe8dd21e7b6988a6fd2b5aeb916e7ffddac558f66d1a814e41c1953",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 3072000,
+      "end_frame": 3456000,
+      "rms": 0.033802278339862823,
+      "peak": 0.20771729946136475
+    }
+  ],
+  "selection_and_processing": "Fallback fixed before scoring: P0/P1/P2 24-32/32-40/40-48 s, R0/R1 48-56/56-64 s, H0 64-72 s. Half-open sample ranges do not overlap each other or stage 2 A/B/C (0-24 s). All segments are from the same recording, player and guitar; they are not independent recordings. Only one holdout fits in this recording; no H1. Separate 02/03 recordings were unavailable because the download host could not be resolved. Left channel selected, float32 WAV; no resampling, normalization, gain, fades, denoising or effects. Physical recording gain is unspecified."
+}

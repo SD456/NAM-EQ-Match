@@ -1,0 +1,478 @@
+{
+  "config": {
+    "frozen_before_experiments": true,
+    "sample_rate": 48000,
+    "baseline_plan": "artifacts/stage3/real/locked-plan.json",
+    "baseline_snapshot": "artifacts/stage4/baseline-sha256.json",
+    "calibration_db": 8.7201550467902,
+    "gain_witness": {
+      "sources": [
+        "assets/stage3/di/P0.wav",
+        "assets/stage3/di/P1.wav"
+      ],
+      "device_gains_db": [
+        0,
+        6
+      ],
+      "digital_levels_db": [
+        -6,
+        0,
+        6
+      ],
+      "device_grid_db": [
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level_bounds_db": [
+        -6,
+        6
+      ],
+      "atol": 2e-06,
+      "rtol": 2e-05,
+      "meaning": "Structural nonidentifiability witness on already-observed audio, not real picking-force validation"
+    },
+    "independent_di_manifest": "assets/stage4/di-provenance.json",
+    "probes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "calibration_references": [
+      "C0",
+      "C1"
+    ],
+    "test_references": [
+      "T0",
+      "T1"
+    ],
+    "holdouts": [
+      "H0",
+      "H1"
+    ],
+    "truth_gains_db": [
+      0,
+      6
+    ],
+    "search_gains_db": [
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "null_calibration": {
+      "rigs": "all 8 non-teacher rig indices, not family-disjoint",
+      "gains_db": [
+        0,
+        6
+      ],
+      "statistic": "maximum absolute raw median-probe correction over every calibration curve and 80-8000 Hz bin",
+      "no_probability_guarantee": true
+    },
+    "eq_decision": {
+      "min_gain_db": 1,
+      "max_spread_db": 3,
+      "sign_agreement": "both references",
+      "n_taps": 2048,
+      "max_gain_db": 4.5,
+      "smoothing_octaves": 0.5
+    },
+    "post_eq": {
+      "kind": "highshelf",
+      "frequency_hz": 1200,
+      "q": 0.7071067811865476,
+      "gain_db": 3
+    },
+    "eq_variants": [
+      "bypass",
+      "stage3_guard",
+      "null_gate"
+    ],
+    "gate": {
+      "sc": 0.2,
+      "ltas_db": 1.5,
+      "harm_sc_delta": 0.02,
+      "harm_ltas_delta_db": 0.25,
+      "e0_max_false_apply": 1,
+      "e0_max_harmed_cases": 1,
+      "e1_min_apply": 6,
+      "e1_min_beneficial_cases": 6
+    },
+    "conditional_deployment_eq": "Only evaluate null gate on selected chains if the oracle E0/E1 gate passes; otherwise record not validated",
+    "scope": "Keep multi-DI half-octave spectral baseline unchanged. No per-clip normalization. Digital pre-level is not physical picking force; source hardware gain unknown. No Free Bird. Independent recordings required for validation; missing assets must not be replaced by previously used holdouts."
+  },
+  "di": {
+    "sources": [
+      {
+        "title": "Guitar-TECHS",
+        "url": "https://zenodo.org/records/14963133",
+        "authors": [
+          "Hegel Emmanuel Pedroza Villalobos",
+          "Termeh Taheri",
+          "Wallace Abreu",
+          "Ryan Corey",
+          "Iran R. Roman"
+        ],
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "archive": "P3_music.zip",
+        "archive_md5_published": "071ba80aecf00f4a31fbd167b3f22198",
+        "archive_url": "https://zenodo.org/records/14963133/files/P3_music.zip",
+        "central_directory_evidence": {
+          "path": "assets/stage4/di/zip-tail.bin",
+          "sha256": "627e139d8e591278b09579f79b952634638ac08521742e38afb8b129d3bfcdf3",
+          "archive_byte_range_inclusive": [
+            129439553,
+            129505088
+          ]
+        },
+        "retrieval": "Local DNS returned 0.0.0.0 and direct lookup failed. HTTPS range requests used a publicly listed CERN IP via curl --resolve; the local certificate trust chain failed, so TLS verification was disabled. CRC-32 checks detect accidental corruption but do not authenticate the download.",
+        "integrity": "Individual ZIP entries validated against CRC-32 in the official archive central directory; full archive MD5 was not checked."
+      }
+    ],
+    "recordings": [
+      {
+        "id": "directinput_02",
+        "path": "assets/stage4/di/directinput_02.raw.wav",
+        "sha256": "6443d2cf16732e3ee1ed266f2ae6a5d7a9a3a084f092aab0949f8b209ae231f0",
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 1792000,
+        "zip_crc32": "cc8af592",
+        "zip_member": "P3_music/audio/directinput/directinput_02.wav",
+        "archive_byte_range_inclusive": [
+          114750295,
+          119961465
+        ]
+      },
+      {
+        "id": "directinput_03",
+        "path": "assets/stage4/di/directinput_03.raw.wav",
+        "sha256": "84980b5468f3315171e4e546a1d38d54e4c368ccb5fee72c759e0915f346fad0",
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 1406000,
+        "zip_crc32": "ffb0d954",
+        "zip_member": "P3_music/audio/directinput/directinput_03.wav",
+        "archive_byte_range_inclusive": [
+          110791741,
+          114750068
+        ]
+      },
+      {
+        "id": "directinput_04",
+        "path": "assets/stage4/di/directinput_04.raw.wav",
+        "sha256": "2d1337a6249757f2081bc9aa3eca003e7ff0a4c3f56c72e436aec366bbee3043",
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 1780000,
+        "zip_crc32": "187c8da7",
+        "zip_member": "P3_music/audio/directinput/directinput_04.wav",
+        "archive_byte_range_inclusive": [
+          89278355,
+          94436985
+        ]
+      },
+      {
+        "id": "directinput_05",
+        "path": "assets/stage4/di/directinput_05.raw.wav",
+        "sha256": "71a6831d1c6280b305ad78f5cbeae58673191b7ac05a164b33ac9b5e4e8ace1e",
+        "sample_rate": 48000,
+        "channels": 2,
+        "frames": 2640000,
+        "zip_crc32": "af7d3845",
+        "zip_member": "P3_music/audio/directinput/directinput_05.wav",
+        "archive_byte_range_inclusive": [
+          82186404,
+          89278127
+        ]
+      }
+    ],
+    "segments": [
+      {
+        "id": "P0",
+        "role": "probe",
+        "recording_id": "directinput_02",
+        "path": "assets/stage4/di/P0.wav",
+        "sha256": "54054d70b03a4a3fff1967ac98219d79fe4d5bcfd833c59b56ffb4fefdb41f3a",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 0,
+        "end_frame": 384000,
+        "rms": 0.07264691591262817,
+        "peak": 0.2959219217300415
+      },
+      {
+        "id": "P1",
+        "role": "probe",
+        "recording_id": "directinput_02",
+        "path": "assets/stage4/di/P1.wav",
+        "sha256": "5f638bef94831782b8f4f855f73271586ca71253c7f0072541b3f37d374565e0",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 384000,
+        "end_frame": 768000,
+        "rms": 0.08909213542938232,
+        "peak": 0.3818345069885254
+      },
+      {
+        "id": "P2",
+        "role": "probe",
+        "recording_id": "directinput_02",
+        "path": "assets/stage4/di/P2.wav",
+        "sha256": "9cfbbce21e1581e81386c68da01df72dd91cc90a204cc68f9fca0be4cd39319e",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 768000,
+        "end_frame": 1152000,
+        "rms": 0.10865014046430588,
+        "peak": 0.4842931032180786
+      },
+      {
+        "id": "C0",
+        "role": "calibration_reference",
+        "recording_id": "directinput_03",
+        "path": "assets/stage4/di/C0.wav",
+        "sha256": "71f5965b270619ca9228091f0482ab6e57b7c791e90f61910bd0aee19170fd55",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 0,
+        "end_frame": 384000,
+        "rms": 0.057439934462308884,
+        "peak": 0.26564955711364746
+      },
+      {
+        "id": "C1",
+        "role": "calibration_reference",
+        "recording_id": "directinput_03",
+        "path": "assets/stage4/di/C1.wav",
+        "sha256": "a50e07ff4adc695678ed09303e02572cc2f97ee0754dfa938881509e74686fcc",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 384000,
+        "end_frame": 768000,
+        "rms": 0.05682731792330742,
+        "peak": 0.3094979524612427
+      },
+      {
+        "id": "T0",
+        "role": "test_reference",
+        "recording_id": "directinput_04",
+        "path": "assets/stage4/di/T0.wav",
+        "sha256": "e1de9b6b63e9f07d63fe92b698fde50f03aacc04894288e5bbb57e822919723d",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 0,
+        "end_frame": 384000,
+        "rms": 0.05935065448284149,
+        "peak": 0.2450324296951294
+      },
+      {
+        "id": "T1",
+        "role": "test_reference",
+        "recording_id": "directinput_04",
+        "path": "assets/stage4/di/T1.wav",
+        "sha256": "ea8b3ce17d6c06bb3970788adc20390a0d766d29ef623fa2bc08525ffbb6d3e2",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 384000,
+        "end_frame": 768000,
+        "rms": 0.05747491121292114,
+        "peak": 0.26668810844421387
+      },
+      {
+        "id": "H0",
+        "role": "holdout",
+        "recording_id": "directinput_05",
+        "path": "assets/stage4/di/H0.wav",
+        "sha256": "b04daba24cd83fbff70bb43442c5f16b1e2b4266c6224ce42f7ce172a999cf7a",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 0,
+        "end_frame": 384000,
+        "rms": 0.05105279013514519,
+        "peak": 0.34874868392944336
+      },
+      {
+        "id": "H1",
+        "role": "holdout",
+        "recording_id": "directinput_05",
+        "path": "assets/stage4/di/H1.wav",
+        "sha256": "9b7273e8b530dfd199e360255174864ad8919c372fe8a7a2fbc0adcc39226baa",
+        "sample_rate": 48000,
+        "channels": 1,
+        "frames": 384000,
+        "start_frame": 384000,
+        "end_frame": 768000,
+        "rms": 0.043284837156534195,
+        "peak": 0.28675341606140137
+      }
+    ],
+    "selection_and_processing": "Fixed before scoring: 02 probe 0-8/8-16/16-24 s, 03 calibration 0-8/8-16 s, 04 test 0-8/8-16 s, 05 holdout 0-8/8-16 s. Sample ranges are half-open. Left channel selected after exact stereo equality check; float32 WAV, no normalization, resampling, fades, gain, denoising or effects. Recording gain and physical plucking strength are unknown; RMS is not a strength label. Player 3 used Sire T7 and UMC202HD as described at https://guitar-techs.github.io/."
+  },
+  "rigs": [
+    {
+      "id": "AMP-2204-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-2204-1",
+      "family": "Marshall 2204 1982",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "AMP-2204-1@ir-brown-cab-audix-i5",
+      "model_id": "AMP-2204-1",
+      "family": "Marshall 2204 1982",
+      "cab_id": "ir-brown-cab-audix-i5"
+    },
+    {
+      "id": "AMP-2204-3@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-2204-3",
+      "family": "Marshall 2204 1982",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "G12-2204-3",
+      "model_id": "G12-2204-3",
+      "family": "Marshall 2204 1982",
+      "cab_id": null
+    },
+    {
+      "id": "AMP-OD12-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-OD12-1",
+      "family": "Orange OD120 1975",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "V30-OD12-3",
+      "model_id": "V30-OD12-3",
+      "family": "Orange OD120 1975",
+      "cab_id": null
+    },
+    {
+      "id": "AMP-Sbgo-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-Sbgo-1",
+      "family": "Sebago Texas Flood",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "AMP-Sbgo-1@ir-brown-cab-audix-i5",
+      "model_id": "AMP-Sbgo-1",
+      "family": "Sebago Texas Flood",
+      "cab_id": "ir-brown-cab-audix-i5"
+    },
+    {
+      "id": "G65-Sbgo-2",
+      "model_id": "G65-Sbgo-2",
+      "family": "Sebago Texas Flood",
+      "cab_id": null
+    },
+    {
+      "id": "AMP-SLO1-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-SLO1-1",
+      "family": "Soldano SLO100",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "V30-SLO1-3",
+      "model_id": "V30-SLO1-3",
+      "family": "Soldano SLO100",
+      "cab_id": null
+    },
+    {
+      "id": "G12-Herb-4",
+      "model_id": "G12-Herb-4",
+      "family": "Diezel Herbert Mk1",
+      "cab_id": null
+    }
+  ],
+  "teachers": [
+    0,
+    6,
+    3,
+    10
+  ],
+  "calibration_rigs": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    11
+  ],
+  "source_hashes": {
+    "experiments/stage4.json": "6b2f24548711632fcb91c4a7ab0726ab98cbbd819c55623ecb45ecda230cc95b",
+    "docs/stage4-protocol.md": "e09ccce35fa09788dff25f8f2333caca7e0b721c958ec32ae373dd9e5a707c84",
+    "scripts/stage4_benchmark.py": "cfaa73a6b51a2c92dbe1999ea670780cdd323facf40bb9f801bb57221d69ca52",
+    "scripts/stage4_helpers.py": "fbf78025a3500012f2729475aa8d404b30241238c2c17b04ba13329c8b6fbb68",
+    "scripts/multidi_scoring.py": "2409176ff2129ec6dcc8ec9dbd4f7516ab79dc9cd464540af1a2cff0e6002a63",
+    "scripts/stage3_benchmark.py": "0c0b97e2f539a649a0d91a06138781d973438a5ed92c1955a1519d057977016a",
+    "scripts/stage2_benchmark.py": "b95c504575b234a984196c7bdec8dc63a6f605055ce3b5cdaaf60ad5fd0f0f54",
+    "assets/stage4/di-provenance.json": "0b59d0e9204f7b8f176318b3913d5de8eb72823a7319965305ed3ecfb74a184a",
+    "vendor/NAM-EQ-Match/tonematch/nam_backend.py": "2740554b383bb3503c922db8be6e999c7c6774f56b4e4c168629dbe73c37139d",
+    "vendor/NAM-EQ-Match/tonematch/match_eq.py": "25ffebb3c0d252f3b193d89425a04f3a1e5e4355e40e739516c2565b9324b235"
+  },
+  "protected_baselines": {
+    "artifacts/stage2/real_fp64/results.json": "e94441d86097bf09189349f46959ab171f4879a1ede2950c925dcfbf07f9500e",
+    "artifacts/stage2/analysis.json": "721124339113d81b2bf2251dd8e748c8b1fe4b75198073abec5302d4f52c7d46",
+    "artifacts/stage3/real/results.json": "ccc80516ed31c5a19933f8a82970777085de232be0dbf32db1bb51d4bc505c1b",
+    "artifacts/stage3/analysis.json": "c1317ad25d84cef99f17d3637d6ad866f32c9163e5453768f32c92957644cade",
+    "scripts/stage3_benchmark.py": "0c0b97e2f539a649a0d91a06138781d973438a5ed92c1955a1519d057977016a",
+    "scripts/stage3_analyze.py": "d841c6fe8797f12b174dc29b3e6c8344792edc85071d6a4910ac3c8cbf201cc0",
+    "scripts/multidi_scoring.py": "2409176ff2129ec6dcc8ec9dbd4f7516ab79dc9cd464540af1a2cff0e6002a63",
+    "experiments/stage3.json": "ee7faa49c83b14dfff7b980ba8ae57e9845a2860ff8cf0bcbb7a543af0583277"
+  },
+  "device": "cuda",
+  "precision": "float32_no_tf32"
+}

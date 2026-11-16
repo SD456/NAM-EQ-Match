@@ -1,0 +1,6 @@
+{
+  "method": "first_r5",
+  "lock_sha256": "7eae0c15edf768421fdd214e516b7ae83a203c96e75e94be11d5ac757a54e5a7",
+  "calibration_sha256": "7802f31361d626fb7263332f88a678f5039bd8eaf488491cb6db50b12fbfc2c6",
+  "heldout_used": false
+}

@@ -1,0 +1,20 @@
+{
+  "lock_sha256": "5f27584c304ea8d4d733caf656e11a7e94080bea8095d2c44a9c218506445b19",
+  "calibration_sha256": "214bec8a2bbd22959ec28c80c1a13bfd4e5a0476a155c6b48ba5b25357c1a4d3",
+  "selected": {
+    "pitch_window": 2048,
+    "threshold": 0.8
+  },
+  "criterion": {
+    "min_coverage": 0.6,
+    "min_conditional_exact": 0.9,
+    "order": [
+      "max full_correct",
+      "min conditional_octave",
+      "min pitch_window",
+      "max threshold"
+    ],
+    "no_feasible": "abstain"
+  },
+  "heldout_used": false
+}

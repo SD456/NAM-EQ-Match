@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "sample_rate": 48000,
+  "source_commit": "1074151da12654fcf1125ed6443a1e53ea5b973d + local patches",
+  "target": {
+    "path": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\target.wav",
+    "sha256": "253a2ffd3dad7b056a69f0dea3dc15cab685bc6be1692aaea1750d69e421fcf9",
+    "channel": null,
+    "start_s": 0.0,
+    "end_s": null,
+    "analyzed_frames": 576000
+  },
+  "di": {
+    "path": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\di.wav",
+    "sha256": "177eb739a107f258bf37f33f365ad54129e2879ccd0126a6bdca30014a66906b",
+    "channel": null,
+    "normalization_db": 8.776715163427934
+  },
+  "best_model": {
+    "schema_version": 1,
+    "rank": 1,
+    "name": "fuzz",
+    "file": null,
+    "nam_copy": null,
+    "nam_sha256": null,
+    "rig_type": "test-only",
+    "cab_ir_source": null,
+    "cab_ir_sha256": null,
+    "di_normalization_db": 8.776715163427934,
+    "search_gain_db": -5.0,
+    "input_gain_db": 3.7767151634279337,
+    "output_gain_db": -5.127181075203579,
+    "lv2_recommended_input_adjustment_db": 0.0,
+    "lv2_recommended_output_adjustment_db": 0.0,
+    "lv2_input_control_db": 3.7767151634279337,
+    "lv2_output_control_db": -5.127181075203579,
+    "lv2_verified": false,
+    "score": 1.1819118579104546,
+    "sample_rate": 48000,
+    "ir": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_playback_ir.wav",
+    "ir_sha256": "0b555b80e57f9eed10ae2cfccf3b5fe8be9ffaffd82cadfc606c7a9636b5b2ee",
+    "correction_ir": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_correction_ir.wav",
+    "correction_actual_max_abs_db": 3.885876178741455,
+    "eq_limit_db": 4.5,
+    "eq_octave_fraction": 2.0,
+    "render": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_render.wav",
+    "render_frames": 578047,
+    "preview_di": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\preview_di.wav",
+    "preview_di_frames": 576000,
+    "tail_frames": 2047,
+    "settings_json": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_settings.json"
+  },
+  "renders": [
+    {
+      "schema_version": 1,
+      "rank": 1,
+      "name": "fuzz",
+      "file": null,
+      "nam_copy": null,
+      "nam_sha256": null,
+      "rig_type": "test-only",
+      "cab_ir_source": null,
+      "cab_ir_sha256": null,
+      "di_normalization_db": 8.776715163427934,
+      "search_gain_db": -5.0,
+      "input_gain_db": 3.7767151634279337,
+      "output_gain_db": -5.127181075203579,
+      "lv2_recommended_input_adjustment_db": 0.0,
+      "lv2_recommended_output_adjustment_db": 0.0,
+      "lv2_input_control_db": 3.7767151634279337,
+      "lv2_output_control_db": -5.127181075203579,
+      "lv2_verified": false,
+      "score": 1.1819118579104546,
+      "sample_rate": 48000,
+      "ir": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_playback_ir.wav",
+      "ir_sha256": "0b555b80e57f9eed10ae2cfccf3b5fe8be9ffaffd82cadfc606c7a9636b5b2ee",
+      "correction_ir": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_correction_ir.wav",
+      "correction_actual_max_abs_db": 3.885876178741455,
+      "eq_limit_db": 4.5,
+      "eq_octave_fraction": 2.0,
+      "render": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_render.wav",
+      "render_frames": 578047,
+      "preview_di": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\preview_di.wav",
+      "preview_di_frames": 576000,
+      "tail_frames": 2047,
+      "settings_json": "<LOCAL_PROJECT_ROOT>\\artifacts\\stage1\\unpaired_toy\\match\\rank01_fuzz_settings.json"
+    }
+  ],
+  "ranking": [
+    {
+      "name": "fuzz",
+      "file": "fuzz",
+      "search_gain_db": -5.0,
+      "score": 1.1819118579104546,
+      "nonlinear_distance": 1.142030908902175,
+      "eq_penalty": 0.15952379603311828
+    },
+    {
+      "name": "hot",
+      "file": "hot",
+      "search_gain_db": 5.0,
+      "score": 1.1819118662349375,
+      "nonlinear_distance": 1.1420309173756626,
+      "eq_penalty": 0.15952379543709905
+    },
+    {
+      "name": "crunch",
+      "file": "crunch",
+      "search_gain_db": 12.0,
+      "score": 1.1819118999766975,
+      "nonlinear_distance": 1.1420309508363338,
+      "eq_penalty": 0.159523796561455
+    },
+    {
+      "name": "clean-ish",
+      "file": "clean-ish",
+      "search_gain_db": 12.0,
+      "score": 3.092207143937217,
+      "nonlinear_distance": 3.050808983845847,
+      "eq_penalty": 0.1655926403654807
+    }
+  ],
+  "ranking_stage": "refined candidates only; heuristic scores are not confidence probabilities",
+  "how_to_use": "Original DI -> recorded total input gain -> raw NAM -> playback IR (100% wet, no normalization) -> recorded output gain. Do not add a second cab. Reuse input calibration on new DI. NAM_LV2 controls subtract metadata adjustments; actual plugin verification is pending.",
+  "limitations": [
+    "No claim of original equipment recovery or Free Bird similarity",
+    "Mono, native 48 kHz WaveNet only; no time-effect fitting",
+    "Existing NAM is copied, not trained; playback IR remains external"
+  ]
+}

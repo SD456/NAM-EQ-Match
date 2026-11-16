@@ -1,0 +1,157 @@
+{
+  "config": {
+    "frozen_before_experiments": true,
+    "sample_rate": 48000,
+    "baseline_plan": "artifacts/stage3/real/locked-plan.json",
+    "baseline_snapshot": "artifacts/stage4/baseline-sha256.json",
+    "calibration_db": 8.7201550467902,
+    "gain_witness": {
+      "sources": [
+        "assets/stage3/di/P0.wav",
+        "assets/stage3/di/P1.wav"
+      ],
+      "device_gains_db": [
+        0,
+        6
+      ],
+      "digital_levels_db": [
+        -6,
+        0,
+        6
+      ],
+      "device_grid_db": [
+        -12,
+        -11,
+        -10,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "level_bounds_db": [
+        -6,
+        6
+      ],
+      "atol": 2e-06,
+      "rtol": 2e-05,
+      "meaning": "Structural nonidentifiability witness on already-observed audio, not real picking-force validation"
+    },
+    "independent_di_manifest": "assets/stage4/di-provenance.json",
+    "probes": [
+      "P0",
+      "P1",
+      "P2"
+    ],
+    "calibration_references": [
+      "C0",
+      "C1"
+    ],
+    "test_references": [
+      "T0",
+      "T1"
+    ],
+    "holdouts": [
+      "H0",
+      "H1"
+    ],
+    "truth_gains_db": [
+      0,
+      6
+    ],
+    "search_gains_db": [
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "null_calibration": {
+      "rigs": "all 8 non-teacher rig indices, not family-disjoint",
+      "gains_db": [
+        0,
+        6
+      ],
+      "statistic": "maximum absolute raw median-probe correction over every calibration curve and 80-8000 Hz bin",
+      "no_probability_guarantee": true
+    },
+    "eq_decision": {
+      "min_gain_db": 1,
+      "max_spread_db": 3,
+      "sign_agreement": "both references",
+      "n_taps": 2048,
+      "max_gain_db": 4.5,
+      "smoothing_octaves": 0.5
+    },
+    "post_eq": {
+      "kind": "highshelf",
+      "frequency_hz": 1200,
+      "q": 0.7071067811865476,
+      "gain_db": 3
+    },
+    "eq_variants": [
+      "bypass",
+      "stage3_guard",
+      "null_gate"
+    ],
+    "gate": {
+      "sc": 0.2,
+      "ltas_db": 1.5,
+      "harm_sc_delta": 0.02,
+      "harm_ltas_delta_db": 0.25,
+      "e0_max_false_apply": 1,
+      "e0_max_harmed_cases": 1,
+      "e1_min_apply": 6,
+      "e1_min_beneficial_cases": 6
+    },
+    "conditional_deployment_eq": "Only evaluate null gate on selected chains if the oracle E0/E1 gate passes; otherwise record not validated",
+    "scope": "Keep multi-DI half-octave spectral baseline unchanged. No per-clip normalization. Digital pre-level is not physical picking force; source hardware gain unknown. No Free Bird. Independent recordings required for validation; missing assets must not be replaced by previously used holdouts."
+  },
+  "source_hashes": {
+    "experiments/stage4.json": "6b2f24548711632fcb91c4a7ab0726ab98cbbd819c55623ecb45ecda230cc95b",
+    "docs/stage4-protocol.md": "e09ccce35fa09788dff25f8f2333caca7e0b721c958ec32ae373dd9e5a707c84",
+    "scripts/stage4_gain_witness.py": "5fc497900d9f6ea10bdea282fed3f06af20ad7006208080d55475b533355e1de",
+    "scripts/stage4_helpers.py": "fbf78025a3500012f2729475aa8d404b30241238c2c17b04ba13329c8b6fbb68",
+    "assets/stage3/di/P0.wav": "8fbd2b985c6e0fcb7bf94ba8c01cf8661512f9ccb4ece0a2417ba0eb1b49ce61",
+    "assets/stage3/di/P1.wav": "e11b857a77e33eb7df16f64eb1f7ed861a4cd81bdb76eca677f9ff5918aca6b6"
+  },
+  "device": "cuda",
+  "real_force_labels": false
+}

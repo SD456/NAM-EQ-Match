@@ -1,0 +1,14 @@
+{
+  "purpose": "Cross-performance heuristic limitation diagnostic; synthetic probes, not real guitar/NAM",
+  "target_effective_drive_db": 14,
+  "recovered_effective_drive_db": 27.776715163427934,
+  "absolute_error_db": 13.776715163427934,
+  "within_old_5db_tolerance": false,
+  "target_has_extra_tilt_db_per_oct": -1.5,
+  "target_extra_presence_db": 4,
+  "candidate_eq": "None of the candidates include target tilt/presence",
+  "normalization_db": 8.776715163427934,
+  "winner": "fuzz",
+  "score": 1.1819118579104546,
+  "conclusion": "Do not infer cross-performance accuracy from engineering regression passes"
+}

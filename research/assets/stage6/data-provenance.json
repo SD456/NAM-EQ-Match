@@ -1,0 +1,5941 @@
+{
+  "source_url": "https://zenodo.org/api/records/7544110/files/IDMT-SMT-GUITAR_V2.zip/content",
+  "archive_size": 1329918978,
+  "archive_md5_published": "06796e08731bccffaed6ae59361486e4",
+  "archive_md5_verified": false,
+  "archive_central_directory_range": [
+    1329215801,
+    1329918977
+  ],
+  "license": "CC-BY-NC-ND-4.0",
+  "selection": [
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-40100-1111-00079.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1b23c37f",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49263632,
+      "next_offset": 49264051,
+      "split": "calibration",
+      "output": "labels/calibration/G53-40100-1111-00079.xml",
+      "sha256": "7fea6a105c7b4dfcea345f3a131c9fd4a6b5569f91816a2584055e4a73953a88",
+      "ranges": [
+        [
+          49263632,
+          49264050
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-41101-1111-00080.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c63b2db3",
+      "compressed_size": 291,
+      "size": 593,
+      "offset": 49264051,
+      "next_offset": 49264468,
+      "split": "calibration",
+      "output": "labels/calibration/G53-41101-1111-00080.xml",
+      "sha256": "adc7e6e70cf7b970b79508b043f0b1913a0e08789c82c8bbfa63f9dd3a41291d",
+      "ranges": [
+        [
+          49264051,
+          49264467
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-42102-1111-00081.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ac43903b",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49264468,
+      "next_offset": 49264886,
+      "split": "calibration",
+      "output": "labels/calibration/G53-42102-1111-00081.xml",
+      "sha256": "d9717a9aec2ae353df87da1ecb5f640880569f094ca3d757cb5170e5dc8ebbc4",
+      "ranges": [
+        [
+          49264468,
+          49264885
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-43103-1111-00082.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d0b781ff",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49264886,
+      "next_offset": 49265305,
+      "split": "calibration",
+      "output": "labels/calibration/G53-43103-1111-00082.xml",
+      "sha256": "116c15ad038ff622e342cbb4952aef1c347ebd43a7b6d6abc90a699b8fddf224",
+      "ranges": [
+        [
+          49264886,
+          49265304
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-44104-1111-00083.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ef949465",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49265305,
+      "next_offset": 49265725,
+      "split": "calibration",
+      "output": "labels/calibration/G53-44104-1111-00083.xml",
+      "sha256": "4bd01115a543578f7a48017ef5d048d939c8db23eeddefd017c2a78b9614f691",
+      "ranges": [
+        [
+          49265305,
+          49265724
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-45105-1111-00084.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "880f520d",
+      "compressed_size": 291,
+      "size": 593,
+      "offset": 49265725,
+      "next_offset": 49266142,
+      "split": "calibration",
+      "output": "labels/calibration/G53-45105-1111-00084.xml",
+      "sha256": "20d61d764664415adca4b52bd466f45e77e1e6a06ed187988c06dde439ec4d53",
+      "ranges": [
+        [
+          49265725,
+          49266141
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-45200-1111-00092.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5c2b675c",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 49266142,
+      "next_offset": 49266560,
+      "split": "calibration",
+      "output": "labels/calibration/G53-45200-1111-00092.xml",
+      "sha256": "e602fdca873ed2059f74cf7f857ae46357e3a38c0349ae70b124386da0837acd",
+      "ranges": [
+        [
+          49266142,
+          49266559
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-46106-1111-00085.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "593c7296",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49266560,
+      "next_offset": 49266979,
+      "split": "calibration",
+      "output": "labels/calibration/G53-46106-1111-00085.xml",
+      "sha256": "cceea790f07544960f359626ed7f7ca0272154ca551de6426f6c633dfeb7c70c",
+      "ranges": [
+        [
+          49266560,
+          49266978
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-46201-1111-00093.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4abc0f7e",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49266979,
+      "next_offset": 49267399,
+      "split": "calibration",
+      "output": "labels/calibration/G53-46201-1111-00093.xml",
+      "sha256": "b71ae788e2951b73ed2055f71a6419b308cb043609b1944365ad5d86b30a9a2a",
+      "ranges": [
+        [
+          49266979,
+          49267398
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-47107-1111-00086.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8c113cb5",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49267399,
+      "next_offset": 49267819,
+      "split": "calibration",
+      "output": "labels/calibration/G53-47107-1111-00086.xml",
+      "sha256": "1ffb764d9e10d7cbe5b33e3482afa32c371d0a9a8e999fd36bb84dcf1803bb54",
+      "ranges": [
+        [
+          49267399,
+          49267818
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-47202-1111-00094.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c5c138c9",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49267819,
+      "next_offset": 49268235,
+      "split": "calibration",
+      "output": "labels/calibration/G53-47202-1111-00094.xml",
+      "sha256": "727b3e9d2327a80087cf41c79c8a27bb523b03847fa0afcb257bd7518ed13057",
+      "ranges": [
+        [
+          49267819,
+          49268234
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-48108-1111-00087.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9c31c4b1",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49268235,
+      "next_offset": 49268655,
+      "split": "calibration",
+      "output": "labels/calibration/G53-48108-1111-00087.xml",
+      "sha256": "3719369d15fce5338efcd4fa50f73d6b53f0b434ab28d4c69b75395b7ad4fc60",
+      "ranges": [
+        [
+          49268235,
+          49268654
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-48203-1111-00095.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "f2ae3c22",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 49268655,
+      "next_offset": 49269072,
+      "split": "calibration",
+      "output": "labels/calibration/G53-48203-1111-00095.xml",
+      "sha256": "b856c2b7a0bb583174e9215d9689dd56dc2090b7fed766828e036cac861204a3",
+      "ranges": [
+        [
+          49268655,
+          49269071
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-49109-1111-00088.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "dfe76f75",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49269072,
+      "next_offset": 49269492,
+      "split": "calibration",
+      "output": "labels/calibration/G53-49109-1111-00088.xml",
+      "sha256": "2628b012fa84cb5044c4e0cd885aac442a2798db255dca6fd71a45e4d558a939",
+      "ranges": [
+        [
+          49269072,
+          49269491
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-49204-1111-00096.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d14bd6fd",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 49269492,
+      "next_offset": 49269910,
+      "split": "calibration",
+      "output": "labels/calibration/G53-49204-1111-00096.xml",
+      "sha256": "a01c8822fb2e8976ca3f66feda093676912785240ea48eefb08e0cd7c2940392",
+      "ranges": [
+        [
+          49269492,
+          49269909
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-50110-1111-00089.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "08e5591b",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49269910,
+      "next_offset": 49270329,
+      "split": "calibration",
+      "output": "labels/calibration/G53-50110-1111-00089.xml",
+      "sha256": "a2afaa31bfe111271fd19f66ef7458dbf372f13b1624ff2f298844ef38ce2042",
+      "ranges": [
+        [
+          49269910,
+          49270328
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-50205-1111-00097.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9beb9f50",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49270329,
+      "next_offset": 49270745,
+      "split": "calibration",
+      "output": "labels/calibration/G53-50205-1111-00097.xml",
+      "sha256": "8301ef2a8dc0afac0dd7378bc88af21bde07ff78222a17a3c5085d60a1c90e71",
+      "ranges": [
+        [
+          49270329,
+          49270744
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-50300-1111-00105.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "86eadbdd",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 49270745,
+      "next_offset": 49271160,
+      "split": "calibration",
+      "output": "labels/calibration/G53-50300-1111-00105.xml",
+      "sha256": "6889f17b3f67e6adfd14e71df311d6f51b91f5d77bdb2a463aca4d5e45b1c1df",
+      "ranges": [
+        [
+          49270745,
+          49271159
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-51111-1111-00090.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0e124f7e",
+      "compressed_size": 291,
+      "size": 594,
+      "offset": 49271160,
+      "next_offset": 49271577,
+      "split": "calibration",
+      "output": "labels/calibration/G53-51111-1111-00090.xml",
+      "sha256": "b617207747f5530d702a1de1cea228d2a41d54f2e462097abb64acf7dd408efb",
+      "ranges": [
+        [
+          49271160,
+          49271576
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-51206-1111-00098.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "db646800",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49271577,
+      "next_offset": 49271996,
+      "split": "calibration",
+      "output": "labels/calibration/G53-51206-1111-00098.xml",
+      "sha256": "3c87a69497609fbb0e8e76246920ff797b717b0c85befbfaac6d82fdd229931f",
+      "ranges": [
+        [
+          49271577,
+          49271995
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-51301-1111-00106.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "baf9f4fb",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49271996,
+      "next_offset": 49272415,
+      "split": "calibration",
+      "output": "labels/calibration/G53-51301-1111-00106.xml",
+      "sha256": "60115f24a7e2a3491a409faf335f0723993beef7c50f2d86d87742dd5dd3e947",
+      "ranges": [
+        [
+          49271996,
+          49272414
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-52112-1111-00091.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "026572f6",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49272415,
+      "next_offset": 49272834,
+      "split": "calibration",
+      "output": "labels/calibration/G53-52112-1111-00091.xml",
+      "sha256": "426a347943b5924a305839b4e1e737bd8c44539c7c5a78401f0ae6c21cfc46cd",
+      "ranges": [
+        [
+          49272415,
+          49272833
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-52207-1111-00099.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "db364d25",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49272834,
+      "next_offset": 49273252,
+      "split": "calibration",
+      "output": "labels/calibration/G53-52207-1111-00099.xml",
+      "sha256": "7eaa3ad9488e9cf3c65953f493103002847084f63dbebed724303d123df0fb7d",
+      "ranges": [
+        [
+          49272834,
+          49273251
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-52302-1111-00107.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3ae905a4",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49273252,
+      "next_offset": 49273668,
+      "split": "calibration",
+      "output": "labels/calibration/G53-52302-1111-00107.xml",
+      "sha256": "09319cb0ea53d39ac4ff11d27b54f58e424e11fe41ccfab5fff7c39d6cb1744d",
+      "ranges": [
+        [
+          49273252,
+          49273667
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-53208-1111-00100.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d118f25b",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49273668,
+      "next_offset": 49274086,
+      "split": "calibration",
+      "output": "labels/calibration/G53-53208-1111-00100.xml",
+      "sha256": "84e33497e5d2d50373d79b057638ac0d0c2427218e1553382790014c2946b4eb",
+      "ranges": [
+        [
+          49273668,
+          49274085
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-53303-1111-00108.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4272e46a",
+      "compressed_size": 288,
+      "size": 591,
+      "offset": 49274086,
+      "next_offset": 49274500,
+      "split": "calibration",
+      "output": "labels/calibration/G53-53303-1111-00108.xml",
+      "sha256": "2158af2d2cb2c63d920f545119c0ab6d20ec025f4bada57d466b712d78cec84f",
+      "ranges": [
+        [
+          49274086,
+          49274499
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-54209-1111-00101.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0c4d769f",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49274500,
+      "next_offset": 49274920,
+      "split": "calibration",
+      "output": "labels/calibration/G53-54209-1111-00101.xml",
+      "sha256": "5a8defdee76e76d6bb98b90ea7cb2d16d21dbd9cda308ce2285933c60fb70335",
+      "ranges": [
+        [
+          49274500,
+          49274919
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-54304-1111-00109.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "f8030884",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49274920,
+      "next_offset": 49275339,
+      "split": "calibration",
+      "output": "labels/calibration/G53-54304-1111-00109.xml",
+      "sha256": "0f4c01e51a8c1aff6de21d7e4d6e365b654f1dbc061b6016c0cc1bb5eee62e7b",
+      "ranges": [
+        [
+          49274920,
+          49275338
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-55210-1111-00102.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3b4e97d4",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49275339,
+      "next_offset": 49275758,
+      "split": "calibration",
+      "output": "labels/calibration/G53-55210-1111-00102.xml",
+      "sha256": "80d3dd01fa01f34508f1d43ee8fa16e6109a0ca6beff1429adda1a7c1779f903",
+      "ranges": [
+        [
+          49275339,
+          49275757
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-55305-1111-00110.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fb65f937",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 49275758,
+      "next_offset": 49276173,
+      "split": "calibration",
+      "output": "labels/calibration/G53-55305-1111-00110.xml",
+      "sha256": "72963b5b9cda39155c100244282d6ee88ce554481ef3a3f12e69d966a57b5052",
+      "ranges": [
+        [
+          49275758,
+          49276172
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-55400-1111-00118.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b13d17ee",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49276173,
+      "next_offset": 49276591,
+      "split": "calibration",
+      "output": "labels/calibration/G53-55400-1111-00118.xml",
+      "sha256": "013fbe92613406246f6536f5064f8993a22d1a65fbaacb1f98e8bf7c046eb45f",
+      "ranges": [
+        [
+          49276173,
+          49276590
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-56211-1111-00103.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "14148a45",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49276591,
+      "next_offset": 49277010,
+      "split": "calibration",
+      "output": "labels/calibration/G53-56211-1111-00103.xml",
+      "sha256": "eac590984b09cbe3d7c3de36f88c52c77b8021f4434854d11b8d7423c41b6055",
+      "ranges": [
+        [
+          49276591,
+          49277009
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-56306-1111-00111.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "158f1139",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49277010,
+      "next_offset": 49277426,
+      "split": "calibration",
+      "output": "labels/calibration/G53-56306-1111-00111.xml",
+      "sha256": "5a9d978bacdf0df4ffd38d8812e09b1b202dca3d4e6af2a3fba15cb5c44ba644",
+      "ranges": [
+        [
+          49277010,
+          49277425
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-56401-1111-00119.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1f7091e3",
+      "compressed_size": 293,
+      "size": 592,
+      "offset": 49277426,
+      "next_offset": 49277845,
+      "split": "calibration",
+      "output": "labels/calibration/G53-56401-1111-00119.xml",
+      "sha256": "f8118d3dada620934f9d0e7e354aa5c9588e41a77401655d7b949cf890bab6f1",
+      "ranges": [
+        [
+          49277426,
+          49277844
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-57212-1111-00104.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "52340a92",
+      "compressed_size": 292,
+      "size": 594,
+      "offset": 49277845,
+      "next_offset": 49278263,
+      "split": "calibration",
+      "output": "labels/calibration/G53-57212-1111-00104.xml",
+      "sha256": "b4142fb36999a293c043c1cedf4a1d7c2be65b9c8c666b001b36bf8c4a899f92",
+      "ranges": [
+        [
+          49277845,
+          49278262
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-57307-1111-00112.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4766274e",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49278263,
+      "next_offset": 49278679,
+      "split": "calibration",
+      "output": "labels/calibration/G53-57307-1111-00112.xml",
+      "sha256": "63acc4c23f87f28a884aec7086e858d00e1b5817d4ada03a0cb7bf15ea5cd8e5",
+      "ranges": [
+        [
+          49278263,
+          49278678
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-57402-1111-00120.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ce40652c",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 49278679,
+      "next_offset": 49279097,
+      "split": "calibration",
+      "output": "labels/calibration/G53-57402-1111-00120.xml",
+      "sha256": "0e4284b575ac96c207ac022161db0824e6d3ff0d5c221773bbc1b1d95ed301f4",
+      "ranges": [
+        [
+          49278679,
+          49279096
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-58308-1111-00113.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "bd14d16d",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49279097,
+      "next_offset": 49279513,
+      "split": "calibration",
+      "output": "labels/calibration/G53-58308-1111-00113.xml",
+      "sha256": "3bf5ad338c3425250274cb16700af99bd2a54a87023c82a8cba8a9ba3fdc97b5",
+      "ranges": [
+        [
+          49279097,
+          49279512
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-58403-1111-00121.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1626a2e4",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49279513,
+      "next_offset": 49279932,
+      "split": "calibration",
+      "output": "labels/calibration/G53-58403-1111-00121.xml",
+      "sha256": "a9328a7fe5fa4e513ce2bed077225db40d7c6f8eaf22091ce321b8d6b63c9f73",
+      "ranges": [
+        [
+          49279513,
+          49279931
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-59309-1111-00114.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3c6791eb",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49279932,
+      "next_offset": 49280350,
+      "split": "calibration",
+      "output": "labels/calibration/G53-59309-1111-00114.xml",
+      "sha256": "296b2dc97c47290e53cefe1cd49a354fe5ec86009f9166913d1e3f86ad080b04",
+      "ranges": [
+        [
+          49279932,
+          49280349
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-59404-1111-00122.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9e09830a",
+      "compressed_size": 291,
+      "size": 593,
+      "offset": 49280350,
+      "next_offset": 49280767,
+      "split": "calibration",
+      "output": "labels/calibration/G53-59404-1111-00122.xml",
+      "sha256": "dd1141f1bed7bdbe0b300eedc565f2cbf4bcb1251bf2e4f289221999e1398a23",
+      "ranges": [
+        [
+          49280350,
+          49280766
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-59500-1111-00131.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0c21a06d",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49280767,
+      "next_offset": 49281183,
+      "split": "calibration",
+      "output": "labels/calibration/G53-59500-1111-00131.xml",
+      "sha256": "24099832c7d0c900283c2ec37e2b86a6e074f66d79a44f55ed8432bad96a0010",
+      "ranges": [
+        [
+          49280767,
+          49281182
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-60310-1111-00115.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "af9fcb73",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49281183,
+      "next_offset": 49281602,
+      "split": "calibration",
+      "output": "labels/calibration/G53-60310-1111-00115.xml",
+      "sha256": "ecc798e080bcb4118d1a24069e6c1c3d105ef19ac8711f79253971a8841a36f1",
+      "ranges": [
+        [
+          49281183,
+          49281601
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-60405-1111-00123.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "707a2439",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49281602,
+      "next_offset": 49282021,
+      "split": "calibration",
+      "output": "labels/calibration/G53-60405-1111-00123.xml",
+      "sha256": "395aa62010defc8c190e2fb838b72ff5740a0bfc1a9bf50fc887156ade6aac01",
+      "ranges": [
+        [
+          49281602,
+          49282020
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-60501-1111-00132.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "aace8e5a",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49282021,
+      "next_offset": 49282437,
+      "split": "calibration",
+      "output": "labels/calibration/G53-60501-1111-00132.xml",
+      "sha256": "102d80b01378a781b781c3e1506f38277dc605addbdd58d73bff3c5d8ff7be2c",
+      "ranges": [
+        [
+          49282021,
+          49282436
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-61311-1111-00116.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3e0d1438",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49282437,
+      "next_offset": 49282856,
+      "split": "calibration",
+      "output": "labels/calibration/G53-61311-1111-00116.xml",
+      "sha256": "7961c54b3000e099dfe2c0d0f23705c2c93170625c451def6a10b761de4c9450",
+      "ranges": [
+        [
+          49282437,
+          49282855
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-61406-1111-00124.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "470b39d5",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49282856,
+      "next_offset": 49283275,
+      "split": "calibration",
+      "output": "labels/calibration/G53-61406-1111-00124.xml",
+      "sha256": "d42d777239670834a70eb7c420e9bd2e2282f41083e74c6b5aae97d96a8d28fd",
+      "ranges": [
+        [
+          49282856,
+          49283274
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-61502-1111-00133.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3673a9de",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49283275,
+      "next_offset": 49283691,
+      "split": "calibration",
+      "output": "labels/calibration/G53-61502-1111-00133.xml",
+      "sha256": "6207c3d686c217f44f5743d7c39bd8e09a3e917ea03d258c8cf72e67ebffb2ac",
+      "ranges": [
+        [
+          49283275,
+          49283690
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-62312-1111-00117.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "70f2719f",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49283691,
+      "next_offset": 49284110,
+      "split": "calibration",
+      "output": "labels/calibration/G53-62312-1111-00117.xml",
+      "sha256": "f33e1b8f4a20a0a8de0f9cf66f9deb274d1a1ce31b847f5d5f3a34255dde62af",
+      "ranges": [
+        [
+          49283691,
+          49284109
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-62407-1111-00125.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c63f5d59",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49284110,
+      "next_offset": 49284529,
+      "split": "calibration",
+      "output": "labels/calibration/G53-62407-1111-00125.xml",
+      "sha256": "00ebc85c02c6e8cd1e19707aaad1790332c86b70d27bbaa7ecb62d8a165f701c",
+      "ranges": [
+        [
+          49284110,
+          49284528
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-62503-1111-00134.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ac124da5",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49284529,
+      "next_offset": 49284947,
+      "split": "calibration",
+      "output": "labels/calibration/G53-62503-1111-00134.xml",
+      "sha256": "d0070ddb956c417f48f9bb63d15d037cdb60ccea571b12551cdd9cef8392ccf8",
+      "ranges": [
+        [
+          49284529,
+          49284946
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-63408-1111-00126.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fd2eeb77",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49284947,
+      "next_offset": 49285367,
+      "split": "calibration",
+      "output": "labels/calibration/G53-63408-1111-00126.xml",
+      "sha256": "54b3f2a2f03ce8f114dc4a5fb49bfdb45eae5e2cac971f33765be0f89f50fb90",
+      "ranges": [
+        [
+          49284947,
+          49285366
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-63504-1111-00135.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fc76a60e",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49285367,
+      "next_offset": 49285786,
+      "split": "calibration",
+      "output": "labels/calibration/G53-63504-1111-00135.xml",
+      "sha256": "a2f8a5c39e5a81ecd7437cbb32864d3c79c545bb22479cc0a1227aabaecaa863",
+      "ranges": [
+        [
+          49285367,
+          49285785
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-64409-1111-00127.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ec87d777",
+      "compressed_size": 295,
+      "size": 596,
+      "offset": 49285786,
+      "next_offset": 49286207,
+      "split": "calibration",
+      "output": "labels/calibration/G53-64409-1111-00127.xml",
+      "sha256": "a3d803d48601d866ece0a208a6521b1cbd195ebbd83e6f01b6c6bdea2e3aae35",
+      "ranges": [
+        [
+          49285786,
+          49286206
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-64505-1111-00136.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "00f92b41",
+      "compressed_size": 291,
+      "size": 593,
+      "offset": 49286207,
+      "next_offset": 49286624,
+      "split": "calibration",
+      "output": "labels/calibration/G53-64505-1111-00136.xml",
+      "sha256": "99020027d2aa2dd76303d1f867b4c6488696f66b1bed5eb36bfcf470a7c757ff",
+      "ranges": [
+        [
+          49286207,
+          49286623
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-64600-1111-00144.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7f3e12c6",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 49286624,
+      "next_offset": 49287042,
+      "split": "calibration",
+      "output": "labels/calibration/G53-64600-1111-00144.xml",
+      "sha256": "3c294e85957a648a87c91c7273ec038ce1e9386ce93c291f8222029e08873b13",
+      "ranges": [
+        [
+          49286624,
+          49287041
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-65410-1111-00128.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "de427fcb",
+      "compressed_size": 295,
+      "size": 597,
+      "offset": 49287042,
+      "next_offset": 49287463,
+      "split": "calibration",
+      "output": "labels/calibration/G53-65410-1111-00128.xml",
+      "sha256": "7d226b1851e113ad03cb81bbbb4e11de716becec4f4ad17c2c069fbbf9b52b05",
+      "ranges": [
+        [
+          49287042,
+          49287462
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-65506-1111-00137.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9505136d",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 49287463,
+      "next_offset": 49287879,
+      "split": "calibration",
+      "output": "labels/calibration/G53-65506-1111-00137.xml",
+      "sha256": "727d92424c6e439650110d28d06943c506d4d80d708339a149443eedf59ec159",
+      "ranges": [
+        [
+          49287463,
+          49287878
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-65601-1111-00145.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "30a80a34",
+      "compressed_size": 294,
+      "size": 594,
+      "offset": 49287879,
+      "next_offset": 49288299,
+      "split": "calibration",
+      "output": "labels/calibration/G53-65601-1111-00145.xml",
+      "sha256": "4134dd803b6b74a0cebb65ec3a19d01b0eb9a6fd08228be548a55a4490060c5b",
+      "ranges": [
+        [
+          49287879,
+          49288298
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-66411-1111-00129.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b18ef97b",
+      "compressed_size": 295,
+      "size": 594,
+      "offset": 49288299,
+      "next_offset": 49288720,
+      "split": "calibration",
+      "output": "labels/calibration/G53-66411-1111-00129.xml",
+      "sha256": "7e59e3545307daa6e8896670d71a729cf438f8e3ded0ade0101e520568cab5bd",
+      "ranges": [
+        [
+          49288299,
+          49288719
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-66507-1111-00138.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "51a0bf6a",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49288720,
+      "next_offset": 49289138,
+      "split": "calibration",
+      "output": "labels/calibration/G53-66507-1111-00138.xml",
+      "sha256": "539c8edd8df2edb673be6e32e827815586fb7ccbc7fd6be6506af81b7c280833",
+      "ranges": [
+        [
+          49288720,
+          49289137
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-66602-1111-00146.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "41c24840",
+      "compressed_size": 292,
+      "size": 593,
+      "offset": 49289138,
+      "next_offset": 49289556,
+      "split": "calibration",
+      "output": "labels/calibration/G53-66602-1111-00146.xml",
+      "sha256": "7d3771a7216a973ce2b365e2e2d2b05b44e6ee39f96ea08cdf1b756e606efdf4",
+      "ranges": [
+        [
+          49289138,
+          49289555
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-67412-1111-00130.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fd87f1d8",
+      "compressed_size": 294,
+      "size": 594,
+      "offset": 49289556,
+      "next_offset": 49289976,
+      "split": "calibration",
+      "output": "labels/calibration/G53-67412-1111-00130.xml",
+      "sha256": "f1394146c7881f9b8b0ec03c38f8474920b6bded210ec2c3d0619430920f3bba",
+      "ranges": [
+        [
+          49289556,
+          49289975
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-67508-1111-00139.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d8721c01",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49289976,
+      "next_offset": 49290395,
+      "split": "calibration",
+      "output": "labels/calibration/G53-67508-1111-00139.xml",
+      "sha256": "1e2382df2b3b4f80a1cc64c09bdb2e7ff5dcf6d48cb0430121c39850254f85b4",
+      "ranges": [
+        [
+          49289976,
+          49290394
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-67603-1111-00147.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9958edb5",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49290395,
+      "next_offset": 49290814,
+      "split": "calibration",
+      "output": "labels/calibration/G53-67603-1111-00147.xml",
+      "sha256": "4940e532d95f8df7b5333eafe8ee96793701f955263dc18efcbf4779ac8fe89b",
+      "ranges": [
+        [
+          49290395,
+          49290813
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-68509-1111-00140.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "924d4fed",
+      "compressed_size": 294,
+      "size": 593,
+      "offset": 49290814,
+      "next_offset": 49291234,
+      "split": "calibration",
+      "output": "labels/calibration/G53-68509-1111-00140.xml",
+      "sha256": "46f87c6eb018e0cca9eb2dc2e51f1f0a442fce1b6a77a77f9503740049624524",
+      "ranges": [
+        [
+          49290814,
+          49291233
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-68604-1111-00148.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fdc5f532",
+      "compressed_size": 293,
+      "size": 591,
+      "offset": 49291234,
+      "next_offset": 49291653,
+      "split": "calibration",
+      "output": "labels/calibration/G53-68604-1111-00148.xml",
+      "sha256": "87adcf2350f39e135c44866d5b872da7150e0c356840e50aec31cc6baf1647e6",
+      "ranges": [
+        [
+          49291234,
+          49291652
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-69510-1111-00141.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4ff93127",
+      "compressed_size": 294,
+      "size": 594,
+      "offset": 49291653,
+      "next_offset": 49292073,
+      "split": "calibration",
+      "output": "labels/calibration/G53-69510-1111-00141.xml",
+      "sha256": "530623a9888d714d66d78232999c9ffa017ff2d56f52cfdcc8e277109618880a",
+      "ranges": [
+        [
+          49291653,
+          49292072
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-69605-1111-00149.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4e7c992e",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 49292073,
+      "next_offset": 49292491,
+      "split": "calibration",
+      "output": "labels/calibration/G53-69605-1111-00149.xml",
+      "sha256": "381f906bbfdec9cbf951992e77e24de2e9bdf2c9068461fd6e7a4ee151ee2a96",
+      "ranges": [
+        [
+          49292073,
+          49292490
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-70511-1111-00142.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "45c101ec",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49292491,
+      "next_offset": 49292910,
+      "split": "calibration",
+      "output": "labels/calibration/G53-70511-1111-00142.xml",
+      "sha256": "e448a79c5f34375b793595cab42ce27444d12fa1791060c73e3ac6d675b6af0e",
+      "ranges": [
+        [
+          49292491,
+          49292909
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-70606-1111-00150.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "bf47f663",
+      "compressed_size": 290,
+      "size": 593,
+      "offset": 49292910,
+      "next_offset": 49293326,
+      "split": "calibration",
+      "output": "labels/calibration/G53-70606-1111-00150.xml",
+      "sha256": "179fad6016a082d127a77518ae6a73d0af7a958c67ca85dfdeb68bb84b36fb07",
+      "ranges": [
+        [
+          49292910,
+          49293325
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-71512-1111-00143.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e0381859",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 49293326,
+      "next_offset": 49293744,
+      "split": "calibration",
+      "output": "labels/calibration/G53-71512-1111-00143.xml",
+      "sha256": "a443a058b3d480128b6a164ee8a32d359844f32c4866d552db331bf417292d93",
+      "ranges": [
+        [
+          49293326,
+          49293743
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-71607-1111-00151.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "dc96ce85",
+      "compressed_size": 293,
+      "size": 593,
+      "offset": 49293744,
+      "next_offset": 49294163,
+      "split": "calibration",
+      "output": "labels/calibration/G53-71607-1111-00151.xml",
+      "sha256": "da1ae13b64642ad952e8032e0b16cb365be3f68a77f259fde754b2177a47e22d",
+      "ranges": [
+        [
+          49293744,
+          49294162
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-72608-1111-00152.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2b216d59",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 49294163,
+      "next_offset": 49294580,
+      "split": "calibration",
+      "output": "labels/calibration/G53-72608-1111-00152.xml",
+      "sha256": "7cf823060d3f49584d928a00b93a6bf18ed4cff8eb1a3e63d78c840804605c61",
+      "ranges": [
+        [
+          49294163,
+          49294579
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-73609-1111-00153.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1b7dd2bd",
+      "compressed_size": 294,
+      "size": 596,
+      "offset": 49294580,
+      "next_offset": 49295000,
+      "split": "calibration",
+      "output": "labels/calibration/G53-73609-1111-00153.xml",
+      "sha256": "a581a2e295f7dfb26445a1a2d24ae3ceaf2fbc5818214ab19386b25e89acd240",
+      "ranges": [
+        [
+          49294580,
+          49294999
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-74610-1111-00154.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fc5822f0",
+      "compressed_size": 295,
+      "size": 597,
+      "offset": 49295000,
+      "next_offset": 49295421,
+      "split": "calibration",
+      "output": "labels/calibration/G53-74610-1111-00154.xml",
+      "sha256": "15619d7bc65278a0d70d7859e7f7f1f2a11a8d93cf05b6c16466adbc9d5e79e4",
+      "ranges": [
+        [
+          49295000,
+          49295420
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-75611-1111-00155.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d16c06d5",
+      "compressed_size": 293,
+      "size": 594,
+      "offset": 49295421,
+      "next_offset": 49295840,
+      "split": "calibration",
+      "output": "labels/calibration/G53-75611-1111-00155.xml",
+      "sha256": "b26c7dc70d751d8f1d84559a7e6ec231cd13ff51a9ddd8c6a594b796eace75d6",
+      "ranges": [
+        [
+          49295421,
+          49295839
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/annotation/G53-76612-1111-00156.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1c04ebe9",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 49295840,
+      "next_offset": 49296258,
+      "split": "calibration",
+      "output": "labels/calibration/G53-76612-1111-00156.xml",
+      "sha256": "2a21027faa0af080301d6e0852506cc4c48e2f3a5f28d3c2390de0ee22dbf717",
+      "ranges": [
+        [
+          49295840,
+          49296257
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "daa5c584",
+      "compressed_size": 169864,
+      "size": 220544,
+      "offset": 49296355,
+      "next_offset": 49466340,
+      "split": "calibration",
+      "output": "di/calibration/G53-40100-1111-00079.wav",
+      "sha256": "a8fc5c21a0f72d1eb0ec72d5b7ef3c898ddd7c1bf7819ddf960c167f14aa3c2a",
+      "ranges": [
+        [
+          49296355,
+          49466339
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-41101-1111-00080.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "6edfb961",
+      "compressed_size": 158722,
+      "size": 220544,
+      "offset": 49466340,
+      "next_offset": 49625183,
+      "split": "calibration",
+      "output": "di/calibration/G53-41101-1111-00080.wav",
+      "sha256": "2b4d2abbbcff9576925128650eecb1db14d58095f44a3b8bd78dd71b4da89edb",
+      "ranges": [
+        [
+          49466340,
+          49625182
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b94195ca",
+      "compressed_size": 159716,
+      "size": 220544,
+      "offset": 49625183,
+      "next_offset": 49785020,
+      "split": "calibration",
+      "output": "di/calibration/G53-42102-1111-00081.wav",
+      "sha256": "eaa1834ed340a1acff53307f17fea2e7209016644414d2f4aefc6fa9eafee309",
+      "ranges": [
+        [
+          49625183,
+          49785019
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-43103-1111-00082.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ef10dbd9",
+      "compressed_size": 167891,
+      "size": 220544,
+      "offset": 49785020,
+      "next_offset": 49953032,
+      "split": "calibration",
+      "output": "di/calibration/G53-43103-1111-00082.wav",
+      "sha256": "495e587cfb37ff525a47d2efda3442d6d55efe8f6a2a1d62ece8f6e0d788bc42",
+      "ranges": [
+        [
+          49785020,
+          49953031
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "72169942",
+      "compressed_size": 162248,
+      "size": 220544,
+      "offset": 49953032,
+      "next_offset": 50115401,
+      "split": "calibration",
+      "output": "di/calibration/G53-44104-1111-00083.wav",
+      "sha256": "0f24f16b002a916585986c771477f3d29d19f8d1d1e51bc96320066a4b4ecc8a",
+      "ranges": [
+        [
+          49953032,
+          50115400
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45105-1111-00084.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "dae7072c",
+      "compressed_size": 166410,
+      "size": 220544,
+      "offset": 50115401,
+      "next_offset": 50281932,
+      "split": "calibration",
+      "output": "di/calibration/G53-45105-1111-00084.wav",
+      "sha256": "99e04b4bb13bd805e121c6d1dbc67f3009bf4a6b185415076a5bec91abbbee32",
+      "ranges": [
+        [
+          50115401,
+          50281931
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5cca8f85",
+      "compressed_size": 170235,
+      "size": 220544,
+      "offset": 50281932,
+      "next_offset": 50452288,
+      "split": "calibration",
+      "output": "di/calibration/G53-45200-1111-00092.wav",
+      "sha256": "7969df0088e4e4c282ec8caf41643b183a175d7a00fd679e7de0d233b511af84",
+      "ranges": [
+        [
+          50281932,
+          50452287
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b56ec6ac",
+      "compressed_size": 166505,
+      "size": 220544,
+      "offset": 50452288,
+      "next_offset": 50618914,
+      "split": "calibration",
+      "output": "di/calibration/G53-46106-1111-00085.wav",
+      "sha256": "fc97108b9055781d7ac4e4f54f622188e7872f3409434789fd70a3cea9951a61",
+      "ranges": [
+        [
+          50452288,
+          50618913
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46201-1111-00093.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "655df6d8",
+      "compressed_size": 166460,
+      "size": 220544,
+      "offset": 50618914,
+      "next_offset": 50785495,
+      "split": "calibration",
+      "output": "di/calibration/G53-46201-1111-00093.wav",
+      "sha256": "bb5a7f50292a7d2e4c33b978a382d1becf78ac8f1e8e81ded38697e470f1116d",
+      "ranges": [
+        [
+          50618914,
+          50785494
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47107-1111-00086.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4c463381",
+      "compressed_size": 167176,
+      "size": 220544,
+      "offset": 50785495,
+      "next_offset": 50952792,
+      "split": "calibration",
+      "output": "di/calibration/G53-47107-1111-00086.wav",
+      "sha256": "d8982ee15971d28aacc11267fddb0e2e8d6b7c2fadec6a46ce1bdd8d9ac4385c",
+      "ranges": [
+        [
+          50785495,
+          50952791
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "42517ea8",
+      "compressed_size": 164202,
+      "size": 220544,
+      "offset": 50952792,
+      "next_offset": 51117115,
+      "split": "calibration",
+      "output": "di/calibration/G53-47202-1111-00094.wav",
+      "sha256": "9452f909b8dcfe7cae92ae28a9b745af2957c600463386408269eb0ee206451f",
+      "ranges": [
+        [
+          50952792,
+          51117114
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7100756f",
+      "compressed_size": 169047,
+      "size": 220544,
+      "offset": 51117115,
+      "next_offset": 51286283,
+      "split": "calibration",
+      "output": "di/calibration/G53-48108-1111-00087.wav",
+      "sha256": "bf27770386f2282042e1eac1c6879ccbd96049a77e6214a2257f5043f101e4e1",
+      "ranges": [
+        [
+          51117115,
+          51286282
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48203-1111-00095.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "6e1808aa",
+      "compressed_size": 164062,
+      "size": 220544,
+      "offset": 51286283,
+      "next_offset": 51450466,
+      "split": "calibration",
+      "output": "di/calibration/G53-48203-1111-00095.wav",
+      "sha256": "f373ce070ea6a2ef514f9f84f52d28af347c5bba49e167c1028a013298a79ce2",
+      "ranges": [
+        [
+          51286283,
+          51450465
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49109-1111-00088.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "380da379",
+      "compressed_size": 169463,
+      "size": 220544,
+      "offset": 51450466,
+      "next_offset": 51620050,
+      "split": "calibration",
+      "output": "di/calibration/G53-49109-1111-00088.wav",
+      "sha256": "7049bf759d3f32d1e3b4f82b0e7499908568ac1dd3d8eaefc65670315a2a79d2",
+      "ranges": [
+        [
+          51450466,
+          51620049
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "68ba1ca6",
+      "compressed_size": 165323,
+      "size": 220544,
+      "offset": 51620050,
+      "next_offset": 51785494,
+      "split": "calibration",
+      "output": "di/calibration/G53-49204-1111-00096.wav",
+      "sha256": "faadf8a8d4e2285ce1a63d6b4f9814d00d00dcb88048de292b1bc473f6edaf6c",
+      "ranges": [
+        [
+          51620050,
+          51785493
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8399bd84",
+      "compressed_size": 160300,
+      "size": 220544,
+      "offset": 51785494,
+      "next_offset": 51945915,
+      "split": "calibration",
+      "output": "di/calibration/G53-50110-1111-00089.wav",
+      "sha256": "1388f4dd6197655eef92a2f456ee1b58ad3394d381b61c852437d3daa0c18bf9",
+      "ranges": [
+        [
+          51785494,
+          51945914
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50205-1111-00097.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a2f119d1",
+      "compressed_size": 166307,
+      "size": 220544,
+      "offset": 51945915,
+      "next_offset": 52112343,
+      "split": "calibration",
+      "output": "di/calibration/G53-50205-1111-00097.wav",
+      "sha256": "fa260325ff27ef0189b86b4cbb475e77369079a3f047ea930978726c3cb64c98",
+      "ranges": [
+        [
+          51945915,
+          52112342
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9c864a4e",
+      "compressed_size": 168219,
+      "size": 220544,
+      "offset": 52112343,
+      "next_offset": 52280683,
+      "split": "calibration",
+      "output": "di/calibration/G53-50300-1111-00105.wav",
+      "sha256": "34b77232d8ed7705f9f396c99bcdd7ae8a1ea2e15d8af251220ee94b3a481c53",
+      "ranges": [
+        [
+          52112343,
+          52280682
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51111-1111-00090.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1bab4003",
+      "compressed_size": 171677,
+      "size": 220544,
+      "offset": 52280683,
+      "next_offset": 52452481,
+      "split": "calibration",
+      "output": "di/calibration/G53-51111-1111-00090.wav",
+      "sha256": "fbbd3106981f0ddbf67e138308f0bf6ae7b41b238c3aa9fedd287e0c8a893ef4",
+      "ranges": [
+        [
+          52280683,
+          52452480
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7a211eef",
+      "compressed_size": 146872,
+      "size": 220544,
+      "offset": 52452481,
+      "next_offset": 52599474,
+      "split": "calibration",
+      "output": "di/calibration/G53-51206-1111-00098.wav",
+      "sha256": "1f8cf77393d0496f65c50e07d377efb2f64e3c0bedc656fdff871d82d2e54da2",
+      "ranges": [
+        [
+          52452481,
+          52599473
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51301-1111-00106.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "79eed84c",
+      "compressed_size": 158722,
+      "size": 220544,
+      "offset": 52599474,
+      "next_offset": 52758317,
+      "split": "calibration",
+      "output": "di/calibration/G53-51301-1111-00106.wav",
+      "sha256": "7094d1ea57d1b2db3cb17941d629d0936284183ae15715df3243eaa2ed4d24bd",
+      "ranges": [
+        [
+          52599474,
+          52758316
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5ff2654a",
+      "compressed_size": 171288,
+      "size": 220544,
+      "offset": 52758317,
+      "next_offset": 52929726,
+      "split": "calibration",
+      "output": "di/calibration/G53-52112-1111-00091.wav",
+      "sha256": "43f3958ada832ee649ec25a4b089d1d6c21de99a01a0b9b06d9e01cf6ec6648f",
+      "ranges": [
+        [
+          52758317,
+          52929725
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52207-1111-00099.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "934fff89",
+      "compressed_size": 161347,
+      "size": 220544,
+      "offset": 52929726,
+      "next_offset": 53091194,
+      "split": "calibration",
+      "output": "di/calibration/G53-52207-1111-00099.wav",
+      "sha256": "4b66bf147afdcfe86f35e668ead334a442fec0d304e3a8774c32bb9025f76b3b",
+      "ranges": [
+        [
+          52929726,
+          53091193
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "66fb2903",
+      "compressed_size": 167221,
+      "size": 220544,
+      "offset": 53091194,
+      "next_offset": 53258536,
+      "split": "calibration",
+      "output": "di/calibration/G53-52302-1111-00107.wav",
+      "sha256": "1f8749f32af8a2ea94fc7e3db27c98de34ca257beac045adc94d72bce200f52d",
+      "ranges": [
+        [
+          53091194,
+          53258535
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "728a1625",
+      "compressed_size": 169963,
+      "size": 220544,
+      "offset": 53258536,
+      "next_offset": 53428620,
+      "split": "calibration",
+      "output": "di/calibration/G53-53208-1111-00100.wav",
+      "sha256": "0115648afbf2749dcf1041432c77115b1bb120f1eadbc5bf5b71678225bfc5b8",
+      "ranges": [
+        [
+          53258536,
+          53428619
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53303-1111-00108.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "292afc8d",
+      "compressed_size": 163839,
+      "size": 220544,
+      "offset": 53428620,
+      "next_offset": 53592580,
+      "split": "calibration",
+      "output": "di/calibration/G53-53303-1111-00108.wav",
+      "sha256": "3de1b1acd1090458b810e5b2771c700086e7eb64224ce718548b79556f2fbafa",
+      "ranges": [
+        [
+          53428620,
+          53592579
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54209-1111-00101.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b46f5384",
+      "compressed_size": 172477,
+      "size": 220544,
+      "offset": 53592580,
+      "next_offset": 53765178,
+      "split": "calibration",
+      "output": "di/calibration/G53-54209-1111-00101.wav",
+      "sha256": "e9acdd4fb6337d12663fe0532778d3b0f58e3e4c051e03933de6f3519923eea2",
+      "ranges": [
+        [
+          53592580,
+          53765177
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4eed8ba3",
+      "compressed_size": 163630,
+      "size": 220544,
+      "offset": 53765178,
+      "next_offset": 53928929,
+      "split": "calibration",
+      "output": "di/calibration/G53-54304-1111-00109.wav",
+      "sha256": "0251e07c3f62c7a410c54dce41c6f847b22ed4ebc93613b4c309f224f9c3c687",
+      "ranges": [
+        [
+          53765178,
+          53928928
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b986cf0d",
+      "compressed_size": 175851,
+      "size": 220544,
+      "offset": 53928929,
+      "next_offset": 54104901,
+      "split": "calibration",
+      "output": "di/calibration/G53-55210-1111-00102.wav",
+      "sha256": "b9beeac88ae49082caec85057a2e2d12b09417fcb6615e47677b5b2c615002f9",
+      "ranges": [
+        [
+          53928929,
+          54104900
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55305-1111-00110.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "58cce88f",
+      "compressed_size": 164891,
+      "size": 220544,
+      "offset": 54104901,
+      "next_offset": 54269913,
+      "split": "calibration",
+      "output": "di/calibration/G53-55305-1111-00110.wav",
+      "sha256": "c9424b5c523412ed1d49c07c867cce5d7dc9f08f6a3b12fd2d0546a711d57240",
+      "ranges": [
+        [
+          54104901,
+          54269912
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e8b21576",
+      "compressed_size": 162105,
+      "size": 220544,
+      "offset": 54269913,
+      "next_offset": 54432139,
+      "split": "calibration",
+      "output": "di/calibration/G53-55400-1111-00118.wav",
+      "sha256": "2c731d913b6234e85291670d827d361a436fa353256ec1627dc0a06df4cd4475",
+      "ranges": [
+        [
+          54269913,
+          54432138
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56211-1111-00103.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "57636fb1",
+      "compressed_size": 175549,
+      "size": 220544,
+      "offset": 54432139,
+      "next_offset": 54607809,
+      "split": "calibration",
+      "output": "di/calibration/G53-56211-1111-00103.wav",
+      "sha256": "99119467ec7814635b0742588d24c5b9bf7edf01c114ae2a0092036e4532f8aa",
+      "ranges": [
+        [
+          54432139,
+          54607808
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3ec52d2c",
+      "compressed_size": 164850,
+      "size": 220544,
+      "offset": 54607809,
+      "next_offset": 54772780,
+      "split": "calibration",
+      "output": "di/calibration/G53-56306-1111-00111.wav",
+      "sha256": "fea4c37badb7bfae79cca68ba9d70a879897c37cd46d669f073f6698a1ae2690",
+      "ranges": [
+        [
+          54607809,
+          54772779
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56401-1111-00119.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "26d54b9c",
+      "compressed_size": 164290,
+      "size": 220544,
+      "offset": 54772780,
+      "next_offset": 54937191,
+      "split": "calibration",
+      "output": "di/calibration/G53-56401-1111-00119.wav",
+      "sha256": "45cd32c81384616f53d89f8266057a1385d5b1b234dc34800f0d7bd4adbf96bb",
+      "ranges": [
+        [
+          54772780,
+          54937190
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0909dfe5",
+      "compressed_size": 175063,
+      "size": 220544,
+      "offset": 54937191,
+      "next_offset": 55112375,
+      "split": "calibration",
+      "output": "di/calibration/G53-57212-1111-00104.wav",
+      "sha256": "4649155e763551329ec225d024d97ecb07abb01bded83a8722ac0ed43cdb3e9c",
+      "ranges": [
+        [
+          54937191,
+          55112374
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57307-1111-00112.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a17bfcb8",
+      "compressed_size": 171279,
+      "size": 220544,
+      "offset": 55112375,
+      "next_offset": 55283775,
+      "split": "calibration",
+      "output": "di/calibration/G53-57307-1111-00112.wav",
+      "sha256": "c43aa976898eec0e06e62c48e0a6aad0c12c51437fda2e03a882114271abd90b",
+      "ranges": [
+        [
+          55112375,
+          55283774
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3527700a",
+      "compressed_size": 165053,
+      "size": 220544,
+      "offset": 55283775,
+      "next_offset": 55448949,
+      "split": "calibration",
+      "output": "di/calibration/G53-57402-1111-00120.wav",
+      "sha256": "f2a61983a7f6995f8f6262d373d6a635d5c177667f1345e97dc7780118cfa892",
+      "ranges": [
+        [
+          55283775,
+          55448948
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "bf4f3448",
+      "compressed_size": 166816,
+      "size": 220544,
+      "offset": 55448949,
+      "next_offset": 55615886,
+      "split": "calibration",
+      "output": "di/calibration/G53-58308-1111-00113.wav",
+      "sha256": "d374158d922cd67cc314b0654381251fda7bc069dea2815ca837ae91fe9ada78",
+      "ranges": [
+        [
+          55448949,
+          55615885
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58403-1111-00121.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "69f7522f",
+      "compressed_size": 170592,
+      "size": 220544,
+      "offset": 55615886,
+      "next_offset": 55786599,
+      "split": "calibration",
+      "output": "di/calibration/G53-58403-1111-00121.wav",
+      "sha256": "4c7af623a262d3866430f2d579957bf9c5ca4d0fc4b7dbb3c523127c5807bc89",
+      "ranges": [
+        [
+          55615886,
+          55786598
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59309-1111-00114.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "15a0e83e",
+      "compressed_size": 171726,
+      "size": 220544,
+      "offset": 55786599,
+      "next_offset": 55958446,
+      "split": "calibration",
+      "output": "di/calibration/G53-59309-1111-00114.wav",
+      "sha256": "a48dafe0bcf043f1c0f58ad9d37e473fa3ddea167297af9d12f274dcd09100c2",
+      "ranges": [
+        [
+          55786599,
+          55958445
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "650cb103",
+      "compressed_size": 167846,
+      "size": 220544,
+      "offset": 55958446,
+      "next_offset": 56126413,
+      "split": "calibration",
+      "output": "di/calibration/G53-59404-1111-00122.wav",
+      "sha256": "f315a15dc65c65155bd2225a1064b223037cdc2fcf40743be458771b9d40689f",
+      "ranges": [
+        [
+          55958446,
+          56126412
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2ababa66",
+      "compressed_size": 161182,
+      "size": 220544,
+      "offset": 56126413,
+      "next_offset": 56287716,
+      "split": "calibration",
+      "output": "di/calibration/G53-59500-1111-00131.wav",
+      "sha256": "a3d80ce66b97a608263b1ba496999c70f83f2b283178da5f8ecd7cec87c4e117",
+      "ranges": [
+        [
+          56126413,
+          56287715
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "94a411b3",
+      "compressed_size": 172311,
+      "size": 220544,
+      "offset": 56287716,
+      "next_offset": 56460148,
+      "split": "calibration",
+      "output": "di/calibration/G53-60310-1111-00115.wav",
+      "sha256": "fc79b1f0fda3f271bd44836eefa8f7fe2cb712a03d87c6d5b7ace8ebf612f1db",
+      "ranges": [
+        [
+          56287716,
+          56460147
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60405-1111-00123.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b1cec1ee",
+      "compressed_size": 166308,
+      "size": 220544,
+      "offset": 56460148,
+      "next_offset": 56626577,
+      "split": "calibration",
+      "output": "di/calibration/G53-60405-1111-00123.wav",
+      "sha256": "ab5bce8fab6ed62e5a3d7f497bf9e531ab4d626438ce102c87e5273033b5a1a7",
+      "ranges": [
+        [
+          56460148,
+          56626576
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60501-1111-00132.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "020fd86c",
+      "compressed_size": 159734,
+      "size": 220544,
+      "offset": 56626577,
+      "next_offset": 56786432,
+      "split": "calibration",
+      "output": "di/calibration/G53-60501-1111-00132.wav",
+      "sha256": "e0d50badf512245467509fb8249210cf4cc7dfba9291d00eacb34559ac8fa3a7",
+      "ranges": [
+        [
+          56626577,
+          56786431
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61311-1111-00116.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8c1b6e69",
+      "compressed_size": 169466,
+      "size": 220544,
+      "offset": 56786432,
+      "next_offset": 56956019,
+      "split": "calibration",
+      "output": "di/calibration/G53-61311-1111-00116.wav",
+      "sha256": "2177e2876eac5d03bd4205a9d23b7366ac69b254be7deda93115faee9e4898d7",
+      "ranges": [
+        [
+          56786432,
+          56956018
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0e3843e4",
+      "compressed_size": 171486,
+      "size": 220544,
+      "offset": 56956019,
+      "next_offset": 57127626,
+      "split": "calibration",
+      "output": "di/calibration/G53-61406-1111-00124.wav",
+      "sha256": "16a14066a91028b49578e46280485ffecabc6271e74ac8ffa1f464a3a0c2bacb",
+      "ranges": [
+        [
+          56956019,
+          57127625
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0c46490d",
+      "compressed_size": 156384,
+      "size": 220544,
+      "offset": 57127626,
+      "next_offset": 57284131,
+      "split": "calibration",
+      "output": "di/calibration/G53-61502-1111-00133.wav",
+      "sha256": "93144d3257bd5aa3587b9cf9c39def676c40191060afbaf0ca08f3dc765b7e64",
+      "ranges": [
+        [
+          57127626,
+          57284130
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a03893e4",
+      "compressed_size": 166630,
+      "size": 220544,
+      "offset": 57284131,
+      "next_offset": 57450882,
+      "split": "calibration",
+      "output": "di/calibration/G53-62312-1111-00117.wav",
+      "sha256": "27d154eeef58620c81b132a601bbfe46a534fef90192aa9e6caa247aed9881e6",
+      "ranges": [
+        [
+          57284131,
+          57450881
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62407-1111-00125.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "137f215b",
+      "compressed_size": 167418,
+      "size": 220544,
+      "offset": 57450882,
+      "next_offset": 57618421,
+      "split": "calibration",
+      "output": "di/calibration/G53-62407-1111-00125.wav",
+      "sha256": "05e7560645db4054506b8c0062fbc47ae3b56d6ce26f8136fc3cbff3c7dccfae",
+      "ranges": [
+        [
+          57450882,
+          57618420
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62503-1111-00134.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "f8e67572",
+      "compressed_size": 157726,
+      "size": 220544,
+      "offset": 57618421,
+      "next_offset": 57776268,
+      "split": "calibration",
+      "output": "di/calibration/G53-62503-1111-00134.wav",
+      "sha256": "04920ab9017368600cc9f406ed80b38404dc9b2b97a7b0121d240172aa7ec390",
+      "ranges": [
+        [
+          57618421,
+          57776267
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "42bb7f42",
+      "compressed_size": 150459,
+      "size": 220544,
+      "offset": 57776268,
+      "next_offset": 57926848,
+      "split": "calibration",
+      "output": "di/calibration/G53-63408-1111-00126.wav",
+      "sha256": "e598bd27d8288e00601d3c76cb59704a7cda6f319e4a2410de9616297601afb4",
+      "ranges": [
+        [
+          57776268,
+          57926847
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8a6c2261",
+      "compressed_size": 159561,
+      "size": 220544,
+      "offset": 57926848,
+      "next_offset": 58086530,
+      "split": "calibration",
+      "output": "di/calibration/G53-63504-1111-00135.wav",
+      "sha256": "ad4d7a5a65f262b43d8d1ebacdf84a73f897cc63d10c0d5bbe01383edbb47bd2",
+      "ranges": [
+        [
+          57926848,
+          58086529
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64409-1111-00127.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "03d48f5d",
+      "compressed_size": 128341,
+      "size": 188468,
+      "offset": 58086530,
+      "next_offset": 58214992,
+      "split": "calibration",
+      "output": "di/calibration/G53-64409-1111-00127.wav",
+      "sha256": "73fce663b59f63ceaf6a6f33c12be8021d5b14bdb814eefa3c9b34de7d46567f",
+      "ranges": [
+        [
+          58086530,
+          58214991
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64505-1111-00136.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "465fca0c",
+      "compressed_size": 155928,
+      "size": 220544,
+      "offset": 58214992,
+      "next_offset": 58371041,
+      "split": "calibration",
+      "output": "di/calibration/G53-64505-1111-00136.wav",
+      "sha256": "b002d51df2cfb68e5a64ab7ccd4e6e58c6c1e5ce68368147fe25142fb8447cf5",
+      "ranges": [
+        [
+          58214992,
+          58371040
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b5c94df0",
+      "compressed_size": 148934,
+      "size": 220544,
+      "offset": 58371041,
+      "next_offset": 58520096,
+      "split": "calibration",
+      "output": "di/calibration/G53-64600-1111-00144.wav",
+      "sha256": "1036b51fc1f64b12174a24f72bf533e4f2e85473b4e183561bffa8fa0b3718c5",
+      "ranges": [
+        [
+          58371041,
+          58520095
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d9f1f96c",
+      "compressed_size": 137143,
+      "size": 200284,
+      "offset": 58520096,
+      "next_offset": 58657360,
+      "split": "calibration",
+      "output": "di/calibration/G53-65410-1111-00128.wav",
+      "sha256": "f4cdde4c428764db9996d8bdcf077715c628691d3f19a9db936611bf52753fbb",
+      "ranges": [
+        [
+          58520096,
+          58657359
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "83e4a893",
+      "compressed_size": 149993,
+      "size": 220544,
+      "offset": 58657360,
+      "next_offset": 58807474,
+      "split": "calibration",
+      "output": "di/calibration/G53-65506-1111-00137.wav",
+      "sha256": "467fefc39ee2a8ac81d30109160b85762e113637d131e2e632181d38fa9b6949",
+      "ranges": [
+        [
+          58657360,
+          58807473
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65601-1111-00145.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "54e7e0b2",
+      "compressed_size": 142106,
+      "size": 213688,
+      "offset": 58807474,
+      "next_offset": 58949701,
+      "split": "calibration",
+      "output": "di/calibration/G53-65601-1111-00145.wav",
+      "sha256": "11a430790050be45a51c1377e55e12692aece728d879cfbde1da01dca82d706c",
+      "ranges": [
+        [
+          58807474,
+          58949700
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66411-1111-00129.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3ef265a0",
+      "compressed_size": 166234,
+      "size": 220544,
+      "offset": 58949701,
+      "next_offset": 59116056,
+      "split": "calibration",
+      "output": "di/calibration/G53-66411-1111-00129.wav",
+      "sha256": "179cf90ed3c93f329f1bfeba086551764aea1b13d8acc13a128f3139fefbd251",
+      "ranges": [
+        [
+          58949701,
+          59116055
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66507-1111-00138.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "32fcfa78",
+      "compressed_size": 153235,
+      "size": 220544,
+      "offset": 59116056,
+      "next_offset": 59269412,
+      "split": "calibration",
+      "output": "di/calibration/G53-66507-1111-00138.wav",
+      "sha256": "8c9872f40fe1679846c5c7efd1b70a9166bf2edfd12b6584d5ed190691eb7c6d",
+      "ranges": [
+        [
+          59116056,
+          59269411
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c4d11654",
+      "compressed_size": 148075,
+      "size": 220544,
+      "offset": 59269412,
+      "next_offset": 59417608,
+      "split": "calibration",
+      "output": "di/calibration/G53-66602-1111-00146.wav",
+      "sha256": "23777cb2055ef1a5bc36a61b5704d224d9e89d9a2bf59ec559c337a70d9cb973",
+      "ranges": [
+        [
+          59269412,
+          59417607
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "152adb60",
+      "compressed_size": 171621,
+      "size": 220544,
+      "offset": 59417608,
+      "next_offset": 59589350,
+      "split": "calibration",
+      "output": "di/calibration/G53-67412-1111-00130.wav",
+      "sha256": "37770d2992d5a605b508864264b2bd23218b883709d16fac074dab4fea12140c",
+      "ranges": [
+        [
+          59417608,
+          59589349
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5765e4dc",
+      "compressed_size": 160814,
+      "size": 220544,
+      "offset": 59589350,
+      "next_offset": 59750285,
+      "split": "calibration",
+      "output": "di/calibration/G53-67508-1111-00139.wav",
+      "sha256": "ccdc5d873adfcd3053943e917bba3b4147a178ac9f6baadb2e7b75320093375d",
+      "ranges": [
+        [
+          59589350,
+          59750284
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67603-1111-00147.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fdd88fd2",
+      "compressed_size": 151333,
+      "size": 220544,
+      "offset": 59750285,
+      "next_offset": 59901739,
+      "split": "calibration",
+      "output": "di/calibration/G53-67603-1111-00147.wav",
+      "sha256": "d89ed99e451484ae991bc5278b7cc52fd87dd7fdc104e1ae9b56d11abb002714",
+      "ranges": [
+        [
+          59750285,
+          59901738
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68509-1111-00140.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a7565802",
+      "compressed_size": 153593,
+      "size": 220544,
+      "offset": 59901739,
+      "next_offset": 60055453,
+      "split": "calibration",
+      "output": "di/calibration/G53-68509-1111-00140.wav",
+      "sha256": "205f1dea702ccb5da7b48e4af5a61476aab54596a15b52e978b3765c8c4dc483",
+      "ranges": [
+        [
+          59901739,
+          60055452
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a291ced4",
+      "compressed_size": 152790,
+      "size": 220544,
+      "offset": 60055453,
+      "next_offset": 60208364,
+      "split": "calibration",
+      "output": "di/calibration/G53-68604-1111-00148.wav",
+      "sha256": "700784493690d42de5534f10888f1481b691be9b6ffc34ae0cae15b3d86212a0",
+      "ranges": [
+        [
+          60055453,
+          60208363
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "17a1fba3",
+      "compressed_size": 160142,
+      "size": 220544,
+      "offset": 60208364,
+      "next_offset": 60368627,
+      "split": "calibration",
+      "output": "di/calibration/G53-69510-1111-00141.wav",
+      "sha256": "9442dc083661cbf8c8f9f02e758070db4d3510bd87b14a58ec3a9035dc7372d1",
+      "ranges": [
+        [
+          60208364,
+          60368626
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69605-1111-00149.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ab48185c",
+      "compressed_size": 147928,
+      "size": 220544,
+      "offset": 60368627,
+      "next_offset": 60516676,
+      "split": "calibration",
+      "output": "di/calibration/G53-69605-1111-00149.wav",
+      "sha256": "5e39099c1b2ab01894e32cf42068edeb947eb122a8940f2495a92b3a9dc10583",
+      "ranges": [
+        [
+          60368627,
+          60516675
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70511-1111-00142.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "f1280c96",
+      "compressed_size": 161651,
+      "size": 220544,
+      "offset": 60516676,
+      "next_offset": 60678448,
+      "split": "calibration",
+      "output": "di/calibration/G53-70511-1111-00142.wav",
+      "sha256": "6f50dfce26a40423088f59aec8e09fc17ba28e2ff08222ff002d40d517339d81",
+      "ranges": [
+        [
+          60516676,
+          60678447
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "86e0443e",
+      "compressed_size": 153082,
+      "size": 220544,
+      "offset": 60678448,
+      "next_offset": 60831651,
+      "split": "calibration",
+      "output": "di/calibration/G53-70606-1111-00150.wav",
+      "sha256": "aba176cbe28083fc26b947f31ec0a5b82b4c3f86c41557636cabe39f2294ca26",
+      "ranges": [
+        [
+          60678448,
+          60831650
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "731db4c8",
+      "compressed_size": 157256,
+      "size": 220544,
+      "offset": 60831651,
+      "next_offset": 60989028,
+      "split": "calibration",
+      "output": "di/calibration/G53-71512-1111-00143.wav",
+      "sha256": "73ae8d867a623cbbcfa94352f1d80b5f4de9e542bd0769e3aefb280a7caa84dd",
+      "ranges": [
+        [
+          60831651,
+          60989027
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71607-1111-00151.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e8ff56a7",
+      "compressed_size": 149699,
+      "size": 220544,
+      "offset": 60989028,
+      "next_offset": 61138848,
+      "split": "calibration",
+      "output": "di/calibration/G53-71607-1111-00151.wav",
+      "sha256": "c5e7de7c316f923d79a6ac3dfef5330f66f24854d55aa5dbd5e132e05d0c7be5",
+      "ranges": [
+        [
+          60989028,
+          61138847
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "72214ece",
+      "compressed_size": 149187,
+      "size": 220544,
+      "offset": 61138848,
+      "next_offset": 61288156,
+      "split": "calibration",
+      "output": "di/calibration/G53-72608-1111-00152.wav",
+      "sha256": "59a84356d27f28aad8e130984c3994f1cb013b6612f1aa9d8121eba359d78338",
+      "ranges": [
+        [
+          61138848,
+          61288155
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-73609-1111-00153.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "eb1de480",
+      "compressed_size": 112812,
+      "size": 169494,
+      "offset": 61288156,
+      "next_offset": 61401089,
+      "split": "calibration",
+      "output": "di/calibration/G53-73609-1111-00153.wav",
+      "sha256": "149aeea80f94ba83085ee8f67f493408e15e339c9b3bbf545b76a307556d87a5",
+      "ranges": [
+        [
+          61288156,
+          61401088
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c77136b8",
+      "compressed_size": 137700,
+      "size": 208512,
+      "offset": 61401089,
+      "next_offset": 61538910,
+      "split": "calibration",
+      "output": "di/calibration/G53-74610-1111-00154.wav",
+      "sha256": "903026f20ae4225924c78c6c1f85295287c3ca35e4ae122f85bf86381c21e748",
+      "ranges": [
+        [
+          61401089,
+          61538909
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-75611-1111-00155.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c302e359",
+      "compressed_size": 151223,
+      "size": 220544,
+      "offset": 61538910,
+      "next_offset": 61690254,
+      "split": "calibration",
+      "output": "di/calibration/G53-75611-1111-00155.wav",
+      "sha256": "d50fe2ef161e97a8aee2b079f549e978aacbb380d131c8906406fc9851a1629d",
+      "ranges": [
+        [
+          61538910,
+          61690253
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2ad8bdc1",
+      "compressed_size": 151638,
+      "size": 220544,
+      "offset": 61690254,
+      "next_offset": 61842013,
+      "split": "calibration",
+      "output": "di/calibration/G53-76612-1111-00156.wav",
+      "sha256": "ff98809994206d31e099b159d37377511925d7dc149ecebb9755e02e6503e0cf",
+      "ranges": [
+        [
+          61690254,
+          61842012
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-40100-1111-00001.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "779d8745",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7678779,
+      "next_offset": 7679188,
+      "split": "heldout",
+      "output": "labels/heldout/G53-40100-1111-00001.xml",
+      "sha256": "449dacf69b2916489d2bdaf232000ca9687ae64d439fc0c8bb1273df2db79f04",
+      "ranges": [
+        [
+          7678779,
+          7679187
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-41101-1111-00002.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2574b132",
+      "compressed_size": 288,
+      "size": 591,
+      "offset": 7679188,
+      "next_offset": 7679596,
+      "split": "heldout",
+      "output": "labels/heldout/G53-41101-1111-00002.xml",
+      "sha256": "1db89e132303b1f912cf5fcc0415e8e118c4b4d203acc81da5c7c105b9c8e7b6",
+      "ranges": [
+        [
+          7679188,
+          7679595
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-42102-1111-00003.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "cb9e593c",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7679596,
+      "next_offset": 7680005,
+      "split": "heldout",
+      "output": "labels/heldout/G53-42102-1111-00003.xml",
+      "sha256": "2194630923c360d6683da506eadac11af3fa35634b51c5e03beb7d1a85b0ea73",
+      "ranges": [
+        [
+          7679596,
+          7680004
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-43103-1111-00004.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "80a6dddc",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7680005,
+      "next_offset": 7680415,
+      "split": "heldout",
+      "output": "labels/heldout/G53-43103-1111-00004.xml",
+      "sha256": "3b5f1e64972ffbd9556a1af43fb6356a9339ed1089a80415dee3100f74d2cc92",
+      "ranges": [
+        [
+          7680005,
+          7680414
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-44104-1111-00005.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d4eb3df6",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7680415,
+      "next_offset": 7680825,
+      "split": "heldout",
+      "output": "labels/heldout/G53-44104-1111-00005.xml",
+      "sha256": "72422bfe30791a50b5a0b74b6c02ee6d069c8b4ffb0c7788380f6118135b5e12",
+      "ranges": [
+        [
+          7680415,
+          7680824
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-45105-1111-00006.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "86020b81",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7680825,
+      "next_offset": 7681234,
+      "split": "heldout",
+      "output": "labels/heldout/G53-45105-1111-00006.xml",
+      "sha256": "d79512520b643fff4ebd4dcb00495f95b8ed0ecfe16c15275c221a06ffcfcd7f",
+      "ranges": [
+        [
+          7680825,
+          7681233
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-45200-1111-00014.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "44771271",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7681234,
+      "next_offset": 7681644,
+      "split": "heldout",
+      "output": "labels/heldout/G53-45200-1111-00014.xml",
+      "sha256": "055a6baefe5fcdd0dae116d701c6012b9160d8038656ade2065c343c2782354a",
+      "ranges": [
+        [
+          7681234,
+          7681643
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-46106-1111-00007.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "68e8e38f",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7681644,
+      "next_offset": 7682054,
+      "split": "heldout",
+      "output": "labels/heldout/G53-46106-1111-00007.xml",
+      "sha256": "5b5ac71f993b838629cabbac3da727d80c753946a442cce9a988e8a749f7cdc3",
+      "ranges": [
+        [
+          7681644,
+          7682053
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-46201-1111-00015.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8599b1e7",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7682054,
+      "next_offset": 7682465,
+      "split": "heldout",
+      "output": "labels/heldout/G53-46201-1111-00015.xml",
+      "sha256": "65bc14e208f930792461c5b3c1076f3ce2ff67b63052158cded8af6ad9bd6955",
+      "ranges": [
+        [
+          7682054,
+          7682464
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-47107-1111-00008.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "10730241",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7682465,
+      "next_offset": 7682875,
+      "split": "heldout",
+      "output": "labels/heldout/G53-47107-1111-00008.xml",
+      "sha256": "08fc083e16fe42c1ff0add83da1b41f011dae85307eccc7a1ef0c8100b9d1034",
+      "ranges": [
+        [
+          7682465,
+          7682874
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-47202-1111-00016.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "f874cc08",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7682875,
+      "next_offset": 7683284,
+      "split": "heldout",
+      "output": "labels/heldout/G53-47202-1111-00016.xml",
+      "sha256": "abc114902ae7e248aba800ab70313c5f12ad58499606f34d76a209436adf07f3",
+      "ranges": [
+        [
+          7682875,
+          7683283
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-48108-1111-00009.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ea01f462",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7683284,
+      "next_offset": 7683695,
+      "split": "heldout",
+      "output": "labels/heldout/G53-48108-1111-00009.xml",
+      "sha256": "49e97697be60cc00660fcd3020de49217cd0b50937f10de55522a1e6c0b8b105",
+      "ranges": [
+        [
+          7683284,
+          7683694
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-48203-1111-00017.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "cf1bc8e3",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7683695,
+      "next_offset": 7684106,
+      "split": "heldout",
+      "output": "labels/heldout/G53-48203-1111-00017.xml",
+      "sha256": "5368ce9d19a4d39f2051738803f704fd5918f9e1f0926b25251724f190c500fd",
+      "ranges": [
+        [
+          7683695,
+          7684105
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-49109-1111-00010.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "075b0915",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7684106,
+      "next_offset": 7684517,
+      "split": "heldout",
+      "output": "labels/heldout/G53-49109-1111-00010.xml",
+      "sha256": "a2f04f379869b5628ffcfbb02246059664350e7bbe1a6269adfdd4700ef5eb08",
+      "ranges": [
+        [
+          7684106,
+          7684516
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-49204-1111-00018.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c68cf585",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7684517,
+      "next_offset": 7684928,
+      "split": "heldout",
+      "output": "labels/heldout/G53-49204-1111-00018.xml",
+      "sha256": "b67f186693d6ca059d68c5efa385a649a3a09049859933eb7717bd64f4bea1f2",
+      "ranges": [
+        [
+          7684517,
+          7684927
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-50110-1111-00011.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "12e0d06b",
+      "compressed_size": 290,
+      "size": 592,
+      "offset": 7684928,
+      "next_offset": 7685338,
+      "split": "heldout",
+      "output": "labels/heldout/G53-50110-1111-00011.xml",
+      "sha256": "c291d8facd9287887ed1a3c7520596f3c6912d8b09daa7ae45e5179ff4ade70b",
+      "ranges": [
+        [
+          7684928,
+          7685337
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-50205-1111-00019.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8c2cbc28",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7685338,
+      "next_offset": 7685747,
+      "split": "heldout",
+      "output": "labels/heldout/G53-50205-1111-00019.xml",
+      "sha256": "d2a83c915f88721bba17337c4773d8581f884b7f0b3515c4ff769e07b61603f7",
+      "ranges": [
+        [
+          7685338,
+          7685746
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-50300-1111-00027.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "bc43eba3",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7685747,
+      "next_offset": 7686159,
+      "split": "heldout",
+      "output": "labels/heldout/G53-50300-1111-00027.xml",
+      "sha256": "1bd58dd9d65c13bbcad04a4c6edc96413375707146ed9c508133c9da0f19f603",
+      "ranges": [
+        [
+          7685747,
+          7686158
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-51111-1111-00012.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "02256a29",
+      "compressed_size": 289,
+      "size": 592,
+      "offset": 7686159,
+      "next_offset": 7686568,
+      "split": "heldout",
+      "output": "labels/heldout/G53-51111-1111-00012.xml",
+      "sha256": "189fcda83d8c3c12eaad91c0f56d4a77b3eb477165153e5b4b254c47eab33318",
+      "ranges": [
+        [
+          7686159,
+          7686567
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-51206-1111-00020.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "94f3e24d",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7686568,
+      "next_offset": 7686978,
+      "split": "heldout",
+      "output": "labels/heldout/G53-51206-1111-00020.xml",
+      "sha256": "f7539c1de64032b381ab9b29770e8d7b903a87915db3a927df4c8bdf780b1ea0",
+      "ranges": [
+        [
+          7686568,
+          7686977
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-51301-1111-00028.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c37b7d19",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7686978,
+      "next_offset": 7687388,
+      "split": "heldout",
+      "output": "labels/heldout/G53-51301-1111-00028.xml",
+      "sha256": "36bcd42734df54b90e5c1a8f4853bf2e0000266a32ece75ed44e94ba78569666",
+      "ranges": [
+        [
+          7686978,
+          7687387
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-52112-1111-00013.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5d1973ba",
+      "compressed_size": 290,
+      "size": 592,
+      "offset": 7687388,
+      "next_offset": 7687798,
+      "split": "heldout",
+      "output": "labels/heldout/G53-52112-1111-00013.xml",
+      "sha256": "06e1cb6cbb345bf08c4ceba52eaa74782b9a21967f6d6fb40095f6ea73ba4843",
+      "ranges": [
+        [
+          7687388,
+          7687797
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-52207-1111-00021.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "551d41db",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7687798,
+      "next_offset": 7688207,
+      "split": "heldout",
+      "output": "labels/heldout/G53-52207-1111-00021.xml",
+      "sha256": "7163174f9c4f42a56c22fc277ecef896f0391882b7dc982041f90c61233b9ca6",
+      "ranges": [
+        [
+          7687798,
+          7688206
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-52302-1111-00029.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2d919517",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7688207,
+      "next_offset": 7688617,
+      "split": "heldout",
+      "output": "labels/heldout/G53-52302-1111-00029.xml",
+      "sha256": "c0ffac46d7afa64be2f655e4aaff15d422fe6f14a0d1f9054ad45661cd32d668",
+      "ranges": [
+        [
+          7688207,
+          7688616
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-53208-1111-00022.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "cae98564",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7688617,
+      "next_offset": 7689027,
+      "split": "heldout",
+      "output": "labels/heldout/G53-53208-1111-00022.xml",
+      "sha256": "29b765455df8b55d5053a098b20038977b815c30b758bf7df74e7911ef5154c4",
+      "ranges": [
+        [
+          7688617,
+          7689026
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-53303-1111-00030.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c0cb6860",
+      "compressed_size": 288,
+      "size": 591,
+      "offset": 7689027,
+      "next_offset": 7689435,
+      "split": "heldout",
+      "output": "labels/heldout/G53-53303-1111-00030.xml",
+      "sha256": "9e0ad392870bb670204464eecaf9dbaa091e9267000586a5e613806434686f72",
+      "ranges": [
+        [
+          7689027,
+          7689434
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-54209-1111-00023.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "efa8b9e6",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7689435,
+      "next_offset": 7689846,
+      "split": "heldout",
+      "output": "labels/heldout/G53-54209-1111-00023.xml",
+      "sha256": "98d1d96140e330956b22794b2f1b3522b53871db8ba06142bb692c4c4d41d783",
+      "ranges": [
+        [
+          7689435,
+          7689845
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-54304-1111-00031.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9486884a",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7689846,
+      "next_offset": 7690257,
+      "split": "heldout",
+      "output": "labels/heldout/G53-54304-1111-00031.xml",
+      "sha256": "e227de4d6cacc3871cb6d347250ada2c5d54e3a2bc29ecb1ef7310e85d225a88",
+      "ranges": [
+        [
+          7689846,
+          7690256
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-55210-1111-00024.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ee74f5fc",
+      "compressed_size": 291,
+      "size": 592,
+      "offset": 7690257,
+      "next_offset": 7690668,
+      "split": "heldout",
+      "output": "labels/heldout/G53-55210-1111-00024.xml",
+      "sha256": "09867d1e21caf9c033486e13e3f383b93625fdddffbd78e55fad508a5c4e6b14",
+      "ranges": [
+        [
+          7690257,
+          7690667
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-55305-1111-00032.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c66fbe3d",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7690668,
+      "next_offset": 7691077,
+      "split": "heldout",
+      "output": "labels/heldout/G53-55305-1111-00032.xml",
+      "sha256": "7cdeff38cd815a05cc033afd5da16a99a25f192ed9daac280fca508592150460",
+      "ranges": [
+        [
+          7690668,
+          7691076
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-55400-1111-00040.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ba7d946a",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7691077,
+      "next_offset": 7691487,
+      "split": "heldout",
+      "output": "labels/heldout/G53-55400-1111-00040.xml",
+      "sha256": "6b0ddc5e4eb5e0b3e850b1d56d7c8e6246ec5b0ffdc19e2d71468964308919fd",
+      "ranges": [
+        [
+          7691077,
+          7691486
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-56211-1111-00025.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "292f9ac5",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7691487,
+      "next_offset": 7691899,
+      "split": "heldout",
+      "output": "labels/heldout/G53-56211-1111-00025.xml",
+      "sha256": "88022800dd5d820a6c3b33e862c317c88774f66cb6f7c7c7e3c59b020cca45e7",
+      "ranges": [
+        [
+          7691487,
+          7691898
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-56306-1111-00033.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "28855633",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7691899,
+      "next_offset": 7692310,
+      "split": "heldout",
+      "output": "labels/heldout/G53-56306-1111-00033.xml",
+      "sha256": "efd6c15b65e95051822c2c6bbdd4dfaa3d1f7f46783e4f8f844af7868e669907",
+      "ranges": [
+        [
+          7691899,
+          7692309
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-56401-1111-00041.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7b9337fc",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7692310,
+      "next_offset": 7692721,
+      "split": "heldout",
+      "output": "labels/heldout/G53-56401-1111-00041.xml",
+      "sha256": "dd08c6d07b7a4b39f92ee0172f5acb7bdcb64c9bc92074c9f89055de7c6faff3",
+      "ranges": [
+        [
+          7692310,
+          7692720
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-57212-1111-00026.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a18d562d",
+      "compressed_size": 291,
+      "size": 592,
+      "offset": 7692721,
+      "next_offset": 7693132,
+      "split": "heldout",
+      "output": "labels/heldout/G53-57212-1111-00026.xml",
+      "sha256": "a2004986d3cc1b27e8b8814be3ddd19e959fc41734a809bc66391ee4e22957bd",
+      "ranges": [
+        [
+          7692721,
+          7693131
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-57307-1111-00034.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "63bdd2d3",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7693132,
+      "next_offset": 7693543,
+      "split": "heldout",
+      "output": "labels/heldout/G53-57307-1111-00034.xml",
+      "sha256": "297e7e7ff42227bf54d131d63cfdda8cd368a392f54077138ec4fe70660de2af",
+      "ranges": [
+        [
+          7693132,
+          7693542
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-57402-1111-00042.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "067e4a13",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7693543,
+      "next_offset": 7693954,
+      "split": "heldout",
+      "output": "labels/heldout/G53-57402-1111-00042.xml",
+      "sha256": "d93a02a088ffd28f54dfb01a1fa0491fa1974ba624be195ae6263bec6e58ae38",
+      "ranges": [
+        [
+          7693543,
+          7693953
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-58308-1111-00035.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "99cf24f0",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7693954,
+      "next_offset": 7694364,
+      "split": "heldout",
+      "output": "labels/heldout/G53-58308-1111-00035.xml",
+      "sha256": "3dacd248021928a2fab99be625a395ecdb4589e364576d06f9e42714b3a15d33",
+      "ranges": [
+        [
+          7693954,
+          7694363
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-58403-1111-00043.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "31114ef8",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7694364,
+      "next_offset": 7694775,
+      "split": "heldout",
+      "output": "labels/heldout/G53-58403-1111-00043.xml",
+      "sha256": "25465ea988dacf5c159087e9149f55b3bf4dbcfe544bc695acbf5f2e94fd1d52",
+      "ranges": [
+        [
+          7694364,
+          7694774
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-59309-1111-00036.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "cb261287",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7694775,
+      "next_offset": 7695186,
+      "split": "heldout",
+      "output": "labels/heldout/G53-59309-1111-00036.xml",
+      "sha256": "817120aa0cb875d277225f8b6acf9c2508b58542492e2ff4dee66d4e25d075c8",
+      "ranges": [
+        [
+          7694775,
+          7695185
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-59404-1111-00044.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0b2516b0",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7695186,
+      "next_offset": 7695596,
+      "split": "heldout",
+      "output": "labels/heldout/G53-59404-1111-00044.xml",
+      "sha256": "e1fb883016560cf5e74736c483fa40fb60a37872f3ef3c5b35606a2d7f6debb7",
+      "ranges": [
+        [
+          7695186,
+          7695595
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-59500-1111-00053.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "16ffe27b",
+      "compressed_size": 291,
+      "size": 592,
+      "offset": 7695596,
+      "next_offset": 7696007,
+      "split": "heldout",
+      "output": "labels/heldout/G53-59500-1111-00053.xml",
+      "sha256": "5d2d722cd732ae61619f512105de877df3f3fa539ee9a825fd93ca1b4904b0a7",
+      "ranges": [
+        [
+          7695596,
+          7696006
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-60310-1111-00037.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "59a21d11",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7696007,
+      "next_offset": 7696419,
+      "split": "heldout",
+      "output": "labels/heldout/G53-60310-1111-00037.xml",
+      "sha256": "feae531482dc02f629859b68bb77c8fb748409a3f36c0b849c9076426c733f05",
+      "ranges": [
+        [
+          7696007,
+          7696418
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-60405-1111-00045.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4c9a62ec",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7696419,
+      "next_offset": 7696830,
+      "split": "heldout",
+      "output": "labels/heldout/G53-60405-1111-00045.xml",
+      "sha256": "2bb70f13c51d6f154f36de7d2cee0117234986613601f6a34921c82a7ce86cb4",
+      "ranges": [
+        [
+          7696419,
+          7696829
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-60501-1111-00054.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e067ac92",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7696830,
+      "next_offset": 7697241,
+      "split": "heldout",
+      "output": "labels/heldout/G53-60501-1111-00054.xml",
+      "sha256": "38630dc3b92bb5e13db90bf6867f629aeb78a3bf5c1974cab22d7bf01b8c5efa",
+      "ranges": [
+        [
+          7696830,
+          7697240
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-61311-1111-00038.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fbf0deac",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7697241,
+      "next_offset": 7697653,
+      "split": "heldout",
+      "output": "labels/heldout/G53-61311-1111-00038.xml",
+      "sha256": "b01735daa9c38293ec16ffde626fa54fa026a66a0baf71eeb47fda5a286e99ff",
+      "ranges": [
+        [
+          7697241,
+          7697652
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-61406-1111-00046.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "31771f03",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 7697653,
+      "next_offset": 7698065,
+      "split": "heldout",
+      "output": "labels/heldout/G53-61406-1111-00046.xml",
+      "sha256": "93cb2b9604dc87326e3aaf930d6a94a5d0a2326b595b307bf8710c7d15a41150",
+      "ranges": [
+        [
+          7697653,
+          7698064
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-61502-1111-00055.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7cda8b16",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7698065,
+      "next_offset": 7698475,
+      "split": "heldout",
+      "output": "labels/heldout/G53-61502-1111-00055.xml",
+      "sha256": "fa4c7963b7916e6a34e8149b3129f355240aeef401bd560605f44ba7e3b44a7e",
+      "ranges": [
+        [
+          7698065,
+          7698474
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-62312-1111-00039.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a4ccc73f",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7698475,
+      "next_offset": 7698887,
+      "split": "heldout",
+      "output": "labels/heldout/G53-62312-1111-00039.xml",
+      "sha256": "7b4f73a4dd05d255b9a41cdcd204e9af49c05134e780818b31d1ac7e1799c96d",
+      "ranges": [
+        [
+          7698475,
+          7698886
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-62407-1111-00047.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "f099bc95",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7698887,
+      "next_offset": 7699298,
+      "split": "heldout",
+      "output": "labels/heldout/G53-62407-1111-00047.xml",
+      "sha256": "1eecedf07c377bfa82d175cefa6a8c892509b157777d086f260c2e0dab59793d",
+      "ranges": [
+        [
+          7698887,
+          7699297
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-62503-1111-00056.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5c6472eb",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7699298,
+      "next_offset": 7699708,
+      "split": "heldout",
+      "output": "labels/heldout/G53-62503-1111-00056.xml",
+      "sha256": "4342197e9fce48ea187e5a69a11a5cdccd0c83741c397632f8ec5598aa443153",
+      "ranges": [
+        [
+          7699298,
+          7699707
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-63408-1111-00048.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "451faf93",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7699708,
+      "next_offset": 7700119,
+      "split": "heldout",
+      "output": "labels/heldout/G53-63408-1111-00048.xml",
+      "sha256": "801d0fc622927076a23583c3b5e42974152863f774feca1c2a1fdc0f905a8ec4",
+      "ranges": [
+        [
+          7699708,
+          7700118
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-63504-1111-00057.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9ed1c25f",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7700119,
+      "next_offset": 7700530,
+      "split": "heldout",
+      "output": "labels/heldout/G53-63504-1111-00057.xml",
+      "sha256": "2c2d0f5dea5a3d3e56628fbdcfce12d4937094dfbd569eab2637c57078aead64",
+      "ranges": [
+        [
+          7700119,
+          7700529
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-64409-1111-00049.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "605e9311",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 7700530,
+      "next_offset": 7700942,
+      "split": "heldout",
+      "output": "labels/heldout/G53-64409-1111-00049.xml",
+      "sha256": "fcad978ae9d3542a73a77e0787ad6b7be6055f1b0e3b0302e5ce26acabbd4329",
+      "ranges": [
+        [
+          7700530,
+          7700941
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-64505-1111-00058.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "70b2730f",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7700942,
+      "next_offset": 7701351,
+      "split": "heldout",
+      "output": "labels/heldout/G53-64505-1111-00058.xml",
+      "sha256": "ebf4dad386485c8d4fae07427a4fae9185f66606e28e821513bd6529d1c25258",
+      "ranges": [
+        [
+          7700942,
+          7701350
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-64600-1111-00066.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "423455cc",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 7701351,
+      "next_offset": 7701763,
+      "split": "heldout",
+      "output": "labels/heldout/G53-64600-1111-00066.xml",
+      "sha256": "4d66fa581830114d22a264f07520ed0520f3a34b69888585eb5168cdac82ad54",
+      "ranges": [
+        [
+          7701351,
+          7701762
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-65410-1111-00050.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d9d7a674",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7701763,
+      "next_offset": 7702175,
+      "split": "heldout",
+      "output": "labels/heldout/G53-65410-1111-00050.xml",
+      "sha256": "0d4a07db7872fc040c27bd4e9ccecf1986e460609fcdaa69a26f9566f4915c1a",
+      "ranges": [
+        [
+          7701763,
+          7702174
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-65506-1111-00059.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ec0f548b",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7702175,
+      "next_offset": 7702586,
+      "split": "heldout",
+      "output": "labels/heldout/G53-65506-1111-00059.xml",
+      "sha256": "8710f8f3e5ebb382611e8302593eab3ee7f54441c7a11b6428657420f31966ce",
+      "ranges": [
+        [
+          7702175,
+          7702585
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-65601-1111-00067.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "f18d39d0",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7702586,
+      "next_offset": 7702997,
+      "split": "heldout",
+      "output": "labels/heldout/G53-65601-1111-00067.xml",
+      "sha256": "67e192130c7601c900f9b15014f0efd7959bf07b3eab01a9ab31f850817674c9",
+      "ranges": [
+        [
+          7702586,
+          7702996
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-66411-1111-00051.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1e8cc94d",
+      "compressed_size": 293,
+      "size": 592,
+      "offset": 7702997,
+      "next_offset": 7703410,
+      "split": "heldout",
+      "output": "labels/heldout/G53-66411-1111-00051.xml",
+      "sha256": "6866b5fd2418988f17dcf5fdcb39c0c51dd65533d6345f88c3940019c5eb8b9e",
+      "ranges": [
+        [
+          7702997,
+          7703409
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-66507-1111-00060.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a9838efc",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7703410,
+      "next_offset": 7703821,
+      "split": "heldout",
+      "output": "labels/heldout/G53-66507-1111-00060.xml",
+      "sha256": "1641daaf5938c1e6543a89390fd0917421117dc17233649d5d53ff41d93f3795",
+      "ranges": [
+        [
+          7703410,
+          7703820
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-66602-1111-00068.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d4455c0c",
+      "compressed_size": 290,
+      "size": 591,
+      "offset": 7703821,
+      "next_offset": 7704231,
+      "split": "heldout",
+      "output": "labels/heldout/G53-66602-1111-00068.xml",
+      "sha256": "1fd853196977c3dcb82ccfeda762239a94bb14a4d83ff6a43b3ca4abb51897ab",
+      "ranges": [
+        [
+          7703821,
+          7704230
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-67412-1111-00052.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "962e05a5",
+      "compressed_size": 293,
+      "size": 592,
+      "offset": 7704231,
+      "next_offset": 7704644,
+      "split": "heldout",
+      "output": "labels/heldout/G53-67412-1111-00052.xml",
+      "sha256": "a0d81e5f8dcb99fa3480fdb16e435c5708bc19b83bed4667cd24d68706086805",
+      "ranges": [
+        [
+          7704231,
+          7704643
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-67508-1111-00061.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d7271028",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7704644,
+      "next_offset": 7705055,
+      "split": "heldout",
+      "output": "labels/heldout/G53-67508-1111-00061.xml",
+      "sha256": "a51fe205232c470baa16f86764c3726cffb946e3bde4d9c08cd5ea2dd3b9a8b3",
+      "ranges": [
+        [
+          7704644,
+          7705054
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-67603-1111-00069.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "67fc3010",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7705055,
+      "next_offset": 7705466,
+      "split": "heldout",
+      "output": "labels/heldout/G53-67603-1111-00069.xml",
+      "sha256": "a174268aa7ade540cf1ceb4f9e33c42f50d315707fd5bc16082a8c231e7fc2ed",
+      "ranges": [
+        [
+          7705055,
+          7705465
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-68509-1111-00062.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "01184ea8",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 7705466,
+      "next_offset": 7705878,
+      "split": "heldout",
+      "output": "labels/heldout/G53-68509-1111-00062.xml",
+      "sha256": "768b72b962a91616ce93f297a26099d72be2c6bb598d96684cf24a3761a50553",
+      "ranges": [
+        [
+          7705466,
+          7705877
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-68604-1111-00070.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7f7c7938",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 7705878,
+      "next_offset": 7706290,
+      "split": "heldout",
+      "output": "labels/heldout/G53-68604-1111-00070.xml",
+      "sha256": "e4d4512e732fa2453a22c7c2a3b19037dbfdd52adf68cf396645bdb75f96b754",
+      "ranges": [
+        [
+          7705878,
+          7706289
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-69510-1111-00063.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fea9ff1f",
+      "compressed_size": 293,
+      "size": 592,
+      "offset": 7706290,
+      "next_offset": 7706703,
+      "split": "heldout",
+      "output": "labels/heldout/G53-69510-1111-00063.xml",
+      "sha256": "a02169a9cbbfad7a7491933ed59b4c8615c0624f322c135e055437cd0bf8b5e2",
+      "ranges": [
+        [
+          7706290,
+          7706702
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-69605-1111-00071.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ccc51524",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7706703,
+      "next_offset": 7707114,
+      "split": "heldout",
+      "output": "labels/heldout/G53-69605-1111-00071.xml",
+      "sha256": "962e790894aec126d765c17f0383236a91552fe21172354b494c192517061cce",
+      "ranges": [
+        [
+          7706703,
+          7707113
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-70511-1111-00064.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3c810837",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7707114,
+      "next_offset": 7707526,
+      "split": "heldout",
+      "output": "labels/heldout/G53-70511-1111-00064.xml",
+      "sha256": "4bc9911c1195f760909035d82717bb5eb1446d71eecbb1deded59318a20bb453",
+      "ranges": [
+        [
+          7707114,
+          7707525
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-70606-1111-00072.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "48314d7a",
+      "compressed_size": 289,
+      "size": 591,
+      "offset": 7707526,
+      "next_offset": 7707935,
+      "split": "heldout",
+      "output": "labels/heldout/G53-70606-1111-00072.xml",
+      "sha256": "768ab603d92f869266c07d21416e5c4903a25e6d1e086d2a4a76065d3d2fe63c",
+      "ranges": [
+        [
+          7707526,
+          7707934
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-71512-1111-00065.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "6ea22c55",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7707935,
+      "next_offset": 7708347,
+      "split": "heldout",
+      "output": "labels/heldout/G53-71512-1111-00065.xml",
+      "sha256": "03c93d1e995d3b51462a7ba7ebe4aed69150621d4c1922aa01606de43ec7098c",
+      "ranges": [
+        [
+          7707935,
+          7708346
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-71607-1111-00073.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fb882166",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7708347,
+      "next_offset": 7708758,
+      "split": "heldout",
+      "output": "labels/heldout/G53-71607-1111-00073.xml",
+      "sha256": "e4e00f05195a0c4dc84e7894a52bb623c87bc0002bf15697d85e6bb6071164f3",
+      "ranges": [
+        [
+          7708347,
+          7708757
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-72608-1111-00074.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0ffa98c4",
+      "compressed_size": 291,
+      "size": 591,
+      "offset": 7708758,
+      "next_offset": 7709169,
+      "split": "heldout",
+      "output": "labels/heldout/G53-72608-1111-00074.xml",
+      "sha256": "7dff70f2a92a77c4833aea730879307067346cc35482b83a0a30996c1e4f7598",
+      "ranges": [
+        [
+          7708758,
+          7709168
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-73609-1111-00075.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "bc43f4d8",
+      "compressed_size": 292,
+      "size": 591,
+      "offset": 7709169,
+      "next_offset": 7709581,
+      "split": "heldout",
+      "output": "labels/heldout/G53-73609-1111-00075.xml",
+      "sha256": "7e440cf0456d0a57a1c783e30d36ff1b5baa1e1ab86ca10c003e9066b716258d",
+      "ranges": [
+        [
+          7709169,
+          7709580
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-74610-1111-00076.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b315ab61",
+      "compressed_size": 293,
+      "size": 592,
+      "offset": 7709581,
+      "next_offset": 7709994,
+      "split": "heldout",
+      "output": "labels/heldout/G53-74610-1111-00076.xml",
+      "sha256": "c0cd24ee1e310aba50bf9c6d3cf0628b88b45977016e1404fd78042de2323905",
+      "ranges": [
+        [
+          7709581,
+          7709993
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-75611-1111-00077.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7951f9a9",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7709994,
+      "next_offset": 7710406,
+      "split": "heldout",
+      "output": "labels/heldout/G53-75611-1111-00077.xml",
+      "sha256": "cc32d6551381d5df5575fcc4faa388a13f4a1c19a397c80da1298d34fcf2382f",
+      "ranges": [
+        [
+          7709994,
+          7710405
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/annotation/G53-76612-1111-00078.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4e7b714f",
+      "compressed_size": 292,
+      "size": 592,
+      "offset": 7710406,
+      "next_offset": 7710818,
+      "split": "heldout",
+      "output": "labels/heldout/G53-76612-1111-00078.xml",
+      "sha256": "3e8c0d6d67b402231ccd108389ca5b1d9e2d4fad0314e0f960289ae00687db1c",
+      "ranges": [
+        [
+          7710406,
+          7710817
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-40100-1111-00001.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "cfa3e6f7",
+      "compressed_size": 162916,
+      "size": 220544,
+      "offset": 7710909,
+      "next_offset": 7873940,
+      "split": "heldout",
+      "output": "di/heldout/G53-40100-1111-00001.wav",
+      "sha256": "35b6b137b419c66933252b130c6acd679c398e37b828f7e80220464bf473932c",
+      "ranges": [
+        [
+          7710909,
+          7873939
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-41101-1111-00002.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "19b1869a",
+      "compressed_size": 152801,
+      "size": 220544,
+      "offset": 7873940,
+      "next_offset": 8026856,
+      "split": "heldout",
+      "output": "di/heldout/G53-41101-1111-00002.wav",
+      "sha256": "04b891383f505657a3139f664ed2b288fa983b1bb576ede23cb61b81bba3e0d6",
+      "ranges": [
+        [
+          7873940,
+          8026855
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-42102-1111-00003.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b178acee",
+      "compressed_size": 149179,
+      "size": 220544,
+      "offset": 8026856,
+      "next_offset": 8176150,
+      "split": "heldout",
+      "output": "di/heldout/G53-42102-1111-00003.wav",
+      "sha256": "93a8442a6c94d9c4818f19079d80d8bd9a52a1e0a24d05a1ea3cab520b54453b",
+      "ranges": [
+        [
+          8026856,
+          8176149
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-43103-1111-00004.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b09bf433",
+      "compressed_size": 161372,
+      "size": 220544,
+      "offset": 8176150,
+      "next_offset": 8337637,
+      "split": "heldout",
+      "output": "di/heldout/G53-43103-1111-00004.wav",
+      "sha256": "fe1b663e27d3dfd6efa4b47378ded94fa262bd4b1a2be5493d93eab829a7f5c0",
+      "ranges": [
+        [
+          8176150,
+          8337636
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-44104-1111-00005.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e2621d78",
+      "compressed_size": 154467,
+      "size": 220544,
+      "offset": 8337637,
+      "next_offset": 8492219,
+      "split": "heldout",
+      "output": "di/heldout/G53-44104-1111-00005.wav",
+      "sha256": "3e62486f1e16bd742e8c513566850336e1b4d95620e148afb1f60c447e60386b",
+      "ranges": [
+        [
+          8337637,
+          8492218
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-45105-1111-00006.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "60a2cea2",
+      "compressed_size": 152370,
+      "size": 220544,
+      "offset": 8492219,
+      "next_offset": 8644704,
+      "split": "heldout",
+      "output": "di/heldout/G53-45105-1111-00006.wav",
+      "sha256": "21b90c1568ca26cfcc7289bce44643b4e797393bd5021fc5a5e9312cbc727cc9",
+      "ranges": [
+        [
+          8492219,
+          8644703
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-45200-1111-00014.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7d857250",
+      "compressed_size": 155947,
+      "size": 220544,
+      "offset": 8644704,
+      "next_offset": 8800766,
+      "split": "heldout",
+      "output": "di/heldout/G53-45200-1111-00014.wav",
+      "sha256": "e36920d70b05c8859c0753940acf5431fd271abc7b750e51b65863e6bd72b228",
+      "ranges": [
+        [
+          8644704,
+          8800765
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-46106-1111-00007.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "65e045db",
+      "compressed_size": 148226,
+      "size": 220544,
+      "offset": 8800766,
+      "next_offset": 8949107,
+      "split": "heldout",
+      "output": "di/heldout/G53-46106-1111-00007.wav",
+      "sha256": "42bd45adb01b27db0a50349b7b4bbee4de3ca341142f92ca90ecc68885d738d9",
+      "ranges": [
+        [
+          8800766,
+          8949106
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-46201-1111-00015.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "de9a234e",
+      "compressed_size": 157998,
+      "size": 220544,
+      "offset": 8949107,
+      "next_offset": 9107220,
+      "split": "heldout",
+      "output": "di/heldout/G53-46201-1111-00015.wav",
+      "sha256": "5c32a9f6da7fb10de5246fcd68af8a31ff89938d401742c280131dcdce34387f",
+      "ranges": [
+        [
+          8949107,
+          9107219
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-47107-1111-00008.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "af84a6a6",
+      "compressed_size": 158761,
+      "size": 220544,
+      "offset": 9107220,
+      "next_offset": 9266096,
+      "split": "heldout",
+      "output": "di/heldout/G53-47107-1111-00008.wav",
+      "sha256": "a5baaf0d8e164754cde61c73d47803008f9446d707d36f7859c8495e4da0c5c8",
+      "ranges": [
+        [
+          9107220,
+          9266095
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-47202-1111-00016.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ebf3a919",
+      "compressed_size": 151137,
+      "size": 220544,
+      "offset": 9266096,
+      "next_offset": 9417348,
+      "split": "heldout",
+      "output": "di/heldout/G53-47202-1111-00016.wav",
+      "sha256": "7cb0d70b85883b5d2aec48a6927b8da93cc0450710582fde93f8c52e1067a335",
+      "ranges": [
+        [
+          9266096,
+          9417347
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-48108-1111-00009.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c3a0981c",
+      "compressed_size": 155489,
+      "size": 220544,
+      "offset": 9417348,
+      "next_offset": 9572952,
+      "split": "heldout",
+      "output": "di/heldout/G53-48108-1111-00009.wav",
+      "sha256": "05f878b38f428faffa7b371aeaba5de128e51ba332cf4e52e874ea8d8edbb06e",
+      "ranges": [
+        [
+          9417348,
+          9572951
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-48203-1111-00017.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c5582de6",
+      "compressed_size": 154584,
+      "size": 220544,
+      "offset": 9572952,
+      "next_offset": 9727651,
+      "split": "heldout",
+      "output": "di/heldout/G53-48203-1111-00017.wav",
+      "sha256": "57b48b24a39d73ec45df2c229d46fb50fb900ae60566ff9423545b2af56659c1",
+      "ranges": [
+        [
+          9572952,
+          9727650
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-49109-1111-00010.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a088c93d",
+      "compressed_size": 154439,
+      "size": 220544,
+      "offset": 9727651,
+      "next_offset": 9882205,
+      "split": "heldout",
+      "output": "di/heldout/G53-49109-1111-00010.wav",
+      "sha256": "5d8ad7cee52403a96ea729197dad9f98aa33fcfdb21a13004c12f57955114b6f",
+      "ranges": [
+        [
+          9727651,
+          9882204
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-49204-1111-00018.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3c724ef3",
+      "compressed_size": 158724,
+      "size": 220544,
+      "offset": 9882205,
+      "next_offset": 10041044,
+      "split": "heldout",
+      "output": "di/heldout/G53-49204-1111-00018.wav",
+      "sha256": "98d5313341428d1cd4994fd37f6a06d0c10121e288c6350298e47783c98c4efc",
+      "ranges": [
+        [
+          9882205,
+          10041043
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-50110-1111-00011.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5a2d5aa8",
+      "compressed_size": 150621,
+      "size": 220544,
+      "offset": 10041044,
+      "next_offset": 10191780,
+      "split": "heldout",
+      "output": "di/heldout/G53-50110-1111-00011.wav",
+      "sha256": "1b16c707059b7dd689dc586a0efcf6feb009eb217ee46443a0c04cb9c0a3f344",
+      "ranges": [
+        [
+          10041044,
+          10191779
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-50205-1111-00019.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e9b4fda8",
+      "compressed_size": 164118,
+      "size": 220544,
+      "offset": 10191780,
+      "next_offset": 10356013,
+      "split": "heldout",
+      "output": "di/heldout/G53-50205-1111-00019.wav",
+      "sha256": "0ad21513213060ede388a4f406252c63f57e5014444f51a14aa7e6cf6f2dde80",
+      "ranges": [
+        [
+          10191780,
+          10356012
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-50300-1111-00027.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "65547a9c",
+      "compressed_size": 150452,
+      "size": 220544,
+      "offset": 10356013,
+      "next_offset": 10506580,
+      "split": "heldout",
+      "output": "di/heldout/G53-50300-1111-00027.wav",
+      "sha256": "82905889a77c0e4a29495ef12127f5949e3613fd65c940a45294cfacdb1eb049",
+      "ranges": [
+        [
+          10356013,
+          10506579
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-51111-1111-00012.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0420a93a",
+      "compressed_size": 152894,
+      "size": 220544,
+      "offset": 10506580,
+      "next_offset": 10659589,
+      "split": "heldout",
+      "output": "di/heldout/G53-51111-1111-00012.wav",
+      "sha256": "cebf02350740302cf556f0b964fb5a7a17e10bea87aa0f7dbee5f2ad9e4644da",
+      "ranges": [
+        [
+          10506580,
+          10659588
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-51206-1111-00020.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "d172edf7",
+      "compressed_size": 160808,
+      "size": 220544,
+      "offset": 10659589,
+      "next_offset": 10820512,
+      "split": "heldout",
+      "output": "di/heldout/G53-51206-1111-00020.wav",
+      "sha256": "baa50cddc661cac1fedde35f8519cdaedb5ae4277443e74b6b8434814a90c776",
+      "ranges": [
+        [
+          10659589,
+          10820511
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-51301-1111-00028.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a7d9f231",
+      "compressed_size": 157791,
+      "size": 220544,
+      "offset": 10820512,
+      "next_offset": 10978418,
+      "split": "heldout",
+      "output": "di/heldout/G53-51301-1111-00028.wav",
+      "sha256": "99cd01f2dc1defdd41f10fd914199c6e3ec7888e79612feae157a076197a1859",
+      "ranges": [
+        [
+          10820512,
+          10978417
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-52112-1111-00013.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8d42cc9b",
+      "compressed_size": 152237,
+      "size": 220544,
+      "offset": 10978418,
+      "next_offset": 11130770,
+      "split": "heldout",
+      "output": "di/heldout/G53-52112-1111-00013.wav",
+      "sha256": "7d67f504a080826f4ca07e70fc2f09ca9ec64cc84f11ae08003c6c390af942f9",
+      "ranges": [
+        [
+          10978418,
+          11130769
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-52207-1111-00021.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a4ded98d",
+      "compressed_size": 162784,
+      "size": 220544,
+      "offset": 11130770,
+      "next_offset": 11293669,
+      "split": "heldout",
+      "output": "di/heldout/G53-52207-1111-00021.wav",
+      "sha256": "9b25fcc20ee42a7355d18c6e82164b8c5d9dd8d8b486a3d4d09828dbe00af615",
+      "ranges": [
+        [
+          11130770,
+          11293668
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-52302-1111-00029.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3d980fbb",
+      "compressed_size": 158558,
+      "size": 220544,
+      "offset": 11293669,
+      "next_offset": 11452342,
+      "split": "heldout",
+      "output": "di/heldout/G53-52302-1111-00029.wav",
+      "sha256": "5bcaa6d6006fb1d2a0d5461612b3c31b4079f8fc9b135467f0b06edd462c7abc",
+      "ranges": [
+        [
+          11293669,
+          11452341
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-53208-1111-00022.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1467fc0b",
+      "compressed_size": 161489,
+      "size": 220544,
+      "offset": 11452342,
+      "next_offset": 11613946,
+      "split": "heldout",
+      "output": "di/heldout/G53-53208-1111-00022.wav",
+      "sha256": "aadeb9c57574cd14ad663f1978614f6bbb55a46f202ab38eeabe9064af9a37be",
+      "ranges": [
+        [
+          11452342,
+          11613945
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-53303-1111-00030.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "77f7c7e0",
+      "compressed_size": 160483,
+      "size": 220544,
+      "offset": 11613946,
+      "next_offset": 11774544,
+      "split": "heldout",
+      "output": "di/heldout/G53-53303-1111-00030.wav",
+      "sha256": "e098e0b1833433f0932e4b2730eeb9173ead0dee6c89874ec1ffc156c37d17ea",
+      "ranges": [
+        [
+          11613946,
+          11774543
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-54209-1111-00023.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2fc47b2b",
+      "compressed_size": 159919,
+      "size": 220544,
+      "offset": 11774544,
+      "next_offset": 11934578,
+      "split": "heldout",
+      "output": "di/heldout/G53-54209-1111-00023.wav",
+      "sha256": "cf0759a40eb1e3dfe2d9d2a05ce469094f71c594809c18b7329373f1cd1ee469",
+      "ranges": [
+        [
+          11774544,
+          11934577
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-54304-1111-00031.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2559fc8e",
+      "compressed_size": 164793,
+      "size": 220544,
+      "offset": 11934578,
+      "next_offset": 12099486,
+      "split": "heldout",
+      "output": "di/heldout/G53-54304-1111-00031.wav",
+      "sha256": "6aa11731ef6a65a2f08dc93c4826b6029ce3221f34051a1bf432339bf2f5c730",
+      "ranges": [
+        [
+          11934578,
+          12099485
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-55210-1111-00024.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "46865df3",
+      "compressed_size": 162788,
+      "size": 220544,
+      "offset": 12099486,
+      "next_offset": 12262389,
+      "split": "heldout",
+      "output": "di/heldout/G53-55210-1111-00024.wav",
+      "sha256": "e88285c0500555c200cdd68f8715711d5946d2915ead7af5d5a930c6dab79094",
+      "ranges": [
+        [
+          12099486,
+          12262388
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-55305-1111-00032.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0d30cfdd",
+      "compressed_size": 155039,
+      "size": 220544,
+      "offset": 12262389,
+      "next_offset": 12417543,
+      "split": "heldout",
+      "output": "di/heldout/G53-55305-1111-00032.wav",
+      "sha256": "f64b1e2c6541a2b8fb5cb60617baa2b030bfb5475a317eaf98c8ad4c40fdc31f",
+      "ranges": [
+        [
+          12262389,
+          12417542
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-55400-1111-00040.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0588ca04",
+      "compressed_size": 160916,
+      "size": 220544,
+      "offset": 12417543,
+      "next_offset": 12578574,
+      "split": "heldout",
+      "output": "di/heldout/G53-55400-1111-00040.wav",
+      "sha256": "277d46f20f068819e9b3531c8359319d6ebbc2ed6aefb4af2c16a3de7ebf7a98",
+      "ranges": [
+        [
+          12417543,
+          12578573
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-56211-1111-00025.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a77946e6",
+      "compressed_size": 159330,
+      "size": 220544,
+      "offset": 12578574,
+      "next_offset": 12738019,
+      "split": "heldout",
+      "output": "di/heldout/G53-56211-1111-00025.wav",
+      "sha256": "b0ae87e7d03a522aae6e16ca41348de56cd9175b440993202ee8d141543bb59a",
+      "ranges": [
+        [
+          12578574,
+          12738018
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-56306-1111-00033.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "194b75b5",
+      "compressed_size": 140852,
+      "size": 220544,
+      "offset": 12738019,
+      "next_offset": 12878986,
+      "split": "heldout",
+      "output": "di/heldout/G53-56306-1111-00033.wav",
+      "sha256": "86045ff8d1b412518136e73e5f7ffe672d2f1dde326f9564bdb58dc0cf6175c8",
+      "ranges": [
+        [
+          12738019,
+          12878985
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-56401-1111-00041.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e8e97726",
+      "compressed_size": 152599,
+      "size": 220544,
+      "offset": 12878986,
+      "next_offset": 13031700,
+      "split": "heldout",
+      "output": "di/heldout/G53-56401-1111-00041.wav",
+      "sha256": "8327a82e493b5799b5e0b43e9cff4fcc934e03dcf8e9795d52b9fe03921c3d45",
+      "ranges": [
+        [
+          12878986,
+          13031699
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-57212-1111-00026.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9022d249",
+      "compressed_size": 165094,
+      "size": 220544,
+      "offset": 13031700,
+      "next_offset": 13196909,
+      "split": "heldout",
+      "output": "di/heldout/G53-57212-1111-00026.wav",
+      "sha256": "1c8d9d03870d70afbfe8d4f1c13e0404afbf0bdd3b1b26fefdd5bd6499f4933d",
+      "ranges": [
+        [
+          13031700,
+          13196908
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-57307-1111-00034.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e4b7de1d",
+      "compressed_size": 132134,
+      "size": 220544,
+      "offset": 13196909,
+      "next_offset": 13329158,
+      "split": "heldout",
+      "output": "di/heldout/G53-57307-1111-00034.wav",
+      "sha256": "83355729b49a3fe2fd47a3d9ebc84f094c7220bfe236663dcfdf029f652cfa84",
+      "ranges": [
+        [
+          13196909,
+          13329157
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-57402-1111-00042.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "09c36ee3",
+      "compressed_size": 156990,
+      "size": 220544,
+      "offset": 13329158,
+      "next_offset": 13486263,
+      "split": "heldout",
+      "output": "di/heldout/G53-57402-1111-00042.wav",
+      "sha256": "eb785bf87d8ab15c6ecfc623750c5b509a79bb61582a98c9304660a7750aa38f",
+      "ranges": [
+        [
+          13329158,
+          13486262
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-58308-1111-00035.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "96cdd707",
+      "compressed_size": 148640,
+      "size": 220544,
+      "offset": 13486263,
+      "next_offset": 13635018,
+      "split": "heldout",
+      "output": "di/heldout/G53-58308-1111-00035.wav",
+      "sha256": "872b8471ff10df9653db1c3d25b788df1a9928fa469dba2fdcbe1b8aa818e615",
+      "ranges": [
+        [
+          13486263,
+          13635017
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-58403-1111-00043.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "588526fd",
+      "compressed_size": 159233,
+      "size": 220544,
+      "offset": 13635018,
+      "next_offset": 13794366,
+      "split": "heldout",
+      "output": "di/heldout/G53-58403-1111-00043.wav",
+      "sha256": "ea83eccc5a78e8baf232fe5bfd4923726cb98793b4fbc4140a600f04e8fb24e2",
+      "ranges": [
+        [
+          13635018,
+          13794365
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-59309-1111-00036.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ea1ef524",
+      "compressed_size": 144175,
+      "size": 220544,
+      "offset": 13794366,
+      "next_offset": 13938656,
+      "split": "heldout",
+      "output": "di/heldout/G53-59309-1111-00036.wav",
+      "sha256": "01575955051fc4e3c3dbeb72a15fed79a0d996cfe9b97306fdefd99a0921731e",
+      "ranges": [
+        [
+          13794366,
+          13938655
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-59404-1111-00044.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ecd7cb2d",
+      "compressed_size": 158069,
+      "size": 220544,
+      "offset": 13938656,
+      "next_offset": 14096840,
+      "split": "heldout",
+      "output": "di/heldout/G53-59404-1111-00044.wav",
+      "sha256": "6791e61ae7b1b14074d3e7fabcc899e8b4b2953ed4b1170a7ed8fa4602ffdc52",
+      "ranges": [
+        [
+          13938656,
+          14096839
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-59500-1111-00053.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "914489a4",
+      "compressed_size": 152366,
+      "size": 220544,
+      "offset": 14096840,
+      "next_offset": 14249321,
+      "split": "heldout",
+      "output": "di/heldout/G53-59500-1111-00053.wav",
+      "sha256": "ca6743dff64f43461aa21552382a74ce9ab0fd097df9c3ec09750ece0687499a",
+      "ranges": [
+        [
+          14096840,
+          14249320
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-60310-1111-00037.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "610897c0",
+      "compressed_size": 152672,
+      "size": 220544,
+      "offset": 14249321,
+      "next_offset": 14402108,
+      "split": "heldout",
+      "output": "di/heldout/G53-60310-1111-00037.wav",
+      "sha256": "20bb50975b9c03670d9ff7fa6577bacfcb670d891771ed208168d81658e109d6",
+      "ranges": [
+        [
+          14249321,
+          14402107
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-60405-1111-00045.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ff049479",
+      "compressed_size": 158451,
+      "size": 220544,
+      "offset": 14402108,
+      "next_offset": 14560674,
+      "split": "heldout",
+      "output": "di/heldout/G53-60405-1111-00045.wav",
+      "sha256": "a8759b97a8ddfc1a821a35d00598fbba52450cf6b8a1df04a4321683519a51af",
+      "ranges": [
+        [
+          14402108,
+          14560673
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-60501-1111-00054.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7ea8d9aa",
+      "compressed_size": 156140,
+      "size": 220544,
+      "offset": 14560674,
+      "next_offset": 14716929,
+      "split": "heldout",
+      "output": "di/heldout/G53-60501-1111-00054.wav",
+      "sha256": "a32c3fb55722ffd95eebf9c6deb5131d30843cc78c38cf9159e55211d05f87e0",
+      "ranges": [
+        [
+          14560674,
+          14716928
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-61311-1111-00038.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fe512b28",
+      "compressed_size": 142338,
+      "size": 220544,
+      "offset": 14716929,
+      "next_offset": 14859382,
+      "split": "heldout",
+      "output": "di/heldout/G53-61311-1111-00038.wav",
+      "sha256": "c35f4b2f04a4ebd2d097a950bf1f891668ab5d3ee40f71858ba142701f435a4a",
+      "ranges": [
+        [
+          14716929,
+          14859381
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-61406-1111-00046.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "386cc47f",
+      "compressed_size": 163823,
+      "size": 220544,
+      "offset": 14859382,
+      "next_offset": 15023320,
+      "split": "heldout",
+      "output": "di/heldout/G53-61406-1111-00046.wav",
+      "sha256": "ca3101927044c46b04782f5b07696c68173b42ccc1aeb220800fab623d105c24",
+      "ranges": [
+        [
+          14859382,
+          15023319
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-61502-1111-00055.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "ebedf0ef",
+      "compressed_size": 156901,
+      "size": 220544,
+      "offset": 15023320,
+      "next_offset": 15180336,
+      "split": "heldout",
+      "output": "di/heldout/G53-61502-1111-00055.wav",
+      "sha256": "a98d34b5c6fc9df156bf4277208f6cf7e1280de2c4e97a44fbec755f238c8fac",
+      "ranges": [
+        [
+          15023320,
+          15180335
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-62312-1111-00039.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9fefeaf5",
+      "compressed_size": 155298,
+      "size": 220544,
+      "offset": 15180336,
+      "next_offset": 15335749,
+      "split": "heldout",
+      "output": "di/heldout/G53-62312-1111-00039.wav",
+      "sha256": "5caba916e73dc5f468129c91d6c10d24d5bfaaf9ad5e907f714def396959ea6b",
+      "ranges": [
+        [
+          15180336,
+          15335748
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-62407-1111-00047.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "bf762579",
+      "compressed_size": 161546,
+      "size": 220544,
+      "offset": 15335749,
+      "next_offset": 15497410,
+      "split": "heldout",
+      "output": "di/heldout/G53-62407-1111-00047.wav",
+      "sha256": "1fe5e7dce94bb23845ac7dd2db4e5c6a8933bf587632486017a0b685f9d06f2d",
+      "ranges": [
+        [
+          15335749,
+          15497409
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-62503-1111-00056.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0de28a5c",
+      "compressed_size": 158690,
+      "size": 220544,
+      "offset": 15497410,
+      "next_offset": 15656215,
+      "split": "heldout",
+      "output": "di/heldout/G53-62503-1111-00056.wav",
+      "sha256": "2836a34cc9c7977764a9c4ef668a2e7bcc801a99d4f27f197605d29b4abaef68",
+      "ranges": [
+        [
+          15497410,
+          15656214
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-63408-1111-00048.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8e89ad57",
+      "compressed_size": 155826,
+      "size": 220544,
+      "offset": 15656215,
+      "next_offset": 15812156,
+      "split": "heldout",
+      "output": "di/heldout/G53-63408-1111-00048.wav",
+      "sha256": "10aeba99ee90234db90214c1d967adfa1eb9ea694a390e82b78a237391bcf8cc",
+      "ranges": [
+        [
+          15656215,
+          15812155
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-63504-1111-00057.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "124b3da4",
+      "compressed_size": 158332,
+      "size": 220544,
+      "offset": 15812156,
+      "next_offset": 15970603,
+      "split": "heldout",
+      "output": "di/heldout/G53-63504-1111-00057.wav",
+      "sha256": "3c710ad1643cf5f21ee1a69ad99b65b1759a5363903b8c0e6653aa59ff75d990",
+      "ranges": [
+        [
+          15812156,
+          15970602
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-64409-1111-00049.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9fb4b02e",
+      "compressed_size": 157922,
+      "size": 220544,
+      "offset": 15970603,
+      "next_offset": 16128640,
+      "split": "heldout",
+      "output": "di/heldout/G53-64409-1111-00049.wav",
+      "sha256": "421a05ff8a2a22e5fbf5f436708b1526587f6107b3c549c73acc338e260a66ea",
+      "ranges": [
+        [
+          15970603,
+          16128639
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-64505-1111-00058.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "dd4e74c2",
+      "compressed_size": 155400,
+      "size": 220544,
+      "offset": 16128640,
+      "next_offset": 16284155,
+      "split": "heldout",
+      "output": "di/heldout/G53-64505-1111-00058.wav",
+      "sha256": "48f6af57f20a36e1608f43a7f150f2be1625279102a0336b8102926e72f13abc",
+      "ranges": [
+        [
+          16128640,
+          16284154
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-64600-1111-00066.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b0d4d23d",
+      "compressed_size": 143976,
+      "size": 220544,
+      "offset": 16284155,
+      "next_offset": 16428246,
+      "split": "heldout",
+      "output": "di/heldout/G53-64600-1111-00066.wav",
+      "sha256": "21ec3628eb4b9fda18c06f653d902bfd4e6126d6bba546ab18ba7ad9014c39a1",
+      "ranges": [
+        [
+          16284155,
+          16428245
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-65410-1111-00050.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5aad8035",
+      "compressed_size": 163658,
+      "size": 220544,
+      "offset": 16428246,
+      "next_offset": 16592019,
+      "split": "heldout",
+      "output": "di/heldout/G53-65410-1111-00050.wav",
+      "sha256": "5b7accf5374b513f207ee873fb7a329b270bccc9d731fcdb3f39c5338b11fa2a",
+      "ranges": [
+        [
+          16428246,
+          16592018
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-65506-1111-00059.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "70ae2a07",
+      "compressed_size": 159081,
+      "size": 220544,
+      "offset": 16592019,
+      "next_offset": 16751215,
+      "split": "heldout",
+      "output": "di/heldout/G53-65506-1111-00059.wav",
+      "sha256": "d5ad7d81f970675eda3bb183c468e3608d5c1cc3f02c86948d330ac5afd78c0d",
+      "ranges": [
+        [
+          16592019,
+          16751214
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-65601-1111-00067.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8b5b9794",
+      "compressed_size": 143558,
+      "size": 220544,
+      "offset": 16751215,
+      "next_offset": 16894888,
+      "split": "heldout",
+      "output": "di/heldout/G53-65601-1111-00067.wav",
+      "sha256": "deafb04bac00d09c2178250a479f714f559168f04b5f6a7187f4314678aad1bc",
+      "ranges": [
+        [
+          16751215,
+          16894887
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-66411-1111-00051.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "61fed82c",
+      "compressed_size": 164392,
+      "size": 220544,
+      "offset": 16894888,
+      "next_offset": 17059395,
+      "split": "heldout",
+      "output": "di/heldout/G53-66411-1111-00051.wav",
+      "sha256": "676d9417a5da794689bdc502c1e1fe095c4c118594310e79ce2286217717fb2c",
+      "ranges": [
+        [
+          16894888,
+          17059394
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-66507-1111-00060.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2568913d",
+      "compressed_size": 160991,
+      "size": 220544,
+      "offset": 17059395,
+      "next_offset": 17220501,
+      "split": "heldout",
+      "output": "di/heldout/G53-66507-1111-00060.wav",
+      "sha256": "5e03c27a54ddb5b846fb723d47ba0d998e291208aefaaa14d5f16f8c41486b19",
+      "ranges": [
+        [
+          17059395,
+          17220500
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-66602-1111-00068.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e7d522e8",
+      "compressed_size": 140459,
+      "size": 220544,
+      "offset": 17220501,
+      "next_offset": 17361075,
+      "split": "heldout",
+      "output": "di/heldout/G53-66602-1111-00068.wav",
+      "sha256": "9df06a71ee2af6454e10495b31916b00c12989c5d4083fc675da63b2f097f775",
+      "ranges": [
+        [
+          17220501,
+          17361074
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-67412-1111-00052.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b3b4a98c",
+      "compressed_size": 153378,
+      "size": 220544,
+      "offset": 17361075,
+      "next_offset": 17514568,
+      "split": "heldout",
+      "output": "di/heldout/G53-67412-1111-00052.wav",
+      "sha256": "f5e628d44fce6f58c10c243e5343bdc294e1fec17d7d7554ff53e92a73a3f9f6",
+      "ranges": [
+        [
+          17361075,
+          17514567
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-67508-1111-00061.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "2e6ec775",
+      "compressed_size": 153024,
+      "size": 220544,
+      "offset": 17514568,
+      "next_offset": 17667707,
+      "split": "heldout",
+      "output": "di/heldout/G53-67508-1111-00061.wav",
+      "sha256": "2dcd66883f82613a0db925cfd786ae1264c234f7a8e94c677e5d37ce792d58c2",
+      "ranges": [
+        [
+          17514568,
+          17667706
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-67603-1111-00069.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "97510852",
+      "compressed_size": 148858,
+      "size": 220544,
+      "offset": 17667707,
+      "next_offset": 17816680,
+      "split": "heldout",
+      "output": "di/heldout/G53-67603-1111-00069.wav",
+      "sha256": "f976dad417281b0f7a9891079b59e4e6e9a8a2c87c1d7997e1510c5c943581fa",
+      "ranges": [
+        [
+          17667707,
+          17816679
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-68509-1111-00062.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "de1c2b07",
+      "compressed_size": 147298,
+      "size": 220544,
+      "offset": 17816680,
+      "next_offset": 17964093,
+      "split": "heldout",
+      "output": "di/heldout/G53-68509-1111-00062.wav",
+      "sha256": "802440ac9f85faf985b4a3dbb161a663c4be8e72f5657943fe913c840f19a3ef",
+      "ranges": [
+        [
+          17816680,
+          17964092
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-68604-1111-00070.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "df7ab192",
+      "compressed_size": 146447,
+      "size": 220544,
+      "offset": 17964093,
+      "next_offset": 18110655,
+      "split": "heldout",
+      "output": "di/heldout/G53-68604-1111-00070.wav",
+      "sha256": "91a0959b3887c45fe708061cc75ba1a6b913364fb1e4c3724017f7592667c828",
+      "ranges": [
+        [
+          17964093,
+          18110654
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-69510-1111-00063.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b775250d",
+      "compressed_size": 152250,
+      "size": 220544,
+      "offset": 18110655,
+      "next_offset": 18263020,
+      "split": "heldout",
+      "output": "di/heldout/G53-69510-1111-00063.wav",
+      "sha256": "09224bff551f124fadb88ff4090bc93ce9c38d057457880d960f924db551b8a4",
+      "ranges": [
+        [
+          18110655,
+          18263019
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-69605-1111-00071.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7bd63341",
+      "compressed_size": 148724,
+      "size": 220544,
+      "offset": 18263020,
+      "next_offset": 18411859,
+      "split": "heldout",
+      "output": "di/heldout/G53-69605-1111-00071.wav",
+      "sha256": "7c607352df30ad2fed5c7ca36e5c9dc048aab65cc3912aee100b1f4a6f76aca7",
+      "ranges": [
+        [
+          18263020,
+          18411858
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-70511-1111-00064.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "1b21c21d",
+      "compressed_size": 141060,
+      "size": 220544,
+      "offset": 18411859,
+      "next_offset": 18553034,
+      "split": "heldout",
+      "output": "di/heldout/G53-70511-1111-00064.wav",
+      "sha256": "beeb6248566fdadcc69da827044a01c9d81c72c7d004a6a98d674afa94ca1931",
+      "ranges": [
+        [
+          18411859,
+          18553033
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-70606-1111-00072.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b7133a61",
+      "compressed_size": 148080,
+      "size": 220544,
+      "offset": 18553034,
+      "next_offset": 18701229,
+      "split": "heldout",
+      "output": "di/heldout/G53-70606-1111-00072.wav",
+      "sha256": "c4775ebf1881403f2d71fbc8da81d463c0673e99966fbe309dc70cc2df9e0d63",
+      "ranges": [
+        [
+          18553034,
+          18701228
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-71512-1111-00065.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "643fecfc",
+      "compressed_size": 159764,
+      "size": 220544,
+      "offset": 18701229,
+      "next_offset": 18861108,
+      "split": "heldout",
+      "output": "di/heldout/G53-71512-1111-00065.wav",
+      "sha256": "564784fbf735c1ec5e978193b8866a75a3001694f6992753cc3275f2887f229d",
+      "ranges": [
+        [
+          18701229,
+          18861107
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-71607-1111-00073.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9d390e9e",
+      "compressed_size": 156918,
+      "size": 220544,
+      "offset": 18861108,
+      "next_offset": 19018141,
+      "split": "heldout",
+      "output": "di/heldout/G53-71607-1111-00073.wav",
+      "sha256": "3e9ac04070a5ff93e3c83c7143e15f398ce5562e0b922558084d241259966af3",
+      "ranges": [
+        [
+          18861108,
+          19018140
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-72608-1111-00074.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "9b35dfec",
+      "compressed_size": 157408,
+      "size": 220544,
+      "offset": 19018141,
+      "next_offset": 19175664,
+      "split": "heldout",
+      "output": "di/heldout/G53-72608-1111-00074.wav",
+      "sha256": "8ee726ec449a236b4c97281a1a854f871de777882d5e0e650d1ed6a4cd75629e",
+      "ranges": [
+        [
+          19018141,
+          19175663
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-73609-1111-00075.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3b035646",
+      "compressed_size": 158980,
+      "size": 220544,
+      "offset": 19175664,
+      "next_offset": 19334759,
+      "split": "heldout",
+      "output": "di/heldout/G53-73609-1111-00075.wav",
+      "sha256": "34a97f5c4433b05384facbc668c959cd8b09b1dddec7985b45b0327f82a068f9",
+      "ranges": [
+        [
+          19175664,
+          19334758
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-74610-1111-00076.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0955dc1f",
+      "compressed_size": 158385,
+      "size": 220544,
+      "offset": 19334759,
+      "next_offset": 19493259,
+      "split": "heldout",
+      "output": "di/heldout/G53-74610-1111-00076.wav",
+      "sha256": "ccaa35b15fc7b2c5aa4c55a963d9024cd27372ef0aecc75ae436d75fbfe40a95",
+      "ranges": [
+        [
+          19334759,
+          19493258
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-75611-1111-00077.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "30c0c912",
+      "compressed_size": 156871,
+      "size": 220544,
+      "offset": 19493259,
+      "next_offset": 19650245,
+      "split": "heldout",
+      "output": "di/heldout/G53-75611-1111-00077.wav",
+      "sha256": "a8b98c22d2f8b24a95df3e7d2820c239ba2a4191d570632aa50b438734dd4ef0",
+      "ranges": [
+        [
+          19493259,
+          19650244
+        ]
+      ]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset1/Fender Strat Clean Neck SC/audio/G53-76612-1111-00078.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fad5fc62",
+      "compressed_size": 158225,
+      "size": 220544,
+      "offset": 19650245,
+      "next_offset": 19808585,
+      "split": "heldout",
+      "output": "di/heldout/G53-76612-1111-00078.wav",
+      "sha256": "cd76925c605e0ad06b1aefcd333c9b04a30f43cdae75ade03f175a21ce6460ee",
+      "ranges": [
+        [
+          19650245,
+          19808584
+        ]
+      ]
+    }
+  ]
+}

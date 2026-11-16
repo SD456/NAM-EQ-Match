@@ -1,0 +1,482 @@
+[
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+    "query": "stage7:AR_Lick1_KN",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+    "query": "stage7:AR_Lick2_KN",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Aristides",
+    "type": "lick",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+    "query": "stage7:AR_Lick3_KN",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  }
+]

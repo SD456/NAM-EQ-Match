@@ -1,183 +1,42 @@
-# NAM EQ Matcher 🎸
+# 吉他参考音色检索：Windows 研究审阅快照
 
-Clone a guitar tone from a finished recording.
+这个分支供 Claude 或人工审阅已有代码、实验设计和数字结果：从参考吉他湿声中检索已有 NAM＋箱体 IR＋输入增益，使其能处理新的干声演奏。它没有训练新的 `.nam`，也没有证明可以从任意歌曲恢复原设备或真实旋钮。
 
-Combines **NAM** (nonlinear amp character: gain structure, saturation, compression, sag)
-with a **EQ Match**-style matched impulse response (linear EQ/cab correction).
+分支：`research/windows-tone-retrieval-stage8`。上游起点为 [SD456/NAM-EQ-Match](https://github.com/SD456/NAM-EQ-Match) 的 `1074151da12654fcf1125ed6443a1e53ea5b973d`；[上游 README 原文](README.upstream.md)保留供溯源。
 
-## How it works
+## 先分清两个代码位置
 
-You provide three things:
+| 路径 | 本快照中的含义 |
+| --- | --- |
+| 根目录 `tonematch/`、`match.py`、`app.py`、启动器及 `tests/` | 上游参考，不是本地研究实际运行入口 |
+| [`research/vendor/NAM-EQ-Match/`](research/vendor/NAM-EQ-Match/) | 本地实质修改后的真实核心，普通文件镜像，省略嵌套 `.git` |
+| [`research/scripts/`](research/scripts/)、[`research/experiments/`](research/experiments/)、[`research/tests/`](research/tests/) | 实验、冻结配置与回归代码 |
+| [`research/docs/`](research/docs/)、[`research/artifacts/`](research/artifacts/) | 协议、结论、锁定计划与数值证据 |
 
-1. **Target** — a recording with the tone you want: an isolated guitar track, or a full mix
-   (built-in Demucs demixing extracts the guitar stem for you)
-2. **DI** — your own clean guitar take (any riff, ideally similar playing style/register)
-3. **NAM library** — a folder of `.nam` captures, or use the built-in **TONE3000 search**
-   to browse the catalog (metadata only) and download just a shortlist
+请先读 [审阅指南](research/REVIEW_GUIDE.md)和 [Claude 约束](CLAUDE.md)。`research/` 保留原工程内部相对目录结构；原工程未被这次公开打包改写。四份历史报告/试听 Markdown 的本机路径已替换，source/public 双哈希见[快照清单](research/review-snapshot-manifest.json)，冻结锁原件未改。历史音频链接不代表公开提供音频。
 
-The pipeline:
+## 继承与实质变化
 
-1. **Dynamic/saturation match (NAM half).** Your DI is reamped through every capture in
-   the library across a grid of input gains. Each result is compared to the target using an
-   *EQ-invariant fingerprint*: crest factor, dynamic range compression, spectral flatness of
-   the fizz region, spectral flux, and MFCC texture statistics. These capture what an EQ
-   cannot fix — clipping behavior, compression feel, harmonic density. A two-stage search
-   (coarse over all captures, fine over the top 5) finds the best capture + drive setting.
-2. **Frequency match (Tone Match half).** The winning rig's output is compared to the
-   target's 1/6-octave smoothed long-term spectrum, and the gap is closed three ways —
-   pick by ear:
-   - **A: Match IR** (`_match_ir.wav`) — the exact spectral correction (±18 dB). Closest
-     match, but drastic corrections can sound artificial.
-   - **B: Plugin EQ suggestion** — fitted Bass/Mid/Treble knob values for the NAM
-     plugin's built-in tone stack (exact same filters: 150 Hz shelf / 425 Hz peak /
-     1.8 kHz shelf). Gentler and hardware-plausible; no IR needed.
-   - **C: Hybrid (recommended)** — the EQ settings plus a *gentle* residual IR
-     (`_gentle_ir.wav`, capped at ±9 dB, broad 1/3-octave smoothing). Natural EQ moves
-     do the heavy lifting; the IR only polishes what's left.
-3. **Outputs.** Best model + input gain, the match IR, a rendered preview of *your* DI
-   through the full matched chain, a comparison spectrum plot, and a JSON report.
-   Set *Top rigs to render* (GUI) or `--render-top N` (CLI) to get the top-N captures
-   instead of just the winner. Every rendered rig gets self-explaining, rig-prefixed
-   files (`rank01_JCM800_IN+2.0_...`): a copy of the `.nam`, a human-readable
-   `_settings.txt` with Options A/B/C, both IRs, and all three renders — so files stay
-   meaningful even when moved out of the results folder.
+复用上游 NAM 后端、FIR/EQ 和两阶段搜索结构，并修复真实 `neural-amp-modeler==0.13.0` WaveNet 适配、卷积/搜索路径及输出一致性。本地 CLI 严格限制原生 48 kHz WaveNet；立体声需明确选择声道，候选须声明 `full-rig` 或带基础箱体 IR 的 `amp-only`。输出记录模型/IR 哈希、完整输入与输出增益，保留卷积尾部。原 GUI、一键启动器、Demucs 与 Bass/Mid/Treble/Hybrid 路线未针对本地 CLI 分支适配。
 
-## Quick start (no command line needed)
+阶段 8 的 ERB24→23 维共享 LW/OAS 协方差是独立研究评分，**未替换 legacy CLI 评分**。研究阶段的自动新增 EQ 保持旁路；**legacy CLI 仍会生成校正 IR，不能理解成整个仓库已禁用 EQ**。
 
-Install Python 3.10+ from [python.org](https://www.python.org/downloads/) (on Windows,
-tick *Add Python to PATH*), then double-click the launcher for your system:
+## 阶段 8 的结论
 
-- **Windows**: `Start-NAM-EQ-Matcher-Windows.bat`
-- **macOS**: `start-nam-eq-matcher-macos.command` (first time: right-click → Open;
-  if blocked, run `chmod +x start-nam-eq-matcher-macos.command` once in Terminal)
-- **Linux**: `bash start-nam-eq-matcher-linux.sh`
+192 段真实 DI×12 条链×两档输入 trim＝4608 个独特真实 NAM 渲染组合；五个器材组内部留组验证形成 1520 个任务、15200 行方法/增益模式结果。未知 trim 的 E1 宏平均遗憾值从 0.2792 降到 0.1481（下降 46.96%），5/5 组及 20 次预定训练重抽均改善。但三类素材的逐任务退化 P90 超过预设 0.05 上限，**未通过全部门槛，不晋升、不替换生产评分**。
 
-The first run creates a private environment and installs everything (several minutes);
-after that it starts in seconds and opens the app in your browser automatically.
+见 [简明结论](research/docs/stage8-conclusions.md)、[完整发现](research/docs/stage8-findings.md)、[预先冻结协议](research/docs/stage8-protocol.md)。遗憾值不是听感百分比，20/20 不是部署成功概率；本批所有录音都已观察，下一步确认需要新录音。Free Bird、实体设备、NAM_LV2 与 Orange Pi 验证尚未完成。
 
-## Manual install
+## 阅读与运行边界
 
-```bash
-python -m venv .venv
-.venv\Scripts\activate        # Windows
-pip install -r requirements.txt
+这是可审阅代码与数字结果的快照，**不是不带素材也能完整复现的发行版**。不上传原曲 WAV、DI、箱体 IR、NAM 权重、XML 标签、PDF、NPZ、虚拟环境或大型探针指纹缓存；保留 provenance、许可文本、协议和数值结果。超过 1 MiB 的结果 JSON 无损存为 `.json.gz`，需先恢复再交给原分析器、哈希校验或普通文本审阅：
+
+```powershell
+rtk python research/scripts/materialize_review.py
 ```
 
-## Use
+该恢复工具仅需标准 Python；恢复原 JSON 不会补齐缺失的音频或缓存。命令中的 RTK 只是本地命令输出代理，不是研究依赖；未安装时省略 `rtk`，运行相同 Python 命令即可。运行研究代码时以 `research/` 为工作目录，依赖及 Windows 环境记录见 [`requirements-core.txt`](research/requirements-core.txt)、[`requirements-lock-win.txt`](research/requirements-lock-win.txt) 与[环境记录](research/docs/environment-stage1.md)。不要把根目录上游 `requirements.txt` 当作研究环境锁。
 
-**GUI:**
+本次在缺少音频/权重/IR 的公开快照、使用本地已有虚拟环境运行 48 项阶段 8 数值测试及 2 项恢复工具测试，50 通过、0 失败/错误/跳过，见 [JUnit 记录](research/review-portable-tests.xml)。这不是独立新装依赖验证，也不是完整真实渲染复现。完整重渲染、保护文件校验及依赖真实资产的测试需按 provenance 另备材料；历史“281 通过”是原本地全素材环境的记录。
 
-```bash
-python app.py
-# open http://127.0.0.1:7860
-```
-
-**CLI:**
-
-```bash
-python match.py --target song_stem.wav --di my_di.wav --models ./nam_models --out ./results
-
-# render the top 5 rigs, each with its own match IR:
-python match.py --target song_stem.wav --di my_di.wav --models ./nam_models --render-top 5
-
-# full mix? extract the guitar stem first with Demucs:
-python match.py --target full_song.mp3 --demix --di my_di.wav --models ./nam_models --out ./results
-```
-
-**TONE3000 search (no bulk downloads):**
-
-Create a free publishable API key at tone3000.com → Settings → API Keys (`t3k_pub_...`).
-Searching returns metadata only; you download just the tones you pick (a `.nam` is usually
-well under 1 MB). Matching itself always needs the files — the matcher must reamp your DI
-through each capture. First connect opens your browser for TONE3000 login (OAuth); tokens
-are cached in `~/.tonematch/`. Rate limit: 100 requests/min.
-
-In the GUI: open the *Search TONE3000* accordion → connect → search → enter row numbers →
-Download selected (goes to `./t3k_cache`, and the models-folder field is filled in for you).
-
-If you know what amps you're after, list them in the *Amps you're looking for* field
-(comma-separated, up to 6). NAM EQ Matcher runs one catalog query per amp, merges the results,
-and ranks tones whose **make metadata** matches first (then title, tags, description) — the
-*Matched on* column shows why each result surfaced.
-
-CLI:
-
-```bash
-python -m tonematch.tone3000 connect --key t3k_pub_xxx
-python -m tonematch.tone3000 search "crunch" --amps "Marshall,JCM800,Friedman" --gear amp
-python -m tonematch.tone3000 download 12345 67890 --out ./t3k_cache
-python match.py --target stem.wav --di my_di.wav --models ./t3k_cache
-```
-
-**Test (no torch needed):**
-
-```bash
-python -m tests.test_synthetic        # end-to-end pipeline
-python -m tests.test_drive_matching   # driven targets must not match clean captures
-```
-
-## GUI workflow (tabs)
-
-- **Match** — set up target/DI/models and *queue* a run. You can queue several with
-  different settings; they execute one at a time in the background.
-- **Library** — scan a folder of `.nam` files (recursive, cached), filter by name, make,
-  tone type (`clean`/`crunch`/`hi_gain`/...) or gear type, and save the filtered set as a
-  named library selectable in the Match tab.
-- **Jobs** — live queue view (auto-refreshes every 2 s); cancel queued jobs.
-- **Results** — pick any completed job, A/B/C/D the renders, and export a ZIP of exactly
-  the rigs and file types you want.
-
-Last-used folders and settings are remembered between sessions (`~/.tonematch/`).
-The job queue, library curation, ZIP export and session persistence were suggested by a
-community contributor (PR #2) — thanks! — and re-implemented for the current codebase.
-
-## Using the result
-
-In the NAM plugin: load the winning `.nam` file, set **Input** to the reported gain (dB),
-load `match_ir.wav` in the **IR slot** (disable any other cab), adjust Output to taste.
-
-## Tips
-
-- The better your target isolation, the better the match. For full mixes use `--demix`
-  (or the GUI checkbox): Demucs `htdemucs_6s` extracts a dedicated **guitar** stem. If the
-  guitar sounds thin/incomplete in that stem, try `guitar+other`. First run downloads the
-  model; CPU separation takes roughly the length of the song. Expect residual bleed to
-  slightly skew the EQ match — trust your ears over the plot.
-- Play a DI similar in register and intensity to the target part — the matcher compares
-  statistics, not aligned samples, but similar material makes them comparable.
-- Renders use the loudest 30 s of your DI by default (*Render length* in Advanced /
-  `--preview-s`). The IRs and EQ fits are statistical and converge within ~20–30 s, so
-  this is a large speedup on long DIs at no accuracy cost; set 0 to render the full DI.
-- More diverse `.nam` libraries → better odds one capture nails the clipping character.
-- `report.json` includes a **`drive_character`** section: a 0–1 "how driven does this
-  sound" index for the target and for the chosen rig. If those differ a lot, your library
-  has no capture with the right gain structure — add captures of that amp type rather
-  than trusting the match.
-- Search is compute-heavy: ~10 reamps per capture. Use "Max captures" or a curated subfolder
-  for quick passes.
-- **GPU acceleration**: NAM inference and Demucs both use CUDA automatically when your
-  PyTorch build supports it (device "auto"; force with the device dropdown / `--device cuda`).
-  The default `pip install torch` on Windows is CPU-only — for a ~10× speedup, install a
-  CUDA build instead, e.g. `pip install torch --index-url https://download.pytorch.org/whl/cu126`
-  (pick the right CUDA version for your GPU at pytorch.org/get-started). Verify with
-  `python -m tonematch.doctor` — it should print `torch device: cuda`.
-
-## Project layout
-
-```
-tonematch/
-  audio.py        I/O, resampling, envelopes, segment selection
-  features.py     tone fingerprint (dynamics, saturation, texture) + LTAS
-  match_eq.py     matched-IR design (1/6-oct smoothing, min-phase FIR)
-  nam_backend.py  .nam loading (neural-amp-modeler) + MockAmp for tests
-  search.py       two-stage capture ranking + input-gain search
-  tone_stack.py   NAM plugin tone stack (B/M/T) emulation + knob fitting
-  jobs.py         background job queue for match runs
-  library.py      .nam scanning/filtering + named libraries
-  stems.py        Demucs guitar-stem extraction (optional dependency)
-  tone3000.py     TONE3000 API client (OAuth PKCE, search, selective download)
-  pipeline.py     end-to-end orchestration + reports
-app.py            Gradio GUI
-match.py          CLI
-tests/            synthetic end-to-end test
-```
+来源和各自许可见 [THIRD_PARTY_AND_DATA.md](research/THIRD_PARTY_AND_DATA.md)。根目录 MIT [LICENSE](LICENSE)保留上游许可声明，不是为新增研究内容或第三方数据统一授予 MIT。

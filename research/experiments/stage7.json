@@ -1,0 +1,23 @@
+{
+  "frozen_before_audio_experiments": true,
+  "output": "artifacts/stage7/onsets",
+  "data_manifest": "assets/stage7/data-provenance.json",
+  "baseline_snapshot": "artifacts/stage7/baseline-sha256.json",
+  "historical_results": "artifacts/stage6/calibration/results.json",
+  "analysis": {"sr":16000,"hop":256,"raw_fft":1024,"diagnostic_fft":2048,"matching_grid_us":1},
+  "methods": ["first","strongest"],
+  "radii_frames": [2,3,4,5],
+  "tolerances_seconds": [0.05,0.1],
+  "fast_ioi_seconds": 0.2,
+  "protected_classes": ["fast_change","repeat","fast_repeat"],
+  "ioi_bin_edges_ms": [80,180,200],
+  "min_clips_per_role": 3,
+  "min_pairs_per_class": 20,
+  "held_macro_f1_min": 0.8,
+  "split_licks": {"calibration":[1,2,3],"heldout":[4,5,6]},
+  "guitar_ids": ["AR","FS","LP"],
+  "historical_replay": true,
+  "selection_rule": "calibration only: macro F1 strictly higher, near-label FP strictly lower, zero losses of baseline-recovered protected later events or fully recovered pairs; sort macro F1 desc, FP asc, radius asc, first before strongest",
+  "support_policy": "Prototype selection and descriptive heldout evaluation allowed with sparse labels; confirmation requires 20 pairs in each protected class in each role. Missing evidence takes precedence over a numerical pass.",
+  "scope": "Merge raw64 peaks only; keep original retained peak frames and provenance. No pitch-based or label-based inference, new EQ, wet retrieval, Free Bird or deployment. Keep stage6 128 ms/.8 pitch candidate and all prior failures unchanged. Historical replay cannot participate in selection or become new holdout."
+}

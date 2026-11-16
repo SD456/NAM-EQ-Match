@@ -1,0 +1,322 @@
+[
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T0",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Sire",
+    "type": "excerpt",
+    "parent": "directinput_04",
+    "query": "stage4:T1",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  }
+]

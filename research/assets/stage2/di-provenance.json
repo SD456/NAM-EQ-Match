@@ -1,0 +1,80 @@
+{
+  "sources": [
+    {
+      "id": "guitar-techs",
+      "title": "Guitar-TECHS: An Electric Guitar Dataset Covering Techniques, Musical Excerpts, Chords and Scales Using a Diverse Array of Hardware",
+      "creators": [
+        "Hegel Pedroza",
+        "Wallace Abreu",
+        "Ryan M. Corey",
+        "Iran R. Roman",
+        "Termeh Taheri"
+      ],
+      "source_url": "https://guitar-techs.github.io/",
+      "dataset_url": "https://zenodo.org/records/14963133",
+      "archive_url": "https://zenodo.org/records/14963133/files/P3_music.zip",
+      "archive_md5_verified": "071ba80aecf00f4a31fbd167b3f22198",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Pedroza et al., Guitar-TECHS, ICASSP 2025. Cropped and converted to mono float32; no gain or effects applied."
+    }
+  ],
+  "recordings": [
+    {
+      "id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage2/di/directinput_01.raw.wav",
+      "archive_member": "P3_music/audio/directinput/directinput_01.wav",
+      "sha256": "b985af2acea79809f572c869a007bd4b5257d4684b0636f26bd09f6482f9d0eb",
+      "sample_rate": 48000,
+      "channels": 2,
+      "frames": 3480000,
+      "format": "WAV",
+      "subtype": "PCM_24",
+      "license": "CC BY 4.0",
+      "source_url": "https://zenodo.org/records/14963133",
+      "notes": "Player 03, Sire T7, bridge-neck pickup; guitar output split to audio interface as direct input. Identical stereo channels verified sample-by-sample. Hardware recording gain not specified by source."
+    }
+  ],
+  "segments": [
+    {
+      "id": "A",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage2/di/A.wav",
+      "sha256": "93fc5db720a8191d29225bc55c8214e8e3a3463596f4c1885da54a3bafd052a7",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 0,
+      "end_frame": 384000,
+      "rms": 0.046130936592817307,
+      "peak": 0.26970553398132324
+    },
+    {
+      "id": "B",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage2/di/B.wav",
+      "sha256": "ed71c4f4c8a5a950c2c2c69aa383dcc2e669d405c8d00712e3d1e96f42f8cf5a",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 384000,
+      "end_frame": 768000,
+      "rms": 0.03930920735001564,
+      "peak": 0.1993638277053833
+    },
+    {
+      "id": "C",
+      "recording_id": "guitar-techs-p3-directinput-01",
+      "path": "assets/stage2/di/C.wav",
+      "sha256": "9ecaee0fe1723b8fd38a3d5ae6b883a44caa70f4f2f417e1c2d7d74858d8aa3f",
+      "sample_rate": 48000,
+      "channels": 1,
+      "frames": 384000,
+      "start_frame": 768000,
+      "end_frame": 1152000,
+      "rms": 0.04820409044623375,
+      "peak": 0.22394728660583496
+    }
+  ],
+  "selection_and_processing": "A/B/C fixed in original time order: 0-8, 8-16, 16-24 seconds from the same recording, before retrieval. Left channel selected; channels exactly equal. No resampling, gain adjustment, fades, denoising, or effects. The same guitar and recording apply to all three; they are not different players or guitars."
+}

@@ -1,0 +1,14 @@
+{
+  "protected_files_unchanged": 67,
+  "source_hashes_unchanged": true,
+  "summary_recomputed": true,
+  "gate_recomputed": true,
+  "lock_sha256": "e48ce6fa4567018b23d321e5d83bd121a2eafcdc36a1d98f18a90071a79221ae",
+  "csv_rows": 128,
+  "locked_source_files": 24,
+  "locked_assets": 25,
+  "pytest_passed": 157,
+  "frozen_baseline_matrix_max_abs_difference": 0.0,
+  "diagnostic_matches_result_hash": true,
+  "original_reference_wavs_verified": 3
+}

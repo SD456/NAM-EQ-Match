@@ -1,0 +1,8 @@
+# Windows GPU setup installs the CUDA wheel first; see scripts/setup-env.ps1.
+numpy
+scipy
+soundfile
+matplotlib
+torch==2.10.0+cu128
+neural-amp-modeler==0.13.0
+pytest

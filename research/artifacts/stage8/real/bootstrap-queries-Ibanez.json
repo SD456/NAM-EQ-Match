@@ -1,0 +1,6722 @@
+[
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-40100-1111-00079.wav",
+    "query": "stage6:G53-40100-1111-00079",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-42102-1111-00081.wav",
+    "query": "stage6:G53-42102-1111-00081",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-44104-1111-00083.wav",
+    "query": "stage6:G53-44104-1111-00083",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-45200-1111-00092.wav",
+    "query": "stage6:G53-45200-1111-00092",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-46106-1111-00085.wav",
+    "query": "stage6:G53-46106-1111-00085",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-47202-1111-00094.wav",
+    "query": "stage6:G53-47202-1111-00094",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-48108-1111-00087.wav",
+    "query": "stage6:G53-48108-1111-00087",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-49204-1111-00096.wav",
+    "query": "stage6:G53-49204-1111-00096",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50110-1111-00089.wav",
+    "query": "stage6:G53-50110-1111-00089",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-50300-1111-00105.wav",
+    "query": "stage6:G53-50300-1111-00105",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-51206-1111-00098.wav",
+    "query": "stage6:G53-51206-1111-00098",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52112-1111-00091.wav",
+    "query": "stage6:G53-52112-1111-00091",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-52302-1111-00107.wav",
+    "query": "stage6:G53-52302-1111-00107",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-53208-1111-00100.wav",
+    "query": "stage6:G53-53208-1111-00100",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-54304-1111-00109.wav",
+    "query": "stage6:G53-54304-1111-00109",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55210-1111-00102.wav",
+    "query": "stage6:G53-55210-1111-00102",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-55400-1111-00118.wav",
+    "query": "stage6:G53-55400-1111-00118",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-56306-1111-00111.wav",
+    "query": "stage6:G53-56306-1111-00111",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57212-1111-00104.wav",
+    "query": "stage6:G53-57212-1111-00104",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-57402-1111-00120.wav",
+    "query": "stage6:G53-57402-1111-00120",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-58308-1111-00113.wav",
+    "query": "stage6:G53-58308-1111-00113",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59404-1111-00122.wav",
+    "query": "stage6:G53-59404-1111-00122",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-59500-1111-00131.wav",
+    "query": "stage6:G53-59500-1111-00131",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-60310-1111-00115.wav",
+    "query": "stage6:G53-60310-1111-00115",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61406-1111-00124.wav",
+    "query": "stage6:G53-61406-1111-00124",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-61502-1111-00133.wav",
+    "query": "stage6:G53-61502-1111-00133",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-62312-1111-00117.wav",
+    "query": "stage6:G53-62312-1111-00117",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63408-1111-00126.wav",
+    "query": "stage6:G53-63408-1111-00126",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-63504-1111-00135.wav",
+    "query": "stage6:G53-63504-1111-00135",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-64600-1111-00144.wav",
+    "query": "stage6:G53-64600-1111-00144",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65410-1111-00128.wav",
+    "query": "stage6:G53-65410-1111-00128",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-65506-1111-00137.wav",
+    "query": "stage6:G53-65506-1111-00137",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-66602-1111-00146.wav",
+    "query": "stage6:G53-66602-1111-00146",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67412-1111-00130.wav",
+    "query": "stage6:G53-67412-1111-00130",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-67508-1111-00139.wav",
+    "query": "stage6:G53-67508-1111-00139",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-68604-1111-00148.wav",
+    "query": "stage6:G53-68604-1111-00148",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-69510-1111-00141.wav",
+    "query": "stage6:G53-69510-1111-00141",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-70606-1111-00150.wav",
+    "query": "stage6:G53-70606-1111-00150",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-71512-1111-00143.wav",
+    "query": "stage6:G53-71512-1111-00143",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-72608-1111-00152.wav",
+    "query": "stage6:G53-72608-1111-00152",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-74610-1111-00154.wav",
+    "query": "stage6:G53-74610-1111-00154",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 0,
+    "teacher_pos": 0,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 0,
+    "teacher_pos": 1,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 6,
+    "teacher_pos": 2,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 6,
+    "teacher_pos": 3,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 3,
+    "teacher_pos": 4,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 3,
+    "teacher_pos": 5,
+    "true_gi": 1,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 10,
+    "teacher_pos": 6,
+    "true_gi": 0,
+    "eq": 1
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 0
+  },
+  {
+    "guitar": "Ibanez",
+    "type": "isolated",
+    "parent": "IDMT-SMT-GUITAR_V2/dataset1/Ibanez Power Strat Clean Neck HU/audio/G53-76612-1111-00156.wav",
+    "query": "stage6:G53-76612-1111-00156",
+    "teacher": 10,
+    "teacher_pos": 7,
+    "true_gi": 1,
+    "eq": 1
+  }
+]

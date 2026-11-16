@@ -1,0 +1,3 @@
+# Frozen review records retain exact bytes on Windows and Linux checkouts.
+/research/** -text
+/README.upstream.md -text

@@ -1,0 +1,15 @@
+{
+  "files_unchanged": true,
+  "identity": {
+    "config_sha256": "a99ec1b9ec47d592823a31d982bc8bf2d4b84be412239c1746035bb029cb904b",
+    "library_sha256": "e212487176aa59ea9093de66033f44ede25740e7fab67ee025ec01ffa7849441",
+    "di_manifest_sha256": "e375761ec57ee6688efa97e8431adf00ed50d4b2fbc3217099ae550b052b6c09",
+    "features_sha256": "f2419e52a1cf3c5fbfe56ce6ceb69098e1074a7afe03a5e484b15ee52268bb95",
+    "backend_sha256": "2740554b383bb3503c922db8be6e999c7c6774f56b4e4c168629dbe73c37139d",
+    "runner_sha256": "b95c504575b234a984196c7bdec8dc63a6f605055ce3b5cdaaf60ad5fd0f0f54",
+    "audio_sha256": "fb90252c3f9ce8f9be57f80683c2ed7242ced557ae1c39b99e5f95f5a5a91c80",
+    "search_sha256": "933af09fb1c3c493758b4e9b2131e95aabeaff4fb8693f6c58282a9955a7f5fe",
+    "eq_sha256": "25ffebb3c0d252f3b193d89425a04f3a1e5e4355e40e739516c2565b9324b235",
+    "input_arithmetic": "float64 calibration and gain, backend casts float32"
+  }
+}

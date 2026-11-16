@@ -1,0 +1,12 @@
+{
+  "verified_at_utc": "2026-11-15T12:00:03Z",
+  "url": "https://zenodo.org/records/14963133/files/P3_music.zip",
+  "method": "HTTPS range request using curl 8.22.0 with Windows Schannel certificate and hostname verification enabled; --resolve mapped zenodo.org to 188.185.47.192, without --insecure.",
+  "http_status": 206,
+  "curl_ssl_verify_result": 0,
+  "archive_byte_range_inclusive": [129439553, 129505088],
+  "bytes": 65536,
+  "path": "assets/stage4/di/zip-tail-tls.bin",
+  "sha256": "627e139d8e591278b09579f79b952634638ac08521742e38afb8b129d3bfcdf3",
+  "comparison": "Byte-for-byte identical to zip-tail.bin used to extract the four member CRC-32 values. Original member downloads were not individually retrieved again with verified TLS; their decoded bytes matched those authenticated directory CRC-32 values. Full archive MD5 was not verified."
+}

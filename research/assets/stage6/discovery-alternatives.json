@@ -1,0 +1,27 @@
+{
+  "idmt_smt_guitar": {
+    "url": "https://zenodo.org/api/records/7544110/files/IDMT-SMT-GUITAR_V2.zip/content",
+    "bytes": 1329918978,
+    "md5_published": "06796e08731bccffaed6ae59361486e4",
+    "archive_md5_verified": false,
+    "license": "CC-BY-NC-ND-4.0"
+  },
+  "audio_effects": {
+    "bytes": 6454496906,
+    "md5_published": "91e845a1b347352993ebd5ba948d5a7c",
+    "license": "CC-BY-NC-ND-4.0",
+    "status": "no verified onset labels"
+  },
+  "eg_ipt": {
+    "bytes": 23757983313,
+    "md5_published": "48a5135adfd090515ff0af7dc5c3c32f",
+    "license": "CC-BY-4.0",
+    "status": "no verified onset or pitch annotations"
+  },
+  "egdb": {
+    "status": "polyphonic; timing uncertainty and dataset license must be assessed"
+  },
+  "goat": {
+    "status": "excluded; record asks author contact"
+  }
+}

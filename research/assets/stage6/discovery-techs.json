@@ -1,0 +1,19 @@
+{
+  "status": "discovery_only_download_blocked",
+  "dataset": "Guitar-TECHS",
+  "record": "https://zenodo.org/records/14963133",
+  "site": "https://guitar-techs.github.io/",
+  "paper": "https://arxiv.org/html/2501.03720",
+  "data_license": "CC BY 4.0",
+  "license_evidence": "https://guitar-techs.github.io/",
+  "files": [
+    {"player": "P1", "url": "https://zenodo.org/records/14963133/files/P1_singlenotes.zip?download=1", "bytes": 108626613, "md5_published": "ca0c4674dde3805574685a313f7c39eb", "verified_download": false, "di_path": "P1_singlenotes/audio/directinput/directinput_allsinglenotes.wav", "midi_path": "P1_singlenotes/audio/midi/midi_allsinglenotes.mid"},
+    {"player": "P2", "url": "https://zenodo.org/records/14963133/files/P2_singlenotes.zip?download=1", "bytes": 116133457, "md5_published": "40fbf03d8b04bb2cf42df20f36dc2254", "verified_download": false, "di_path": "P2_singlenotes/audio/directinput/directinput_allsinglenotes.wav", "midi_path": "P2_singlenotes/audio/midi/midi_allsinglenotes.mid"}
+  ],
+  "archive_path_evidence": "Zenodo archive previews, not locally inspected",
+  "annotation": "Published six-track MIDI, 9600 ticks per quarter, per-string automated Fishman pickup; pitch, onset and duration; actual MIDI unparsed",
+  "alignment_warning": "Zenodo warns signals may have up to 100 ms misalignment; DI-MIDI offset and precision unverified",
+  "split": "P1/P2 player holdout possible; independent repeated takes unverified",
+  "acquisition_blocker": "zenodo.org DNS failure; HTTPS DoH certificate verification failed; no TLS bypass",
+  "audio_experiment_performed": false
+}

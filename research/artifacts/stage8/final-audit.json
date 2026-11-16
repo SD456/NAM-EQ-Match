@@ -1,0 +1,29 @@
+{
+  "status": "verified",
+  "protected_files": 641,
+  "frozen_sources": 13,
+  "cache_files": 275,
+  "original_wavs": [
+    "WAV_Data/Free Bird.wav",
+    "WAV_Data/Merry Christmas Mr.Lawrence Guitar.wav",
+    "WAV_Data/六兆年と一夜物語.wav"
+  ],
+  "tests": 281,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "render_combinations": 4608,
+  "selection_rows": 15200,
+  "plan_sha256": "346d2a6ccc22ca13c796dafdc9cde56e0347cc49957a3d4e91cc24758dcf6b13",
+  "result_sha256": "53d09ff1c22e9c2fcd34c4669e40b0b71d34e8f8a6eb21ca919b4934fdeeed41",
+  "scientific_gates": {
+    "e1_mean": true,
+    "improved_folds": true,
+    "e0_no_material_harm": true,
+    "tail": false,
+    "conditioning": true,
+    "bootstrap": true
+  },
+  "overall_scientific_pass": false,
+  "analysis_sha256": "e4416d94ef4808271c6a6aa72b3b4ef4c78a25231f1476d13b5bb6b739d4e84b"
+}

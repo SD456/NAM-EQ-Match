@@ -1,0 +1,21 @@
+{
+  "frozen_before_real_results": true,
+  "sample_rate": 48000,
+  "di_seconds": 8,
+  "calibration_anchor": "A",
+  "calibration_rms_dbfs": -18,
+  "reference_dis": ["A", "B"],
+  "holdout_di": "C",
+  "gains_db": [-12,-11,-10,-9,-8,-7,-6,-5,-4,-3,-2,-1,0,1,2,3,4,5,6,7,8,9,10,11,12],
+  "truth_gains_db": [0,6],
+  "primary_cab": "bg412s-godmode-dv77-v30-mix",
+  "secondary_cab": "ir-brown-cab-audix-i5",
+  "secondary_cab_models": ["AMP-2204-1", "AMP-Sbgo-1"],
+  "teacher_models": ["AMP-2204-1", "AMP-Sbgo-1", "G12-2204-3", "V30-SLO1-3"],
+  "refine_top": 5,
+  "post_eq": {"kind": "highshelf", "frequency_hz": 1200, "q": 0.7071067811865476, "gain_db": 3},
+  "correction": {"max_gain_db": 4.5, "octave_fraction": 2, "n_taps": 2048},
+  "methods": ["baseline", "no_drive_gap", "no_hf_terms", "no_dynamic_texture", "no_eq_penalty", "eq_only"],
+  "gate": {"same_noeq_top1_fraction": 1, "cross_top1_fraction": 0.75, "cross_top3_fraction": 0.875, "cross_coarse_top5_fraction": 1, "holdout_sc": 0.2, "holdout_ltas_db": 1.5},
+  "notes": "Small closed library, one guitar/session, heuristic weights frozen. C used for evaluation only. No Free Bird. Same/noEQ control and cross/E0,E1 assessed separately. Ablations are diagnostic, not selected as production winners."
+}

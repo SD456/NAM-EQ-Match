@@ -1,0 +1,13 @@
+{
+  "recorded_utc": "2026-11-15T10:39:50.434896+00:00",
+  "files": {
+    "scripts/stage2_benchmark.py": "51021cde6eb593065e6cab564873f0a31aad36fbab05ec2f68614097c43bdd1b",
+    "experiments/stage2.json": "a99ec1b9ec47d592823a31d982bc8bf2d4b84be412239c1746035bb029cb904b",
+    "vendor/NAM-EQ-Match/tonematch/search.py": "933af09fb1c3c493758b4e9b2131e95aabeaff4fb8693f6c58282a9955a7f5fe",
+    "vendor/NAM-EQ-Match/tonematch/features.py": "f2419e52a1cf3c5fbfe56ce6ceb69098e1074a7afe03a5e484b15ee52268bb95",
+    "vendor/NAM-EQ-Match/tonematch/nam_backend.py": "2740554b383bb3503c922db8be6e999c7c6774f56b4e4c168629dbe73c37139d",
+    "vendor/NAM-EQ-Match/tonematch/match_eq.py": "25ffebb3c0d252f3b193d89425a04f3a1e5e4355e40e739516c2565b9324b235",
+    "vendor/NAM-EQ-Match/tonematch/tone_stack.py": "17b6c7a53e04801b56bd8dc24449db399379e6908200e9244191a049aff5e9f7",
+    "requirements-lock-win.txt": "ae432a9fccdf60ff3eaf047f8a809027777ed08b0bcec17e619c3a07959915e7"
+  }
+}

@@ -1,0 +1,3052 @@
+{
+  "config": {
+    "frozen_before_audio_experiments": true,
+    "output": "artifacts/stage6/calibration",
+    "data_manifest": "assets/stage6/data-provenance.json",
+    "baseline_snapshot": "artifacts/stage6/baseline-sha256.json",
+    "split": {
+      "calibration": "Ibanez Power Strat Clean Neck HU",
+      "heldout": "Fender Strat Clean Neck SC"
+    },
+    "expected_recordings_per_split": 78,
+    "native_audio": {
+      "sample_rate": 44100,
+      "channels": 1,
+      "subtype": "PCM_16"
+    },
+    "pitch_windows": [
+      1024,
+      2048
+    ],
+    "thresholds": [
+      0,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "baseline": {
+      "pitch_window": 1024,
+      "threshold": 0.8
+    },
+    "frontend": {
+      "analysis_sr": 16000,
+      "hop": 256,
+      "fmin": 82.4,
+      "fmax": 1319,
+      "resolution": 0.5,
+      "center": true,
+      "rms_window": 1024,
+      "relative_rms_floor": 0.01,
+      "rms_percentile": 95,
+      "shared_edge_seconds": 0.064
+    },
+    "truth": {
+      "midi_range": [
+        40,
+        88
+      ],
+      "a4_hz": 440,
+      "correct_cents": 50,
+      "guard_seconds": 0.114,
+      "offset_rounding_tolerance_seconds": 5e-05,
+      "registers_midi": [
+        [
+          40,
+          51
+        ],
+        [
+          52,
+          63
+        ],
+        [
+          64,
+          75
+        ],
+        [
+          76,
+          88
+        ]
+      ],
+      "phases_seconds": {
+        "attack": [
+          0,
+          0.08
+        ],
+        "sustain": [
+          0.12,
+          0.4
+        ]
+      },
+      "note_equal_weighting": true
+    },
+    "onset": {
+      "primary_window": 1024,
+      "diagnostic_window": 2048,
+      "tolerances_seconds": [
+        0.05,
+        0.1
+      ],
+      "backtrack": false,
+      "matching": "ordered maximum cardinality one-to-one on all full-file predictions"
+    },
+    "selection": {
+      "min_coverage": 0.6,
+      "min_conditional_exact": 0.9,
+      "order": [
+        "max full_correct",
+        "min conditional_octave",
+        "min pitch_window",
+        "max threshold"
+      ],
+      "no_feasible": "abstain"
+    },
+    "gate": {
+      "min_coverage": 0.6,
+      "min_conditional_exact": 0.9,
+      "min_onset_f1": 0.8,
+      "onset_tolerance_seconds": 0.05
+    },
+    "scope": "Calibration only on Ibanez; persist selection before Fender evaluation. Holdout grid is descriptive, cannot reselect. Clean single-note DI only, no physical-force, wet tone, retrieval, EQ, Free Bird or deployment experiment. Keep original WAV/XML, all baselines and stage5 failure unchanged."
+  },
+  "records": [
+    {
+      "id": "G53-40100-1111-00079",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-40100-1111-00079.wav",
+      "xml": "assets/stage6/labels/calibration/G53-40100-1111-00079.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 40,
+        "onset": 0.227,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-41101-1111-00080",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-41101-1111-00080.wav",
+      "xml": "assets/stage6/labels/calibration/G53-41101-1111-00080.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 41,
+        "onset": 0.236,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-42102-1111-00081",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-42102-1111-00081.wav",
+      "xml": "assets/stage6/labels/calibration/G53-42102-1111-00081.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 42,
+        "onset": 0.225,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-43103-1111-00082",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-43103-1111-00082.wav",
+      "xml": "assets/stage6/labels/calibration/G53-43103-1111-00082.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 43,
+        "onset": 0.219,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-44104-1111-00083",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-44104-1111-00083.wav",
+      "xml": "assets/stage6/labels/calibration/G53-44104-1111-00083.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 44,
+        "onset": 0.219,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-45105-1111-00084",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-45105-1111-00084.wav",
+      "xml": "assets/stage6/labels/calibration/G53-45105-1111-00084.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 45,
+        "onset": 0.225,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-45200-1111-00092",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-45200-1111-00092.wav",
+      "xml": "assets/stage6/labels/calibration/G53-45200-1111-00092.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 45,
+        "onset": 0.21,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-46106-1111-00085",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-46106-1111-00085.wav",
+      "xml": "assets/stage6/labels/calibration/G53-46106-1111-00085.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 46,
+        "onset": 0.225,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-46201-1111-00093",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-46201-1111-00093.wav",
+      "xml": "assets/stage6/labels/calibration/G53-46201-1111-00093.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 46,
+        "onset": 0.238,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-47107-1111-00086",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-47107-1111-00086.wav",
+      "xml": "assets/stage6/labels/calibration/G53-47107-1111-00086.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 47,
+        "onset": 0.232,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-47202-1111-00094",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-47202-1111-00094.wav",
+      "xml": "assets/stage6/labels/calibration/G53-47202-1111-00094.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 47,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-48108-1111-00087",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-48108-1111-00087.wav",
+      "xml": "assets/stage6/labels/calibration/G53-48108-1111-00087.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 48,
+        "onset": 0.236,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-48203-1111-00095",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-48203-1111-00095.wav",
+      "xml": "assets/stage6/labels/calibration/G53-48203-1111-00095.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 48,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-49109-1111-00088",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-49109-1111-00088.wav",
+      "xml": "assets/stage6/labels/calibration/G53-49109-1111-00088.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 49,
+        "onset": 0.232,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-49204-1111-00096",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-49204-1111-00096.wav",
+      "xml": "assets/stage6/labels/calibration/G53-49204-1111-00096.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 49,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-50110-1111-00089",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-50110-1111-00089.wav",
+      "xml": "assets/stage6/labels/calibration/G53-50110-1111-00089.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 50,
+        "onset": 0.219,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-50205-1111-00097",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-50205-1111-00097.wav",
+      "xml": "assets/stage6/labels/calibration/G53-50205-1111-00097.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 50,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-50300-1111-00105",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-50300-1111-00105.wav",
+      "xml": "assets/stage6/labels/calibration/G53-50300-1111-00105.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 50,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-51111-1111-00090",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-51111-1111-00090.wav",
+      "xml": "assets/stage6/labels/calibration/G53-51111-1111-00090.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 51,
+        "onset": 0.224,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-51206-1111-00098",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-51206-1111-00098.wav",
+      "xml": "assets/stage6/labels/calibration/G53-51206-1111-00098.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 51,
+        "onset": 0.226,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-51301-1111-00106",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-51301-1111-00106.wav",
+      "xml": "assets/stage6/labels/calibration/G53-51301-1111-00106.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 51,
+        "onset": 0.237,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-52112-1111-00091",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-52112-1111-00091.wav",
+      "xml": "assets/stage6/labels/calibration/G53-52112-1111-00091.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 52,
+        "onset": 0.217,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-52207-1111-00099",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-52207-1111-00099.wav",
+      "xml": "assets/stage6/labels/calibration/G53-52207-1111-00099.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 52,
+        "onset": 0.228,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-52302-1111-00107",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-52302-1111-00107.wav",
+      "xml": "assets/stage6/labels/calibration/G53-52302-1111-00107.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 52,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-53208-1111-00100",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-53208-1111-00100.wav",
+      "xml": "assets/stage6/labels/calibration/G53-53208-1111-00100.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 53,
+        "onset": 0.238,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-53303-1111-00108",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-53303-1111-00108.wav",
+      "xml": "assets/stage6/labels/calibration/G53-53303-1111-00108.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 53,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-54209-1111-00101",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-54209-1111-00101.wav",
+      "xml": "assets/stage6/labels/calibration/G53-54209-1111-00101.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 54,
+        "onset": 0.221,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-54304-1111-00109",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-54304-1111-00109.wav",
+      "xml": "assets/stage6/labels/calibration/G53-54304-1111-00109.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 54,
+        "onset": 0.204,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-55210-1111-00102",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-55210-1111-00102.wav",
+      "xml": "assets/stage6/labels/calibration/G53-55210-1111-00102.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 55,
+        "onset": 0.226,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-55305-1111-00110",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-55305-1111-00110.wav",
+      "xml": "assets/stage6/labels/calibration/G53-55305-1111-00110.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 55,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-55400-1111-00118",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-55400-1111-00118.wav",
+      "xml": "assets/stage6/labels/calibration/G53-55400-1111-00118.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 55,
+        "onset": 0.214,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-56211-1111-00103",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-56211-1111-00103.wav",
+      "xml": "assets/stage6/labels/calibration/G53-56211-1111-00103.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 56,
+        "onset": 0.205,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-56306-1111-00111",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-56306-1111-00111.wav",
+      "xml": "assets/stage6/labels/calibration/G53-56306-1111-00111.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 56,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-56401-1111-00119",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-56401-1111-00119.wav",
+      "xml": "assets/stage6/labels/calibration/G53-56401-1111-00119.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 56,
+        "onset": 0.21,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-57212-1111-00104",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-57212-1111-00104.wav",
+      "xml": "assets/stage6/labels/calibration/G53-57212-1111-00104.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 57,
+        "onset": 0.212,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-57307-1111-00112",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-57307-1111-00112.wav",
+      "xml": "assets/stage6/labels/calibration/G53-57307-1111-00112.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 57,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-57402-1111-00120",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-57402-1111-00120.wav",
+      "xml": "assets/stage6/labels/calibration/G53-57402-1111-00120.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 57,
+        "onset": 0.24,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-58308-1111-00113",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-58308-1111-00113.wav",
+      "xml": "assets/stage6/labels/calibration/G53-58308-1111-00113.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 58,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-58403-1111-00121",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-58403-1111-00121.wav",
+      "xml": "assets/stage6/labels/calibration/G53-58403-1111-00121.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 58,
+        "onset": 0.214,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-59309-1111-00114",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-59309-1111-00114.wav",
+      "xml": "assets/stage6/labels/calibration/G53-59309-1111-00114.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 59,
+        "onset": 0.205,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-59404-1111-00122",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-59404-1111-00122.wav",
+      "xml": "assets/stage6/labels/calibration/G53-59404-1111-00122.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 59,
+        "onset": 0.204,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-59500-1111-00131",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-59500-1111-00131.wav",
+      "xml": "assets/stage6/labels/calibration/G53-59500-1111-00131.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 59,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-60310-1111-00115",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-60310-1111-00115.wav",
+      "xml": "assets/stage6/labels/calibration/G53-60310-1111-00115.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 60,
+        "onset": 0.206,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-60405-1111-00123",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-60405-1111-00123.wav",
+      "xml": "assets/stage6/labels/calibration/G53-60405-1111-00123.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 60,
+        "onset": 0.218,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-60501-1111-00132",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-60501-1111-00132.wav",
+      "xml": "assets/stage6/labels/calibration/G53-60501-1111-00132.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 60,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-61311-1111-00116",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-61311-1111-00116.wav",
+      "xml": "assets/stage6/labels/calibration/G53-61311-1111-00116.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 61,
+        "onset": 0.209,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-61406-1111-00124",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-61406-1111-00124.wav",
+      "xml": "assets/stage6/labels/calibration/G53-61406-1111-00124.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 61,
+        "onset": 0.205,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-61502-1111-00133",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-61502-1111-00133.wav",
+      "xml": "assets/stage6/labels/calibration/G53-61502-1111-00133.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 61,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-62312-1111-00117",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-62312-1111-00117.wav",
+      "xml": "assets/stage6/labels/calibration/G53-62312-1111-00117.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 62,
+        "onset": 0.206,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-62407-1111-00125",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-62407-1111-00125.wav",
+      "xml": "assets/stage6/labels/calibration/G53-62407-1111-00125.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 62,
+        "onset": 0.205,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-62503-1111-00134",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-62503-1111-00134.wav",
+      "xml": "assets/stage6/labels/calibration/G53-62503-1111-00134.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 62,
+        "onset": 0.213,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-63408-1111-00126",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-63408-1111-00126.wav",
+      "xml": "assets/stage6/labels/calibration/G53-63408-1111-00126.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 63,
+        "onset": 0.211,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-63504-1111-00135",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-63504-1111-00135.wav",
+      "xml": "assets/stage6/labels/calibration/G53-63504-1111-00135.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 63,
+        "onset": 0.208,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-64409-1111-00127",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-64409-1111-00127.wav",
+      "xml": "assets/stage6/labels/calibration/G53-64409-1111-00127.xml",
+      "sample_rate": 44100,
+      "frames": 94212,
+      "string": 4,
+      "fret": 9,
+      "original_offset": 2.1363,
+      "event": {
+        "pitch": 64,
+        "onset": 0.205,
+        "offset": 2.1363
+      }
+    },
+    {
+      "id": "G53-64505-1111-00136",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-64505-1111-00136.wav",
+      "xml": "assets/stage6/labels/calibration/G53-64505-1111-00136.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 64,
+        "onset": 0.218,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-64600-1111-00144",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-64600-1111-00144.wav",
+      "xml": "assets/stage6/labels/calibration/G53-64600-1111-00144.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 64,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-65410-1111-00128",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-65410-1111-00128.wav",
+      "xml": "assets/stage6/labels/calibration/G53-65410-1111-00128.xml",
+      "sample_rate": 44100,
+      "frames": 100120,
+      "string": 4,
+      "fret": 10,
+      "original_offset": 2.2703,
+      "event": {
+        "pitch": 65,
+        "onset": 0.212,
+        "offset": 2.270294784580499
+      }
+    },
+    {
+      "id": "G53-65506-1111-00137",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-65506-1111-00137.wav",
+      "xml": "assets/stage6/labels/calibration/G53-65506-1111-00137.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 65,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-65601-1111-00145",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-65601-1111-00145.wav",
+      "xml": "assets/stage6/labels/calibration/G53-65601-1111-00145.xml",
+      "sample_rate": 44100,
+      "frames": 106822,
+      "string": 6,
+      "fret": 1,
+      "original_offset": 2.4223,
+      "event": {
+        "pitch": 65,
+        "onset": 0.2,
+        "offset": 2.422267573696145
+      }
+    },
+    {
+      "id": "G53-66411-1111-00129",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-66411-1111-00129.wav",
+      "xml": "assets/stage6/labels/calibration/G53-66411-1111-00129.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 66,
+        "onset": 0.233,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-66507-1111-00138",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-66507-1111-00138.wav",
+      "xml": "assets/stage6/labels/calibration/G53-66507-1111-00138.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 66,
+        "onset": 0.203,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-66602-1111-00146",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-66602-1111-00146.wav",
+      "xml": "assets/stage6/labels/calibration/G53-66602-1111-00146.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 66,
+        "onset": 0.215,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-67412-1111-00130",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-67412-1111-00130.wav",
+      "xml": "assets/stage6/labels/calibration/G53-67412-1111-00130.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 67,
+        "onset": 0.215,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-67508-1111-00139",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-67508-1111-00139.wav",
+      "xml": "assets/stage6/labels/calibration/G53-67508-1111-00139.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 67,
+        "onset": 0.209,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-67603-1111-00147",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-67603-1111-00147.wav",
+      "xml": "assets/stage6/labels/calibration/G53-67603-1111-00147.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 67,
+        "onset": 0.202,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-68509-1111-00140",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-68509-1111-00140.wav",
+      "xml": "assets/stage6/labels/calibration/G53-68509-1111-00140.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 68,
+        "onset": 0.241,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-68604-1111-00148",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-68604-1111-00148.wav",
+      "xml": "assets/stage6/labels/calibration/G53-68604-1111-00148.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 68,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-69510-1111-00141",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-69510-1111-00141.wav",
+      "xml": "assets/stage6/labels/calibration/G53-69510-1111-00141.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 69,
+        "onset": 0.207,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-69605-1111-00149",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-69605-1111-00149.wav",
+      "xml": "assets/stage6/labels/calibration/G53-69605-1111-00149.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 69,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-70511-1111-00142",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-70511-1111-00142.wav",
+      "xml": "assets/stage6/labels/calibration/G53-70511-1111-00142.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 70,
+        "onset": 0.204,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-70606-1111-00150",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-70606-1111-00150.wav",
+      "xml": "assets/stage6/labels/calibration/G53-70606-1111-00150.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 70,
+        "onset": 0.213,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-71512-1111-00143",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-71512-1111-00143.wav",
+      "xml": "assets/stage6/labels/calibration/G53-71512-1111-00143.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 71,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-71607-1111-00151",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-71607-1111-00151.wav",
+      "xml": "assets/stage6/labels/calibration/G53-71607-1111-00151.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 71,
+        "onset": 0.217,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-72608-1111-00152",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-72608-1111-00152.wav",
+      "xml": "assets/stage6/labels/calibration/G53-72608-1111-00152.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 72,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-73609-1111-00153",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-73609-1111-00153.wav",
+      "xml": "assets/stage6/labels/calibration/G53-73609-1111-00153.xml",
+      "sample_rate": 44100,
+      "frames": 84725,
+      "string": 6,
+      "fret": 9,
+      "original_offset": 1.9212,
+      "event": {
+        "pitch": 73,
+        "onset": 0.203,
+        "offset": 1.9212
+      }
+    },
+    {
+      "id": "G53-74610-1111-00154",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-74610-1111-00154.wav",
+      "xml": "assets/stage6/labels/calibration/G53-74610-1111-00154.xml",
+      "sample_rate": 44100,
+      "frames": 104234,
+      "string": 6,
+      "fret": 10,
+      "original_offset": 2.3636,
+      "event": {
+        "pitch": 74,
+        "onset": 0.212,
+        "offset": 2.3635827664399094
+      }
+    },
+    {
+      "id": "G53-75611-1111-00155",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-75611-1111-00155.wav",
+      "xml": "assets/stage6/labels/calibration/G53-75611-1111-00155.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 75,
+        "onset": 0.202,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-76612-1111-00156",
+      "split": "calibration",
+      "wav": "assets/stage6/di/calibration/G53-76612-1111-00156.wav",
+      "xml": "assets/stage6/labels/calibration/G53-76612-1111-00156.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 76,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-40100-1111-00001",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-40100-1111-00001.wav",
+      "xml": "assets/stage6/labels/heldout/G53-40100-1111-00001.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 40,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-41101-1111-00002",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-41101-1111-00002.wav",
+      "xml": "assets/stage6/labels/heldout/G53-41101-1111-00002.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 41,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-42102-1111-00003",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-42102-1111-00003.wav",
+      "xml": "assets/stage6/labels/heldout/G53-42102-1111-00003.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 42,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-43103-1111-00004",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-43103-1111-00004.wav",
+      "xml": "assets/stage6/labels/heldout/G53-43103-1111-00004.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 43,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-44104-1111-00005",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-44104-1111-00005.wav",
+      "xml": "assets/stage6/labels/heldout/G53-44104-1111-00005.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 44,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-45105-1111-00006",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-45105-1111-00006.wav",
+      "xml": "assets/stage6/labels/heldout/G53-45105-1111-00006.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 45,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-45200-1111-00014",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-45200-1111-00014.wav",
+      "xml": "assets/stage6/labels/heldout/G53-45200-1111-00014.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 45,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-46106-1111-00007",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-46106-1111-00007.wav",
+      "xml": "assets/stage6/labels/heldout/G53-46106-1111-00007.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 46,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-46201-1111-00015",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-46201-1111-00015.wav",
+      "xml": "assets/stage6/labels/heldout/G53-46201-1111-00015.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 46,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-47107-1111-00008",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-47107-1111-00008.wav",
+      "xml": "assets/stage6/labels/heldout/G53-47107-1111-00008.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 47,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-47202-1111-00016",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-47202-1111-00016.wav",
+      "xml": "assets/stage6/labels/heldout/G53-47202-1111-00016.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 47,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-48108-1111-00009",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-48108-1111-00009.wav",
+      "xml": "assets/stage6/labels/heldout/G53-48108-1111-00009.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 48,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-48203-1111-00017",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-48203-1111-00017.wav",
+      "xml": "assets/stage6/labels/heldout/G53-48203-1111-00017.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 48,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-49109-1111-00010",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-49109-1111-00010.wav",
+      "xml": "assets/stage6/labels/heldout/G53-49109-1111-00010.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 49,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-49204-1111-00018",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-49204-1111-00018.wav",
+      "xml": "assets/stage6/labels/heldout/G53-49204-1111-00018.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 49,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-50110-1111-00011",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-50110-1111-00011.wav",
+      "xml": "assets/stage6/labels/heldout/G53-50110-1111-00011.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 50,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-50205-1111-00019",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-50205-1111-00019.wav",
+      "xml": "assets/stage6/labels/heldout/G53-50205-1111-00019.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 50,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-50300-1111-00027",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-50300-1111-00027.wav",
+      "xml": "assets/stage6/labels/heldout/G53-50300-1111-00027.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 50,
+        "onset": 0.19,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-51111-1111-00012",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-51111-1111-00012.wav",
+      "xml": "assets/stage6/labels/heldout/G53-51111-1111-00012.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 51,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-51206-1111-00020",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-51206-1111-00020.wav",
+      "xml": "assets/stage6/labels/heldout/G53-51206-1111-00020.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 51,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-51301-1111-00028",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-51301-1111-00028.wav",
+      "xml": "assets/stage6/labels/heldout/G53-51301-1111-00028.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 51,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-52112-1111-00013",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-52112-1111-00013.wav",
+      "xml": "assets/stage6/labels/heldout/G53-52112-1111-00013.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 1,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 52,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-52207-1111-00021",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-52207-1111-00021.wav",
+      "xml": "assets/stage6/labels/heldout/G53-52207-1111-00021.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 52,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-52302-1111-00029",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-52302-1111-00029.wav",
+      "xml": "assets/stage6/labels/heldout/G53-52302-1111-00029.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 52,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-53208-1111-00022",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-53208-1111-00022.wav",
+      "xml": "assets/stage6/labels/heldout/G53-53208-1111-00022.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 53,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-53303-1111-00030",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-53303-1111-00030.wav",
+      "xml": "assets/stage6/labels/heldout/G53-53303-1111-00030.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 53,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-54209-1111-00023",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-54209-1111-00023.wav",
+      "xml": "assets/stage6/labels/heldout/G53-54209-1111-00023.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 54,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-54304-1111-00031",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-54304-1111-00031.wav",
+      "xml": "assets/stage6/labels/heldout/G53-54304-1111-00031.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 54,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-55210-1111-00024",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-55210-1111-00024.wav",
+      "xml": "assets/stage6/labels/heldout/G53-55210-1111-00024.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 55,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-55305-1111-00032",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-55305-1111-00032.wav",
+      "xml": "assets/stage6/labels/heldout/G53-55305-1111-00032.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 55,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-55400-1111-00040",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-55400-1111-00040.wav",
+      "xml": "assets/stage6/labels/heldout/G53-55400-1111-00040.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 55,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-56211-1111-00025",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-56211-1111-00025.wav",
+      "xml": "assets/stage6/labels/heldout/G53-56211-1111-00025.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 56,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-56306-1111-00033",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-56306-1111-00033.wav",
+      "xml": "assets/stage6/labels/heldout/G53-56306-1111-00033.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 56,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-56401-1111-00041",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-56401-1111-00041.wav",
+      "xml": "assets/stage6/labels/heldout/G53-56401-1111-00041.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 56,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-57212-1111-00026",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-57212-1111-00026.wav",
+      "xml": "assets/stage6/labels/heldout/G53-57212-1111-00026.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 2,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 57,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-57307-1111-00034",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-57307-1111-00034.wav",
+      "xml": "assets/stage6/labels/heldout/G53-57307-1111-00034.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 57,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-57402-1111-00042",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-57402-1111-00042.wav",
+      "xml": "assets/stage6/labels/heldout/G53-57402-1111-00042.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 57,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-58308-1111-00035",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-58308-1111-00035.wav",
+      "xml": "assets/stage6/labels/heldout/G53-58308-1111-00035.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 58,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-58403-1111-00043",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-58403-1111-00043.wav",
+      "xml": "assets/stage6/labels/heldout/G53-58403-1111-00043.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 58,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-59309-1111-00036",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-59309-1111-00036.wav",
+      "xml": "assets/stage6/labels/heldout/G53-59309-1111-00036.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 59,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-59404-1111-00044",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-59404-1111-00044.wav",
+      "xml": "assets/stage6/labels/heldout/G53-59404-1111-00044.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 59,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-59500-1111-00053",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-59500-1111-00053.wav",
+      "xml": "assets/stage6/labels/heldout/G53-59500-1111-00053.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 59,
+        "onset": 0.19,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-60310-1111-00037",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-60310-1111-00037.wav",
+      "xml": "assets/stage6/labels/heldout/G53-60310-1111-00037.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 60,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-60405-1111-00045",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-60405-1111-00045.wav",
+      "xml": "assets/stage6/labels/heldout/G53-60405-1111-00045.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 60,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-60501-1111-00054",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-60501-1111-00054.wav",
+      "xml": "assets/stage6/labels/heldout/G53-60501-1111-00054.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 60,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-61311-1111-00038",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-61311-1111-00038.wav",
+      "xml": "assets/stage6/labels/heldout/G53-61311-1111-00038.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 61,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-61406-1111-00046",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-61406-1111-00046.wav",
+      "xml": "assets/stage6/labels/heldout/G53-61406-1111-00046.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 61,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-61502-1111-00055",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-61502-1111-00055.wav",
+      "xml": "assets/stage6/labels/heldout/G53-61502-1111-00055.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 61,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-62312-1111-00039",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-62312-1111-00039.wav",
+      "xml": "assets/stage6/labels/heldout/G53-62312-1111-00039.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 3,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 62,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-62407-1111-00047",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-62407-1111-00047.wav",
+      "xml": "assets/stage6/labels/heldout/G53-62407-1111-00047.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 62,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-62503-1111-00056",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-62503-1111-00056.wav",
+      "xml": "assets/stage6/labels/heldout/G53-62503-1111-00056.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 62,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-63408-1111-00048",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-63408-1111-00048.wav",
+      "xml": "assets/stage6/labels/heldout/G53-63408-1111-00048.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 63,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-63504-1111-00057",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-63504-1111-00057.wav",
+      "xml": "assets/stage6/labels/heldout/G53-63504-1111-00057.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 63,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-64409-1111-00049",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-64409-1111-00049.wav",
+      "xml": "assets/stage6/labels/heldout/G53-64409-1111-00049.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 64,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-64505-1111-00058",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-64505-1111-00058.wav",
+      "xml": "assets/stage6/labels/heldout/G53-64505-1111-00058.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 64,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-64600-1111-00066",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-64600-1111-00066.wav",
+      "xml": "assets/stage6/labels/heldout/G53-64600-1111-00066.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 0,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 64,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-65410-1111-00050",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-65410-1111-00050.wav",
+      "xml": "assets/stage6/labels/heldout/G53-65410-1111-00050.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 65,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-65506-1111-00059",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-65506-1111-00059.wav",
+      "xml": "assets/stage6/labels/heldout/G53-65506-1111-00059.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 65,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-65601-1111-00067",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-65601-1111-00067.wav",
+      "xml": "assets/stage6/labels/heldout/G53-65601-1111-00067.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 1,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 65,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-66411-1111-00051",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-66411-1111-00051.wav",
+      "xml": "assets/stage6/labels/heldout/G53-66411-1111-00051.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 66,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-66507-1111-00060",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-66507-1111-00060.wav",
+      "xml": "assets/stage6/labels/heldout/G53-66507-1111-00060.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 66,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-66602-1111-00068",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-66602-1111-00068.wav",
+      "xml": "assets/stage6/labels/heldout/G53-66602-1111-00068.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 2,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 66,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-67412-1111-00052",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-67412-1111-00052.wav",
+      "xml": "assets/stage6/labels/heldout/G53-67412-1111-00052.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 4,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 67,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-67508-1111-00061",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-67508-1111-00061.wav",
+      "xml": "assets/stage6/labels/heldout/G53-67508-1111-00061.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 67,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-67603-1111-00069",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-67603-1111-00069.wav",
+      "xml": "assets/stage6/labels/heldout/G53-67603-1111-00069.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 3,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 67,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-68509-1111-00062",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-68509-1111-00062.wav",
+      "xml": "assets/stage6/labels/heldout/G53-68509-1111-00062.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 68,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-68604-1111-00070",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-68604-1111-00070.wav",
+      "xml": "assets/stage6/labels/heldout/G53-68604-1111-00070.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 4,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 68,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-69510-1111-00063",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-69510-1111-00063.wav",
+      "xml": "assets/stage6/labels/heldout/G53-69510-1111-00063.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 69,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-69605-1111-00071",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-69605-1111-00071.wav",
+      "xml": "assets/stage6/labels/heldout/G53-69605-1111-00071.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 5,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 69,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-70511-1111-00064",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-70511-1111-00064.wav",
+      "xml": "assets/stage6/labels/heldout/G53-70511-1111-00064.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 70,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-70606-1111-00072",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-70606-1111-00072.wav",
+      "xml": "assets/stage6/labels/heldout/G53-70606-1111-00072.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 6,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 70,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-71512-1111-00065",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-71512-1111-00065.wav",
+      "xml": "assets/stage6/labels/heldout/G53-71512-1111-00065.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 5,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 71,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-71607-1111-00073",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-71607-1111-00073.wav",
+      "xml": "assets/stage6/labels/heldout/G53-71607-1111-00073.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 7,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 71,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-72608-1111-00074",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-72608-1111-00074.wav",
+      "xml": "assets/stage6/labels/heldout/G53-72608-1111-00074.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 8,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 72,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-73609-1111-00075",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-73609-1111-00075.wav",
+      "xml": "assets/stage6/labels/heldout/G53-73609-1111-00075.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 9,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 73,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-74610-1111-00076",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-74610-1111-00076.wav",
+      "xml": "assets/stage6/labels/heldout/G53-74610-1111-00076.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 10,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 74,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-75611-1111-00077",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-75611-1111-00077.wav",
+      "xml": "assets/stage6/labels/heldout/G53-75611-1111-00077.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 11,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 75,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    },
+    {
+      "id": "G53-76612-1111-00078",
+      "split": "heldout",
+      "wav": "assets/stage6/di/heldout/G53-76612-1111-00078.wav",
+      "xml": "assets/stage6/labels/heldout/G53-76612-1111-00078.xml",
+      "sample_rate": 44100,
+      "frames": 110250,
+      "string": 6,
+      "fret": 12,
+      "original_offset": 2.5,
+      "event": {
+        "pitch": 76,
+        "onset": 0.2,
+        "offset": 2.5
+      }
+    }
+  ],
+  "assets": {
+    "assets/stage6/labels/calibration/G53-40100-1111-00079.xml": "7fea6a105c7b4dfcea345f3a131c9fd4a6b5569f91816a2584055e4a73953a88",
+    "assets/stage6/labels/calibration/G53-41101-1111-00080.xml": "adc7e6e70cf7b970b79508b043f0b1913a0e08789c82c8bbfa63f9dd3a41291d",
+    "assets/stage6/labels/calibration/G53-42102-1111-00081.xml": "d9717a9aec2ae353df87da1ecb5f640880569f094ca3d757cb5170e5dc8ebbc4",
+    "assets/stage6/labels/calibration/G53-43103-1111-00082.xml": "116c15ad038ff622e342cbb4952aef1c347ebd43a7b6d6abc90a699b8fddf224",
+    "assets/stage6/labels/calibration/G53-44104-1111-00083.xml": "4bd01115a543578f7a48017ef5d048d939c8db23eeddefd017c2a78b9614f691",
+    "assets/stage6/labels/calibration/G53-45105-1111-00084.xml": "20d61d764664415adca4b52bd466f45e77e1e6a06ed187988c06dde439ec4d53",
+    "assets/stage6/labels/calibration/G53-45200-1111-00092.xml": "e602fdca873ed2059f74cf7f857ae46357e3a38c0349ae70b124386da0837acd",
+    "assets/stage6/labels/calibration/G53-46106-1111-00085.xml": "cceea790f07544960f359626ed7f7ca0272154ca551de6426f6c633dfeb7c70c",
+    "assets/stage6/labels/calibration/G53-46201-1111-00093.xml": "b71ae788e2951b73ed2055f71a6419b308cb043609b1944365ad5d86b30a9a2a",
+    "assets/stage6/labels/calibration/G53-47107-1111-00086.xml": "1ffb764d9e10d7cbe5b33e3482afa32c371d0a9a8e999fd36bb84dcf1803bb54",
+    "assets/stage6/labels/calibration/G53-47202-1111-00094.xml": "727b3e9d2327a80087cf41c79c8a27bb523b03847fa0afcb257bd7518ed13057",
+    "assets/stage6/labels/calibration/G53-48108-1111-00087.xml": "3719369d15fce5338efcd4fa50f73d6b53f0b434ab28d4c69b75395b7ad4fc60",
+    "assets/stage6/labels/calibration/G53-48203-1111-00095.xml": "b856c2b7a0bb583174e9215d9689dd56dc2090b7fed766828e036cac861204a3",
+    "assets/stage6/labels/calibration/G53-49109-1111-00088.xml": "2628b012fa84cb5044c4e0cd885aac442a2798db255dca6fd71a45e4d558a939",
+    "assets/stage6/labels/calibration/G53-49204-1111-00096.xml": "a01c8822fb2e8976ca3f66feda093676912785240ea48eefb08e0cd7c2940392",
+    "assets/stage6/labels/calibration/G53-50110-1111-00089.xml": "a2afaa31bfe111271fd19f66ef7458dbf372f13b1624ff2f298844ef38ce2042",
+    "assets/stage6/labels/calibration/G53-50205-1111-00097.xml": "8301ef2a8dc0afac0dd7378bc88af21bde07ff78222a17a3c5085d60a1c90e71",
+    "assets/stage6/labels/calibration/G53-50300-1111-00105.xml": "6889f17b3f67e6adfd14e71df311d6f51b91f5d77bdb2a463aca4d5e45b1c1df",
+    "assets/stage6/labels/calibration/G53-51111-1111-00090.xml": "b617207747f5530d702a1de1cea228d2a41d54f2e462097abb64acf7dd408efb",
+    "assets/stage6/labels/calibration/G53-51206-1111-00098.xml": "3c87a69497609fbb0e8e76246920ff797b717b0c85befbfaac6d82fdd229931f",
+    "assets/stage6/labels/calibration/G53-51301-1111-00106.xml": "60115f24a7e2a3491a409faf335f0723993beef7c50f2d86d87742dd5dd3e947",
+    "assets/stage6/labels/calibration/G53-52112-1111-00091.xml": "426a347943b5924a305839b4e1e737bd8c44539c7c5a78401f0ae6c21cfc46cd",
+    "assets/stage6/labels/calibration/G53-52207-1111-00099.xml": "7eaa3ad9488e9cf3c65953f493103002847084f63dbebed724303d123df0fb7d",
+    "assets/stage6/labels/calibration/G53-52302-1111-00107.xml": "09319cb0ea53d39ac4ff11d27b54f58e424e11fe41ccfab5fff7c39d6cb1744d",
+    "assets/stage6/labels/calibration/G53-53208-1111-00100.xml": "84e33497e5d2d50373d79b057638ac0d0c2427218e1553382790014c2946b4eb",
+    "assets/stage6/labels/calibration/G53-53303-1111-00108.xml": "2158af2d2cb2c63d920f545119c0ab6d20ec025f4bada57d466b712d78cec84f",
+    "assets/stage6/labels/calibration/G53-54209-1111-00101.xml": "5a8defdee76e76d6bb98b90ea7cb2d16d21dbd9cda308ce2285933c60fb70335",
+    "assets/stage6/labels/calibration/G53-54304-1111-00109.xml": "0f4c01e51a8c1aff6de21d7e4d6e365b654f1dbc061b6016c0cc1bb5eee62e7b",
+    "assets/stage6/labels/calibration/G53-55210-1111-00102.xml": "80d3dd01fa01f34508f1d43ee8fa16e6109a0ca6beff1429adda1a7c1779f903",
+    "assets/stage6/labels/calibration/G53-55305-1111-00110.xml": "72963b5b9cda39155c100244282d6ee88ce554481ef3a3f12e69d966a57b5052",
+    "assets/stage6/labels/calibration/G53-55400-1111-00118.xml": "013fbe92613406246f6536f5064f8993a22d1a65fbaacb1f98e8bf7c046eb45f",
+    "assets/stage6/labels/calibration/G53-56211-1111-00103.xml": "eac590984b09cbe3d7c3de36f88c52c77b8021f4434854d11b8d7423c41b6055",
+    "assets/stage6/labels/calibration/G53-56306-1111-00111.xml": "5a9d978bacdf0df4ffd38d8812e09b1b202dca3d4e6af2a3fba15cb5c44ba644",
+    "assets/stage6/labels/calibration/G53-56401-1111-00119.xml": "f8118d3dada620934f9d0e7e354aa5c9588e41a77401655d7b949cf890bab6f1",
+    "assets/stage6/labels/calibration/G53-57212-1111-00104.xml": "b4142fb36999a293c043c1cedf4a1d7c2be65b9c8c666b001b36bf8c4a899f92",
+    "assets/stage6/labels/calibration/G53-57307-1111-00112.xml": "63acc4c23f87f28a884aec7086e858d00e1b5817d4ada03a0cb7bf15ea5cd8e5",
+    "assets/stage6/labels/calibration/G53-57402-1111-00120.xml": "0e4284b575ac96c207ac022161db0824e6d3ff0d5c221773bbc1b1d95ed301f4",
+    "assets/stage6/labels/calibration/G53-58308-1111-00113.xml": "3bf5ad338c3425250274cb16700af99bd2a54a87023c82a8cba8a9ba3fdc97b5",
+    "assets/stage6/labels/calibration/G53-58403-1111-00121.xml": "a9328a7fe5fa4e513ce2bed077225db40d7c6f8eaf22091ce321b8d6b63c9f73",
+    "assets/stage6/labels/calibration/G53-59309-1111-00114.xml": "296b2dc97c47290e53cefe1cd49a354fe5ec86009f9166913d1e3f86ad080b04",
+    "assets/stage6/labels/calibration/G53-59404-1111-00122.xml": "dd1141f1bed7bdbe0b300eedc565f2cbf4bcb1251bf2e4f289221999e1398a23",
+    "assets/stage6/labels/calibration/G53-59500-1111-00131.xml": "24099832c7d0c900283c2ec37e2b86a6e074f66d79a44f55ed8432bad96a0010",
+    "assets/stage6/labels/calibration/G53-60310-1111-00115.xml": "ecc798e080bcb4118d1a24069e6c1c3d105ef19ac8711f79253971a8841a36f1",
+    "assets/stage6/labels/calibration/G53-60405-1111-00123.xml": "395aa62010defc8c190e2fb838b72ff5740a0bfc1a9bf50fc887156ade6aac01",
+    "assets/stage6/labels/calibration/G53-60501-1111-00132.xml": "102d80b01378a781b781c3e1506f38277dc605addbdd58d73bff3c5d8ff7be2c",
+    "assets/stage6/labels/calibration/G53-61311-1111-00116.xml": "7961c54b3000e099dfe2c0d0f23705c2c93170625c451def6a10b761de4c9450",
+    "assets/stage6/labels/calibration/G53-61406-1111-00124.xml": "d42d777239670834a70eb7c420e9bd2e2282f41083e74c6b5aae97d96a8d28fd",
+    "assets/stage6/labels/calibration/G53-61502-1111-00133.xml": "6207c3d686c217f44f5743d7c39bd8e09a3e917ea03d258c8cf72e67ebffb2ac",
+    "assets/stage6/labels/calibration/G53-62312-1111-00117.xml": "f33e1b8f4a20a0a8de0f9cf66f9deb274d1a1ce31b847f5d5f3a34255dde62af",
+    "assets/stage6/labels/calibration/G53-62407-1111-00125.xml": "00ebc85c02c6e8cd1e19707aaad1790332c86b70d27bbaa7ecb62d8a165f701c",
+    "assets/stage6/labels/calibration/G53-62503-1111-00134.xml": "d0070ddb956c417f48f9bb63d15d037cdb60ccea571b12551cdd9cef8392ccf8",
+    "assets/stage6/labels/calibration/G53-63408-1111-00126.xml": "54b3f2a2f03ce8f114dc4a5fb49bfdb45eae5e2cac971f33765be0f89f50fb90",
+    "assets/stage6/labels/calibration/G53-63504-1111-00135.xml": "a2f8a5c39e5a81ecd7437cbb32864d3c79c545bb22479cc0a1227aabaecaa863",
+    "assets/stage6/labels/calibration/G53-64409-1111-00127.xml": "a3d803d48601d866ece0a208a6521b1cbd195ebbd83e6f01b6c6bdea2e3aae35",
+    "assets/stage6/labels/calibration/G53-64505-1111-00136.xml": "99020027d2aa2dd76303d1f867b4c6488696f66b1bed5eb36bfcf470a7c757ff",
+    "assets/stage6/labels/calibration/G53-64600-1111-00144.xml": "3c294e85957a648a87c91c7273ec038ce1e9386ce93c291f8222029e08873b13",
+    "assets/stage6/labels/calibration/G53-65410-1111-00128.xml": "7d226b1851e113ad03cb81bbbb4e11de716becec4f4ad17c2c069fbbf9b52b05",
+    "assets/stage6/labels/calibration/G53-65506-1111-00137.xml": "727d92424c6e439650110d28d06943c506d4d80d708339a149443eedf59ec159",
+    "assets/stage6/labels/calibration/G53-65601-1111-00145.xml": "4134dd803b6b74a0cebb65ec3a19d01b0eb9a6fd08228be548a55a4490060c5b",
+    "assets/stage6/labels/calibration/G53-66411-1111-00129.xml": "7e59e3545307daa6e8896670d71a729cf438f8e3ded0ade0101e520568cab5bd",
+    "assets/stage6/labels/calibration/G53-66507-1111-00138.xml": "539c8edd8df2edb673be6e32e827815586fb7ccbc7fd6be6506af81b7c280833",
+    "assets/stage6/labels/calibration/G53-66602-1111-00146.xml": "7d3771a7216a973ce2b365e2e2d2b05b44e6ee39f96ea08cdf1b756e606efdf4",
+    "assets/stage6/labels/calibration/G53-67412-1111-00130.xml": "f1394146c7881f9b8b0ec03c38f8474920b6bded210ec2c3d0619430920f3bba",
+    "assets/stage6/labels/calibration/G53-67508-1111-00139.xml": "1e2382df2b3b4f80a1cc64c09bdb2e7ff5dcf6d48cb0430121c39850254f85b4",
+    "assets/stage6/labels/calibration/G53-67603-1111-00147.xml": "4940e532d95f8df7b5333eafe8ee96793701f955263dc18efcbf4779ac8fe89b",
+    "assets/stage6/labels/calibration/G53-68509-1111-00140.xml": "46f87c6eb018e0cca9eb2dc2e51f1f0a442fce1b6a77a77f9503740049624524",
+    "assets/stage6/labels/calibration/G53-68604-1111-00148.xml": "87adcf2350f39e135c44866d5b872da7150e0c356840e50aec31cc6baf1647e6",
+    "assets/stage6/labels/calibration/G53-69510-1111-00141.xml": "530623a9888d714d66d78232999c9ffa017ff2d56f52cfdcc8e277109618880a",
+    "assets/stage6/labels/calibration/G53-69605-1111-00149.xml": "381f906bbfdec9cbf951992e77e24de2e9bdf2c9068461fd6e7a4ee151ee2a96",
+    "assets/stage6/labels/calibration/G53-70511-1111-00142.xml": "e448a79c5f34375b793595cab42ce27444d12fa1791060c73e3ac6d675b6af0e",
+    "assets/stage6/labels/calibration/G53-70606-1111-00150.xml": "179fad6016a082d127a77518ae6a73d0af7a958c67ca85dfdeb68bb84b36fb07",
+    "assets/stage6/labels/calibration/G53-71512-1111-00143.xml": "a443a058b3d480128b6a164ee8a32d359844f32c4866d552db331bf417292d93",
+    "assets/stage6/labels/calibration/G53-71607-1111-00151.xml": "da1ae13b64642ad952e8032e0b16cb365be3f68a77f259fde754b2177a47e22d",
+    "assets/stage6/labels/calibration/G53-72608-1111-00152.xml": "7cf823060d3f49584d928a00b93a6bf18ed4cff8eb1a3e63d78c840804605c61",
+    "assets/stage6/labels/calibration/G53-73609-1111-00153.xml": "a581a2e295f7dfb26445a1a2d24ae3ceaf2fbc5818214ab19386b25e89acd240",
+    "assets/stage6/labels/calibration/G53-74610-1111-00154.xml": "15619d7bc65278a0d70d7859e7f7f1f2a11a8d93cf05b6c16466adbc9d5e79e4",
+    "assets/stage6/labels/calibration/G53-75611-1111-00155.xml": "b26c7dc70d751d8f1d84559a7e6ec231cd13ff51a9ddd8c6a594b796eace75d6",
+    "assets/stage6/labels/calibration/G53-76612-1111-00156.xml": "2a21027faa0af080301d6e0852506cc4c48e2f3a5f28d3c2390de0ee22dbf717",
+    "assets/stage6/di/calibration/G53-40100-1111-00079.wav": "a8fc5c21a0f72d1eb0ec72d5b7ef3c898ddd7c1bf7819ddf960c167f14aa3c2a",
+    "assets/stage6/di/calibration/G53-41101-1111-00080.wav": "2b4d2abbbcff9576925128650eecb1db14d58095f44a3b8bd78dd71b4da89edb",
+    "assets/stage6/di/calibration/G53-42102-1111-00081.wav": "eaa1834ed340a1acff53307f17fea2e7209016644414d2f4aefc6fa9eafee309",
+    "assets/stage6/di/calibration/G53-43103-1111-00082.wav": "495e587cfb37ff525a47d2efda3442d6d55efe8f6a2a1d62ece8f6e0d788bc42",
+    "assets/stage6/di/calibration/G53-44104-1111-00083.wav": "0f24f16b002a916585986c771477f3d29d19f8d1d1e51bc96320066a4b4ecc8a",
+    "assets/stage6/di/calibration/G53-45105-1111-00084.wav": "99e04b4bb13bd805e121c6d1dbc67f3009bf4a6b185415076a5bec91abbbee32",
+    "assets/stage6/di/calibration/G53-45200-1111-00092.wav": "7969df0088e4e4c282ec8caf41643b183a175d7a00fd679e7de0d233b511af84",
+    "assets/stage6/di/calibration/G53-46106-1111-00085.wav": "fc97108b9055781d7ac4e4f54f622188e7872f3409434789fd70a3cea9951a61",
+    "assets/stage6/di/calibration/G53-46201-1111-00093.wav": "bb5a7f50292a7d2e4c33b978a382d1becf78ac8f1e8e81ded38697e470f1116d",
+    "assets/stage6/di/calibration/G53-47107-1111-00086.wav": "d8982ee15971d28aacc11267fddb0e2e8d6b7c2fadec6a46ce1bdd8d9ac4385c",
+    "assets/stage6/di/calibration/G53-47202-1111-00094.wav": "9452f909b8dcfe7cae92ae28a9b745af2957c600463386408269eb0ee206451f",
+    "assets/stage6/di/calibration/G53-48108-1111-00087.wav": "bf27770386f2282042e1eac1c6879ccbd96049a77e6214a2257f5043f101e4e1",
+    "assets/stage6/di/calibration/G53-48203-1111-00095.wav": "f373ce070ea6a2ef514f9f84f52d28af347c5bba49e167c1028a013298a79ce2",
+    "assets/stage6/di/calibration/G53-49109-1111-00088.wav": "7049bf759d3f32d1e3b4f82b0e7499908568ac1dd3d8eaefc65670315a2a79d2",
+    "assets/stage6/di/calibration/G53-49204-1111-00096.wav": "faadf8a8d4e2285ce1a63d6b4f9814d00d00dcb88048de292b1bc473f6edaf6c",
+    "assets/stage6/di/calibration/G53-50110-1111-00089.wav": "1388f4dd6197655eef92a2f456ee1b58ad3394d381b61c852437d3daa0c18bf9",
+    "assets/stage6/di/calibration/G53-50205-1111-00097.wav": "fa260325ff27ef0189b86b4cbb475e77369079a3f047ea930978726c3cb64c98",
+    "assets/stage6/di/calibration/G53-50300-1111-00105.wav": "34b77232d8ed7705f9f396c99bcdd7ae8a1ea2e15d8af251220ee94b3a481c53",
+    "assets/stage6/di/calibration/G53-51111-1111-00090.wav": "fbbd3106981f0ddbf67e138308f0bf6ae7b41b238c3aa9fedd287e0c8a893ef4",
+    "assets/stage6/di/calibration/G53-51206-1111-00098.wav": "1f8cf77393d0496f65c50e07d377efb2f64e3c0bedc656fdff871d82d2e54da2",
+    "assets/stage6/di/calibration/G53-51301-1111-00106.wav": "7094d1ea57d1b2db3cb17941d629d0936284183ae15715df3243eaa2ed4d24bd",
+    "assets/stage6/di/calibration/G53-52112-1111-00091.wav": "43f3958ada832ee649ec25a4b089d1d6c21de99a01a0b9b06d9e01cf6ec6648f",
+    "assets/stage6/di/calibration/G53-52207-1111-00099.wav": "4b66bf147afdcfe86f35e668ead334a442fec0d304e3a8774c32bb9025f76b3b",
+    "assets/stage6/di/calibration/G53-52302-1111-00107.wav": "1f8749f32af8a2ea94fc7e3db27c98de34ca257beac045adc94d72bce200f52d",
+    "assets/stage6/di/calibration/G53-53208-1111-00100.wav": "0115648afbf2749dcf1041432c77115b1bb120f1eadbc5bf5b71678225bfc5b8",
+    "assets/stage6/di/calibration/G53-53303-1111-00108.wav": "3de1b1acd1090458b810e5b2771c700086e7eb64224ce718548b79556f2fbafa",
+    "assets/stage6/di/calibration/G53-54209-1111-00101.wav": "e9acdd4fb6337d12663fe0532778d3b0f58e3e4c051e03933de6f3519923eea2",
+    "assets/stage6/di/calibration/G53-54304-1111-00109.wav": "0251e07c3f62c7a410c54dce41c6f847b22ed4ebc93613b4c309f224f9c3c687",
+    "assets/stage6/di/calibration/G53-55210-1111-00102.wav": "b9beeac88ae49082caec85057a2e2d12b09417fcb6615e47677b5b2c615002f9",
+    "assets/stage6/di/calibration/G53-55305-1111-00110.wav": "c9424b5c523412ed1d49c07c867cce5d7dc9f08f6a3b12fd2d0546a711d57240",
+    "assets/stage6/di/calibration/G53-55400-1111-00118.wav": "2c731d913b6234e85291670d827d361a436fa353256ec1627dc0a06df4cd4475",
+    "assets/stage6/di/calibration/G53-56211-1111-00103.wav": "99119467ec7814635b0742588d24c5b9bf7edf01c114ae2a0092036e4532f8aa",
+    "assets/stage6/di/calibration/G53-56306-1111-00111.wav": "fea4c37badb7bfae79cca68ba9d70a879897c37cd46d669f073f6698a1ae2690",
+    "assets/stage6/di/calibration/G53-56401-1111-00119.wav": "45cd32c81384616f53d89f8266057a1385d5b1b234dc34800f0d7bd4adbf96bb",
+    "assets/stage6/di/calibration/G53-57212-1111-00104.wav": "4649155e763551329ec225d024d97ecb07abb01bded83a8722ac0ed43cdb3e9c",
+    "assets/stage6/di/calibration/G53-57307-1111-00112.wav": "c43aa976898eec0e06e62c48e0a6aad0c12c51437fda2e03a882114271abd90b",
+    "assets/stage6/di/calibration/G53-57402-1111-00120.wav": "f2a61983a7f6995f8f6262d373d6a635d5c177667f1345e97dc7780118cfa892",
+    "assets/stage6/di/calibration/G53-58308-1111-00113.wav": "d374158d922cd67cc314b0654381251fda7bc069dea2815ca837ae91fe9ada78",
+    "assets/stage6/di/calibration/G53-58403-1111-00121.wav": "4c7af623a262d3866430f2d579957bf9c5ca4d0fc4b7dbb3c523127c5807bc89",
+    "assets/stage6/di/calibration/G53-59309-1111-00114.wav": "a48dafe0bcf043f1c0f58ad9d37e473fa3ddea167297af9d12f274dcd09100c2",
+    "assets/stage6/di/calibration/G53-59404-1111-00122.wav": "f315a15dc65c65155bd2225a1064b223037cdc2fcf40743be458771b9d40689f",
+    "assets/stage6/di/calibration/G53-59500-1111-00131.wav": "a3d80ce66b97a608263b1ba496999c70f83f2b283178da5f8ecd7cec87c4e117",
+    "assets/stage6/di/calibration/G53-60310-1111-00115.wav": "fc79b1f0fda3f271bd44836eefa8f7fe2cb712a03d87c6d5b7ace8ebf612f1db",
+    "assets/stage6/di/calibration/G53-60405-1111-00123.wav": "ab5bce8fab6ed62e5a3d7f497bf9e531ab4d626438ce102c87e5273033b5a1a7",
+    "assets/stage6/di/calibration/G53-60501-1111-00132.wav": "e0d50badf512245467509fb8249210cf4cc7dfba9291d00eacb34559ac8fa3a7",
+    "assets/stage6/di/calibration/G53-61311-1111-00116.wav": "2177e2876eac5d03bd4205a9d23b7366ac69b254be7deda93115faee9e4898d7",
+    "assets/stage6/di/calibration/G53-61406-1111-00124.wav": "16a14066a91028b49578e46280485ffecabc6271e74ac8ffa1f464a3a0c2bacb",
+    "assets/stage6/di/calibration/G53-61502-1111-00133.wav": "93144d3257bd5aa3587b9cf9c39def676c40191060afbaf0ca08f3dc765b7e64",
+    "assets/stage6/di/calibration/G53-62312-1111-00117.wav": "27d154eeef58620c81b132a601bbfe46a534fef90192aa9e6caa247aed9881e6",
+    "assets/stage6/di/calibration/G53-62407-1111-00125.wav": "05e7560645db4054506b8c0062fbc47ae3b56d6ce26f8136fc3cbff3c7dccfae",
+    "assets/stage6/di/calibration/G53-62503-1111-00134.wav": "04920ab9017368600cc9f406ed80b38404dc9b2b97a7b0121d240172aa7ec390",
+    "assets/stage6/di/calibration/G53-63408-1111-00126.wav": "e598bd27d8288e00601d3c76cb59704a7cda6f319e4a2410de9616297601afb4",
+    "assets/stage6/di/calibration/G53-63504-1111-00135.wav": "ad4d7a5a65f262b43d8d1ebacdf84a73f897cc63d10c0d5bbe01383edbb47bd2",
+    "assets/stage6/di/calibration/G53-64409-1111-00127.wav": "73fce663b59f63ceaf6a6f33c12be8021d5b14bdb814eefa3c9b34de7d46567f",
+    "assets/stage6/di/calibration/G53-64505-1111-00136.wav": "b002d51df2cfb68e5a64ab7ccd4e6e58c6c1e5ce68368147fe25142fb8447cf5",
+    "assets/stage6/di/calibration/G53-64600-1111-00144.wav": "1036b51fc1f64b12174a24f72bf533e4f2e85473b4e183561bffa8fa0b3718c5",
+    "assets/stage6/di/calibration/G53-65410-1111-00128.wav": "f4cdde4c428764db9996d8bdcf077715c628691d3f19a9db936611bf52753fbb",
+    "assets/stage6/di/calibration/G53-65506-1111-00137.wav": "467fefc39ee2a8ac81d30109160b85762e113637d131e2e632181d38fa9b6949",
+    "assets/stage6/di/calibration/G53-65601-1111-00145.wav": "11a430790050be45a51c1377e55e12692aece728d879cfbde1da01dca82d706c",
+    "assets/stage6/di/calibration/G53-66411-1111-00129.wav": "179cf90ed3c93f329f1bfeba086551764aea1b13d8acc13a128f3139fefbd251",
+    "assets/stage6/di/calibration/G53-66507-1111-00138.wav": "8c9872f40fe1679846c5c7efd1b70a9166bf2edfd12b6584d5ed190691eb7c6d",
+    "assets/stage6/di/calibration/G53-66602-1111-00146.wav": "23777cb2055ef1a5bc36a61b5704d224d9e89d9a2bf59ec559c337a70d9cb973",
+    "assets/stage6/di/calibration/G53-67412-1111-00130.wav": "37770d2992d5a605b508864264b2bd23218b883709d16fac074dab4fea12140c",
+    "assets/stage6/di/calibration/G53-67508-1111-00139.wav": "ccdc5d873adfcd3053943e917bba3b4147a178ac9f6baadb2e7b75320093375d",
+    "assets/stage6/di/calibration/G53-67603-1111-00147.wav": "d89ed99e451484ae991bc5278b7cc52fd87dd7fdc104e1ae9b56d11abb002714",
+    "assets/stage6/di/calibration/G53-68509-1111-00140.wav": "205f1dea702ccb5da7b48e4af5a61476aab54596a15b52e978b3765c8c4dc483",
+    "assets/stage6/di/calibration/G53-68604-1111-00148.wav": "700784493690d42de5534f10888f1481b691be9b6ffc34ae0cae15b3d86212a0",
+    "assets/stage6/di/calibration/G53-69510-1111-00141.wav": "9442dc083661cbf8c8f9f02e758070db4d3510bd87b14a58ec3a9035dc7372d1",
+    "assets/stage6/di/calibration/G53-69605-1111-00149.wav": "5e39099c1b2ab01894e32cf42068edeb947eb122a8940f2495a92b3a9dc10583",
+    "assets/stage6/di/calibration/G53-70511-1111-00142.wav": "6f50dfce26a40423088f59aec8e09fc17ba28e2ff08222ff002d40d517339d81",
+    "assets/stage6/di/calibration/G53-70606-1111-00150.wav": "aba176cbe28083fc26b947f31ec0a5b82b4c3f86c41557636cabe39f2294ca26",
+    "assets/stage6/di/calibration/G53-71512-1111-00143.wav": "73ae8d867a623cbbcfa94352f1d80b5f4de9e542bd0769e3aefb280a7caa84dd",
+    "assets/stage6/di/calibration/G53-71607-1111-00151.wav": "c5e7de7c316f923d79a6ac3dfef5330f66f24854d55aa5dbd5e132e05d0c7be5",
+    "assets/stage6/di/calibration/G53-72608-1111-00152.wav": "59a84356d27f28aad8e130984c3994f1cb013b6612f1aa9d8121eba359d78338",
+    "assets/stage6/di/calibration/G53-73609-1111-00153.wav": "149aeea80f94ba83085ee8f67f493408e15e339c9b3bbf545b76a307556d87a5",
+    "assets/stage6/di/calibration/G53-74610-1111-00154.wav": "903026f20ae4225924c78c6c1f85295287c3ca35e4ae122f85bf86381c21e748",
+    "assets/stage6/di/calibration/G53-75611-1111-00155.wav": "d50fe2ef161e97a8aee2b079f549e978aacbb380d131c8906406fc9851a1629d",
+    "assets/stage6/di/calibration/G53-76612-1111-00156.wav": "ff98809994206d31e099b159d37377511925d7dc149ecebb9755e02e6503e0cf",
+    "assets/stage6/labels/heldout/G53-40100-1111-00001.xml": "449dacf69b2916489d2bdaf232000ca9687ae64d439fc0c8bb1273df2db79f04",
+    "assets/stage6/labels/heldout/G53-41101-1111-00002.xml": "1db89e132303b1f912cf5fcc0415e8e118c4b4d203acc81da5c7c105b9c8e7b6",
+    "assets/stage6/labels/heldout/G53-42102-1111-00003.xml": "2194630923c360d6683da506eadac11af3fa35634b51c5e03beb7d1a85b0ea73",
+    "assets/stage6/labels/heldout/G53-43103-1111-00004.xml": "3b5f1e64972ffbd9556a1af43fb6356a9339ed1089a80415dee3100f74d2cc92",
+    "assets/stage6/labels/heldout/G53-44104-1111-00005.xml": "72422bfe30791a50b5a0b74b6c02ee6d069c8b4ffb0c7788380f6118135b5e12",
+    "assets/stage6/labels/heldout/G53-45105-1111-00006.xml": "d79512520b643fff4ebd4dcb00495f95b8ed0ecfe16c15275c221a06ffcfcd7f",
+    "assets/stage6/labels/heldout/G53-45200-1111-00014.xml": "055a6baefe5fcdd0dae116d701c6012b9160d8038656ade2065c343c2782354a",
+    "assets/stage6/labels/heldout/G53-46106-1111-00007.xml": "5b5ac71f993b838629cabbac3da727d80c753946a442cce9a988e8a749f7cdc3",
+    "assets/stage6/labels/heldout/G53-46201-1111-00015.xml": "65bc14e208f930792461c5b3c1076f3ce2ff67b63052158cded8af6ad9bd6955",
+    "assets/stage6/labels/heldout/G53-47107-1111-00008.xml": "08fc083e16fe42c1ff0add83da1b41f011dae85307eccc7a1ef0c8100b9d1034",
+    "assets/stage6/labels/heldout/G53-47202-1111-00016.xml": "abc114902ae7e248aba800ab70313c5f12ad58499606f34d76a209436adf07f3",
+    "assets/stage6/labels/heldout/G53-48108-1111-00009.xml": "49e97697be60cc00660fcd3020de49217cd0b50937f10de55522a1e6c0b8b105",
+    "assets/stage6/labels/heldout/G53-48203-1111-00017.xml": "5368ce9d19a4d39f2051738803f704fd5918f9e1f0926b25251724f190c500fd",
+    "assets/stage6/labels/heldout/G53-49109-1111-00010.xml": "a2f04f379869b5628ffcfbb02246059664350e7bbe1a6269adfdd4700ef5eb08",
+    "assets/stage6/labels/heldout/G53-49204-1111-00018.xml": "b67f186693d6ca059d68c5efa385a649a3a09049859933eb7717bd64f4bea1f2",
+    "assets/stage6/labels/heldout/G53-50110-1111-00011.xml": "c291d8facd9287887ed1a3c7520596f3c6912d8b09daa7ae45e5179ff4ade70b",
+    "assets/stage6/labels/heldout/G53-50205-1111-00019.xml": "d2a83c915f88721bba17337c4773d8581f884b7f0b3515c4ff769e07b61603f7",
+    "assets/stage6/labels/heldout/G53-50300-1111-00027.xml": "1bd58dd9d65c13bbcad04a4c6edc96413375707146ed9c508133c9da0f19f603",
+    "assets/stage6/labels/heldout/G53-51111-1111-00012.xml": "189fcda83d8c3c12eaad91c0f56d4a77b3eb477165153e5b4b254c47eab33318",
+    "assets/stage6/labels/heldout/G53-51206-1111-00020.xml": "f7539c1de64032b381ab9b29770e8d7b903a87915db3a927df4c8bdf780b1ea0",
+    "assets/stage6/labels/heldout/G53-51301-1111-00028.xml": "36bcd42734df54b90e5c1a8f4853bf2e0000266a32ece75ed44e94ba78569666",
+    "assets/stage6/labels/heldout/G53-52112-1111-00013.xml": "06e1cb6cbb345bf08c4ceba52eaa74782b9a21967f6d6fb40095f6ea73ba4843",
+    "assets/stage6/labels/heldout/G53-52207-1111-00021.xml": "7163174f9c4f42a56c22fc277ecef896f0391882b7dc982041f90c61233b9ca6",
+    "assets/stage6/labels/heldout/G53-52302-1111-00029.xml": "c0ffac46d7afa64be2f655e4aaff15d422fe6f14a0d1f9054ad45661cd32d668",
+    "assets/stage6/labels/heldout/G53-53208-1111-00022.xml": "29b765455df8b55d5053a098b20038977b815c30b758bf7df74e7911ef5154c4",
+    "assets/stage6/labels/heldout/G53-53303-1111-00030.xml": "9e0ad392870bb670204464eecaf9dbaa091e9267000586a5e613806434686f72",
+    "assets/stage6/labels/heldout/G53-54209-1111-00023.xml": "98d1d96140e330956b22794b2f1b3522b53871db8ba06142bb692c4c4d41d783",
+    "assets/stage6/labels/heldout/G53-54304-1111-00031.xml": "e227de4d6cacc3871cb6d347250ada2c5d54e3a2bc29ecb1ef7310e85d225a88",
+    "assets/stage6/labels/heldout/G53-55210-1111-00024.xml": "09867d1e21caf9c033486e13e3f383b93625fdddffbd78e55fad508a5c4e6b14",
+    "assets/stage6/labels/heldout/G53-55305-1111-00032.xml": "7cdeff38cd815a05cc033afd5da16a99a25f192ed9daac280fca508592150460",
+    "assets/stage6/labels/heldout/G53-55400-1111-00040.xml": "6b0ddc5e4eb5e0b3e850b1d56d7c8e6246ec5b0ffdc19e2d71468964308919fd",
+    "assets/stage6/labels/heldout/G53-56211-1111-00025.xml": "88022800dd5d820a6c3b33e862c317c88774f66cb6f7c7c7e3c59b020cca45e7",
+    "assets/stage6/labels/heldout/G53-56306-1111-00033.xml": "efd6c15b65e95051822c2c6bbdd4dfaa3d1f7f46783e4f8f844af7868e669907",
+    "assets/stage6/labels/heldout/G53-56401-1111-00041.xml": "dd08c6d07b7a4b39f92ee0172f5acb7bdcb64c9bc92074c9f89055de7c6faff3",
+    "assets/stage6/labels/heldout/G53-57212-1111-00026.xml": "a2004986d3cc1b27e8b8814be3ddd19e959fc41734a809bc66391ee4e22957bd",
+    "assets/stage6/labels/heldout/G53-57307-1111-00034.xml": "297e7e7ff42227bf54d131d63cfdda8cd368a392f54077138ec4fe70660de2af",
+    "assets/stage6/labels/heldout/G53-57402-1111-00042.xml": "d93a02a088ffd28f54dfb01a1fa0491fa1974ba624be195ae6263bec6e58ae38",
+    "assets/stage6/labels/heldout/G53-58308-1111-00035.xml": "3dacd248021928a2fab99be625a395ecdb4589e364576d06f9e42714b3a15d33",
+    "assets/stage6/labels/heldout/G53-58403-1111-00043.xml": "25465ea988dacf5c159087e9149f55b3bf4dbcfe544bc695acbf5f2e94fd1d52",
+    "assets/stage6/labels/heldout/G53-59309-1111-00036.xml": "817120aa0cb875d277225f8b6acf9c2508b58542492e2ff4dee66d4e25d075c8",
+    "assets/stage6/labels/heldout/G53-59404-1111-00044.xml": "e1fb883016560cf5e74736c483fa40fb60a37872f3ef3c5b35606a2d7f6debb7",
+    "assets/stage6/labels/heldout/G53-59500-1111-00053.xml": "5d2d722cd732ae61619f512105de877df3f3fa539ee9a825fd93ca1b4904b0a7",
+    "assets/stage6/labels/heldout/G53-60310-1111-00037.xml": "feae531482dc02f629859b68bb77c8fb748409a3f36c0b849c9076426c733f05",
+    "assets/stage6/labels/heldout/G53-60405-1111-00045.xml": "2bb70f13c51d6f154f36de7d2cee0117234986613601f6a34921c82a7ce86cb4",
+    "assets/stage6/labels/heldout/G53-60501-1111-00054.xml": "38630dc3b92bb5e13db90bf6867f629aeb78a3bf5c1974cab22d7bf01b8c5efa",
+    "assets/stage6/labels/heldout/G53-61311-1111-00038.xml": "b01735daa9c38293ec16ffde626fa54fa026a66a0baf71eeb47fda5a286e99ff",
+    "assets/stage6/labels/heldout/G53-61406-1111-00046.xml": "93cb2b9604dc87326e3aaf930d6a94a5d0a2326b595b307bf8710c7d15a41150",
+    "assets/stage6/labels/heldout/G53-61502-1111-00055.xml": "fa4c7963b7916e6a34e8149b3129f355240aeef401bd560605f44ba7e3b44a7e",
+    "assets/stage6/labels/heldout/G53-62312-1111-00039.xml": "7b4f73a4dd05d255b9a41cdcd204e9af49c05134e780818b31d1ac7e1799c96d",
+    "assets/stage6/labels/heldout/G53-62407-1111-00047.xml": "1eecedf07c377bfa82d175cefa6a8c892509b157777d086f260c2e0dab59793d",
+    "assets/stage6/labels/heldout/G53-62503-1111-00056.xml": "4342197e9fce48ea187e5a69a11a5cdccd0c83741c397632f8ec5598aa443153",
+    "assets/stage6/labels/heldout/G53-63408-1111-00048.xml": "801d0fc622927076a23583c3b5e42974152863f774feca1c2a1fdc0f905a8ec4",
+    "assets/stage6/labels/heldout/G53-63504-1111-00057.xml": "2c2d0f5dea5a3d3e56628fbdcfce12d4937094dfbd569eab2637c57078aead64",
+    "assets/stage6/labels/heldout/G53-64409-1111-00049.xml": "fcad978ae9d3542a73a77e0787ad6b7be6055f1b0e3b0302e5ce26acabbd4329",
+    "assets/stage6/labels/heldout/G53-64505-1111-00058.xml": "ebf4dad386485c8d4fae07427a4fae9185f66606e28e821513bd6529d1c25258",
+    "assets/stage6/labels/heldout/G53-64600-1111-00066.xml": "4d66fa581830114d22a264f07520ed0520f3a34b69888585eb5168cdac82ad54",
+    "assets/stage6/labels/heldout/G53-65410-1111-00050.xml": "0d4a07db7872fc040c27bd4e9ccecf1986e460609fcdaa69a26f9566f4915c1a",
+    "assets/stage6/labels/heldout/G53-65506-1111-00059.xml": "8710f8f3e5ebb382611e8302593eab3ee7f54441c7a11b6428657420f31966ce",
+    "assets/stage6/labels/heldout/G53-65601-1111-00067.xml": "67e192130c7601c900f9b15014f0efd7959bf07b3eab01a9ab31f850817674c9",
+    "assets/stage6/labels/heldout/G53-66411-1111-00051.xml": "6866b5fd2418988f17dcf5fdcb39c0c51dd65533d6345f88c3940019c5eb8b9e",
+    "assets/stage6/labels/heldout/G53-66507-1111-00060.xml": "1641daaf5938c1e6543a89390fd0917421117dc17233649d5d53ff41d93f3795",
+    "assets/stage6/labels/heldout/G53-66602-1111-00068.xml": "1fd853196977c3dcb82ccfeda762239a94bb14a4d83ff6a43b3ca4abb51897ab",
+    "assets/stage6/labels/heldout/G53-67412-1111-00052.xml": "a0d81e5f8dcb99fa3480fdb16e435c5708bc19b83bed4667cd24d68706086805",
+    "assets/stage6/labels/heldout/G53-67508-1111-00061.xml": "a51fe205232c470baa16f86764c3726cffb946e3bde4d9c08cd5ea2dd3b9a8b3",
+    "assets/stage6/labels/heldout/G53-67603-1111-00069.xml": "a174268aa7ade540cf1ceb4f9e33c42f50d315707fd5bc16082a8c231e7fc2ed",
+    "assets/stage6/labels/heldout/G53-68509-1111-00062.xml": "768b72b962a91616ce93f297a26099d72be2c6bb598d96684cf24a3761a50553",
+    "assets/stage6/labels/heldout/G53-68604-1111-00070.xml": "e4d4512e732fa2453a22c7c2a3b19037dbfdd52adf68cf396645bdb75f96b754",
+    "assets/stage6/labels/heldout/G53-69510-1111-00063.xml": "a02169a9cbbfad7a7491933ed59b4c8615c0624f322c135e055437cd0bf8b5e2",
+    "assets/stage6/labels/heldout/G53-69605-1111-00071.xml": "962e790894aec126d765c17f0383236a91552fe21172354b494c192517061cce",
+    "assets/stage6/labels/heldout/G53-70511-1111-00064.xml": "4bc9911c1195f760909035d82717bb5eb1446d71eecbb1deded59318a20bb453",
+    "assets/stage6/labels/heldout/G53-70606-1111-00072.xml": "768ab603d92f869266c07d21416e5c4903a25e6d1e086d2a4a76065d3d2fe63c",
+    "assets/stage6/labels/heldout/G53-71512-1111-00065.xml": "03c93d1e995d3b51462a7ba7ebe4aed69150621d4c1922aa01606de43ec7098c",
+    "assets/stage6/labels/heldout/G53-71607-1111-00073.xml": "e4e00f05195a0c4dc84e7894a52bb623c87bc0002bf15697d85e6bb6071164f3",
+    "assets/stage6/labels/heldout/G53-72608-1111-00074.xml": "7dff70f2a92a77c4833aea730879307067346cc35482b83a0a30996c1e4f7598",
+    "assets/stage6/labels/heldout/G53-73609-1111-00075.xml": "7e440cf0456d0a57a1c783e30d36ff1b5baa1e1ab86ca10c003e9066b716258d",
+    "assets/stage6/labels/heldout/G53-74610-1111-00076.xml": "c0cd24ee1e310aba50bf9c6d3cf0628b88b45977016e1404fd78042de2323905",
+    "assets/stage6/labels/heldout/G53-75611-1111-00077.xml": "cc32d6551381d5df5575fcc4faa388a13f4a1c19a397c80da1298d34fcf2382f",
+    "assets/stage6/labels/heldout/G53-76612-1111-00078.xml": "3e8c0d6d67b402231ccd108389ca5b1d9e2d4fad0314e0f960289ae00687db1c",
+    "assets/stage6/di/heldout/G53-40100-1111-00001.wav": "35b6b137b419c66933252b130c6acd679c398e37b828f7e80220464bf473932c",
+    "assets/stage6/di/heldout/G53-41101-1111-00002.wav": "04b891383f505657a3139f664ed2b288fa983b1bb576ede23cb61b81bba3e0d6",
+    "assets/stage6/di/heldout/G53-42102-1111-00003.wav": "93a8442a6c94d9c4818f19079d80d8bd9a52a1e0a24d05a1ea3cab520b54453b",
+    "assets/stage6/di/heldout/G53-43103-1111-00004.wav": "fe1b663e27d3dfd6efa4b47378ded94fa262bd4b1a2be5493d93eab829a7f5c0",
+    "assets/stage6/di/heldout/G53-44104-1111-00005.wav": "3e62486f1e16bd742e8c513566850336e1b4d95620e148afb1f60c447e60386b",
+    "assets/stage6/di/heldout/G53-45105-1111-00006.wav": "21b90c1568ca26cfcc7289bce44643b4e797393bd5021fc5a5e9312cbc727cc9",
+    "assets/stage6/di/heldout/G53-45200-1111-00014.wav": "e36920d70b05c8859c0753940acf5431fd271abc7b750e51b65863e6bd72b228",
+    "assets/stage6/di/heldout/G53-46106-1111-00007.wav": "42bd45adb01b27db0a50349b7b4bbee4de3ca341142f92ca90ecc68885d738d9",
+    "assets/stage6/di/heldout/G53-46201-1111-00015.wav": "5c32a9f6da7fb10de5246fcd68af8a31ff89938d401742c280131dcdce34387f",
+    "assets/stage6/di/heldout/G53-47107-1111-00008.wav": "a5baaf0d8e164754cde61c73d47803008f9446d707d36f7859c8495e4da0c5c8",
+    "assets/stage6/di/heldout/G53-47202-1111-00016.wav": "7cb0d70b85883b5d2aec48a6927b8da93cc0450710582fde93f8c52e1067a335",
+    "assets/stage6/di/heldout/G53-48108-1111-00009.wav": "05f878b38f428faffa7b371aeaba5de128e51ba332cf4e52e874ea8d8edbb06e",
+    "assets/stage6/di/heldout/G53-48203-1111-00017.wav": "57b48b24a39d73ec45df2c229d46fb50fb900ae60566ff9423545b2af56659c1",
+    "assets/stage6/di/heldout/G53-49109-1111-00010.wav": "5d8ad7cee52403a96ea729197dad9f98aa33fcfdb21a13004c12f57955114b6f",
+    "assets/stage6/di/heldout/G53-49204-1111-00018.wav": "98d5313341428d1cd4994fd37f6a06d0c10121e288c6350298e47783c98c4efc",
+    "assets/stage6/di/heldout/G53-50110-1111-00011.wav": "1b16c707059b7dd689dc586a0efcf6feb009eb217ee46443a0c04cb9c0a3f344",
+    "assets/stage6/di/heldout/G53-50205-1111-00019.wav": "0ad21513213060ede388a4f406252c63f57e5014444f51a14aa7e6cf6f2dde80",
+    "assets/stage6/di/heldout/G53-50300-1111-00027.wav": "82905889a77c0e4a29495ef12127f5949e3613fd65c940a45294cfacdb1eb049",
+    "assets/stage6/di/heldout/G53-51111-1111-00012.wav": "cebf02350740302cf556f0b964fb5a7a17e10bea87aa0f7dbee5f2ad9e4644da",
+    "assets/stage6/di/heldout/G53-51206-1111-00020.wav": "baa50cddc661cac1fedde35f8519cdaedb5ae4277443e74b6b8434814a90c776",
+    "assets/stage6/di/heldout/G53-51301-1111-00028.wav": "99cd01f2dc1defdd41f10fd914199c6e3ec7888e79612feae157a076197a1859",
+    "assets/stage6/di/heldout/G53-52112-1111-00013.wav": "7d67f504a080826f4ca07e70fc2f09ca9ec64cc84f11ae08003c6c390af942f9",
+    "assets/stage6/di/heldout/G53-52207-1111-00021.wav": "9b25fcc20ee42a7355d18c6e82164b8c5d9dd8d8b486a3d4d09828dbe00af615",
+    "assets/stage6/di/heldout/G53-52302-1111-00029.wav": "5bcaa6d6006fb1d2a0d5461612b3c31b4079f8fc9b135467f0b06edd462c7abc",
+    "assets/stage6/di/heldout/G53-53208-1111-00022.wav": "aadeb9c57574cd14ad663f1978614f6bbb55a46f202ab38eeabe9064af9a37be",
+    "assets/stage6/di/heldout/G53-53303-1111-00030.wav": "e098e0b1833433f0932e4b2730eeb9173ead0dee6c89874ec1ffc156c37d17ea",
+    "assets/stage6/di/heldout/G53-54209-1111-00023.wav": "cf0759a40eb1e3dfe2d9d2a05ce469094f71c594809c18b7329373f1cd1ee469",
+    "assets/stage6/di/heldout/G53-54304-1111-00031.wav": "6aa11731ef6a65a2f08dc93c4826b6029ce3221f34051a1bf432339bf2f5c730",
+    "assets/stage6/di/heldout/G53-55210-1111-00024.wav": "e88285c0500555c200cdd68f8715711d5946d2915ead7af5d5a930c6dab79094",
+    "assets/stage6/di/heldout/G53-55305-1111-00032.wav": "f64b1e2c6541a2b8fb5cb60617baa2b030bfb5475a317eaf98c8ad4c40fdc31f",
+    "assets/stage6/di/heldout/G53-55400-1111-00040.wav": "277d46f20f068819e9b3531c8359319d6ebbc2ed6aefb4af2c16a3de7ebf7a98",
+    "assets/stage6/di/heldout/G53-56211-1111-00025.wav": "b0ae87e7d03a522aae6e16ca41348de56cd9175b440993202ee8d141543bb59a",
+    "assets/stage6/di/heldout/G53-56306-1111-00033.wav": "86045ff8d1b412518136e73e5f7ffe672d2f1dde326f9564bdb58dc0cf6175c8",
+    "assets/stage6/di/heldout/G53-56401-1111-00041.wav": "8327a82e493b5799b5e0b43e9cff4fcc934e03dcf8e9795d52b9fe03921c3d45",
+    "assets/stage6/di/heldout/G53-57212-1111-00026.wav": "1c8d9d03870d70afbfe8d4f1c13e0404afbf0bdd3b1b26fefdd5bd6499f4933d",
+    "assets/stage6/di/heldout/G53-57307-1111-00034.wav": "83355729b49a3fe2fd47a3d9ebc84f094c7220bfe236663dcfdf029f652cfa84",
+    "assets/stage6/di/heldout/G53-57402-1111-00042.wav": "eb785bf87d8ab15c6ecfc623750c5b509a79bb61582a98c9304660a7750aa38f",
+    "assets/stage6/di/heldout/G53-58308-1111-00035.wav": "872b8471ff10df9653db1c3d25b788df1a9928fa469dba2fdcbe1b8aa818e615",
+    "assets/stage6/di/heldout/G53-58403-1111-00043.wav": "ea83eccc5a78e8baf232fe5bfd4923726cb98793b4fbc4140a600f04e8fb24e2",
+    "assets/stage6/di/heldout/G53-59309-1111-00036.wav": "01575955051fc4e3c3dbeb72a15fed79a0d996cfe9b97306fdefd99a0921731e",
+    "assets/stage6/di/heldout/G53-59404-1111-00044.wav": "6791e61ae7b1b14074d3e7fabcc899e8b4b2953ed4b1170a7ed8fa4602ffdc52",
+    "assets/stage6/di/heldout/G53-59500-1111-00053.wav": "ca6743dff64f43461aa21552382a74ce9ab0fd097df9c3ec09750ece0687499a",
+    "assets/stage6/di/heldout/G53-60310-1111-00037.wav": "20bb50975b9c03670d9ff7fa6577bacfcb670d891771ed208168d81658e109d6",
+    "assets/stage6/di/heldout/G53-60405-1111-00045.wav": "a8759b97a8ddfc1a821a35d00598fbba52450cf6b8a1df04a4321683519a51af",
+    "assets/stage6/di/heldout/G53-60501-1111-00054.wav": "a32c3fb55722ffd95eebf9c6deb5131d30843cc78c38cf9159e55211d05f87e0",
+    "assets/stage6/di/heldout/G53-61311-1111-00038.wav": "c35f4b2f04a4ebd2d097a950bf1f891668ab5d3ee40f71858ba142701f435a4a",
+    "assets/stage6/di/heldout/G53-61406-1111-00046.wav": "ca3101927044c46b04782f5b07696c68173b42ccc1aeb220800fab623d105c24",
+    "assets/stage6/di/heldout/G53-61502-1111-00055.wav": "a98d34b5c6fc9df156bf4277208f6cf7e1280de2c4e97a44fbec755f238c8fac",
+    "assets/stage6/di/heldout/G53-62312-1111-00039.wav": "5caba916e73dc5f468129c91d6c10d24d5bfaaf9ad5e907f714def396959ea6b",
+    "assets/stage6/di/heldout/G53-62407-1111-00047.wav": "1fe5e7dce94bb23845ac7dd2db4e5c6a8933bf587632486017a0b685f9d06f2d",
+    "assets/stage6/di/heldout/G53-62503-1111-00056.wav": "2836a34cc9c7977764a9c4ef668a2e7bcc801a99d4f27f197605d29b4abaef68",
+    "assets/stage6/di/heldout/G53-63408-1111-00048.wav": "10aeba99ee90234db90214c1d967adfa1eb9ea694a390e82b78a237391bcf8cc",
+    "assets/stage6/di/heldout/G53-63504-1111-00057.wav": "3c710ad1643cf5f21ee1a69ad99b65b1759a5363903b8c0e6653aa59ff75d990",
+    "assets/stage6/di/heldout/G53-64409-1111-00049.wav": "421a05ff8a2a22e5fbf5f436708b1526587f6107b3c549c73acc338e260a66ea",
+    "assets/stage6/di/heldout/G53-64505-1111-00058.wav": "48f6af57f20a36e1608f43a7f150f2be1625279102a0336b8102926e72f13abc",
+    "assets/stage6/di/heldout/G53-64600-1111-00066.wav": "21ec3628eb4b9fda18c06f653d902bfd4e6126d6bba546ab18ba7ad9014c39a1",
+    "assets/stage6/di/heldout/G53-65410-1111-00050.wav": "5b7accf5374b513f207ee873fb7a329b270bccc9d731fcdb3f39c5338b11fa2a",
+    "assets/stage6/di/heldout/G53-65506-1111-00059.wav": "d5ad7d81f970675eda3bb183c468e3608d5c1cc3f02c86948d330ac5afd78c0d",
+    "assets/stage6/di/heldout/G53-65601-1111-00067.wav": "deafb04bac00d09c2178250a479f714f559168f04b5f6a7187f4314678aad1bc",
+    "assets/stage6/di/heldout/G53-66411-1111-00051.wav": "676d9417a5da794689bdc502c1e1fe095c4c118594310e79ce2286217717fb2c",
+    "assets/stage6/di/heldout/G53-66507-1111-00060.wav": "5e03c27a54ddb5b846fb723d47ba0d998e291208aefaaa14d5f16f8c41486b19",
+    "assets/stage6/di/heldout/G53-66602-1111-00068.wav": "9df06a71ee2af6454e10495b31916b00c12989c5d4083fc675da63b2f097f775",
+    "assets/stage6/di/heldout/G53-67412-1111-00052.wav": "f5e628d44fce6f58c10c243e5343bdc294e1fec17d7d7554ff53e92a73a3f9f6",
+    "assets/stage6/di/heldout/G53-67508-1111-00061.wav": "2dcd66883f82613a0db925cfd786ae1264c234f7a8e94c677e5d37ce792d58c2",
+    "assets/stage6/di/heldout/G53-67603-1111-00069.wav": "f976dad417281b0f7a9891079b59e4e6e9a8a2c87c1d7997e1510c5c943581fa",
+    "assets/stage6/di/heldout/G53-68509-1111-00062.wav": "802440ac9f85faf985b4a3dbb161a663c4be8e72f5657943fe913c840f19a3ef",
+    "assets/stage6/di/heldout/G53-68604-1111-00070.wav": "91a0959b3887c45fe708061cc75ba1a6b913364fb1e4c3724017f7592667c828",
+    "assets/stage6/di/heldout/G53-69510-1111-00063.wav": "09224bff551f124fadb88ff4090bc93ce9c38d057457880d960f924db551b8a4",
+    "assets/stage6/di/heldout/G53-69605-1111-00071.wav": "7c607352df30ad2fed5c7ca36e5c9dc048aab65cc3912aee100b1f4a6f76aca7",
+    "assets/stage6/di/heldout/G53-70511-1111-00064.wav": "beeb6248566fdadcc69da827044a01c9d81c72c7d004a6a98d674afa94ca1931",
+    "assets/stage6/di/heldout/G53-70606-1111-00072.wav": "c4775ebf1881403f2d71fbc8da81d463c0673e99966fbe309dc70cc2df9e0d63",
+    "assets/stage6/di/heldout/G53-71512-1111-00065.wav": "564784fbf735c1ec5e978193b8866a75a3001694f6992753cc3275f2887f229d",
+    "assets/stage6/di/heldout/G53-71607-1111-00073.wav": "3e9ac04070a5ff93e3c83c7143e15f398ce5562e0b922558084d241259966af3",
+    "assets/stage6/di/heldout/G53-72608-1111-00074.wav": "8ee726ec449a236b4c97281a1a854f871de777882d5e0e650d1ed6a4cd75629e",
+    "assets/stage6/di/heldout/G53-73609-1111-00075.wav": "34a97f5c4433b05384facbc668c959cd8b09b1dddec7985b45b0327f82a068f9",
+    "assets/stage6/di/heldout/G53-74610-1111-00076.wav": "ccaa35b15fc7b2c5aa4c55a963d9024cd27372ef0aecc75ae436d75fbfe40a95",
+    "assets/stage6/di/heldout/G53-75611-1111-00077.wav": "a8b98c22d2f8b24a95df3e7d2820c239ba2a4191d570632aa50b438734dd4ef0",
+    "assets/stage6/di/heldout/G53-76612-1111-00078.wav": "cd76925c605e0ad06b1aefcd333c9b04a30f43cdae75ade03f175a21ce6460ee"
+  },
+  "protected_baselines": {
+    "artifacts/stage2/analysis.json": "721124339113d81b2bf2251dd8e748c8b1fe4b75198073abec5302d4f52c7d46",
+    "artifacts/stage2/pytest.xml": "06dc753fe2e9874fc3cecde674c156970a6ccb336421983030186eb499eab0c0",
+    "artifacts/stage2/real/fingerprints.json": "674194b065a4753c9e3f74c4d2c11a29d4b7b80c1afb4539072219a23219663d",
+    "artifacts/stage2/real/locked-plan.json": "e097b96c14b8c79b411643400aedbe6bb88bc877d6ab21c91ad9927963da0d57",
+    "artifacts/stage2/real_fp64/fingerprints.json": "46ef821a1378d8c93b94a0f1d92a0032194e3a161549f15f8b14769d8ad06062",
+    "artifacts/stage2/real_fp64/locked-plan.json": "cd415d4fc94f2e747919a7487217149e8e3b77388cb532f86ca02e90a9a263ad",
+    "artifacts/stage2/real_fp64/results.json": "e94441d86097bf09189349f46959ab171f4879a1ede2950c925dcfbf07f9500e",
+    "artifacts/stage2/real_fp64/source-hashes.json": "67e622a6ebbe4c26ca2e2840bb9eb012da18f3eb6f86a7d80978391ba97fa5be",
+    "artifacts/stage2/source-hashes.json": "d30e35b6275d9abea83c7e91d3f9bc2da92d192732604a219082cbda797425e4",
+    "artifacts/stage2/stage2-results.png": "7032b1380b8702bf8403eddc1c5b2b0e624db1fe4c5a6f49253dda5b2e1a44d9",
+    "artifacts/stage2/toy-ablation.json": "dfccd4aa24a96343d72e4cbc980337552024817281a1c7f6e6728b520bad3e01",
+    "artifacts/stage3/analysis.json": "c1317ad25d84cef99f17d3637d6ad866f32c9163e5453768f32c92957644cade",
+    "artifacts/stage3/baseline-sha256.json": "b8297a2c11b56838015586edc2d6372ed3b1b130646008ead3036f06c10f2512",
+    "artifacts/stage3/pytest.xml": "f69609ae0de766d2c82650e2a53a73eebff74c3794012da864f38baaadb1d04d",
+    "artifacts/stage3/real/locked-plan.json": "df6e380c744f7eb066758f86b418bcbeaee76be0d9e3f03997e17ebc7a836d72",
+    "artifacts/stage3/real/probe-fingerprints.json": "a325a616cf6ecb79f7876e65bc77071227cfa61a0a658a24b86e7275314048ee",
+    "artifacts/stage3/real/reference-features.json": "caec650e35e9ee7b9c35cc68224af246a2ea336507b83de6935dd2a38a656c8f",
+    "artifacts/stage3/real/results.json": "ccc80516ed31c5a19933f8a82970777085de232be0dbf32db1bb51d4bc505c1b",
+    "artifacts/stage3/stage3-results.png": "4e1d2ddeb116454d026b105dc07fbeeba93529985d94a5c0d1a13de41a1d8f0c",
+    "artifacts/stage4/analysis.json": "6a01b34623099685f67cab9b7b3be9d82dad539baf4b471a4713c8ae5e2fa0f7",
+    "artifacts/stage4/baseline-sha256.json": "3b060f8a423a6c554b69e9efde268b9adad1974b82d268a6bd868813d5853c4e",
+    "artifacts/stage4/gain_witness/locked-plan.json": "7cd3e005b11497aaa859b517762c2c6ed37449abb651164e16960aa488dbbe52",
+    "artifacts/stage4/gain_witness/results.json": "31d664bfbe50e7a8b12eecf26a6d3551f6137302a65cacae0b76a88a2d00e6a1",
+    "artifacts/stage4/independent/locked-plan.json": "7b5503ddfd392ef3bd0c4d298bfe6ce2590bc9f73a0ba3591d083d6298be853c",
+    "artifacts/stage4/independent/null-calibration.json": "165cc1732a048914b7f1f7f9f87ee880c2a6df539d70d2bc73d45ae3e506678a",
+    "artifacts/stage4/independent/probe-spectra.json": "fcba24b042eb8c9b05a1310ea4b486fce56f8b62a4e568d64ec43a8b27292822",
+    "artifacts/stage4/independent/results.json": "877a7e61c560613127f14cfe241b8df87162752e2bbd5280a307672d07482852",
+    "artifacts/stage4/pytest.xml": "b0c0769ee16b599ba61d147fb29bb775364d8504264766973fdda1a3105116c0",
+    "artifacts/stage4/stage4-results.png": "bb4cc8ada7bce8024e0c53f0e7f5e9ad344cc650d7dabd2a88d42b00519b9c99",
+    "artifacts/stage5/audit.json": "937680915c10bb9dbba69d18ecd355853bd1021bb82c3544a638696ea8264d7e",
+    "artifacts/stage5/baseline-sha256.json": "3eb83a611b0335a7d29143fe0278eac0b2538d6b37dfc6a20e990921fd99dd0a",
+    "artifacts/stage5/conditioning-diagnostic.json": "564fc27d0fe93cc1311d1054f5ac7b4bf293d9637fd3c18cf3f884980b3d2adb",
+    "artifacts/stage5/development/locked-plan.json": "e48ce6fa4567018b23d321e5d83bd121a2eafcdc36a1d98f18a90071a79221ae",
+    "artifacts/stage5/development/probe-features.json": "1bb2679d161f08d572d8ed6681d3b1e7a100ae1542fdfde9b2aea0a0d51b6118",
+    "artifacts/stage5/development/results.json": "8ebebeb379e224f52224b99f0274fb8f16f80f0e480c408a7fe5da96039991ae",
+    "artifacts/stage5/development/retrieval.csv": "46231eeaef0470ab6ca83b585b99de5168495a12d0a81cfa78459c703828b477",
+    "artifacts/stage5/preflight-pytest.xml": "263dce7c6d5bb22a8bd1cf755230f23dbf3c6df41b7b3e89c386c86534dc4ce2",
+    "artifacts/stage5/pytest.xml": "022583348edb04cc2f3851c1c380e9d52c45d2e6984a69063527ea5b98579392",
+    "docs/original-wav-sha256.json": "a66214892f818d620045dfc0c14bbe19ca4e1ea9c23b7d6cc2bfee4a2af66aaf",
+    "docs/stage2-conclusions.md": "1b14790b3ef137742c7c7e55d5ab638a78850da4b2eeeb74b4afeea7cf976e28",
+    "docs/stage2-findings.md": "ba8092188386b5e18ed74d2d614683c09a54b9fd21fb0a32d8d09cbfbf271694",
+    "docs/stage2-method-review.md": "4273012b212f1e574a48ce227e90ea01db87927b6339e5f3151174a0b4cf08b1",
+    "docs/stage2-protocol.md": "b660cff58e54532cb84af492007ab0b0f5421e62f398ed01712c451ea0b8dd9f",
+    "docs/stage3-conclusions.md": "c39b45e76d1fdab400abdaffd48e5cec3507b9b11e1bcedc7c5a080308332b26",
+    "docs/stage3-findings.md": "14be37480eb4ed9ad70a28edf5571f8ebb8dd0bfaed35c21ddc32f6a1eb95358",
+    "docs/stage3-protocol.md": "80ca1ac60056c96d043dff20f4e647557c6b6403386d1b50a9a2b3489fefd5fc",
+    "docs/stage4-conclusions.md": "42f5985b8d25d09d2b1e71344ff90c094700c8979827bfcb798f302337a429fa",
+    "docs/stage4-findings.md": "59153b154f800238c039673b3242daf006eebda214a3ccd9454ce799b458c6b8",
+    "docs/stage4-method-review.md": "e839ca569037f457562c3ec7de787a24e29cc4884daf42f31e6b50b0ee83f329",
+    "docs/stage4-protocol.md": "e09ccce35fa09788dff25f8f2333caca7e0b721c958ec32ae373dd9e5a707c84",
+    "docs/stage5-conclusions.md": "089e2067adc9fb32aacd42f714d67a993e6a8ec526b48325ae407fc28ca3ec7c",
+    "docs/stage5-data-search-a.md": "2234cf332e22e584b5bb4913af5ba94322ac59e71a2b7169874a5904deca52b4",
+    "docs/stage5-data-search-b.md": "8f0cd82a1bfa6b5156191be5c1fbc5eb3853037f398744339d6a4c072e04171c",
+    "docs/stage5-data-search.md": "56408503f65ffafc0172d3ed950c7279bfdcafa1db33cd0281a46bb43266c2b5",
+    "docs/stage5-findings.md": "00d98d02bee58418aca140921a39f56ac2f9d3de2e8e62db49edf3280cc51f16",
+    "docs/stage5-preflight-review.md": "3f075ebd900e7e9d9b890d7a32e421fb9be47d2a7a3194276a94e06aa784bb4c",
+    "docs/stage5-protocol.md": "6babe097b8cad58dd818c4795a38f568e86628164016a30cf248a2a1e65a9e00",
+    "docs/stage5-recording-spec.md": "e48beebb342038caeeb9d8b9d68ba0474747bd679e7150123c4ac8b30cbcaa27",
+    "experiments/stage2.json": "a99ec1b9ec47d592823a31d982bc8bf2d4b84be412239c1746035bb029cb904b",
+    "experiments/stage3.json": "ee7faa49c83b14dfff7b980ba8ae57e9845a2860ff8cf0bcbb7a543af0583277",
+    "experiments/stage4.json": "6b2f24548711632fcb91c4a7ab0726ab98cbbd819c55623ecb45ecda230cc95b",
+    "experiments/stage5.json": "68db066b9807f0d9cd6902643f629b7115702067fde069c50cc0d61a559125bf",
+    "requirements-lock-win.txt": "ae432a9fccdf60ff3eaf047f8a809027777ed08b0bcec17e619c3a07959915e7",
+    "scripts/conditioned_scoring.py": "88b3696014dbab569cfd81e0c1c2d91411fd351390a23c3cd1dde83f5dac58f7",
+    "scripts/multidi_scoring.py": "2409176ff2129ec6dcc8ec9dbd4f7516ab79dc9cd464540af1a2cff0e6002a63",
+    "scripts/stage2_analyze.py": "69aef526a65583fd3513a8c8daa0bafee93a82ab1b27897353d7d30fb0954ff5",
+    "scripts/stage2_benchmark.py": "b95c504575b234a984196c7bdec8dc63a6f605055ce3b5cdaaf60ad5fd0f0f54",
+    "scripts/stage3_analyze.py": "d841c6fe8797f12b174dc29b3e6c8344792edc85071d6a4910ac3c8cbf201cc0",
+    "scripts/stage3_benchmark.py": "0c0b97e2f539a649a0d91a06138781d973438a5ed92c1955a1519d057977016a",
+    "scripts/stage4_analyze.py": "4224c374e366d97c355423928d394d7ac32e2f15105daca374c0b07e36f351c1",
+    "scripts/stage4_benchmark.py": "cfaa73a6b51a2c92dbe1999ea670780cdd323facf40bb9f801bb57221d69ca52",
+    "scripts/stage4_gain_witness.py": "5fc497900d9f6ea10bdea282fed3f06af20ad7006208080d55475b533355e1de",
+    "scripts/stage4_helpers.py": "fbf78025a3500012f2729475aa8d404b30241238c2c17b04ba13329c8b6fbb68",
+    "scripts/stage5_benchmark.py": "8f4293e2abedf5760a1de30e2ff4adeabda65c4efb637b3e262ae03c71b3f29b",
+    "scripts/stage5_condition_diagnostic.py": "3537997099a78138177f65656b7eaacf5b6d073374cb8a7123ec04aa76a09b15",
+    "tests/test_conditioned_scoring.py": "375ae8c936da791130aa66e152bb648c8ea5836ed6aa909777e092205269e903",
+    "tests/test_multidi_scoring.py": "d149042b9eeafa439dbd1b4316c1b26d87cd0c0476ad8434f42dcf53d8c38f7e",
+    "tests/test_stage2.py": "3dff7a9bc6542363f07544a7ed5c776bc5eb647d038bd0762d15bb10131b0634",
+    "tests/test_stage3.py": "8cc711533820fdfef169a9499ed6609cb16e5c6a632386ac4b8e2762aa672ab2",
+    "tests/test_stage4.py": "5fa66b9ab0d29fa46017c8de23c376968412b355e9e27402a130f5ea2d284931",
+    "tests/test_stage4_helpers.py": "8156cdcf4b6ac1625ad294b6a37b07e0382f34429520be567ed24cab01a32397",
+    "tests/test_stage5_benchmark.py": "b81ed3d6808d6a911751293d4b6eb88623c856975a5024f50049f8269094eb96",
+    "vendor/NAM-EQ-Match/tonematch/__init__.py": "b8f4a595b3a283444e112ab63973282d602f29955955c13468a3868108ca32c2",
+    "vendor/NAM-EQ-Match/tonematch/audio.py": "fb90252c3f9ce8f9be57f80683c2ed7242ced557ae1c39b99e5f95f5a5a91c80",
+    "vendor/NAM-EQ-Match/tonematch/doctor.py": "3a4b961315a97bcff5181450b00bbc824c824bbbc6b3738811a3fa6f7901dca7",
+    "vendor/NAM-EQ-Match/tonematch/features.py": "f2419e52a1cf3c5fbfe56ce6ceb69098e1074a7afe03a5e484b15ee52268bb95",
+    "vendor/NAM-EQ-Match/tonematch/jobs.py": "78726d8a9d6cff9c4118e868936aa1265e7521a0c69a729e97b88ed095b21f11",
+    "vendor/NAM-EQ-Match/tonematch/library.py": "df79cf54b6b114e88450a8581977ccf8461e4a3b73f19a51c8e595174958a664",
+    "vendor/NAM-EQ-Match/tonematch/match_eq.py": "25ffebb3c0d252f3b193d89425a04f3a1e5e4355e40e739516c2565b9324b235",
+    "vendor/NAM-EQ-Match/tonematch/nam_backend.py": "2740554b383bb3503c922db8be6e999c7c6774f56b4e4c168629dbe73c37139d",
+    "vendor/NAM-EQ-Match/tonematch/pipeline.py": "a2926566c97c0a9caeeafa6848237aef00b6fb8c7a1f41a8729f579663d9a907",
+    "vendor/NAM-EQ-Match/tonematch/search.py": "933af09fb1c3c493758b4e9b2131e95aabeaff4fb8693f6c58282a9955a7f5fe",
+    "vendor/NAM-EQ-Match/tonematch/stems.py": "bafd60b9ca2bcb0eacdfb846be826a1bf59e7e7c3be597195884c50ca02e1a62",
+    "vendor/NAM-EQ-Match/tonematch/tone3000.py": "02a0d57ace7baea2255f3c458022e89feb6777aa587178184e4c4910f25612a8",
+    "vendor/NAM-EQ-Match/tonematch/tone_stack.py": "17b6c7a53e04801b56bd8dc24449db399379e6908200e9244191a049aff5e9f7",
+    "WAV_Data/Free Bird.wav": "efa5bab084cc27298798124e3ec28c1d01c591d1ba87c9d1f8e9d13fa3e0a72e",
+    "WAV_Data/Merry Christmas Mr.Lawrence Guitar.wav": "b7d3020d833bd35bc9737e052c0386e751c04aff75ef83fc140199da30549ff5",
+    "WAV_Data/六兆年と一夜物語.wav": "9d5b95dcbc3cfe04e2348e7cf560d4f993ca293a0f2ce2be63e1b0499e79476e"
+  },
+  "source_hashes": {
+    "experiments/stage6.json": "1f3cef7135a92f13e1bb36c25f5ad948be405832db137cee082851a2a8e54582",
+    "docs/stage6-protocol.md": "dbf1fe6e4a5134f2e241ac52a944120c01895e55c44610818a6d5eb6c478a249",
+    "docs/stage6-data-alternatives.md": "8220bf7c5a78aa6f27c4fb2a533e31a0d2f82cc68a4bafacaf0161a8ab64d563",
+    "scripts/stage6_benchmark.py": "e60bd93f61d3aed09388788a74ef2a650af17d15c50fab027a67a91dca7ea1e4",
+    "scripts/frontend_calibration.py": "c714da05a60dcc7ea816b1b17b17300d51ee0ec8043997ebc7c36f9dd9870f06",
+    "scripts/prepare_stage6_di.py": "939618363bef7074385f6b409d8793d52c804fd05faac659aab904525a34c57e",
+    "tests/test_frontend_calibration.py": "a8cc912dd736871c55afa7b525e26ddb9177e8e92fbdbe908ae931a05974a8f2",
+    "tests/test_stage6_benchmark.py": "9917826cbaa2336893950768dcdd0e95055f2e45ba913c5712d402d889f3805d",
+    "scripts/stage2_benchmark.py": "b95c504575b234a984196c7bdec8dc63a6f605055ce3b5cdaaf60ad5fd0f0f54",
+    "assets/stage6/data-provenance.json": "dc5493e18168d7b9ef0c00900f2c4f48caa9337a2c4bd249b9b04986a82c39d5",
+    "artifacts/stage6/baseline-sha256.json": "965363cf8520a28a2f20b29ea08b1c39d49cb7d8a1497b2626bb0dd451854107",
+    "assets/stage6/source-description.pdf": "779b156e0d842444fa728d343df7dbf35fca999a724df28e9853762caa9ab0b7"
+  },
+  "environment": {
+    "python": "3.12.7",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "versions": {
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "librosa": "1.0.1",
+      "soundfile": "0.14.0"
+    },
+    "pyin_signature": "(y: 'np.ndarray', *, fmin: 'float', fmax: 'float', sr: 'float' = 22050, frame_length: 'int' = 2048, hop_length: 'int | None' = None, n_thresholds: 'int' = 100, beta_parameters: 'tuple[float, float]' = (2, 18), boltzmann_parameter: 'float' = 2, resolution: 'float' = 0.1, max_transition_rate: 'float' = 35.92, switch_prob: 'float' = 0.01, no_trough_prob: 'float' = 0.01, fill_na: 'float | None' = nan, center: 'bool' = True, pad_mode: '_PadMode' = 'constant', transition_min_prob: 'float | None' = 0.0001) -> 'tuple[np.ndarray, np.ndarray, np.ndarray]'",
+    "pyin_source_sha256": "d47a896fc47cfe930f00824ed3023853cedb721803dff9fc3a02662a0b0dedb0",
+    "onset_source_sha256": "74a4921fb5caeec8da2be234664b55bcaf8aea6e65c94f377e4f6e4fec78e76d"
+  }
+}

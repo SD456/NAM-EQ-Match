@@ -1,0 +1,1099 @@
+{
+  "status": "post_result_fixed_parameter_diagnosis_not_new_validation",
+  "lock_sha256": "e48ce6fa4567018b23d321e5d83bd121a2eafcdc36a1d98f18a90071a79221ae",
+  "completed_results_sha256": "8ebebeb379e224f52224b99f0274fb8f16f80f0e480c408a7fe5da96039991ae",
+  "diagnostic_script_sha256": "3537997099a78138177f65656b7eaacf5b6d073374cb8a7123ec04aa76a09b15",
+  "analysis_parameters": {
+    "duration_seconds": 8,
+    "pitch_sr": 16000,
+    "pitch_frame_length": 1024,
+    "pitch_hop": 256,
+    "fmin_hz": 82.4,
+    "fmax_hz": 1319,
+    "pitch_resolution_semitones": 0.5,
+    "min_voiced_probability": 0.8,
+    "relative_rms_floor_db": -40,
+    "rms_reference_percentile": 95,
+    "edge_exclude_seconds": 0.032,
+    "pitch_bins_midi": [
+      [
+        40,
+        51
+      ],
+      [
+        52,
+        63
+      ],
+      [
+        64,
+        75
+      ],
+      [
+        76,
+        88
+      ]
+    ],
+    "attack_seconds": [
+      0,
+      0.08
+    ],
+    "sustain_seconds": [
+      0.12,
+      0.4
+    ],
+    "phase_end": "also bounded by next detected onset",
+    "wet_fft": 2048,
+    "wet_hop": 768,
+    "wet_center": true,
+    "smoothing_octaves": 0.5,
+    "scoring_band_hz": [
+      80,
+      8000
+    ],
+    "windowed_control": "same STFT and eight-second interval as conditioned methods; all 501 frames, including edges and silence, unconditioned",
+    "aggregation": "median over fixed supporting probes per stratum, equal mean across strata",
+    "condition_source": "known dry probes; independently estimated wet query only",
+    "unassigned_phase_in_coverage_denominator": true
+  },
+  "implementation": {
+    "librosa_version": "1.0.1",
+    "pitch_source_path": "<LOCAL_PROJECT_ROOT>\\.venv\\Lib\\site-packages\\librosa\\core\\pitch.py",
+    "pitch_source_sha256": "d47a896fc47cfe930f00824ed3023853cedb721803dff9fc3a02662a0b0dedb0",
+    "pyin_signature": "(y: 'np.ndarray', *, fmin: 'float', fmax: 'float', sr: 'float' = 22050, frame_length: 'int' = 2048, hop_length: 'int | None' = None, n_thresholds: 'int' = 100, beta_parameters: 'tuple[float, float]' = (2, 18), boltzmann_parameter: 'float' = 2, resolution: 'float' = 0.1, max_transition_rate: 'float' = 35.92, switch_prob: 'float' = 0.01, no_trough_prob: 'float' = 0.01, fill_na: 'float | None' = nan, center: 'bool' = True, pad_mode: '_PadMode' = 'constant', transition_min_prob: 'float | None' = 0.0001) -> 'tuple[np.ndarray, np.ndarray, np.ndarray]'",
+    "pyin_helper_source_sha256": "e43abb9a32f5115919bfc52776b5f2d37cf660e27e20b7855d199fc7f0374bcf",
+    "inspection": [
+      "voiced_prob is clipped summed voiced observation probability from YIN candidates",
+      "voiced_flag is the separately Viterbi-decoded state sequence",
+      "default fill_na=np.nan makes unvoiced decoded F0 non-finite",
+      "installed transition_min_prob default is 0.0001; unchanged in frozen and diagnostic calls",
+      "diagnostic observes the exact frozen helper call and returns pYIN outputs unchanged"
+    ]
+  },
+  "summary": {
+    "recordings": 35,
+    "all_final_counts_equal_completed_development": true,
+    "recordings_with_raw_voiced_flag": 35,
+    "recordings_with_probability_at_least_0_8": 0,
+    "recordings_with_final_voiced_frames": 0
+  },
+  "dry_probes": {
+    "P0": {
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 370,
+      "raw_finite_f0_frames": 370,
+      "voiced_probability": {
+        "min": 0.010000000101429396,
+        "median": 0.06608151270920701,
+        "p95": 0.6860828109301793,
+        "max": 0.7571601330199094
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 368,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "46": 16,
+        "47": 13,
+        "48": 310,
+        "49": 3,
+        "50": 24,
+        "57": 1,
+        "58": 3
+      },
+      "raw_flag_f0_median_hz": 130.80184668217964
+    },
+    "P1": {
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 454,
+      "raw_finite_f0_frames": 454,
+      "voiced_probability": {
+        "min": 0.01,
+        "median": 0.10857977072874497,
+        "p95": 0.6159498854580681,
+        "max": 0.7571601330199094
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 449,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "41": 5,
+        "42": 11,
+        "43": 312,
+        "45": 4,
+        "46": 8,
+        "47": 14,
+        "48": 100
+      },
+      "raw_flag_f0_median_hz": 97.99066627622422
+    },
+    "P2": {
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 269,
+      "raw_finite_f0_frames": 269,
+      "voiced_probability": {
+        "min": 0.010000000101429396,
+        "median": 0.013100262550513395,
+        "p95": 0.20650679911775227,
+        "max": 0.6860828109301793
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 264,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "44": 21,
+        "45": 72,
+        "46": 9,
+        "48": 109,
+        "49": 57,
+        "50": 1
+      },
+      "raw_flag_f0_median_hz": 130.80184668217964
+    }
+  },
+  "wet_queries": [
+    {
+      "case": "0_0_E0",
+      "reference": "T0",
+      "truth": 0,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 51,
+      "raw_finite_f0_frames": 51,
+      "voiced_probability": {
+        "min": 0.010000000417925075,
+        "median": 0.010824463728234167,
+        "p95": 0.17653060863289757,
+        "max": 0.6860828109301793
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 51,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 11,
+        "41": 27,
+        "59": 13
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "0_0_E0",
+      "reference": "T1",
+      "truth": 0,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 102,
+      "raw_finite_f0_frames": 102,
+      "voiced_probability": {
+        "min": 0.010000009287486632,
+        "median": 0.010824463728234167,
+        "p95": 0.12793708630129036,
+        "max": 0.32333605839064083
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 102,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 35,
+        "41": 67
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "0_0_E1",
+      "reference": "T0",
+      "truth": 0,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 33,
+      "raw_finite_f0_frames": 33,
+      "voiced_probability": {
+        "min": 0.010000000047726023,
+        "median": 0.010349055133375844,
+        "p95": 0.15046460134333878,
+        "max": 0.6860828109301793
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 33,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 11,
+        "41": 9,
+        "59": 13
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "0_0_E1",
+      "reference": "T1",
+      "truth": 0,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 88,
+      "raw_finite_f0_frames": 88,
+      "voiced_probability": {
+        "min": 0.010000000814014906,
+        "median": 0.01034905504131014,
+        "p95": 0.1279370863012903,
+        "max": 0.3233360583906409
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 88,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 24,
+        "41": 64
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "0_6_E0",
+      "reference": "T0",
+      "truth": 0,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 73,
+      "raw_finite_f0_frames": 73,
+      "voiced_probability": {
+        "min": 0.010000000417925077,
+        "median": 0.010467533617069905,
+        "p95": 0.17653060862949146,
+        "max": 0.6159498854580682
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 73,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 11,
+        "41": 49,
+        "59": 13
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "0_6_E0",
+      "reference": "T1",
+      "truth": 0,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 172,
+      "raw_finite_f0_frames": 172,
+      "voiced_probability": {
+        "min": 0.010000005216229447,
+        "median": 0.010622597843280639,
+        "p95": 0.10857977072874497,
+        "max": 0.27960516533635893
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 172,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 85,
+        "41": 87
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "0_6_E1",
+      "reference": "T0",
+      "truth": 0,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 33,
+      "raw_finite_f0_frames": 33,
+      "voiced_probability": {
+        "min": 0.010000000047726023,
+        "median": 0.010191075496968311,
+        "p95": 0.12793708630129036,
+        "max": 0.6159498854580681
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 33,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 11,
+        "41": 9,
+        "59": 13
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "0_6_E1",
+      "reference": "T1",
+      "truth": 0,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 58,
+      "raw_finite_f0_frames": 58,
+      "voiced_probability": {
+        "min": 0.01000000020889274,
+        "median": 0.010191075496968311,
+        "p95": 0.0779752376229482,
+        "max": 0.24075439447557426
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 58,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 25,
+        "41": 33
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_0_E0",
+      "reference": "T0",
+      "truth": 6,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 324,
+      "raw_finite_f0_frames": 324,
+      "voiced_probability": {
+        "min": 0.010001873046012553,
+        "median": 0.022944219124638603,
+        "p95": 0.37213589829750865,
+        "max": 0.6159498854580681
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 319,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 64,
+        "41": 111,
+        "53": 11,
+        "56": 37,
+        "57": 2,
+        "59": 73,
+        "60": 26
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_0_E0",
+      "reference": "T1",
+      "truth": 6,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 405,
+      "raw_finite_f0_frames": 405,
+      "voiced_probability": {
+        "min": 0.010000206339030746,
+        "median": 0.03489742801962526,
+        "p95": 0.3721358982975087,
+        "max": 0.5485250542599845
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 400,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 178,
+        "41": 118,
+        "55": 4,
+        "56": 40,
+        "57": 1,
+        "59": 53,
+        "60": 11
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_0_E1",
+      "reference": "T0",
+      "truth": 6,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 280,
+      "raw_finite_f0_frames": 280,
+      "voiced_probability": {
+        "min": 0.010001232964986118,
+        "median": 0.018187375734912185,
+        "p95": 0.32333605839064083,
+        "max": 0.6159498854580682
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 278,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 48,
+        "41": 112,
+        "55": 1,
+        "56": 34,
+        "57": 1,
+        "59": 65,
+        "60": 19
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_0_E1",
+      "reference": "T1",
+      "truth": 6,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 369,
+      "raw_finite_f0_frames": 369,
+      "voiced_probability": {
+        "min": 0.0100000470079773,
+        "median": 0.03010686179419501,
+        "p95": 0.3233360583906409,
+        "max": 0.42606232904328145
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 364,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 175,
+        "41": 90,
+        "55": 3,
+        "56": 41,
+        "59": 50,
+        "60": 10
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_6_E0",
+      "reference": "T0",
+      "truth": 6,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 274,
+      "raw_finite_f0_frames": 274,
+      "voiced_probability": {
+        "min": 0.010000802780927255,
+        "median": 0.01646758759311301,
+        "p95": 0.24075439447557428,
+        "max": 0.48498680771591135
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 269,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 66,
+        "41": 76,
+        "56": 35,
+        "57": 5,
+        "59": 74,
+        "60": 18
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_6_E0",
+      "reference": "T1",
+      "truth": 6,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 392,
+      "raw_finite_f0_frames": 392,
+      "voiced_probability": {
+        "min": 0.010000127845232248,
+        "median": 0.020317628556360587,
+        "p95": 0.32333605839064083,
+        "max": 0.4849868077159114
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 387,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 180,
+        "41": 103,
+        "56": 44,
+        "59": 56,
+        "60": 9
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_6_E1",
+      "reference": "T0",
+      "truth": 6,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 187,
+      "raw_finite_f0_frames": 187,
+      "voiced_probability": {
+        "min": 4.552097458629995e-05,
+        "median": 0.013100262550513393,
+        "p95": 0.20650679911775227,
+        "max": 0.3721358982975087
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 185,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 64,
+        "41": 76,
+        "56": 24,
+        "57": 2,
+        "59": 11,
+        "60": 10
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "6_6_E1",
+      "reference": "T1",
+      "truth": 6,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 319,
+      "raw_finite_f0_frames": 319,
+      "voiced_probability": {
+        "min": 0.0015587336162094262,
+        "median": 0.016467587593113002,
+        "p95": 0.24075439447557434,
+        "max": 0.42606232904328145
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 316,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 178,
+        "41": 77,
+        "55": 1,
+        "56": 42,
+        "59": 21
+      },
+      "raw_flag_f0_median_hz": 84.81450429942375
+    },
+    {
+      "case": "3_0_E0",
+      "reference": "T0",
+      "truth": 3,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 294,
+      "raw_finite_f0_frames": 294,
+      "voiced_probability": {
+        "min": 0.0008694520103651667,
+        "median": 0.01508558729750434,
+        "p95": 0.20650679911775227,
+        "max": 0.6159498854580681
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 289,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 32,
+        "41": 62,
+        "56": 15,
+        "57": 26,
+        "58": 4,
+        "59": 102,
+        "60": 53
+      },
+      "raw_flag_f0_median_hz": 246.92100626927714
+    },
+    {
+      "case": "3_0_E0",
+      "reference": "T1",
+      "truth": 3,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 342,
+      "raw_finite_f0_frames": 342,
+      "voiced_probability": {
+        "min": 0.010000078102280324,
+        "median": 0.015085587297504338,
+        "p95": 0.2407543944755743,
+        "max": 0.3721358982975088
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 340,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 118,
+        "41": 114,
+        "55": 4,
+        "56": 40,
+        "57": 2,
+        "58": 1,
+        "59": 52,
+        "60": 11
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "3_0_E1",
+      "reference": "T0",
+      "truth": 3,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 146,
+      "raw_finite_f0_frames": 146,
+      "voiced_probability": {
+        "min": 4.189886567279786e-06,
+        "median": 0.011853505394683415,
+        "p95": 0.1504646013433388,
+        "max": 0.5485250542599844
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 143,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 34,
+        "41": 61,
+        "59": 46,
+        "60": 5
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "3_0_E1",
+      "reference": "T1",
+      "truth": 3,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 302,
+      "raw_finite_f0_frames": 302,
+      "voiced_probability": {
+        "min": 0.010000027850262286,
+        "median": 0.011853505394683413,
+        "p95": 0.20650679911775227,
+        "max": 0.3721358982975088
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 300,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 112,
+        "41": 80,
+        "55": 4,
+        "56": 40,
+        "57": 1,
+        "59": 54,
+        "60": 11
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "3_6_E0",
+      "reference": "T0",
+      "truth": 3,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 249,
+      "raw_finite_f0_frames": 249,
+      "voiced_probability": {
+        "min": 1.110478906600958e-05,
+        "median": 0.015085587297504338,
+        "p95": 0.20650679911529035,
+        "max": 0.48498680771591124
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 246,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 32,
+        "41": 62,
+        "56": 12,
+        "57": 13,
+        "58": 2,
+        "59": 84,
+        "60": 44
+      },
+      "raw_flag_f0_median_hz": 246.92100626927714
+    },
+    {
+      "case": "3_6_E0",
+      "reference": "T1",
+      "truth": 3,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 345,
+      "raw_finite_f0_frames": 345,
+      "voiced_probability": {
+        "min": 6.187650385285834e-05,
+        "median": 0.013980210380185928,
+        "p95": 0.2407543944755743,
+        "max": 0.3721358982975088
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 340,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 126,
+        "41": 114,
+        "55": 4,
+        "56": 36,
+        "57": 2,
+        "58": 2,
+        "59": 50,
+        "60": 11
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "3_6_E1",
+      "reference": "T0",
+      "truth": 3,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 94,
+      "raw_finite_f0_frames": 94,
+      "voiced_probability": {
+        "min": 9.854902293151619e-05,
+        "median": 0.011853505394683413,
+        "p95": 0.1504646013433388,
+        "max": 0.42606232904328156
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 94,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 33,
+        "41": 61
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "3_6_E1",
+      "reference": "T1",
+      "truth": 3,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 239,
+      "raw_finite_f0_frames": 239,
+      "voiced_probability": {
+        "min": 0.0100000470079773,
+        "median": 0.011422334250709076,
+        "p95": 0.17653060863289757,
+        "max": 0.37213589829750876
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 236,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 125,
+        "41": 114
+      },
+      "raw_flag_f0_median_hz": 84.81450429942375
+    },
+    {
+      "case": "10_0_E0",
+      "reference": "T0",
+      "truth": 10,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 77,
+      "raw_finite_f0_frames": 77,
+      "voiced_probability": {
+        "min": 0.010000000101429396,
+        "median": 0.010349055133375843,
+        "p95": 0.10857977072874499,
+        "max": 0.37213589829750865
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 77,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 47,
+        "41": 30
+      },
+      "raw_flag_f0_median_hz": 82.4
+    },
+    {
+      "case": "10_0_E0",
+      "reference": "T1",
+      "truth": 10,
+      "truth_gain_db": 0,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 149,
+      "raw_finite_f0_frames": 149,
+      "voiced_probability": {
+        "min": 2.3277376516665107e-07,
+        "median": 0.010622609040911534,
+        "p95": 0.1504646013433388,
+        "max": 0.5485250542599845
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 149,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 75,
+        "41": 74
+      },
+      "raw_flag_f0_median_hz": 84.81450429942375
+    },
+    {
+      "case": "10_0_E1",
+      "reference": "T0",
+      "truth": 10,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 52,
+      "raw_finite_f0_frames": 52,
+      "voiced_probability": {
+        "min": 0.010000000021701592,
+        "median": 0.010052967545965855,
+        "p95": 0.06608151270920702,
+        "max": 0.3233360583906409
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 52,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 45,
+        "41": 7
+      },
+      "raw_flag_f0_median_hz": 82.4
+    },
+    {
+      "case": "10_0_E1",
+      "reference": "T1",
+      "truth": 10,
+      "truth_gain_db": 0,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 84,
+      "raw_finite_f0_frames": 84,
+      "voiced_probability": {
+        "min": 1.7845993643223593e-10,
+        "median": 0.010140046032950998,
+        "p95": 0.09203757081218102,
+        "max": 0.42606232904328145
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 84,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 23,
+        "41": 61
+      },
+      "raw_flag_f0_median_hz": 87.29975897520593
+    },
+    {
+      "case": "10_6_E0",
+      "reference": "T0",
+      "truth": 10,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 112,
+      "raw_finite_f0_frames": 112,
+      "voiced_probability": {
+        "min": 2.2561100871168433e-07,
+        "median": 0.010349055133375844,
+        "p95": 0.09203757081218102,
+        "max": 0.3233360583906408
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 112,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 63,
+        "41": 49
+      },
+      "raw_flag_f0_median_hz": 84.81450429942375
+    },
+    {
+      "case": "10_6_E0",
+      "reference": "T1",
+      "truth": 10,
+      "truth_gain_db": 6,
+      "eq_on": false,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 170,
+      "raw_finite_f0_frames": 170,
+      "voiced_probability": {
+        "min": 1.5979130094240489e-06,
+        "median": 0.010622609040911531,
+        "p95": 0.1504646013433388,
+        "max": 0.4849868077159113
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 170,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 97,
+        "41": 73
+      },
+      "raw_flag_f0_median_hz": 84.81450429942375
+    },
+    {
+      "case": "10_6_E1",
+      "reference": "T0",
+      "truth": 10,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 75,
+      "raw_finite_f0_frames": 75,
+      "voiced_probability": {
+        "min": 2.4892849406344758e-08,
+        "median": 0.010052967545965857,
+        "p95": 0.04768699308253103,
+        "max": 0.24075439447557434
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 75,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 60,
+        "41": 15
+      },
+      "raw_flag_f0_median_hz": 82.4
+    },
+    {
+      "case": "10_6_E1",
+      "reference": "T1",
+      "truth": 10,
+      "truth_gain_db": 6,
+      "eq_on": true,
+      "frame_count": 501,
+      "raw_voiced_flag_frames": 164,
+      "raw_finite_f0_frames": 164,
+      "voiced_probability": {
+        "min": 2.646491338038622e-07,
+        "median": 0.01010197455868302,
+        "p95": 0.09203757081218102,
+        "max": 0.3721358982975087
+      },
+      "probability_at_least_0_8_frames": 0,
+      "rms_pass_frames": 501,
+      "edge_pass_frames": 496,
+      "raw_flag_and_probability_frames": 0,
+      "raw_flag_and_rms_and_edge_frames": 164,
+      "final_intersection_frames": 0,
+      "raw_flag_midi_histogram": {
+        "40": 97,
+        "41": 67
+      },
+      "raw_flag_f0_median_hz": 84.81450429942375
+    }
+  ],
+  "limits": [
+    "No threshold, frame length or pitch algorithm changed; no parameter sweep",
+    "No new retrieval ranking, candidate score, wave or MIDI array persisted",
+    "Raw decoded pitch is not ground truth and cannot establish monophony",
+    "Synthetic success alone cannot distinguish all library issues from real-data inapplicability"
+  ]
+}

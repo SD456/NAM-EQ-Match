@@ -1,0 +1,196 @@
+{
+  "config": {
+    "frozen_before_real_results": true,
+    "sample_rate": 48000,
+    "di_seconds": 8,
+    "calibration_anchor": "A",
+    "calibration_rms_dbfs": -18,
+    "reference_dis": [
+      "A",
+      "B"
+    ],
+    "holdout_di": "C",
+    "gains_db": [
+      -12,
+      -11,
+      -10,
+      -9,
+      -8,
+      -7,
+      -6,
+      -5,
+      -4,
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "truth_gains_db": [
+      0,
+      6
+    ],
+    "primary_cab": "bg412s-godmode-dv77-v30-mix",
+    "secondary_cab": "ir-brown-cab-audix-i5",
+    "secondary_cab_models": [
+      "AMP-2204-1",
+      "AMP-Sbgo-1"
+    ],
+    "teacher_models": [
+      "AMP-2204-1",
+      "AMP-Sbgo-1",
+      "G12-2204-3",
+      "V30-SLO1-3"
+    ],
+    "refine_top": 5,
+    "post_eq": {
+      "kind": "highshelf",
+      "frequency_hz": 1200,
+      "q": 0.7071067811865476,
+      "gain_db": 3
+    },
+    "correction": {
+      "max_gain_db": 4.5,
+      "octave_fraction": 2,
+      "n_taps": 2048
+    },
+    "methods": [
+      "baseline",
+      "no_drive_gap",
+      "no_hf_terms",
+      "no_dynamic_texture",
+      "no_eq_penalty",
+      "eq_only"
+    ],
+    "gate": {
+      "same_noeq_top1_fraction": 1,
+      "cross_top1_fraction": 0.75,
+      "cross_top3_fraction": 0.875,
+      "cross_coarse_top5_fraction": 1,
+      "holdout_sc": 0.2,
+      "holdout_ltas_db": 1.5
+    },
+    "notes": "Small closed library, one guitar/session, heuristic weights frozen. C used for evaluation only. No Free Bird. Same/noEQ control and cross/E0,E1 assessed separately. Ablations are diagnostic, not selected as production winners."
+  },
+  "identity": {
+    "config_sha256": "a99ec1b9ec47d592823a31d982bc8bf2d4b84be412239c1746035bb029cb904b",
+    "library_sha256": "e212487176aa59ea9093de66033f44ede25740e7fab67ee025ec01ffa7849441",
+    "di_manifest_sha256": "e375761ec57ee6688efa97e8431adf00ed50d4b2fbc3217099ae550b052b6c09",
+    "features_sha256": "f2419e52a1cf3c5fbfe56ce6ceb69098e1074a7afe03a5e484b15ee52268bb95",
+    "backend_sha256": "2740554b383bb3503c922db8be6e999c7c6774f56b4e4c168629dbe73c37139d",
+    "runner_sha256": "b95c504575b234a984196c7bdec8dc63a6f605055ce3b5cdaaf60ad5fd0f0f54",
+    "audio_sha256": "fb90252c3f9ce8f9be57f80683c2ed7242ced557ae1c39b99e5f95f5a5a91c80",
+    "search_sha256": "933af09fb1c3c493758b4e9b2131e95aabeaff4fb8693f6c58282a9955a7f5fe",
+    "eq_sha256": "25ffebb3c0d252f3b193d89425a04f3a1e5e4355e40e739516c2565b9324b235",
+    "input_arithmetic": "float64 calibration and gain, backend casts float32"
+  },
+  "rigs": [
+    {
+      "id": "AMP-2204-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-2204-1",
+      "family": "Marshall 2204 1982",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "AMP-2204-1@ir-brown-cab-audix-i5",
+      "model_id": "AMP-2204-1",
+      "family": "Marshall 2204 1982",
+      "cab_id": "ir-brown-cab-audix-i5"
+    },
+    {
+      "id": "AMP-2204-3@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-2204-3",
+      "family": "Marshall 2204 1982",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "G12-2204-3",
+      "model_id": "G12-2204-3",
+      "family": "Marshall 2204 1982",
+      "cab_id": null
+    },
+    {
+      "id": "AMP-OD12-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-OD12-1",
+      "family": "Orange OD120 1975",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "V30-OD12-3",
+      "model_id": "V30-OD12-3",
+      "family": "Orange OD120 1975",
+      "cab_id": null
+    },
+    {
+      "id": "AMP-Sbgo-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-Sbgo-1",
+      "family": "Sebago Texas Flood",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "AMP-Sbgo-1@ir-brown-cab-audix-i5",
+      "model_id": "AMP-Sbgo-1",
+      "family": "Sebago Texas Flood",
+      "cab_id": "ir-brown-cab-audix-i5"
+    },
+    {
+      "id": "G65-Sbgo-2",
+      "model_id": "G65-Sbgo-2",
+      "family": "Sebago Texas Flood",
+      "cab_id": null
+    },
+    {
+      "id": "AMP-SLO1-1@bg412s-godmode-dv77-v30-mix",
+      "model_id": "AMP-SLO1-1",
+      "family": "Soldano SLO100",
+      "cab_id": "bg412s-godmode-dv77-v30-mix"
+    },
+    {
+      "id": "V30-SLO1-3",
+      "model_id": "V30-SLO1-3",
+      "family": "Soldano SLO100",
+      "cab_id": null
+    },
+    {
+      "id": "G12-Herb-4",
+      "model_id": "G12-Herb-4",
+      "family": "Diezel Herbert Mk1",
+      "cab_id": null
+    }
+  ],
+  "teacher_indices": [
+    0,
+    6,
+    3,
+    10
+  ],
+  "calibration_db": 8.7201550467902,
+  "di_levels": {
+    "A": {
+      "raw_rms": 0.046130933992077426,
+      "calibrated_peak": 0.7360335485271465
+    },
+    "B": {
+      "raw_rms": 0.03930920506067582,
+      "calibrated_peak": 0.5440691682808013
+    },
+    "C": {
+      "raw_rms": 0.048204091622249985,
+      "calibrated_peak": 0.611158078999347
+    }
+  },
+  "device": "cuda",
+  "precision": "float32_no_tf32",
+  "holdout_use": "C excluded from retrieval, feature cache and EQ fitting"
+}

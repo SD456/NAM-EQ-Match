@@ -1,0 +1,18 @@
+{
+  "frozen_before_audio_experiments": true,
+  "output": "artifacts/stage6/calibration",
+  "data_manifest": "assets/stage6/data-provenance.json",
+  "baseline_snapshot": "artifacts/stage6/baseline-sha256.json",
+  "split": {"calibration":"Ibanez Power Strat Clean Neck HU","heldout":"Fender Strat Clean Neck SC"},
+  "expected_recordings_per_split": 78,
+  "native_audio": {"sample_rate":44100,"channels":1,"subtype":"PCM_16"},
+  "pitch_windows": [1024,2048],
+  "thresholds": [0,0.1,0.2,0.4,0.6,0.8],
+  "baseline": {"pitch_window":1024,"threshold":0.8},
+  "frontend": {"analysis_sr":16000,"hop":256,"fmin":82.4,"fmax":1319,"resolution":0.5,"center":true,"rms_window":1024,"relative_rms_floor":0.01,"rms_percentile":95,"shared_edge_seconds":0.064},
+  "truth": {"midi_range":[40,88],"a4_hz":440,"correct_cents":50,"guard_seconds":0.114,"offset_rounding_tolerance_seconds":0.00005,"registers_midi":[[40,51],[52,63],[64,75],[76,88]],"phases_seconds":{"attack":[0,0.08],"sustain":[0.12,0.4]},"note_equal_weighting":true},
+  "onset": {"primary_window":1024,"diagnostic_window":2048,"tolerances_seconds":[0.05,0.1],"backtrack":false,"matching":"ordered maximum cardinality one-to-one on all full-file predictions"},
+  "selection": {"min_coverage":0.6,"min_conditional_exact":0.9,"order":["max full_correct","min conditional_octave","min pitch_window","max threshold"],"no_feasible":"abstain"},
+  "gate": {"min_coverage":0.6,"min_conditional_exact":0.9,"min_onset_f1":0.8,"onset_tolerance_seconds":0.05},
+  "scope": "Calibration only on Ibanez; persist selection before Fender evaluation. Holdout grid is descriptive, cannot reselect. Clean single-note DI only, no physical-force, wet tone, retrieval, EQ, Free Bird or deployment experiment. Keep original WAV/XML, all baselines and stage5 failure unchanged."
+}

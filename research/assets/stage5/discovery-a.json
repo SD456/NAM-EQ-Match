@@ -1,0 +1,68 @@
+{
+  "searched_on": "2026-11-15",
+  "scope": "Primary sources; true electric pickup DI, matched weak/medium/strong performances, independent labels, fixed gain and no normalization/compression, clear access/license",
+  "strict_eligible_found": false,
+  "interpretation": "No candidate was verified to satisfy all requirements; unknown is not a negative claim. Neither MIDI velocity nor RMS is assumed to be physical force.",
+  "candidates": [
+    {
+      "name": "IDMT-SMT-Audio-Effects",
+      "verdict": "proxy",
+      "real_electric_di": "Electric guitar and unprocessed notes established; pickup-to-ADC path unknown",
+      "matched_multistrength": "Hard and soft finger plucking documented; matching pitches and three strengths unknown",
+      "strength_labels": "hard and soft; picked is a technique, not a medium strength",
+      "fixed_gain_no_processing": "unknown",
+      "license_access": "CC BY-NC-ND 4.0 evaluation purpose; open 6.5 GB archive",
+      "sources": ["https://www.idmt.fraunhofer.de/en/publications/datasets/audio_effects.html", "https://zenodo.org/records/7544032"]
+    },
+    {
+      "name": "IDMT-SMT-GUITAR (including monophonic subset)",
+      "verdict": "unknown",
+      "real_electric_di": "Mixed direct connections and one microphone, select files require verification",
+      "matched_multistrength": "unknown",
+      "strength_labels": "unknown",
+      "fixed_gain_no_processing": "unknown",
+      "license_access": "CC BY-NC-ND 4.0 evaluation purpose; open archive",
+      "sources": ["https://www.idmt.fraunhofer.de/en/publications/datasets/guitar.html", "https://zenodo.org/records/7544110"]
+    },
+    {
+      "name": "Guitar-TECHS",
+      "verdict": "unknown",
+      "real_electric_di": "yes; separate microphone and amplifier tracks also exist",
+      "matched_multistrength": "unknown",
+      "strength_labels": "per-string MIDI but no demonstrated independent force calibration or three-class annotation",
+      "fixed_gain_no_processing": "unknown",
+      "license_access": "Zenodo files; specific data license not verified",
+      "sources": ["https://zenodo.org/records/14963133", "https://guitar-techs.github.io/", "https://arxiv.org/abs/2501.03720"]
+    },
+    {
+      "name": "GOAT",
+      "verdict": "unknown",
+      "real_electric_di": "yes; also amp-rendered and RSE synthesized tracks",
+      "matched_multistrength": "unknown",
+      "strength_labels": "tablature and aligned MIDI; physical force labels unknown",
+      "fixed_gain_no_processing": "unknown",
+      "license_access": "Author repository directs access requests to Zenodo; data license to verify separately from paper",
+      "sources": ["https://github.com/JackJamesLoth/GOAT-Dataset", "https://zenodo.org/record/17706552/files/000076.pdf", "https://doi.org/10.5281/zenodo.15690894"]
+    },
+    {
+      "name": "EGDB original",
+      "verdict": "unknown",
+      "real_electric_di": "Author demo has DI and amplifier-rendered tracks",
+      "matched_multistrength": "unknown",
+      "strength_labels": "three classes unknown",
+      "fixed_gain_no_processing": "unknown",
+      "license_access": "Author page provides Drive link; license unknown",
+      "sources": ["https://ss12f32v.github.io/Guitar-Transcription/", "https://arxiv.org/abs/2202.09907"]
+    },
+    {
+      "name": "EGFxSet",
+      "verdict": "reject",
+      "real_electric_di": "yes, instrument-input clean sounds",
+      "matched_multistrength": "unknown",
+      "strength_labels": "three classes unknown",
+      "fixed_gain_no_processing": "no; clean and processed recordings normalized",
+      "license_access": "Open access and Zenodo per author site; exact terms to verify",
+      "sources": ["https://egfxset.github.io/"]
+    }
+  ]
+}

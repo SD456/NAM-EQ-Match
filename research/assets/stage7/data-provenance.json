@@ -1,0 +1,3956 @@
+{
+  "source_url": "https://zenodo.org/api/records/7544110/files/IDMT-SMT-GUITAR_V2.zip/content",
+  "record_url": "https://zenodo.org/records/7544110",
+  "author_page": "https://www.idmt.fraunhofer.de/en/publications/datasets/guitar.html",
+  "license": "CC-BY-NC-ND-4.0",
+  "archive_size": 1329918978,
+  "archive_md5_published": "06796e08731bccffaed6ae59361486e4",
+  "archive_md5_verified": false,
+  "archive_central_directory_range": [
+    1329215801,
+    1329918977
+  ],
+  "selection_rule": "dataset2 AR/FS/LP picked normal KN licks 1-6; 1-3 calibration, 4-6 heldout",
+  "fast_definition": "successive labelled onset interval <= 0.2 seconds, different pitches",
+  "records": [
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/AR_Lick1_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "47a8d4a3",
+      "compressed_size": 694,
+      "size": 5746,
+      "offset": 61869819,
+      "next_offset": 61870597,
+      "guitar": "AR",
+      "lick": 1,
+      "split": "calibration",
+      "output": "labels/calibration/AR_Lick1_KN.xml",
+      "sha256": "412d30e12a1e79f4fa64f69854f7f08de65a814a308b7dc46a023f40fe602af6",
+      "ranges": [
+        [
+          61869819,
+          61870596
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\AR_Lick1_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Aristides 010",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.932",
+            "pitch": "45",
+            "offsetSec": "2.4581",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4446",
+            "pitch": "48",
+            "offsetSec": "2.9261",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9333",
+            "pitch": "55",
+            "offsetSec": "3.1973",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.1924",
+            "pitch": "52",
+            "offsetSec": "3.7338",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7127",
+            "pitch": "50",
+            "offsetSec": "4.1952",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1839",
+            "pitch": "48",
+            "offsetSec": "4.672",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.6759",
+            "pitch": "45",
+            "offsetSec": "5.0266",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.9448",
+            "pitch": "52",
+            "offsetSec": "5.2434",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.1842",
+            "pitch": "47",
+            "offsetSec": "5.4512",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.4324",
+            "pitch": "48",
+            "offsetSec": "5.8546",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.92",
+            "pitch": "62",
+            "offsetSec": "6.9634",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "6.9682",
+            "pitch": "55",
+            "offsetSec": "7.879",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.9039",
+            "pitch": "48",
+            "offsetSec": "9.5713",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 13,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 12
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/AR_Lick2_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7f338f8f",
+      "compressed_size": 822,
+      "size": 8867,
+      "offset": 61874847,
+      "next_offset": 61875753,
+      "guitar": "AR",
+      "lick": 2,
+      "split": "calibration",
+      "output": "labels/calibration/AR_Lick2_KN.xml",
+      "sha256": "c3bd2b561de6004941b8168d92158bf25d07546f80402d7993204cc1a9103874",
+      "ranges": [
+        [
+          61874847,
+          61875752
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\AR_Lick2_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Aristides 010",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "2.658",
+            "pitch": "56",
+            "offsetSec": "2.9555",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.96",
+            "pitch": "57",
+            "offsetSec": "3.216",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2424",
+            "pitch": "62",
+            "offsetSec": "3.54",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.5388",
+            "pitch": "61",
+            "offsetSec": "4.0269",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1314",
+            "pitch": "66",
+            "offsetSec": "4.4233",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4596",
+            "pitch": "69",
+            "offsetSec": "5.062",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.0637",
+            "pitch": "61",
+            "offsetSec": "5.8469",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.9143",
+            "pitch": "64",
+            "offsetSec": "7.1992",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.4327",
+            "pitch": "61",
+            "offsetSec": "7.7657",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.7665",
+            "pitch": "61",
+            "offsetSec": "8.0449",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.0408",
+            "pitch": "64",
+            "offsetSec": "8.3489",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.3518",
+            "pitch": "64",
+            "offsetSec": "8.88",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.9143",
+            "pitch": "59",
+            "offsetSec": "9.2486",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "9.2555",
+            "pitch": "59",
+            "offsetSec": "9.8196",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "9.8229",
+            "pitch": "62",
+            "offsetSec": "10.135",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.1355",
+            "pitch": "61",
+            "offsetSec": "10.4731",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.4473",
+            "pitch": "57",
+            "offsetSec": "10.7474",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.7355",
+            "pitch": "56",
+            "offsetSec": "11.0723",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.0547",
+            "pitch": "52",
+            "offsetSec": "11.3537",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.3396",
+            "pitch": "54",
+            "offsetSec": "11.6648",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.6645",
+            "pitch": "54",
+            "offsetSec": "13.9405",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 21,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 4,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 20
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/AR_Lick3_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "bdd64935",
+      "compressed_size": 683,
+      "size": 5746,
+      "offset": 61880996,
+      "next_offset": 61881763,
+      "guitar": "AR",
+      "lick": 3,
+      "split": "calibration",
+      "output": "labels/calibration/AR_Lick3_KN.xml",
+      "sha256": "ae5edd5c785b0c012df0947e6ec1e2b6de35a4b08297224495bec4848ac53c58",
+      "ranges": [
+        [
+          61880996,
+          61881762
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\AR_Lick3_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Aristides 010",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.4476",
+            "pitch": "48",
+            "offsetSec": "1.6377",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.6419",
+            "pitch": "49",
+            "offsetSec": "1.792",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.7943",
+            "pitch": "50",
+            "offsetSec": "1.9769",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.9848",
+            "pitch": "53",
+            "offsetSec": "2.3105",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.3086",
+            "pitch": "50",
+            "offsetSec": "2.4683",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4686",
+            "pitch": "48",
+            "offsetSec": "2.7702",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.7873",
+            "pitch": "50",
+            "offsetSec": "3.2197",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2298",
+            "pitch": "57",
+            "offsetSec": "3.7035",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7098",
+            "pitch": "55",
+            "offsetSec": "3.895",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.9022",
+            "pitch": "53",
+            "offsetSec": "4.2318",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.2368",
+            "pitch": "45",
+            "offsetSec": "4.434",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4368",
+            "pitch": "48",
+            "offsetSec": "4.7556",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.76",
+            "pitch": "50",
+            "offsetSec": "5.4711",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 13,
+        "fast_pitch_changes_le_200ms": 6,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 2,
+          "180-200ms": 4,
+          ">200ms": 6
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/AR_Lick4_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e4729a27",
+      "compressed_size": 664,
+      "size": 5364,
+      "offset": 61887943,
+      "next_offset": 61888691,
+      "guitar": "AR",
+      "lick": 4,
+      "split": "heldout",
+      "output": "labels/heldout/AR_Lick4_KN.xml",
+      "sha256": "1a755c9f11a192ec57f8e22d4792da83e1a35670d62f2f2ba66dcd67c1adc843",
+      "ranges": [
+        [
+          61887943,
+          61888690
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\AR_Lick4_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Aristides 010",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.9329",
+            "pitch": "69",
+            "offsetSec": "2.4012",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4508",
+            "pitch": "65",
+            "offsetSec": "2.6846",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.6984",
+            "pitch": "64",
+            "offsetSec": "2.9239",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9751",
+            "pitch": "60",
+            "offsetSec": "3.2037",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.1946",
+            "pitch": "62",
+            "offsetSec": "3.4664",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.4685",
+            "pitch": "62",
+            "offsetSec": "3.8507",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.9229",
+            "pitch": "74",
+            "offsetSec": "4.353",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4245",
+            "pitch": "69",
+            "offsetSec": "4.6828",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.6912",
+            "pitch": "67",
+            "offsetSec": "4.9385",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.9397",
+            "pitch": "69",
+            "offsetSec": "5.1933",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.1864",
+            "pitch": "72",
+            "offsetSec": "5.4537",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.444",
+            "pitch": "62",
+            "offsetSec": "6.0815",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 12,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 1,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 11
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/AR_Lick5_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "220c297a",
+      "compressed_size": 625,
+      "size": 4582,
+      "offset": 61892354,
+      "next_offset": 61893063,
+      "guitar": "AR",
+      "lick": 5,
+      "split": "heldout",
+      "output": "labels/heldout/AR_Lick5_KN.xml",
+      "sha256": "7ef8f692e0f490ca88f3b746af12a86ea69b1df3351c2fe1df8f9702337f5aa4",
+      "ranges": [
+        [
+          61892354,
+          61893062
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\AR_Lick5_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Aristides 010",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.9363",
+            "pitch": "59",
+            "offsetSec": "2.4559",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4514",
+            "pitch": "59",
+            "offsetSec": "2.6794",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.6776",
+            "pitch": "59",
+            "offsetSec": "2.9398",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9355",
+            "pitch": "61",
+            "offsetSec": "3.7133",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.6996",
+            "pitch": "57",
+            "offsetSec": "4.2094",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1853",
+            "pitch": "56",
+            "offsetSec": "5.0759",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "1",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.1861",
+            "pitch": "52",
+            "offsetSec": "5.4231",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.4351",
+            "pitch": "54",
+            "offsetSec": "5.6907",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.6857",
+            "pitch": "56",
+            "offsetSec": "5.921",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.938",
+            "pitch": "54",
+            "offsetSec": "7.7396",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 10,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 2,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 9
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/AR_Lick6_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "dd406a8c",
+      "compressed_size": 629,
+      "size": 4579,
+      "offset": 61897365,
+      "next_offset": 61898078,
+      "guitar": "AR",
+      "lick": 6,
+      "split": "heldout",
+      "output": "labels/heldout/AR_Lick6_KN.xml",
+      "sha256": "be6438c7a17d7112fc0014c2e8fc18fd93b3f354c4456e03029287f4ea8cda55",
+      "ranges": [
+        [
+          61897365,
+          61898077
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\AR_Lick6_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Aristides 010",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.4413",
+            "pitch": "62",
+            "offsetSec": "1.7409",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.8313",
+            "pitch": "74",
+            "offsetSec": "2.1073",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.2295",
+            "pitch": "62",
+            "offsetSec": "2.4883",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.5959",
+            "pitch": "69",
+            "offsetSec": "3.2979",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.346",
+            "pitch": "67",
+            "offsetSec": "3.498",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.5156",
+            "pitch": "69",
+            "offsetSec": "3.6893",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7043",
+            "pitch": "71",
+            "offsetSec": "4.062",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.068",
+            "pitch": "69",
+            "offsetSec": "4.3803",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4354",
+            "pitch": "67",
+            "offsetSec": "4.7802",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.82",
+            "pitch": "66",
+            "offsetSec": "6.0683",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 10,
+        "fast_pitch_changes_le_200ms": 2,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 1,
+          "180-200ms": 1,
+          ">200ms": 7
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/FS_Lick1_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3dd60364",
+      "compressed_size": 700,
+      "size": 5756,
+      "offset": 61946249,
+      "next_offset": 61947033,
+      "guitar": "FS",
+      "lick": 1,
+      "split": "calibration",
+      "output": "labels/calibration/FS_Lick1_KN.xml",
+      "sha256": "9b2979ad5031a48a7cedbad54c354839fb68d8325d9c700ac0092af7f2e63549",
+      "ranges": [
+        [
+          61946249,
+          61947032
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\FS_Lick1_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Fender Stratocaster",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.9722",
+            "pitch": "45",
+            "offsetSec": "2.4591",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4653",
+            "pitch": "48",
+            "offsetSec": "2.9544",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9725",
+            "pitch": "55",
+            "offsetSec": "3.2332",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2392",
+            "pitch": "52",
+            "offsetSec": "3.7163",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7257",
+            "pitch": "50",
+            "offsetSec": "4.1898",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.2177",
+            "pitch": "48",
+            "offsetSec": "4.6959",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.7086",
+            "pitch": "45",
+            "offsetSec": "4.9681",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.9796",
+            "pitch": "52",
+            "offsetSec": "5.212",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.2288",
+            "pitch": "47",
+            "offsetSec": "5.4926",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.4999",
+            "pitch": "48",
+            "offsetSec": "5.9406",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.9788",
+            "pitch": "62",
+            "offsetSec": "6.9329",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "6.9954",
+            "pitch": "55",
+            "offsetSec": "7.9378",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.9565",
+            "pitch": "48",
+            "offsetSec": "9.2828",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 13,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 12
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/FS_Lick2_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "edeac985",
+      "compressed_size": 834,
+      "size": 8878,
+      "offset": 61951298,
+      "next_offset": 61952216,
+      "guitar": "FS",
+      "lick": 2,
+      "split": "calibration",
+      "output": "labels/calibration/FS_Lick2_KN.xml",
+      "sha256": "6f92dbc7dc2d91cce250b3aa5cd2b8399fb5141738e072318a82e9081e7eea14",
+      "ranges": [
+        [
+          61951298,
+          61952215
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\FS_Lick2_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Fender Stratocaster",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "2.6482",
+            "pitch": "56",
+            "offsetSec": "2.9302",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9388",
+            "pitch": "57",
+            "offsetSec": "3.2192",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2269",
+            "pitch": "62",
+            "offsetSec": "3.5228",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.5306",
+            "pitch": "61",
+            "offsetSec": "4.0563",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1265",
+            "pitch": "66",
+            "offsetSec": "4.3947",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.431",
+            "pitch": "69",
+            "offsetSec": "5.0433",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.0661",
+            "pitch": "61",
+            "offsetSec": "5.8975",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.9502",
+            "pitch": "64",
+            "offsetSec": "7.1673",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.4563",
+            "pitch": "61",
+            "offsetSec": "7.7551",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.7608",
+            "pitch": "61",
+            "offsetSec": "8.0367",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.0588",
+            "pitch": "64",
+            "offsetSec": "8.3538",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.3567",
+            "pitch": "64",
+            "offsetSec": "8.9151",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.9494",
+            "pitch": "59",
+            "offsetSec": "9.2559",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "9.2588",
+            "pitch": "59",
+            "offsetSec": "9.791",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "9.8343",
+            "pitch": "62",
+            "offsetSec": "10.135",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.1567",
+            "pitch": "61",
+            "offsetSec": "10.4756",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.462",
+            "pitch": "57",
+            "offsetSec": "10.7416",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.7567",
+            "pitch": "56",
+            "offsetSec": "11.0649",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.0482",
+            "pitch": "52",
+            "offsetSec": "11.3277",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.351",
+            "pitch": "54",
+            "offsetSec": "11.6461",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.6506",
+            "pitch": "54",
+            "offsetSec": "14.2384",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 21,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 4,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 20
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/FS_Lick3_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "5bc99edb",
+      "compressed_size": 688,
+      "size": 5752,
+      "offset": 61957478,
+      "next_offset": 61958250,
+      "guitar": "FS",
+      "lick": 3,
+      "split": "calibration",
+      "output": "labels/calibration/FS_Lick3_KN.xml",
+      "sha256": "215684bbb0736ad0b5c8b2b3ac2b1f69c2e975bc918780dd520925407f55a6ef",
+      "ranges": [
+        [
+          61957478,
+          61958249
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\FS_Lick3_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Fender Stratocaster",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.4578",
+            "pitch": "48",
+            "offsetSec": "1.6358",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.6324",
+            "pitch": "49",
+            "offsetSec": "1.778",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.7835",
+            "pitch": "50",
+            "offsetSec": "1.9591",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.9568",
+            "pitch": "53",
+            "offsetSec": "2.2705",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.2654",
+            "pitch": "50",
+            "offsetSec": "2.4434",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4419",
+            "pitch": "48",
+            "offsetSec": "2.7416",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.7689",
+            "pitch": "50",
+            "offsetSec": "3.2",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2444",
+            "pitch": "57",
+            "offsetSec": "3.727",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7333",
+            "pitch": "55",
+            "offsetSec": "3.9299",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.9365",
+            "pitch": "53",
+            "offsetSec": "4.2381",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.2533",
+            "pitch": "45",
+            "offsetSec": "4.4429",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4425",
+            "pitch": "48",
+            "offsetSec": "4.7441",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.7467",
+            "pitch": "50",
+            "offsetSec": "5.4559",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 13,
+        "fast_pitch_changes_le_200ms": 5,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 4,
+          "180-200ms": 1,
+          ">200ms": 7
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/FS_Lick4_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "3310bbe9",
+      "compressed_size": 668,
+      "size": 5369,
+      "offset": 61964474,
+      "next_offset": 61965226,
+      "guitar": "FS",
+      "lick": 4,
+      "split": "heldout",
+      "output": "labels/heldout/FS_Lick4_KN.xml",
+      "sha256": "09fd4f58da8d480114c26f205e4a4bafb943918887d8d19a628f9bbe40add3b7",
+      "ranges": [
+        [
+          61964474,
+          61965225
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\FS_Lick4_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Fender Stratocaster",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.9392",
+            "pitch": "69",
+            "offsetSec": "2.3894",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4562",
+            "pitch": "65",
+            "offsetSec": "2.6873",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.6921",
+            "pitch": "64",
+            "offsetSec": "2.9621",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9506",
+            "pitch": "60",
+            "offsetSec": "3.1797",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.1782",
+            "pitch": "62",
+            "offsetSec": "3.4492",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.4621",
+            "pitch": "62",
+            "offsetSec": "3.8988",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.942",
+            "pitch": "74",
+            "offsetSec": "4.4556",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4617",
+            "pitch": "69",
+            "offsetSec": "4.709",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.7129",
+            "pitch": "67",
+            "offsetSec": "4.9548",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.9497",
+            "pitch": "69",
+            "offsetSec": "5.1751",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.1773",
+            "pitch": "72",
+            "offsetSec": "5.451",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.4567",
+            "pitch": "62",
+            "offsetSec": "6.5929",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 12,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 1,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 11
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/FS_Lick5_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "578aefc9",
+      "compressed_size": 631,
+      "size": 4589,
+      "offset": 61968902,
+      "next_offset": 61969617,
+      "guitar": "FS",
+      "lick": 5,
+      "split": "heldout",
+      "output": "labels/heldout/FS_Lick5_KN.xml",
+      "sha256": "9fae5d1da82cbbc5dfedfa13f699d72da06987d51ca399a8e95a010729b2036d",
+      "ranges": [
+        [
+          61968902,
+          61969616
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\FS_Lick5_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Fender Stratocaster",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.9576",
+            "pitch": "59",
+            "offsetSec": "2.4796",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4743",
+            "pitch": "59",
+            "offsetSec": "2.7112",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.7078",
+            "pitch": "59",
+            "offsetSec": "2.9651",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9739",
+            "pitch": "61",
+            "offsetSec": "3.683",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.6865",
+            "pitch": "57",
+            "offsetSec": "4.1882",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.2033",
+            "pitch": "56",
+            "offsetSec": "5.1184",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "1",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.1878",
+            "pitch": "52",
+            "offsetSec": "5.4312",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.4482",
+            "pitch": "54",
+            "offsetSec": "5.6639",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.6718",
+            "pitch": "56",
+            "offsetSec": "5.9202",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.9208",
+            "pitch": "54",
+            "offsetSec": "7.7804",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 10,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 2,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 9
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/FS_Lick6_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7ececfe8",
+      "compressed_size": 639,
+      "size": 4588,
+      "offset": 61973930,
+      "next_offset": 61974653,
+      "guitar": "FS",
+      "lick": 6,
+      "split": "heldout",
+      "output": "labels/heldout/FS_Lick6_KN.xml",
+      "sha256": "2ebc6e4056de73822647e5c451894f860d98d17181538a995b0d3dd9210c50ad",
+      "ranges": [
+        [
+          61973930,
+          61974652
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\FS_Lick6_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Fender Stratocaster",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.4757",
+            "pitch": "62",
+            "offsetSec": "1.8036",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.8485",
+            "pitch": "74",
+            "offsetSec": "2.1825",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.2259",
+            "pitch": "62",
+            "offsetSec": "2.5756",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.6231",
+            "pitch": "69",
+            "offsetSec": "3.3733",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.3796",
+            "pitch": "67",
+            "offsetSec": "3.5507",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.5637",
+            "pitch": "69",
+            "offsetSec": "3.7446",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7469",
+            "pitch": "71",
+            "offsetSec": "4.13",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1324",
+            "pitch": "69",
+            "offsetSec": "4.4629",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4943",
+            "pitch": "67",
+            "offsetSec": "4.841",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.8481",
+            "pitch": "66",
+            "offsetSec": "6.0502",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 10,
+        "fast_pitch_changes_le_200ms": 2,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 2,
+          ">200ms": 7
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/LP_Lick1_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "73625d1d",
+      "compressed_size": 699,
+      "size": 5752,
+      "offset": 62022955,
+      "next_offset": 62023738,
+      "guitar": "LP",
+      "lick": 1,
+      "split": "calibration",
+      "output": "labels/calibration/LP_Lick1_KN.xml",
+      "sha256": "1c930bc2970a108062ccd1cbf3bcd86e45ce012e7c377f4a9d2e2ea388816d6f",
+      "ranges": [
+        [
+          62022955,
+          62023737
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\LP_Lick1_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Gibson Les Paul",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.9875",
+            "pitch": "45",
+            "offsetSec": "2.482",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4969",
+            "pitch": "48",
+            "offsetSec": "2.9446",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9932",
+            "pitch": "55",
+            "offsetSec": "3.2224",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2501",
+            "pitch": "52",
+            "offsetSec": "3.7272",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7399",
+            "pitch": "50",
+            "offsetSec": "4.2203",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.2329",
+            "pitch": "48",
+            "offsetSec": "4.7101",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.7336",
+            "pitch": "45",
+            "offsetSec": "5.0594",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.0199",
+            "pitch": "52",
+            "offsetSec": "5.2729",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.2659",
+            "pitch": "47",
+            "offsetSec": "5.5013",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.5151",
+            "pitch": "48",
+            "offsetSec": "5.8947",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "6.0158",
+            "pitch": "62",
+            "offsetSec": "6.9612",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "6.9954",
+            "pitch": "55",
+            "offsetSec": "7.8997",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.9978",
+            "pitch": "48",
+            "offsetSec": "9.5583",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 13,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 12
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/LP_Lick2_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e9c3611b",
+      "compressed_size": 820,
+      "size": 8873,
+      "offset": 62028002,
+      "next_offset": 62028906,
+      "guitar": "LP",
+      "lick": 2,
+      "split": "calibration",
+      "output": "labels/calibration/LP_Lick2_KN.xml",
+      "sha256": "0da538e5e60baf496fdc7c0299c352f564d1e9b4d0fe1b05fe3f12c95767dd9d",
+      "ranges": [
+        [
+          62028002,
+          62028905
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\LP_Lick2_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Gibson Les Paul",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "2.6727",
+            "pitch": "56",
+            "offsetSec": "2.9669",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9714",
+            "pitch": "57",
+            "offsetSec": "3.225",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2482",
+            "pitch": "62",
+            "offsetSec": "3.5343",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.5412",
+            "pitch": "61",
+            "offsetSec": "4.0392",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1339",
+            "pitch": "66",
+            "offsetSec": "4.4216",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.449",
+            "pitch": "69",
+            "offsetSec": "5.0498",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.0506",
+            "pitch": "61",
+            "offsetSec": "5.86",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.9273",
+            "pitch": "64",
+            "offsetSec": "7.1396",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.4376",
+            "pitch": "61",
+            "offsetSec": "7.7273",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "7.7355",
+            "pitch": "61",
+            "offsetSec": "8.0343",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.0359",
+            "pitch": "64",
+            "offsetSec": "8.3113",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.3192",
+            "pitch": "64",
+            "offsetSec": "8.8522",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "8.9053",
+            "pitch": "59",
+            "offsetSec": "9.2413",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "9.2424",
+            "pitch": "59",
+            "offsetSec": "9.7494",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "9.8555",
+            "pitch": "62",
+            "offsetSec": "10.1694",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.1608",
+            "pitch": "61",
+            "offsetSec": "10.4706",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.4571",
+            "pitch": "57",
+            "offsetSec": "10.7285",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "10.7461",
+            "pitch": "56",
+            "offsetSec": "11.0543",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.04",
+            "pitch": "52",
+            "offsetSec": "11.3204",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.3363",
+            "pitch": "54",
+            "offsetSec": "11.6608",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "11.6686",
+            "pitch": "54",
+            "offsetSec": "14.0311",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "9",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 21,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 4,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 20
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/LP_Lick3_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c3b3cf67",
+      "compressed_size": 687,
+      "size": 5753,
+      "offset": 62034159,
+      "next_offset": 62034930,
+      "guitar": "LP",
+      "lick": 3,
+      "split": "calibration",
+      "output": "labels/calibration/LP_Lick3_KN.xml",
+      "sha256": "d7f6127f4f67fa1405bd0501e309eabfeec7515eacd18be204fcf51bdb9abc96",
+      "ranges": [
+        [
+          62034159,
+          62034929
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\LP_Lick3_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Gibson Les Paul",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.4222",
+            "pitch": "48",
+            "offsetSec": "1.6193",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.6044",
+            "pitch": "49",
+            "offsetSec": "1.7679",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.7651",
+            "pitch": "50",
+            "offsetSec": "1.9521",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.9346",
+            "pitch": "53",
+            "offsetSec": "2.2548",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.2527",
+            "pitch": "50",
+            "offsetSec": "2.4492",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4463",
+            "pitch": "48",
+            "offsetSec": "2.7625",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.7556",
+            "pitch": "50",
+            "offsetSec": "3.0324",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.2622",
+            "pitch": "57",
+            "offsetSec": "3.5539",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7676",
+            "pitch": "55",
+            "offsetSec": "3.9674",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.9625",
+            "pitch": "53",
+            "offsetSec": "4.2387",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.2425",
+            "pitch": "45",
+            "offsetSec": "4.4429",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "0",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4457",
+            "pitch": "48",
+            "offsetSec": "4.7492",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.7479",
+            "pitch": "50",
+            "offsetSec": "5.8927",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "2",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 13,
+        "fast_pitch_changes_le_200ms": 5,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 2,
+          "180-200ms": 3,
+          ">200ms": 7
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/LP_Lick4_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "29782bb4",
+      "compressed_size": 668,
+      "size": 5366,
+      "offset": 62041140,
+      "next_offset": 62041892,
+      "guitar": "LP",
+      "lick": 4,
+      "split": "heldout",
+      "output": "labels/heldout/LP_Lick4_KN.xml",
+      "sha256": "d8e18ef59c50dd90de5df53d479fd3d639414618eb24f4b27d32a9eeb0acab82",
+      "ranges": [
+        [
+          62041140,
+          62041891
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\LP_Lick4_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Gibson Les Paul",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.912",
+            "pitch": "69",
+            "offsetSec": "2.3233",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4145",
+            "pitch": "65",
+            "offsetSec": "2.6611",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.6812",
+            "pitch": "64",
+            "offsetSec": "2.9095",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9197",
+            "pitch": "60",
+            "offsetSec": "3.1752",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.1937",
+            "pitch": "62",
+            "offsetSec": "3.4255",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.4494",
+            "pitch": "62",
+            "offsetSec": "3.8398",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.941",
+            "pitch": "74",
+            "offsetSec": "4.3385",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4218",
+            "pitch": "69",
+            "offsetSec": "4.6936",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.6939",
+            "pitch": "67",
+            "offsetSec": "4.9303",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.9324",
+            "pitch": "69",
+            "offsetSec": "5.1878",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.1873",
+            "pitch": "72",
+            "offsetSec": "5.4609",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "8",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.4558",
+            "pitch": "62",
+            "offsetSec": "6.3906",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 12,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 1,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 11
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/LP_Lick5_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "a626ddbb",
+      "compressed_size": 625,
+      "size": 4585,
+      "offset": 62045564,
+      "next_offset": 62046273,
+      "guitar": "LP",
+      "lick": 5,
+      "split": "heldout",
+      "output": "labels/heldout/LP_Lick5_KN.xml",
+      "sha256": "a1ad8d3d54ead46463e8f8477117e151a1ea432f13a81cee79bca0a42ac04e70",
+      "ranges": [
+        [
+          62045564,
+          62046272
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\LP_Lick5_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Gibson Les Paul",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.982",
+            "pitch": "59",
+            "offsetSec": "2.4485",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.4514",
+            "pitch": "59",
+            "offsetSec": "2.6924",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.6996",
+            "pitch": "59",
+            "offsetSec": "2.9634",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.9559",
+            "pitch": "61",
+            "offsetSec": "3.6259",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.6767",
+            "pitch": "57",
+            "offsetSec": "4.1735",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1894",
+            "pitch": "56",
+            "offsetSec": "5.1559",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "1",
+            "stringNumber": "4",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.2073",
+            "pitch": "52",
+            "offsetSec": "5.4435",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.4653",
+            "pitch": "54",
+            "offsetSec": "5.6908",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.6776",
+            "pitch": "56",
+            "offsetSec": "5.9438",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "6",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "5.9527",
+            "pitch": "54",
+            "offsetSec": "7.5216",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "4",
+            "stringNumber": "3",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 10,
+        "fast_pitch_changes_le_200ms": 0,
+        "same_pitch_repeats": 2,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 0,
+          ">200ms": 9
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/annotation/LP_Lick6_KN.xml",
+      "flags": 0,
+      "method": 8,
+      "crc32": "42d93eb7",
+      "compressed_size": 636,
+      "size": 4586,
+      "offset": 62050582,
+      "next_offset": 62051302,
+      "guitar": "LP",
+      "lick": 6,
+      "split": "heldout",
+      "output": "labels/heldout/LP_Lick6_KN.xml",
+      "sha256": "1a44ea80cb482c6408d69f5374a11bd092e96cea9f4fc6b102fa77f9742ba56f",
+      "ranges": [
+        [
+          62050582,
+          62051301
+        ]
+      ],
+      "labels": {
+        "global_parameters": {
+          "audioFileName": "\\LP_Lick6_KN.wav",
+          "instrument": "EGUI",
+          "instrumentModel": "Gibson Les Paul",
+          "pickUpSetting": "unknown",
+          "instrumentTuning": "40  45  50  55  59  64",
+          "recordingDate": "13-02-14",
+          "recordingArtist": "Christian Kehling",
+          "instrumentBodyMaterial": "unknown",
+          "instrumentStringMaterial": "Steel",
+          "composer": "Christian Kehling"
+        },
+        "events": [
+          {
+            "onsetSec": "1.483",
+            "pitch": "62",
+            "offsetSec": "1.7454",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "1.8322",
+            "pitch": "74",
+            "offsetSec": "2.1625",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "10",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.2349",
+            "pitch": "62",
+            "offsetSec": "2.5583",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "5",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "2.6141",
+            "pitch": "69",
+            "offsetSec": "3.3171",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.3342",
+            "pitch": "67",
+            "offsetSec": "3.5243",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.5193",
+            "pitch": "69",
+            "offsetSec": "3.7183",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "3.7424",
+            "pitch": "71",
+            "offsetSec": "4.0955",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "7",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.1007",
+            "pitch": "69",
+            "offsetSec": "4.3858",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "5",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.4744",
+            "pitch": "67",
+            "offsetSec": "4.7711",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "3",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          },
+          {
+            "onsetSec": "4.8571",
+            "pitch": "66",
+            "offsetSec": "6.0239",
+            "excitationStyle": "PK",
+            "expressionStyle": "NO",
+            "fretNumber": "2",
+            "stringNumber": "6",
+            "modulationFrequency": "0",
+            "modulationFrequencyRange": "0"
+          }
+        ],
+        "event_count": 10,
+        "fast_pitch_changes_le_200ms": 1,
+        "same_pitch_repeats": 0,
+        "fast_same_pitch_repeats_le_200ms": 0,
+        "ioi_bins": {
+          "<=80ms": 0,
+          "80-180ms": 0,
+          "180-200ms": 1,
+          ">200ms": 8
+        }
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick1_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "fbc1b349",
+      "compressed_size": 1181846,
+      "size": 1419806,
+      "offset": 116513899,
+      "next_offset": 117695824,
+      "guitar": "AR",
+      "lick": 1,
+      "split": "calibration",
+      "output": "di/calibration/AR_Lick1_KN.wav",
+      "sha256": "18597b2dc85aff01395a638ef848e529ef789796a9be7ff5a904165b0ab61ce6",
+      "ranges": [
+        [
+          116513899,
+          117695823
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 472928
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick2_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "4fb9bca5",
+      "compressed_size": 1670696,
+      "size": 1911326,
+      "offset": 124625074,
+      "next_offset": 126295849,
+      "guitar": "AR",
+      "lick": 2,
+      "split": "calibration",
+      "output": "di/calibration/AR_Lick2_KN.wav",
+      "sha256": "495f09b97fa02e74c468be24a74c5d93d5cf8ccec5fdf7085ad649818a35dd6c",
+      "ranges": [
+        [
+          124625074,
+          126295848
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 636768
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick3_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "11378043",
+      "compressed_size": 716162,
+      "size": 879134,
+      "offset": 134281014,
+      "next_offset": 134997255,
+      "guitar": "AR",
+      "lick": 3,
+      "split": "calibration",
+      "output": "di/calibration/AR_Lick3_KN.wav",
+      "sha256": "4249d53dfd9006c7b370bdf6403db5e197a71dedc34797a47b097fdb7f9b6012",
+      "ranges": [
+        [
+          134281014,
+          134997254
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 292704
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick4_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e4c2290e",
+      "compressed_size": 821983,
+      "size": 1026590,
+      "offset": 140368917,
+      "next_offset": 141190979,
+      "guitar": "AR",
+      "lick": 4,
+      "split": "heldout",
+      "output": "di/heldout/AR_Lick4_KN.wav",
+      "sha256": "e20111650b1e6ab8407a0226f8aa628ee07ec5f42dfc9d03ce155bac7039d038",
+      "ranges": [
+        [
+          140368917,
+          141190978
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 341856
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick5_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b263fb84",
+      "compressed_size": 1009511,
+      "size": 1174046,
+      "offset": 145259605,
+      "next_offset": 146269195,
+      "guitar": "AR",
+      "lick": 5,
+      "split": "heldout",
+      "output": "di/heldout/AR_Lick5_KN.wav",
+      "sha256": "b5b95fd17f6828cf0f8936945744227d5772d97a97877f83c011f905af16ba59",
+      "ranges": [
+        [
+          145259605,
+          146269194
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 391008
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/AR_Lick6_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8fb9a7a5",
+      "compressed_size": 825047,
+      "size": 1026590,
+      "offset": 151118413,
+      "next_offset": 151943539,
+      "guitar": "AR",
+      "lick": 6,
+      "split": "heldout",
+      "output": "di/heldout/AR_Lick6_KN.wav",
+      "sha256": "3b757b97faf92ac6b925dce69a918a694c6794553e27e7b8ae2b10e2cf09d9dc",
+      "ranges": [
+        [
+          151118413,
+          151943538
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 341856
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/FS_Lick1_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "6ec0db4f",
+      "compressed_size": 1089011,
+      "size": 1436784,
+      "offset": 249561604,
+      "next_offset": 250650694,
+      "guitar": "FS",
+      "lick": 1,
+      "split": "calibration",
+      "output": "di/calibration/FS_Lick1_KN.wav",
+      "sha256": "21999ba486243f90326f0c7f895b705d960856e171d10b29b33a3b277ef7763f",
+      "ranges": [
+        [
+          249561604,
+          250650693
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 478574
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/FS_Lick2_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "dc8ae32a",
+      "compressed_size": 1701233,
+      "size": 1960478,
+      "offset": 257080957,
+      "next_offset": 258782269,
+      "guitar": "FS",
+      "lick": 2,
+      "split": "calibration",
+      "output": "di/calibration/FS_Lick2_KN.wav",
+      "sha256": "90b8ac0f42706d090fa7587b859ce1b65ec38e40ca6d8480d1d78669917a729e",
+      "ranges": [
+        [
+          257080957,
+          258782268
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 653152
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/FS_Lick3_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "0fb3c922",
+      "compressed_size": 765125,
+      "size": 907166,
+      "offset": 266375076,
+      "next_offset": 267140280,
+      "guitar": "FS",
+      "lick": 3,
+      "split": "calibration",
+      "output": "di/calibration/FS_Lick3_KN.wav",
+      "sha256": "1629ae9268b32859788fde75e10bd4a170f5ad5a62874b12c92475badd36f4f4",
+      "ranges": [
+        [
+          266375076,
+          267140279
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 302048
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/FS_Lick4_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "b122c38a",
+      "compressed_size": 808646,
+      "size": 977438,
+      "offset": 273106804,
+      "next_offset": 273915529,
+      "guitar": "FS",
+      "lick": 4,
+      "split": "heldout",
+      "output": "di/heldout/FS_Lick4_KN.wav",
+      "sha256": "c284ee9dd83e732360937071998515a02f5a3d28f9bb14b5252dfa02435953b2",
+      "ranges": [
+        [
+          273106804,
+          273915528
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 325472
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/FS_Lick5_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "c8c51969",
+      "compressed_size": 977534,
+      "size": 1174046,
+      "offset": 278097095,
+      "next_offset": 279074708,
+      "guitar": "FS",
+      "lick": 5,
+      "split": "heldout",
+      "output": "di/heldout/FS_Lick5_KN.wav",
+      "sha256": "c6efc9f393dc91751872736c7cb49d42f869b3061b90f0610b41abd19f6e18cd",
+      "ranges": [
+        [
+          278097095,
+          279074707
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 391008
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/FS_Lick6_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "86ce8e2f",
+      "compressed_size": 730665,
+      "size": 875682,
+      "offset": 283676258,
+      "next_offset": 284407002,
+      "guitar": "FS",
+      "lick": 6,
+      "split": "heldout",
+      "output": "di/heldout/FS_Lick6_KN.wav",
+      "sha256": "90cd8adebe7ae3580e4847b77675918282fcec8c56780ce9e7863e3dc9af971b",
+      "ranges": [
+        [
+          283676258,
+          284407001
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 291553
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/LP_Lick1_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "180b9460",
+      "compressed_size": 1123421,
+      "size": 1546534,
+      "offset": 375603941,
+      "next_offset": 376727441,
+      "guitar": "LP",
+      "lick": 1,
+      "split": "calibration",
+      "output": "di/calibration/LP_Lick1_KN.wav",
+      "sha256": "8154f2ba06665ad3dc76e73bc8f71c9cf46decece8fce18d81803fd7c18aecf3",
+      "ranges": [
+        [
+          375603941,
+          376727440
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 515157
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/LP_Lick2_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "8a136b4c",
+      "compressed_size": 1751115,
+      "size": 2009630,
+      "offset": 383808442,
+      "next_offset": 385559636,
+      "guitar": "LP",
+      "lick": 2,
+      "split": "calibration",
+      "output": "di/calibration/LP_Lick2_KN.wav",
+      "sha256": "36247230c22b8320e00b9c1f088b09ee793ba4e0d38e30cca55ab97dcaaadfca",
+      "ranges": [
+        [
+          383808442,
+          385559635
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 669536
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/LP_Lick3_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "7efc5ddc",
+      "compressed_size": 737064,
+      "size": 879134,
+      "offset": 393370066,
+      "next_offset": 394107209,
+      "guitar": "LP",
+      "lick": 3,
+      "split": "calibration",
+      "output": "di/calibration/LP_Lick3_KN.wav",
+      "sha256": "2a782f6c0601e03e6b446737cfd21b6fa1868cb77726fc31bc2eb3723fbacec3",
+      "ranges": [
+        [
+          393370066,
+          394107208
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 292704
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/LP_Lick4_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "74a897fb",
+      "compressed_size": 739790,
+      "size": 846830,
+      "offset": 399595869,
+      "next_offset": 400335738,
+      "guitar": "LP",
+      "lick": 4,
+      "split": "heldout",
+      "output": "di/heldout/LP_Lick4_KN.wav",
+      "sha256": "d72ba3366c9695086979ed873e9ca7611947852589cc1ab8124cfc885d26da9b",
+      "ranges": [
+        [
+          399595869,
+          400335737
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 281936
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/LP_Lick5_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "e40f1d33",
+      "compressed_size": 863771,
+      "size": 1158762,
+      "offset": 404407814,
+      "next_offset": 405271664,
+      "guitar": "LP",
+      "lick": 5,
+      "split": "heldout",
+      "output": "di/heldout/LP_Lick5_KN.wav",
+      "sha256": "9eb74f20cfd0815c72ad00f55d14610f2451e4ac244108206e021304aeb0ded1",
+      "ranges": [
+        [
+          404407814,
+          405271663
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 385913
+      }
+    },
+    {
+      "name": "IDMT-SMT-GUITAR_V2/dataset2/audio/LP_Lick6_KN.wav",
+      "flags": 0,
+      "method": 8,
+      "crc32": "38531a4a",
+      "compressed_size": 716992,
+      "size": 949670,
+      "offset": 410128046,
+      "next_offset": 410845117,
+      "guitar": "LP",
+      "lick": 6,
+      "split": "heldout",
+      "output": "di/heldout/LP_Lick6_KN.wav",
+      "sha256": "44812b60c4cdc3db672c99a281fa92286cb62831630d6642b05e415c746380a2",
+      "ranges": [
+        [
+          410128046,
+          410845116
+        ]
+      ],
+      "wav_header": {
+        "channels": 1,
+        "sample_rate": 44100,
+        "sample_width_bytes": 3,
+        "frames": 316216
+      }
+    }
+  ]
+}

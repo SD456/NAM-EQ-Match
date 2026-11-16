@@ -1,0 +1,22 @@
+{
+  "purpose": "Public review packaging verification, no new tone experiment",
+  "manifest_sha256": "eb677a72826262564f8641a7455a18fd304e5a24395e44e80b5f92c6cb10feac",
+  "mirrored_records": 224,
+  "lossless_json_archives": 9,
+  "transformed_local_path_records": [
+    "artifacts/stage1/unpaired_toy/match/rank01_fuzz_settings.json",
+    "artifacts/stage1/unpaired_toy/match/report.json",
+    "artifacts/stage5/conditioning-diagnostic.json",
+    "docs/current-status-and-listening.md"
+  ],
+  "frozen_stage8_sources_verified": 13,
+  "tests": {
+    "tests": 50,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "environment": "Existing local Windows venv, not a fresh dependency installation",
+  "original_full_material_test_count": 281,
+  "raw_audio_and_weights_included": false
+}

@@ -1,0 +1,1 @@
+session_id,take_id,split,trial_order,event_id,source_wav,source_sha256,start_frame_inclusive,end_frame_exclusive,content_id,prescribed_strength,valid,invalid_reason,replaces_event_id

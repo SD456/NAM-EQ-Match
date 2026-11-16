@@ -1,0 +1,25 @@
+{
+  "locked_assets_unchanged": 312,
+  "protected_baselines_unchanged": 98,
+  "locked_sources_unchanged": 12,
+  "pytest_passed": 190,
+  "pytest_failures_errors_skips": 0,
+  "lock_sha256": "5f27584c304ea8d4d733caf656e11a7e94080bea8095d2c44a9c218506445b19",
+  "selected_setting": {
+    "pitch_window": 2048,
+    "threshold": 0.8
+  },
+  "selected_before_heldout_code_and_hash_chain_verified": true,
+  "broken_local_report_links": 0,
+  "primary_gate": {
+    "checks": {
+      "selection_available": true,
+      "coverage": true,
+      "conditional_exact": true,
+      "short_onset_f1": false
+    },
+    "passed": false,
+    "decision": "retain_baseline",
+    "production_replacement": false
+  }
+}

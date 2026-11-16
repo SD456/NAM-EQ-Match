@@ -1,0 +1,46 @@
+{
+  "date": "2026-11-15",
+  "scope": "Metadata-only discovery; no audio experiments or author contact",
+  "qualified_precise_heldout_candidate": false,
+  "candidates": [
+    {
+      "name": "EGDB-DI",
+      "paper": "https://arxiv.org/abs/2202.09907",
+      "download_folder": "https://drive.google.com/drive/folders/1h9DrB4dk4QstgjNaHh7lL7IMeKdYw82_?usp=share_link",
+      "source": "Real electric DI, one player; 240 performances, 118 minutes; includes polyphonic performances",
+      "onset_labels": "Per-string detector matched to tabs, all manually checked; timing error bound not reported",
+      "unknowns": ["download access", "license", "monophonic track IDs", "fast-change counts", "same-pitch repick counts", "independent onset timing error"],
+      "split": "One player; group amp variants by original performance; freeze untouched recordings before experiments"
+    },
+    {
+      "name": "GOAT",
+      "paper": "https://zenodo.org/record/17706552/files/000076.pdf",
+      "archive": "https://doi.org/10.5281/zenodo.15690894",
+      "source": "Real electric DI; multiple players and guitars; 172 items; separately includes amp and synthetic variants",
+      "onset_labels": "Tab-derived MIDI fine-aligned to audio; numerical error bound unverified",
+      "access": "Authors' repository requests Zenodo access; no request made",
+      "license": "Dataset catalog reports CC BY-NC 4.0, research only",
+      "unknowns": ["player IDs and splits", "monophonic track IDs", "fast-change counts", "same-pitch repick counts", "independent onset timing error"]
+    },
+    {
+      "name": "EG-IPT",
+      "source": "https://explore.openaire.eu/search/dataset?pid=10.5281/zenodo.15205643",
+      "reason_not_qualified": "Real DI but isolated single-note performances, not continuous passages"
+    },
+    {
+      "name": "EG-Solo",
+      "source": "https://bryanyu1997.github.io/EG-Solo_demo/",
+      "reason_not_qualified": "YouTube solos with backing tracks rather than raw DI; timing precision and audio rights unverified"
+    },
+    {
+      "name": "GuitarSet",
+      "source": "https://zenodo.org/records/3371780",
+      "reason_not_qualified": "Acoustic guitar, not electric DI"
+    },
+    {
+      "name": "EGDB-PG",
+      "source": "https://zenodo.org/records/19789500",
+      "reason_not_qualified": "Amplifier-rendered, not raw DI"
+    }
+  ]
+}
